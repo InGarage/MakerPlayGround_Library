@@ -1,0 +1,140 @@
+ [
+{
+    "name": "motion-active",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val",
+            "param": "m/s^2"
+        }
+    ],
+    "type": "Accelarometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "slope x",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val",
+            "param": "m/s^2 degree"
+        }
+    ],
+    "type": "Accelarometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "slope y",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val",
+            "param": "m/s^2 degree"
+        }
+    ],
+    "type": "Accelarometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "slope z",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val",
+            "param": "m/s^2 degree"
+        }
+    ],
+    "type": "Accelarometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "tap",
+    "format": "",
+    "datatype": "",
+    "property": [],
+    "type": "Accelarometer",
+    "condition": [
+        "T F"
+    ]
+},{
+    "name": "double tap",
+    "format": "",
+    "datatype": "",
+    "property": [],
+    "type": "Accelarometer",
+    "condition": [
+        "T F"
+    ]
+},{
+    "name": "Pressure",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val"
+        }
+    ],
+    "type": "Barometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "Temperature",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val"
+        }
+    ],
+    "type": "Barometer",
+    "condition": [
+        "> < = !="
+    ]
+},{
+    "name": "press",
+    "format": "",
+    "datatype": "",
+    "property": [],
+    "type": "button",
+    "condition": [
+        "T F"
+    ]
+},{
+    "name": "release",
+    "format": "",
+    "datatype": "",
+    "property": [],
+    "type": "button",
+    "condition": [
+        "T F"
+    ]
+},{
+    "name": "press x times",
+    "format": "",
+    "datatype": "int",
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "val"
+        }
+    ],
+    "type": "button",
+    "condition": [
+        "T F"
+    ]
+}, ]

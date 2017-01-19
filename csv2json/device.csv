@@ -1,0 +1,304 @@
+,Property,Property,Property,Property,if you modify column in this file please config line2-4 in script.py,,,,,,,,,Dependency,Dependency,Dependency,Dependency,,
+id,Type,Min,Max,Unit,Brand,Model,IC,Price,Detail,Image,Connect,MinVolt,MaxVolt,Type,Min,Max,Unit,Datasheet,Link
+1,Amplifiers,,,,Adafruit,1381,VS1053,24.95,VS1053 Codec + MicroSD Breakout - MP3/WAV/MIDI/OGG Play + Record - v4,https://cdn-shop.adafruit.com/970x728/1381-03.jpg,SPI,3,5,,,,,https://learn.adafruit.com/adafruit-vs1053-mp3-aac-ogg-midi-wav-play-and-record-codec-tutorial/downloads-and-links,https://www.adafruit.com/products/1381
+,SDcard,,,,,,,,,,,,,,,,,,
+,Record,,,,,,,,,,,,,,,,,,
+2,Amplifiers,,,,Adafruit,2130,PAM8302,3.95,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,GPIO,2,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/PAM8302A.pdf,https://www.adafruit.com/products/2130
+3,Amplifiers,,,,Adafruit,1063,MAX4466,6.95,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,GPIO,2.4,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/CMA-4544PF-W.pdf,https://www.adafruit.com/products/1063
+4,Amplifiers,,,,Adafruit,987,MAX98306,8.95,Stereo 3.7W Class D Audio Amplifier - MAX98306,https://cdn-shop.adafruit.com/970x728/987-00.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/stereo-3-7w-class-d-audio-amplifier/downloads,https://www.adafruit.com/products/987
+5,Amplifiers,,,,Adafruit,3006,MAX98357A,5.95,Adafruit I2S 3W Class D Amplifier Breakout - MAX98357A,https://cdn-shop.adafruit.com/970x728/3006-00.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/downloads,https://www.adafruit.com/products/3006
+6,Amplifiers,,,,Adafruit,1552,TPA2012,9.95,Stereo 2.1W Class D Audio Amplifier - TPA2012,https://cdn-shop.adafruit.com/970x728/1552-03.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-ts2012-2-8w-stereo-audio-amplifier/downloads,https://www.adafruit.com/products/1552
+7,Amplifiers,,,,Adafruit,1712,TPA2016,9.95,Stereo 2.8W Class D Audio Amplifier - I2C Control AGC - TPA2016,https://cdn-shop.adafruit.com/970x728/1712-00.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-tpa2016-2-8w-agc-stereo-audio-amplifier/downloads,https://www.adafruit.com/products/1712
+,,,,,,,,,,,I2C,,,,,,,,
+8,Amplifiers,,,,Adafruit,1752,MAX9744,19.95,Stereo 20W Class D Audio Amplifier - MAX9744,https://cdn-shop.adafruit.com/970x728/1752-00.jpg,GPIO,4.5,14,,,,,https://learn.adafruit.com/adafruit-20w-stereo-audio-amplifier-class-d-max9744/downloads,https://www.adafruit.com/products/1752
+,,,,,,,,,,,Analog,,,,,,,,
+9,Barometer,,,,Adafruit,2652,BME280,19.95,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,SPI,3.3,3.3,,,,,https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads,https://www.adafruit.com/products/2652
+,Pressure,300,1100,pa,,,,,,,,,,,,,,,
+,Temperature,-40,85,c,,,,,,,I2C,,,,,,,,
+10,Barometer,,,,Adafruit,2651,BMP280,9.95,Adafruit BMP280 I2C or SPI Barometric Pressure & Altitude Sensor,https://cdn-shop.adafruit.com/970x728/2651-00.jpg,SPI,3.3,3.3,,,,,https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout/downloads,https://www.adafruit.com/products/2651
+,Pressure,300,1100,pa,,,,,,,I2C,,,,,,,,
+,Temperature,-40,85,c,,,,,,,,,,,,,,,
+11,Barometer,,,,Adafruit,1893,MPL3115A2,9.95,MPL3115A2 - I2C Barometric Pressure/Altitude/Temperature Sensor,https://cdn-shop.adafruit.com/970x728/1893-02.jpg,I2C,2,3.6,,,,,https://cdn-shop.adafruit.com/datasheets/1893_datasheet.pdf,https://www.adafruit.com/products/1893
+,Pressure,50000,110000,pa,,,,,,,SPI,,,,,,,,
+,Temperature,-10,70,c,,,,,,,,,,,,,,,
+,AltitudeP,1.5,1.5,pa,,,,,,,,,,,,,,,
+,AltitudeD,0.3,0.3,m,,,,,,,,,,,,,,,
+12,Barometer,,,,Adafruit,1603,BMP180,9.95,BMP180 Barometric Pressure/Temperature/Altitude Sensor- 5V ready,https://cdn-shop.adafruit.com/970x728/1603-03.jpg,I2C,3,5,,,,,https://learn.adafruit.com/bmp085/downloads,https://www.adafruit.com/products/1603
+,Pressure,300,1100,pa,,,,,,,,,,,,,,,
+,Temperature,-40,85,c,,,,,,,,,,,,,,,
+,AltitudeP,3,3,pa,,,,,,,,,,,,,,,
+,AltitudeD,0.25,0.25,m,,,,,,,,,,,,,,,
+13,Barometer,,,,Adafruit,1900,BMP183,9.95,Adafruit BMP183 SPI Barometric Pressure & Altitude Sensor,https://cdn-shop.adafruit.com/970x728/1900-00.jpg,SPI,3,5,,,,,https://learn.adafruit.com/adafruit-bmp183-spi-barometric-pressure-and-altitude-sensor/downloads,https://www.adafruit.com/products/1900
+,Pressure,30000,110000,pa,,,,,,,,,,,,,,,
+,Temperature,-40,85,c,,,,,,,,,,,,,,,
+,AltitudeP,100,100,pa,,,,,,,,,,,,,,,
+,AltitudeD,8.43,8.43,m,,,,,,,,,,,,,,,
+14,Barometer,,,,Adafruit,992,MPL115A2,7.95,MPL115A2 - I2C Barometric Pressure/Temperature Sensor,https://cdn-shop.adafruit.com/970x728/992-00.jpg,I2C,2.4,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/MPL115A2.pdf,https://www.adafruit.com/products/992
+,Pressure,50000,115000,pa,,,,,,,,,,,,,,,
+,Temperature,-40,105,c,,,,,,,,,,,,,,,
+,AltitudeP,150,150,pa,,,,,,,,,,,,,,,
+,AltitudeD,50,50,m,,,,,,,,,,,,,,,
+15,Biometric,,,,Adafruit,1093,,25,Pulse Sensor Amped,https://cdn-shop.adafruit.com/970x728/1093-00.jpg,GPIO,5,5,,,,,https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PulseSensorAmpedGettingStartedGuide.pdf,https://www.adafruit.com/products/1093
+,Pluse,,,,,,,,,,,,,,,,,,
+16,Biometric,,,,Adafruit,2699,,37.95,MyoWare Muscle Sensor,https://cdn-shop.adafruit.com/970x728/2699-02.jpg,Analog,2.9,5.7,,,,,https://cdn-shop.adafruit.com/product-files/2699/AT-04-001.pdf,https://www.adafruit.com/products/2699
+,Muscle,,,,,,,,,,,,,,,,,,
+17,Biometric,,,,Adafruit,751,,49.95,Fingerprint sensor,https://cdn-shop.adafruit.com/970x728/751-03.jpg,GPIO,3.6,6,,,,,https://cdn-shop.adafruit.com/datasheets/DY001fingerprint.pdf,https://www.adafruit.com/products/751
+,Fingerprint,,,,,,,,,,,,,,,,,,
+,Number,0,162,,,,,,,,,,,,,,,,
+18,Bluetooth,,,,Adafruit,2487,,17.5,Flora Wearable Bluefruit LE Module,https://cdn-shop.adafruit.com/970x728/2487-03.jpg,UART,2.7,3.6,,,,,https://learn.adafruit.com/adafruit-flora-bluefruit-le/downloads,https://www.adafruit.com/products/2487
+,UART,,,,,,,,,,,,,,,,,,
+19,Bluetooth,,,,Adafruit,1697,,19.95,Bluefruit LE - Bluetooth Low Energy (BLE 4.0) - nRF8001 Breakout - v1.0,https://cdn-shop.adafruit.com/970x728/1697-04.jpg,SPI,3.3,5,,,,,https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout/downloads,https://www.adafruit.com/products/1697
+,UART,,,,,,,,,,UART,,,,,,,,
+20,Bluetooth,,,,Adafruit,2479,,17.5,Adafruit Bluefruit LE UART Friend - Bluetooth Low Energy (BLE),https://cdn-shop.adafruit.com/970x728/2479-00.jpg,UART,3,16,,,,,https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-uart-friend/downloads,https://www.adafruit.com/products/2479
+,UART,,,,,,,,,,SPI,,,,,,,,
+21,Bluetooth,,,,Adafruit,2633,,17.5,Adafruit Bluefruit LE SPI Friend - Bluetooth Low Energy (BLE),https://cdn-shop.adafruit.com/970x728/2633-00.jpg,SPI,3,16,,,,,https://learn.adafruit.com/introducing-the-adafruit-bluefruit-spi-breakout/downloads,https://www.adafruit.com/products/2633
+22,Bluetooth,,,,Adafruit,1588,,22.5,Bluefruit EZ-Link - Bluetooth Serial Link & Arduino Programmer - v1.3,https://cdn-shop.adafruit.com/970x728/1588-00.jpg,UART,3.5,16,,,,,https://learn.adafruit.com/introducing-bluefruit-ez-link/downloads,https://www.adafruit.com/products/1588
+,UART,,,,,,,,,,,,,,,,,,
+23,Cellular,,,,Adafruit,1946,,39.95,Adafruit FONA - Mini Cellular GSM Breakout uFL Version,https://cdn-shop.adafruit.com/970x728/1946-05.jpg,UART,3,5,,,,,https://learn.adafruit.com/adafruit-fona-mini-gsm-gprs-cellular-phone-module/downloads,https://www.adafruit.com/products/1946
+,UART,,,,,,,,,,,,,,,,,,
+24,Cellular,,,,Adafruit,2542,,49.95,Adafruit FONA 808 - Mini Cellular GSM + GPS Breakout,https://cdn-shop.adafruit.com/970x728/2542-06.jpg,UART,3,5,,,,,https://learn.adafruit.com/adafruit-fona-808-cellular-plus-gps-breakout/downloads,https://www.adafruit.com/products/2542
+,UART,,,,,,,,,,,,,,,,,,
+25,Cellular,,,,Adafruit,2468,,39.95,Adafruit FONA 800 Shield - Voice/Data Cellular GSM for Arduino,https://cdn-shop.adafruit.com/970x728/2468-06.jpg,Shield,,,,,,,https://learn.adafruit.com/adafruit-fona-800-shield/downloads,https://www.adafruit.com/products/2468
+26,Clock,,,,Adafruit,3013,DS3231,13.95,Adafruit DS3231 Precision RTC Breakout,https://cdn-shop.adafruit.com/970x728/3013-01.jpg,I2C,3.3,3.3,,,,,https://learn.adafruit.com/adafruit-ds3231-precision-rtc-breakout/downloads,https://www.adafruit.com/products/3013
+27,Clock,,,,Adafruit,3296,DS1307,8.95,Adafruit DS1307 Real Time Clock Assembled Breakout Board,https://cdn-shop.adafruit.com/970x728/3296-00.jpg,I2C,5,5,,,,,,https://www.adafruit.com/products/3296
+28,Clock,,,,Adafruit,3295,PCF8523,4.95,Adafruit PCF8523 Real Time Clock Assembled Breakout Board,https://cdn-shop.adafruit.com/970x728/3295-00.jpg,I2C,5,5,,,,,,https://www.adafruit.com/products/3295
+29,Diode,,,,sparkfun,8589,,0.15,Diode Rectifier - 1A 50V,https://cdn.sparkfun.com//assets/parts/1/5/7/8/08588-02-L.jpg,GPIO,0,50,,,,,http://www.fairchildsemi.com/ds/1N/1N4001.pdf,https://www.sparkfun.com/products/8589
+,,,,,,,,,,,Analog,,,,,,,,
+30,Gas,,,,Adafruit,3199,MiCS5524,14.95,Adafruit MiCS5524 CO Alcohol and VOC Gas Sensor Breakout,https://cdn-shop.adafruit.com/1200x900/3199-00.jpg,Analog,5,5,,,,,https://cdn-shop.adafruit.com/product-files/3199/MiCS-5524.pdf,https://www.adafruit.com/products/3199
+,CO,1,1000,ppm,,,,,,,,,,,,,,,
+,C2H6OH,10,500,ppm,,,,,,,,,,,,,,,
+,H2,1,1000,ppm,,,,,,,,,,,,,,,
+,NH3,1,500,ppm,,,,,,,,,,,,,,,
+,CH4,1000,,ppm,,,,,,,,,,,,,,,
+31,Humidity,5,95,%RH,Adafruit,1899,HTU21D-F,14.95,Adafruit HTU21D-F Temperature & Humidity Sensor Breakout Board,https://cdn-shop.adafruit.com/970x728/1899-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-htu21d-f-temperature-humidity-sensor/downloads,https://www.adafruit.com/products/1899
+,Temperature,-30,90,c,,,,,,,,,,,,,,,
+32,Humidity,0,100,%RH,Adafruit,2857,SHT31-D,13.95,Adafruit Sensiron SHT31-D Temperature & Humidity Sensor Breakout,https://cdn-shop.adafruit.com/970x728/2857-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-breakout/downloads,https://www.adafruit.com/products/2857
+,Temperature,-40,125,c,,,,,,,,,,,,,,,
+33,Humidity,0,80,%RH,Adafruit,3251,Si7021,6.95,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/downloads,https://www.adafruit.com/products/3251
+,Temperature,-10,85,c,,,,,,,,,,,,,,,
+34,Humidity,0,100,%RH,Adafruit,1293,DS18B20,29.95,AM2315 - Encased I2C Temperature/Humidity Sensor,https://cdn-shop.adafruit.com/970x728/1293-00.jpg,I2C,3.3,5,,,,,https://cdn-shop.adafruit.com/datasheets/AM2315.pdf,https://www.adafruit.com/products/1293
+,Temperature,-20,80,c,,,,,,,,,,,,,,,
+35,Humidity,0,100,%RH,Adafruit,385,DHT22,9.95,DHT22 temperature-humidity sensor + extras,https://cdn-shop.adafruit.com/970x728/385-00.jpg,GPIO,3,5,,,,,https://cdn-shop.adafruit.com/datasheets/DHT22.pdf,https://www.adafruit.com/products/385
+,Temperature,-40,125,c,,,,,,,,,,,,,,,
+36,Humidity,20,80,%RH,Adafruit,386,DHT11,5,DHT11 basic temperature-humidity sensor + extras,https://cdn-shop.adafruit.com/970x728/386-00.jpg,GPIO,3,5,,,,,https://cdn-shop.adafruit.com/datasheets/DHT22.pdf,https://www.adafruit.com/products/386
+,Temperature,0,50,c,,,,,,,,,,,,,,,
+37,Humidity,0,100,%RH,Adafruit,1298,SHT10,49.95,Soil Temperature/Moisture Sensor - SHT10,https://cdn-shop.adafruit.com/970x728/1298-00.jpg,I2C,3,5,,,,,https://cdn-shop.adafruit.com/datasheets/SLHT5.pdf,https://www.adafruit.com/products/1298
+,Temperature,-40,123.8,c,,,,,,,,,,,,,,,
+38,LCD16X2,,,,Adafruit,181,,9.95,Standard LCD 16x2 + extras - white on blue,https://cdn-shop.adafruit.com/970x728/181-02.jpg,GPIO,5,5,,,,,https://cdn-shop.adafruit.com/product-files/181/p181.pdf,https://www.adafruit.com/products/181
+39,LCD16X2,,,,Adafruit,399,,13.95,RGB backlight negative LCD 16x2 + extras - RGB on black,https://cdn-shop.adafruit.com/970x728/399-11.jpg,GPIO,5,5,,,,,https://www.adafruit.com/datasheets/HD44780.pdf,https://www.adafruit.com/products/399
+,LCDbacklightcolour,,,,,,,,,,,,,,,,,,
+40,LCD,,,,Adafruit,292,,9.95,i2c / SPI character LCD backpack,https://cdn-shop.adafruit.com/970x728/292-04.jpg,I2C,5,5,,,,,https://learn.adafruit.com/i2c-spi-lcd-backpack/downloads,https://www.adafruit.com/products/292
+,,,,,,,,,,,SPI,,,,,,,,
+41,LCD,,,,Adafruit,388,,10,Nokia 5110/3310 monochrome LCD + extras,https://cdn-shop.adafruit.com/970x728/338-02.jpg,Specific,3.3,5,,,,,http://learn.adafruit.com/nokia-5110-3310-monochrome-lcd,https://www.adafruit.com/products/338
+42,LCD,,,,Adafruit,358,ST7735R,19.95,"1.8"" Color TFT LCD display with MicroSD Card Breakout - ST7735R",https://cdn-shop.adafruit.com/970x728/358-00.jpg,SPI,3.3,6,,,,,https://learn.adafruit.com/1-8-tft-display/downloads,https://www.adafruit.com/products/358
+43,LCD,,,,Adafruit,1651,,34.95,"2.8"" TFT Touch Shield for Arduino with Resistive Touch Screen",https://cdn-shop.adafruit.com/970x728/1651-00.jpg,Shield,,,,,,,https://learn.adafruit.com/adafruit-2-8-tft-touch-shield-v2/downloads,https://www.adafruit.com/products/1651
+44,RGBLED,,,,Adafruit,159,,2,Diffused RGB (tri-color) LED - Common Anode,https://cdn-shop.adafruit.com/970x728/159-00.jpg,GPIO,5,5,Resistor,470,470,ohm,http://www.adafruit.com/datasheets/FD-5WSRGB-A.pdf,https://www.adafruit.com/products/159
+45,Dotmatrix,,,,Adafruit,1484,,39.95,32x32 RGB LED Matrix Panel - 6mm pitch,https://cdn-shop.adafruit.com/970x728/1484-00.jpg,Specific,5,5,,,,,http://learn.adafruit.com/32x16-32x32-rgb-led-matrix/,https://www.adafruit.com/products/1484
+46,Dotmatrix,16X9,16X9,,Adafruit,2946,IS31FL3731,5.95,Adafruit 16x9 Charlieplexed PWM LED Matrix Driver - IS31FL3731,https://cdn-shop.adafruit.com/970x728/2946-00.jpg,I2C,2.7,5.5,,,,,https://learn.adafruit.com/i31fl3731-16x9-charliplexed-pwm-led-driver/downloads,https://www.adafruit.com/products/2946
+47,LED,,,,sparkfun,9590,,0.35,LED - Basic Red 5mm,https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg,GPIO,2.2,,Resistor,470,470,ohm,http://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf,https://www.sparkfun.com/products/9590
+,,,,,,,,,,,Analog,,,,,,,,
+48,LED,,,,sparkfun,9650,,0.35,LED - Basic Green 3mm,https://cdn.sparkfun.com//assets/parts/3/5/0/1/09650-01.jpg,GPIO,2.4,,Resistor,470,470,ohm,http://www.sparkfun.com/datasheets/Components/LED/YSL-R341K3D-D2.pdf,https://www.sparkfun.com/products/9650
+,,,,,,,,,,,Analog,,,,,,,,
+49,LED,,,,sparkfun,532,,0.35,LED - Basic Yellow 3mm,https://cdn.sparkfun.com//assets/parts/1/6/7/3/00532-02-L.jpg,GPIO,2.4,,Resistor,470,470,ohm,http://www.sparkfun.com/datasheets/Components/LED/COM-00532-YSL-R341Y3D-D2.pdf,https://www.sparkfun.com/products/532
+,,,,,,,,,,,Analog,,,,,,,,
+50,LED,,,,sparkfun,11372,,0.5,LED - Basic Blue 5mm,https://cdn.sparkfun.com//assets/parts/7/1/1/3/11372-01b.jpg,GPIO,3.4,,Resistor,470,470,ohm,,https://www.sparkfun.com/products/11372
+,,,,,,,,,,,Analog,,,,,,,,
+51,Dotmatrix,,,,Adafruit,2974,,7.95,LED Charlieplexed Matrix - 9x16 LEDs - Cool White,https://cdn-shop.adafruit.com/970x728/2974-02.jpg,,,,Dotmatrix,16X9,16X9,,https://learn.adafruit.com/i31fl3731-16x9-charliplexed-pwm-led-driver/downloads,https://www.adafruit.com/products/2974
+52,Level Shifter,,,,Adafruit,395,TXB0108,8,8-channel Bi-directional Logic Level Converter - TXB0108,https://cdn-shop.adafruit.com/970x728/395-06.jpg,GPIO,1.65,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/txb0108.pdf,https://www.adafruit.com/products/395
+53,Level Shifter,,,,Adafruit,1875,TXB0104,3.5,TXB0104 Bi-Directional Level Shifter - TXB0104,https://cdn-shop.adafruit.com/970x728/1875-00.jpg,GPIO,1.65,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/txb0104.pdf,https://www.adafruit.com/products/1875
+54,Level Shifter,,,,Adafruit,757,BSS138,3.95,4-channel I2C-safe Bi-directional Logic Level Converter - BSS138,https://cdn-shop.adafruit.com/970x728/757-03.jpg,GPIO,1.8,10,,,,,https://cdn-shop.adafruit.com/datasheets/BSS138.pdf,https://www.adafruit.com/products/757
+55,Illuminance,,,,Adafruit,2349,,1.95,Reflective IR Sensor with 470 and 10K Resistors,https://cdn-shop.adafruit.com/970x728/2349-00.jpg,GPIO,5,5,Resistor,470,470,ohm,,https://www.adafruit.com/products/2349
+56,UV,0.00000024,0.00000037,m,Adafruit,1918,GUVA-S12SD,6.5,Analog UV Light Sensor Breakout - GUVA-S12SD,https://cdn-shop.adafruit.com/970x728/1918-01.jpg,I2C,2,5,,,,,https://cdn-shop.adafruit.com/datasheets/1918guva.pdf,https://www.adafruit.com/products/1918
+57,UV,0.00000032,0.00000041,m,Adafruit,2899,VEML6070,5.95,Adafruit VEML6070 UV Index Sensor Breakout,https://cdn-shop.adafruit.com/970x728/2899-00.jpg,I2C,2.8,5,,,,,https://learn.adafruit.com/adafruit-veml6070-uv-light-sensor-breakout/downloads,https://www.adafruit.com/products/2899
+58,Illuminance,0.000188,88000,lux,Adafruit,1980,TSL2591,6.95,Adafruit TSL2591 High Dynamic Range Digital Light Sensor,https://cdn-shop.adafruit.com/970x728/1980-01.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-tsl2591/downloads,https://www.adafruit.com/products/1980
+59,Illuminance,0.25,16383,lux,Adafruit,466,VCNL4010,7.5,VCNL4010 Proximity/Light sensor,https://cdn-shop.adafruit.com/970x728/466-02.jpg,I2C,3.3,5,,,,,https://cdn-shop.adafruit.com/datasheets/vcnl4000.pdf,https://www.adafruit.com/products/466
+,Distance,0.01,0.2,m,,,,,,,,,,,,,,,
+60,Illuminance,0.1,40000,lux,Adafruit,439,TSL2561,5.95,Adafruit TSL2561 Digital Luminosity/Lux/Light Sensor Breakout,https://cdn-shop.adafruit.com/970x728/439-00.jpg,I2C,3,5,,,,,https://learn.adafruit.com/tsl2561/downloads,https://www.adafruit.com/products/439
+61,Illuminance,,,,Adafruit,1334,TCS34725,7.95,RGB Color Sensor with IR filter and White LED - TCS34725,https://cdn-shop.adafruit.com/970x728/1334-04.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-color-sensors/downloads,https://www.adafruit.com/products/1334
+,Colour,,,,,,,,,,,,,,,,,,
+62,IR,,,,Adafruit,157,TSOP38238,1.95,IR (Infrared) Receiver Sensor - TSOP38238,https://cdn-shop.adafruit.com/970x728/157-00.jpg,GPIO,3,5,,,,,http://www.adafruit.com/datasheets/tsop382.pdf,https://www.adafruit.com/products/157
+63,Illuminance,,,,Adafruit,1777,SI1145,9.95,SI1145 Digital UV Index / IR / Visible Light Sensor,https://cdn-shop.adafruit.com/970x728/1777-00.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-si1145-breakout-board-uv-ir-visible-sensor/downloads,https://www.adafruit.com/products/1777
+,Distance,0.01,0.5,m,,,,,,,,,,,,,,,
+,IR,,,,,,,,,,,,,,,,,,
+,UV,,,,,,,,,,,,,,,,,,
+64,Illuminance,,,,Adafruit,2748,ALS-PT19,2.5,Adafruit ALS-PT19 Analog Light Sensor Breakout,https://cdn-shop.adafruit.com/970x728/2748-00.jpg,Analog,2.5,5.5,,,,,https://cdn-shop.adafruit.com/product-files/2748/2748%20datasheet.pdf,https://www.adafruit.com/products/2748
+65,Illuminance,,,,Adafruit,1384,GA1A12S202,3.95,GA1A12S202 Log-scale Analog Light Sensor,https://cdn-shop.adafruit.com/970x728/1384-02.jpg,Analog,2.3,6,,,,,https://learn.adafruit.com/adafruit-ga1a12s202-log-scale-analog-light-sensor/downloads,https://www.adafruit.com/products/1384
+66,Illuminance,,,,Adafruit,2831,,0.95,Photo Transistor Light Sensor,https://cdn-shop.adafruit.com/970x728/2831-00.jpg,GPIO,3,15,,,,,https://cdn-shop.adafruit.com/product-files/2831/HW5P-1_2015__1_.pdf,https://www.adafruit.com/products/2831
+67,Illuminance,,,,Adafruit,161,,0.95,Photo cell (CdS photoresistor),https://cdn-shop.adafruit.com/970x728/161-00.jpg,GPIO,2.5,,,,,,,https://www.adafruit.com/products/161
+68,LiquidLevel,0,0.3048,m,Adafruit,464,,39.95,"12"" eTape Liquid Level Sensor + extras",https://cdn-shop.adafruit.com/970x728/464-00.jpg,Analog,0,10,,,,,https://cdn-shop.adafruit.com/datasheets/eTape%20Datasheet%2012110215TC-12_040213.pdf,https://www.adafruit.com/products/464
+69,LiquidLevel,0,0.2032,m,Adafruit,463,,39.95,"8"" eTape Liquid Level Sensor + extras",https://cdn-shop.adafruit.com/970x728/463-00.jpg,Analog,0,10,,,,,https://cdn-shop.adafruit.com/datasheets/eTape%20Datasheet%2012110215TC-8_040213.pdf,https://www.adafruit.com/products/463
+70,LiquidLevel,0,0.3048,m,Adafruit,1786,,69.95,"12"" Chemical eTape Liquid Level Sensor with Teflon Jacket",https://cdn-shop.adafruit.com/970x728/1786-00.jpg,Analog,0,10,,,,,https://cdn-shop.adafruit.com/datasheets/1786_Chemical_eTape_Datasheet.pdf,https://www.adafruit.com/products/1786
+71,LiquidLevel,0,0.3048,m,Adafruit,2656,,59.95,"12"" Standard eTape Liquid Level Sensor with Plastic Casing",https://cdn-shop.adafruit.com/970x728/2656-00.jpg,Analog,0,10,,,,,https://cdn-shop.adafruit.com/product-files/2656/Standard_eTape_Datasheet.pdf,https://www.adafruit.com/products/2656
+72,Liquid Pressure,20000,800000,pa,Adafruit,997,,6.95,"Plastic Water Solenoid Valve - 12V - 1/2"" Nominal",https://cdn-shop.adafruit.com/970x728/997-04.jpg,GPIO,12,12,,,,,,https://www.adafruit.com/products/997
+73,Liquid Pressure,0,1000000,pa,Adafruit,996,,24.95,Brass Liquid Solenoid Valve - 12V - 1/2 NPS,https://cdn-shop.adafruit.com/970x728/996-07.jpg,GPIO,12,12,,,,,,https://www.adafruit.com/products/996
+74,Liquid Flow,0.0000167,0.000501,m^3/s,Adafruit,828,,9.95,"Liquid Flow Meter - Plastic 1/2"" NPS Threaded",https://cdn-shop.adafruit.com/970x728/828-00.jpg,GPIO,5,18,,,,,https://github.com/adafruit/Adafruit-Flow-Meter,https://www.adafruit.com/products/828
+75,Liquid Flow,0.0000167,0.000501,m^3/s,Adafruit,833,,24.95,"Liquid Flow Meter - Brass 1/2"" Nominal Threaded",https://cdn-shop.adafruit.com/970x728/833-00.jpg,GPIO,5,18,,,,,https://github.com/adafruit/Adafruit-Flow-Meter,https://www.adafruit.com/products/833
+76,AccelX,-16,16,g,Adafruit,1604,L3GD20H ,29.95,Adafruit 10-DOF IMU Breakout - L3GD20H + LSM303 + BMP180,https://cdn-shop.adafruit.com/970x728/1604-01.jpg,I2C,3.3,3.3,,,,,https://learn.adafruit.com/adafruit-10-dof-imu-breakout-lsm303-l3gd20-bmp180/design-files,https://www.adafruit.com/products/1604
+,AccelY,-16,16,g,,,LSM303,,,,,,,,,,,,
+,AccelZ,-16,16,g,,,BMP180,,,,,,,,,,,,
+,MagneticX,-0.00081,0.00081,t,,,,,,,,,,,,,,,
+,MagneticY,-0.00081,0.00081,t,,,,,,,,,,,,,,,
+,MagneticZ,-0.00081,0.00081,t,,,,,,,,,,,,,,,
+,GyroX,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,GyroY,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,GyroZ,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,Temperature,-40,85,c,,,,,,,,,,,,,,,
+,Pressure,30000,110000,pa,,,,,,,,,,,,,,,
+,AltitudeP,3,3,pa,,,,,,,,,,,,,,,
+,AltitudeD,0.25,0.25,m,,,,,,,,,,,,,,,
+77,Amplifiers,0,2.6,W,Adafruit,3085,FXOS8700CQ,22.5,PJRC Prop Shield with Motion Sensor for Teensy 3.2 and Teensy-LC,https://cdn-shop.adafruit.com/970x728/3085-00.jpg,I2C,5,5,,,,,,https://www.adafruit.com/products/3085
+,ANDgate,2,2,,,,FXAS21002C,,,,,,,,,,,,
+,AccelX,-8,8,g,,,MPL3115A2,,,,,,,,,,,,
+,AccelY,-8,8,g,,,LM48310,,,,,,,,,,,,
+,AccelZ,-8,8,g,,,W25Q64FV,,,,,,,,,,,,
+,MagneticX,-0.0012,0.0012,t,,,SN74AHCT1G08,,,,,,,,,,,,
+,MagneticY,-0.0012,0.0012,t,,,,,,,,,,,,,,,
+,MagneticZ,-0.0012,0.0012,t,,,,,,,,,,,,,,,
+,GyroX,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,GyroY,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,GyroZ,-0.002,0.002,degree/s,,,,,,,,,,,,,,,
+,Memory,0,8000000,byte,,,,,,,,,,,,,,,
+,Temperature,-40,85,c,,,,,,,,,,,,,,,
+,Pressure,50000,110000,pa,,,,,,,,,,,,,,,
+78,MagneticX,-0.00081,0.00081,t,Adafruit,1714,L3GD20H,19.95,Adafruit 9-DOF IMU Breakout - L3GD20H + LSM303,https://cdn-shop.adafruit.com/970x728/1714-05.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-9-dof-imu-breakout/design-files,https://www.adafruit.com/products/1714
+,MagneticY,-0.00081,0.00081,t,,,,,,,,,,,,,,,
+,MagneticZ,-0.00081,0.00081,t,,,,,,,,,,,,,,,
+,AccelX,-16,16,g,,,LSM303,,,,,,,,,,,,
+,AccelY,-16,16,g,,,,,,,,,,,,,,,
+,AccelZ,-16,16,g,,,,,,,,,,,,,,,
+,GyroX,-2000,2000,degree/s,,,,,,,,,,,,,,,
+,GyroY,-2000,2000,degree/s,,,,,,,,,,,,,,,
+,GyroZ,-2000,2000,degree/s,,,,,,,,,,,,,,,
+79,AccelX,-16,16,g,Adafruit,1231,ADXL345,17.5,ADXL345 - Triple-Axis Accelerometer (+-2g/4g/8g/16g) w/ I2C/SPI,https://cdn-shop.adafruit.com/970x728/1231-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adxl345-digital-accelerometer/downloads,https://www.adafruit.com/products/1231
+,AccelY,-16,16,g,,,,,,,SPI,,,,,,,,
+,AccelZ,-16,16,g,,,,,,,,,,,,,,,
+80,GyroX,-2000,2000,degree/s,Adafruit,1032,L3GD20H,12.5,L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H,https://cdn-shop.adafruit.com/970x728/1032-03.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-triple-axis-gyro-breakout/downloads,https://www.adafruit.com/products/1032
+,GyroY,-2000,2000,degree/s,,,,,,,,,,,,,,,
+,GyroZ,-2000,2000,degree/s,,,,,,,,,,,,,,,
+81,AccelX,-3,3,g,Adafruit,163,ADXL335,14.95,ADXL335 - 5V ready triple-axis accelerometer (+-3g analog out),https://cdn-shop.adafruit.com/970x728/163-02.jpg,Analog,3,5,,,,,https://learn.adafruit.com/adafruit-analog-accelerometer-breakouts/downloads,https://www.adafruit.com/products/163
+,AccelY,-3,3,g,,,,,,,,,,,,,,,
+,AccelZ,-3,3,g,,,,,,,,,,,,,,,
+82,AccelX,-16,16,g,Adafruit,2809,LIS3DH,4.95,Adafruit LIS3DH Triple-Axis Accelerometer (+-2g/4g/8g/16g),https://cdn-shop.adafruit.com/970x728/2809-03.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-lis3dh-triple-axis-accelerometer-breakout/downloads,https://www.adafruit.com/products/2809
+,AccelY,-16,16,g,,,,,,,SPI,,,,,,,,
+,AccelZ,-16,16,g,,,,,,,,,,,,,,,
+83,AccelX,-16,16,g,Adafruit,2472,BNO055,34.95,Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout - BNO055,https://cdn-shop.adafruit.com/970x728/2472-00.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/downloads,https://www.adafruit.com/products/2472
+,AccelY,-16,16,g,,,,,,,SPI,,,,,,,,
+,AccelZ,-16,16,g,,,,,,,,,,,,,,,
+,GyroX,125,2000,degree/s,,,,,,,,,,,,,,,
+,GyroY,125,2000,degree/s,,,,,,,,,,,,,,,
+,GyroZ,125,2000,degree/s,,,,,,,,,,,,,,,
+,MagneticX,-0.0013,0.0013,t,,,,,,,,,,,,,,,
+,MagneticY,-0.0013,0.0013,t,,,,,,,,,,,,,,,
+,MagneticZ,-0.0025,0.0025,t,,,,,,,,,,,,,,,
+,Tap,,,,,,,,,,,,,,,,,,
+,DoubleTap,,,,,,,,,,,,,,,,,,
+,Freefall,,,,,,,,,,,,,,,,,,
+84,IRMotion,0,0.25,m,Adafruit,2167,,1.95,IR Break Beam Sensor - 3mm LEDs,https://cdn-shop.adafruit.com/970x728/2167-02.jpg,GPIO,3.3,5.5,,,,,https://cdn-shop.adafruit.com/product-files/2167/C2916.pdf,https://www.adafruit.com/products/2167
+85,IRMotion,0,0.5,m,Adafruit,2168,,6.5,IR Break Beam Sensor - 5mm LEDs,https://cdn-shop.adafruit.com/970x728/2168-02.jpg,GPIO,3.3,5.5,,,,,https://cdn-shop.adafruit.com/product-files/2168/C2917.pdf,https://www.adafruit.com/product/2168
+86,Motion,,,,Adafruit,1766,,0.95,Fast Vibration Sensor Switch (Easy to trigger),https://cdn-shop.adafruit.com/970x728/1766-00.jpg,GPIO,0,12,,,,,,https://www.adafruit.com/products/1766
+87,Motion,,,,Adafruit,2384,,0.95,Medium Vibration Sensor Switch,https://cdn-shop.adafruit.com/970x728/2384-00.jpg,GPIO,0,12,,,,,,https://www.adafruit.com/products/2384
+88,Orientation,,,,Adafruit,173,,2,Tilt ball switch,https://cdn-shop.adafruit.com/970x728/173-00.jpg,GPIO,0,24,,,,,http://learn.adafruit.com/system/assets/assets/000/010/132/original/MS-100906.pdf,https://www.adafruit.com/products/173
+89,Anemometer,,,,Adafruit,1733,,44.95,Anemometer Wind Speed Sensor w/Analog Voltage Output,https://cdn-shop.adafruit.com/970x728/1733-00.jpg,Analog,7,24,,,,,https://cdn-shop.adafruit.com/product-files/1733/C2192+datasheet.pdf,https://www.adafruit.com/products/1733
+,Accelerate,0.5,70,m/s2,,,,,,,,,,,,,,,
+90,Motor,,,,sparkfun,13656,,23.95,Stepper Motor - 125 oz.in (200 steps/rev 600mm Wire),https://cdn.sparkfun.com//assets/parts/1/1/0/6/7/13656-01.jpg,Dependency,3.3,3.3,StepperController,1,1,,http://cdn.sparkfun.com/datasheets/Robotics/57BYGH420-2.pdf,https://www.sparkfun.com/products/13656
+,,,,,,,,,,,,,,Voltage,0,3.2,v,,
+,,,,,,,,,,,,,,Current,0,2,a,,
+91,MotorController,0,1,,Adafruit,2305,DRV2605L,7.95,Adafruit DRV2605L Haptic Motor Controller,https://cdn-shop.adafruit.com/970x728/2305-00.jpg,I2C,2,5,,,,,https://learn.adafruit.com/adafruit-drv2605-haptic-controller-breakout/downloads,https://www.adafruit.com/products/2305
+92,MotorController,0,2,,Adafruit,2448,TB6612,4.95,Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board,https://cdn-shop.adafruit.com/970x728/2448-00.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/downloads,https://www.adafruit.com/products/2448
+,StepperController,0,1,,,,,,,,,,,,,,,,
+,Voltage,4.5,13.5,v,,,,,,,,,,,,,,,
+,Current,0,1.2,a,,,,,,,,,,,,,,,
+,RatioM/S,2,1,,,,,,,,,,,,,,,,
+93,MotorController,0,2,,Adafruit,3297,DRV8833,4.95,Adafruit DRV8833 DC/Stepper Motor Driver Breakout Board,https://cdn-shop.adafruit.com/970x728/3297-00.jpg,GPIO,2.7,10.8,,,,,https://learn.adafruit.com/adafruit-drv8833-dc-stepper-motor-driver-breakout-board/downloads,https://www.adafruit.com/products/3297
+,StepperController,0,1,,,,,,,,,,,,,,,,
+,Voltage,2.7,10.8,v,,,,,,,,,,,,,,,
+,Current,0,1.2,a,,,,,,,,,,,,,,,
+,RatioM/S,2,1,,,,,,,,,,,,,,,,
+94,Motor,1,1,,sparkfun,11696,,1.95,Hobby Motor - Gear,https://cdn.sparkfun.com//assets/parts/7/8/6/0/11696-01.jpg,Dependency,1,12,Motorcontroller,1,1,,http://cdn.sparkfun.com/datasheets/Robotics/M260.pdf,https://www.sparkfun.com/products/11696
+,Speed,0,6600,rpm,,,,,,,,,,Voltage,1,3,v,,
+,,,,,,,,,,,,,,Current,0,0.11,a,,
+95,MotorController,0,4,,Adafruit,1438,,19.95,Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3,https://cdn-shop.adafruit.com/970x728/2448-00.jpg,GPIO,4.5,13.5,,,,,https://cdn-shop.adafruit.com/datasheets/TB6612FNG_datasheet_en_20121101.pdf,https://www.adafruit.com/products/1438
+,StepperController,0,2,,,,,,,,,,,,,,,,
+,ServoController,0,2,,,,,,,,,,,,,,,,
+,RatioM/S,2,1,,,,,,,,,,,,,,,,
+,Current,0,3,a,,,,,,,,,,,,,,,
+,Voltage,4.5,13.5,v,,,,,,,,,,,,,,,
+96,MotorController,0,1,,Adafruit,3190,DRV8871,7.5,Adafruit DRV8871 DC Motor Driver Breakout Board - 3.6A Max,https://cdn-shop.adafruit.com/970x728/3190-00.jpg,GPIO,6.5,45,,,,,https://cdn-shop.adafruit.com/product-files/3190/drv8871.pdf,https://www.adafruit.com/products/3190
+,Voltage,6.5,45,v,,,,,,,,,,,,,,,
+97,Distance,0.1,0.8,m,Adafruit,164,,14.95,IR distance sensor includes cable (10cm-80cm) - GP2Y0A21YK0F,https://cdn-shop.adafruit.com/970x728/164-00.jpg,Analog,5,5,,,,,http://sharp-world.com/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf,https://www.adafruit.com/products/164
+98,Distance,0.02,1.5,m,Adafruit,1031,,15.95,IR distance sensor includes cable (20cm-150cm) - GP2Y0A02YK,https://cdn-shop.adafruit.com/970x728/1031-02.jpg,Analog,5,5,,,,,http://sharp-world.com/products/device/lineup/data/pdf/datasheet/gp2y0a02_e.pdf,https://www.adafruit.com/products/1031
+99,Distance,1,5.5,m,Adafruit,1568,,24.95,IR Distance Sensor - Includes Cable (100cm-500cm) - GP2Y0A710K0F,https://cdn-shop.adafruit.com/970x728/1568-00.jpg,Analog,5,5,,,,,http://www.adafruit.com/datasheets/gp2y0a710k.pdf,https://www.adafruit.com/products/1568
+100,Distance,0.01,0.2,m,Adafruit,466,VCNL4010,7.5,VCNL4010 Proximity/Light sensor,https://cdn-shop.adafruit.com/970x728/466-02.jpg,I2C,3.3,5,,,,,https://cdn-shop.adafruit.com/product-files/466/vcnl4010.pdf,https://www.adafruit.com/products/466
+,Illuminance,0.25,16.383,lux,,,,,,,,,,,,,,,
+101,Distance,0.03,1,m,Adafruit,3317,VL53L0X,14.95,Adafruit VL53L0X Time of Flight Distance Sensor - ~30 to 1000mm,https://cdn-shop.adafruit.com/970x728/3317-03.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout,https://www.adafruit.com/products/3317
+102,Distance,0,0.1,m,Adafruit,3316,VL6180X,13.95,Adafruit VL6180X Time of Flight Distance Ranging Sensor (VL6180),https://cdn-shop.adafruit.com/145x109/3316-00.jpg,I2C,3,5,,,,,https://learn.adafruit.com/adafruit-vl6180x-time-of-flight-micro-lidar-distance-sensor-breakout/downloads,https://www.adafruit.com/products/3316
+103,Distance,0,6.45,m,Adafruit,172,,24.95,Maxbotix Ultrasonic Rangefinder - LV-EZ1 - LV-EZ1,https://cdn-shop.adafruit.com/970x728/172-00.jpg,Analog,2.5,5.5,,,,,http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/172
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+104,Distance,0,6.45,m,Adafruit,980,,24.95,Maxbotix Ultrasonic Rangefinder - LV-EZ2 - LV-EZ2,https://cdn-shop.adafruit.com/970x728/980-00.jpg,Analog,2.5,5.5,,,,,http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/980
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+105,Distance,0,6.45,m,Adafruit,981,,24.95,Maxbotix Ultrasonic Rangefinder - LV-EZ3 - LV-EZ3,https://cdn-shop.adafruit.com/970x728/981-00.jpg,Analog,2.5,5.5,,,,,http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/981
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+106,Distance,0,6.45,m,Adafruit,982,,24.95,Maxbotix Ultrasonic Rangefinder - LV-EZ4 - LV-EZ4,https://cdn-shop.adafruit.com/970x728/982-00.jpg,Analog,2.5,5.5,,,,,http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/982
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+107,Distance,0,6.45,m,Adafruit,979,,26.95,Maxbotix Ultrasonic Rangefinder - LV-EZ0 - LV-EZ0,https://cdn-shop.adafruit.com/970x728/979-00.jpg,Analog,2.5,5.5,,,,,http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/979
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+108,Distance,0.3,5,m,Adafruit,983,,33.95,Maxbotix Ultrasonic Rangefinder - HRLV-EZ0 - HRLV-EZ0,https://cdn-shop.adafruit.com/970x728/983-02.jpg,Analog,2.5,5.5,,,,,http://www.maxbotix.com/documents/HRLV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/983
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+109,Distance,0.3,5,m,Adafruit,984,,32.95,Maxbotix Ultrasonic Rangefinder - HRLV-EZ1 - HRLV-EZ1,https://cdn-shop.adafruit.com/970x728/984-02.jpg,Analog,2.5,5.5,,,,,http://www.maxbotix.com/documents/HRLV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/984
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+110,Distance,0.3,5,m,Adafruit,985,,32.95,Maxbotix Ultrasonic Rangefinder - HRLV-EZ4 - HRLV-EZ4,https://cdn-shop.adafruit.com/970x728/985-02.jpg,Analog,2.5,5.5,,,,,http://www.maxbotix.com/documents/HRLV-MaxSonar-EZ_Datasheet.pdf,https://www.adafruit.com/products/985
+,,,,,,,,,,,PWM,,,,,,,,
+,,,,,,,,,,,UART,,,,,,,,
+111,Distance,0,7.65,m,Adafruit,1137,MB7092,84.95,Maxbotix Weather-Resistant Ultrasonic Rangefinder - MB7092 XL-MaxSonar-WRMA1,https://cdn-shop.adafruit.com/970x728/1137-03.jpg,Analog,3,5.5,,,,,http://www.maxbotix.com/documents/MB7052-MB7092_Datasheet.pdf,https://www.adafruit.com/products/1137
+,,,,,,,,,,,UART,,,,,,,,
+112,PIR,,,,sparkfun,13285,,9.95,PIR Motion Sensor (JST),https://cdn.sparkfun.com//assets/parts/1/0/5/3/5/13285-01.jpg,GPIO,3.3,12,,,,,http://www.sparkfun.com/datasheets/Sensors/Proximity/SE-10.pdf,https://www.sparkfun.com/products/13285
+113,PIR,,,,Adafruit,189,,9.95,PIR (motion) sensor,https://cdn-shop.adafruit.com/970x728/189-00.jpg,GPIO,5,12,,,,,,https://www.adafruit.com/products/189
+114,PWM,0,16,,Adafruit,815,PCA9685,14.95,Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface - PCA9685,https://cdn-shop.adafruit.com/970x728/815-04.jpg,I2C,3.3,6,,,,,https://learn.adafruit.com/16-channel-pwm-servo-driver/downloads,https://www.adafruit.com/products/815
+115,Dotmatrix,0,12,,Adafruit,1455,TLC59711,7.5,Adafruit 12-Channel 16-bit PWM LED Driver - SPI Interface - TLC5971,https://cdn-shop.adafruit.com/970x728/1455-00.jpg,SPI,5,17,,,,,https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/downloads-and-links,https://www.adafruit.com/products/1455
+116,Dotmatrix,0,24,,Adafruit,1429,TLC5947,14.95,Adafruit 24-Channel 12-bit PWM LED Driver - SPI Interface - TLC5947,https://cdn-shop.adafruit.com/970x728/1429-00.jpg,SPI,5,30,,,,,https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout/downloads-and-links,https://www.adafruit.com/products/1429
+117,Resistor,470,470,ohm,Adafruit,2781,,0.75,Through-Hole Resistors - 470 ohm 5% 1/4W - Pack of 25,https://cdn-shop.adafruit.com/970x728/2781-01.jpg,GPIO,0,,,,,,,https://www.adafruit.com/product/2781
+,,,,,,,,,,,Analog,,,,,,,,
+118,Resistor,1000,1000,ohm,sparkfun,8980,,0.25,Resistor 1k Ohm 1/6 Watt PTH,https://cdn.sparkfun.com//assets/parts/2/3/0/6/ResistorPTH-01-L_i_ma.jpg,GPIO,0,,,,,,,https://www.sparkfun.com/products/8980
+,,,,,,,,,,,Analog,,,,,,,,
+119,RFID,,,,Adafruit,364,PN532,39.95,PN532 NFC/RFID controller breakout board - v1.6,https://cdn-shop.adafruit.com/970x728/364-05.jpg,UART,3.3,5,,,,,https://learn.adafruit.com/adafruit-pn532-rfid-nfc/downloads,https://www.adafruit.com/products/364
+,,,,,,,,,,,I2C,,,,,,,,
+,,,,,,,,,,,SPI,,,,,,,,
+120,Soil Moisture,,,,sparkfun,13322,,4.95,SparkFun Soil Moisture Sensor,https://cdn.sparkfun.com//assets/parts/1/0/6/1/0/13322-01.jpg,Analog,3.3,5,,,,,https://cdn.sparkfun.com/datasheets/Sensors/Biometric/SparkFun_Soil_Moisture_Sensor.pdf,https://www.sparkfun.com/products/13322
+,Humidity,,,,,,,,,,,,,,,,,,
+121,Sound,,,,Adafruit,2716,SPW2430,4.95,Adafruit Silicon MEMS Microphone Breakout - SPW2430,https://cdn-shop.adafruit.com/970x728/2716-04.jpg,GPIO,3.3,5,SDCard,,,,,https://www.adafruit.com/products/2716
+,Record,,,,,,,,,,,,,,,,,,
+122,Sound,,,,Adafruit,1063,MAX4466,6.95,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,GPIO,2.4,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/MAX4465-MAX4469.pdf,https://www.adafruit.com/products/1063
+,Amplifiers,,,,,,,,,,,,,,,,,,
+123,Sound,,,,Adafruit,1713,MAX9814,7.95,Electret Microphone Amplifier - MAX9814 with Auto Gain Control,https://cdn-shop.adafruit.com/970x728/1713-00.jpg,GPIO,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/downloads,https://www.adafruit.com/products/1713
+,Amplifiers,,,,,,,,,,,,,,,,,,
+124,Buzzer,,,,Adafruit,1739,,0.95,Large Enclosed Piezo Element w/Wires,https://cdn-shop.adafruit.com/970x728/1739-00.jpg,GPIO,1,30,,,,,,https://www.adafruit.com/products/1739
+125,Buzzer,,,,Adafruit,160,,1.5,Piezo Buzzer - PS1240,https://cdn-shop.adafruit.com/970x728/160-01.jpg,GPIO,3,30,,,,,,https://www.adafruit.com/products/160
+126,Buzzer,,,,Adafruit,1740,,0.95,Small Enclosed Piezo w/Wires,https://cdn-shop.adafruit.com/970x728/1740-00.jpg,GPIO,3,40,,,,,,https://www.adafruit.com/products/1740
+127,Speaker,,,,sparkfun,7950,,1.95,Mini Speaker - PC Mount 12mm 2.048kHz,https://cdn.sparkfun.com//assets/parts/6/2/3/07950-1.jpg,GPIO,3,5,Amplifiers,,,,http://cdn.sparkfun.com/datasheets/Components/General/cem-1203-42-.pdf,https://www.sparkfun.com/products/7950
+,,,,,,,,,,,Analog,,,,,,,,
+128,Buzzer,,,,sparkfun,13940,,2.95,Large Piezo Alarm - 3KHz,https://cdn.sparkfun.com//assets/parts/1/1/6/2/1/13940-04.jpg,GPIO,3,18,,,,,http://cdn.sparkfun.com/datasheets/Components/General/CE-C75.pdf,https://www.sparkfun.com/products/13940
+,,,,,,,,,,,Analog,,,,,,,,
+129,SDCard,,,,Adafruit,254,,7.5,MicroSD card breakout board+,https://cdn-shop.adafruit.com/970x728/254-05.jpg,Specific,5,5,,,,,https://learn.adafruit.com/adafruit-micro-sd-breakout-board-card-tutorial/download,https://www.adafruit.com/products/254
+130,Storage,,,,Adafruit,1141,,13.95,Adafruit Assembled Data Logging shield for Arduino,https://cdn-shop.adafruit.com/970x728/1141-02.jpg,Shield,,,,,,,https://learn.adafruit.com/adafruit-data-logger-shield/downloads,https://www.adafruit.com/products/1141
+131,Temperature,-70,380,c,Adafruit,1747,MLX90614,15.95,Melexis Contact-less Infrared Sensor - MLX90614 3V,https://cdn-shop.adafruit.com/970x728/1747-00.jpg,I2C,2.7,3.6,,,,,https://cdn-shop.adafruit.com/datasheets/MLX90614.pdf,https://www.adafruit.com/products/1747
+132,Temperature,-40,125,c,Adafruit,1296,TMP006,9.95,Contact-less Infrared Thermopile Sensor Breakout - TMP006,https://cdn-shop.adafruit.com/970x728/1296-00.jpg,I2C,2.2,5.5,,,,,https://learn.adafruit.com/infrared-thermopile-sensor-breakout/downloads,https://www.adafruit.com/products/1296
+133,Temperature,-40,125,c,Adafruit,2023,TMP007,12.5,Contact-less Infrared Thermopile Sensor Breakout - TMP007,https://cdn-shop.adafruit.com/970x728/2023-00.jpg,I2C,2.2,5.5,,,,,https://learn.adafruit.com/adafruit-tmp007-sensor-breakout/downloads,https://www.adafruit.com/products/2023
+134,Temperature,-40,125,c,Adafruit,165,TMP36,1.5,TMP36 - Analog Temperature sensor - TMP36,https://cdn-shop.adafruit.com/970x728/165-00.jpg,Analog,2.7,5.5,,,,,http://www.analog.com/en/products/analog-to-digital-converters/integrated-special-purpose-converters/digital-temperature-sensors/tmp36.html#product-overview,https://www.adafruit.com/products/165
+135,Temperature,-40,125,c,Adafruit,1782,MCP9808,4.95,MCP9808 High Accuracy I2C Temperature Sensor Breakout Board,https://cdn-shop.adafruit.com/970x728/1782-00.jpg,I2C,2.7,5.5,,,,,https://learn.adafruit.com/adafruit-mcp9808-precision-i2c-temperature-sensor-guide/downloads,https://www.adafruit.com/products/1782
+136,Temperature,-55,125,c,Adafruit,374,DS18B20,3.95,DS18B20 Digital temperature sensor + extras,https://cdn-shop.adafruit.com/970x728/374-00.jpg,Analog,3,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/DS18B20.pdf,https://www.adafruit.com/products/374
+137,Temperature,-40,125,c,Adafruit,1748,MLX90614,15.95,Melexis Contact-less Infrared Sensor - MLX90614 5V,https://cdn-shop.adafruit.com/970x728/1748-00.jpg,I2C,4.5,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/MLX90614.pdf,https://www.adafruit.com/products/1748
+138,Transistor,,,,sparkfun,13689,,0.5,Transistor - NPN (BC337),https://cdn.sparkfun.com//assets/parts/1/1/1/5/9/13689-01.jpg,GPIO,0,50,,,,,https://cdn.sparkfun.com/datasheets/Components/General/BC337.pdf,https://www.sparkfun.com/products/13689
+,,,,,,,,,,,Analog,,,,,,,,
+139,Voltage regulator,,,,sparkfun,10301,,0.25,Zener Diode - 5.1V 1W,https://cdn.sparkfun.com//assets/parts/4/7/0/4/10301-01.jpg,GPIO,4.845,5.355,,,,,http://www.sparkfun.com/datasheets/Components/General/85816.pdf,https://www.sparkfun.com/products/10301
+,,,,,,,,,,,Analog,,,,,,,,
+140,WIFI,,,,Adafruit,2999,,24.95,Adafruit ATWINC1500 WiFi Breakout,https://cdn-shop.adafruit.com/970x728/2999-00.jpg,UART,3,5,,,,,https://learn.adafruit.com/adafruit-atwinc1500-wifi-module-breakout/downloads,https://www.adafruit.com/products/2999
+,UART,,,,,,,,,,SPI,,,,,,,,
+141,WIFI,,,,Adafruit,2471,ESP8266,9.95,Adafruit HUZZAH ESP8266 Breakout,https://cdn-shop.adafruit.com/970x728/2471-10.jpg,UART,3.5,6,,,,,https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/downloads,https://www.adafruit.com/products/2471
+,UART,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,175 @@
+ [
+{
+    "datatype": [
+        "int"
+    ],
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "Percentage"
+        }
+    ],
+    "type": "LED",
+    "name": "dim",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "LED",
+    "name": "start",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "LED",
+    "name": "stop ",
+    "format": ""
+},{
+    "datatype": [
+        "int"
+    ],
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "periode"
+        }
+    ],
+    "type": "LED",
+    "name": "start blink",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "LED",
+    "name": "stop blink",
+    "format": ""
+},{
+    "datatype": [
+        "int"
+    ],
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "Percentage"
+        }
+    ],
+    "type": "Tri-ColourLED",
+    "name": "dim",
+    "format": ""
+},{
+    "datatype": [
+        "text"
+    ],
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "Colour"
+        }
+    ],
+    "type": "LED",
+    "name": "start",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "Tri-ColourLED",
+    "name": "stop ",
+    "format": ""
+},{
+    "datatype": [
+        "int",
+        "text"
+    ],
+    "property": [
+        {
+            "control": "textbox",
+            "lable": "periode"
+        },
+        {
+            "control": "textbox",
+            "lable": "Colour"
+        }
+    ],
+    "type": "Tri-ColourLED",
+    "name": "start blink",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "Tri-ColourLED",
+    "name": "stop blink",
+    "format": ""
+},{
+    "datatype": [
+        "text"
+    ],
+    "property": [
+        {
+            "control": "textbox 16x2",
+            "lable": "string"
+        }
+    ],
+    "type": "LCD",
+    "name": "show text",
+    "format": ""
+},{
+    "datatype": [
+        "text"
+    ],
+    "property": [
+        {
+            "control": "textbok",
+            "lable": "Colour"
+        }
+    ],
+    "type": "LCD",
+    "name": "open backlight",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "LCD",
+    "name": "close backlight",
+    "format": ""
+},{
+    "datatype": [
+        "text"
+    ],
+    "property": [
+        {
+            "control": "textbok",
+            "lable": "Colour"
+        }
+    ],
+    "type": "LCD",
+    "name": "change colour backlight",
+    "format": ""
+},{
+    "datatype": [
+        "int"
+    ],
+    "property": [
+        {
+            "lable": "file name"
+        },
+        {
+            "control": "textbox",
+            "lable": "volume"
+        }
+    ],
+    "type": "Amplifiers",
+    "name": "play",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "Amplifiers",
+    "name": "volume up",
+    "format": ""
+},{
+    "datatype": [],
+    "property": [],
+    "type": "Amplifiers",
+    "name": "volume down",
+    "format": ""
+}, ]
