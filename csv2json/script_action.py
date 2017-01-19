@@ -1,7 +1,7 @@
 import json
-columnProperties = [2,4]   #if you want to add new property field please add index of column to this array(start from zero)
+columnProperties = [5,6,7,8]   #if you want to add new property field please add index of column to this array(start from zero)
 columnArray = [3]
-columnNotArray = [0,1,5]
+columnNotArray = [0,1,2,4]
 def newData(header):
     newDataVal = {}
     for ca in columnArray:
@@ -47,13 +47,18 @@ while text != '':
     line = line[0].split(",")
     #meet category name
     if (line[0] != '') and (line[1] == ''):
+        if data!= newData(header):
+            group["children"].append(data)
         if (group["children"] != []) & (group["name"] != ""):
             if isGroup != 0:
                 output.write(",")
             isGroup = 1
+            #print group["children"]
             json.dump(group, output, indent=4, separators=(',', ': '))
         group = newGroup(line[0])
+
         data = newData(header)
+
 
         #print "--------------", line[0], "sdfsfdsf", group
     #add json array
@@ -87,11 +92,14 @@ while text != '':
 
     elif line[0]!='' :
         count=0
-      
+        
        #normal line  
         if data!= newData(header):
-            json.dump(data, output, indent=4, separators=(',', ': '))
-            output.write(",")
+            group["children"].append(data)
+            #print group["children"]
+            #print "\n\n\n"
+            #json.dump(data, output, indent=4, separators=(',', ': '))
+            #output.write(",")
         #print data["Dependency"]
         
         data = newData(header)

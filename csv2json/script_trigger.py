@@ -1,14 +1,14 @@
 import json
-columnProperties = [3,4, 6]   #if you want to add new property field please add index of column to this array(start from zero)
+columnProperties = [5,6,7,8]   #if you want to add new property field please add index of column to this array(start from zero)
 columnArray = [2]
-columnNotArray = [0,1,5,7]
+columnNotArray = [0,1,3,4,9]
 def newData(header):
     newDataVal = {}
     for ca in columnArray:
         newDataVal[header[ca]]=[]
     for cna in columnNotArray:
         newDataVal[header[cna]]=""
-    newDataVal["property"] = []
+    newDataVal["Property"] = []
     return newDataVal
 
 def newGroup(name):
@@ -47,13 +47,18 @@ while text != '':
     line = line[0].split(",")
     #meet category name
     if (line[0] != '') and (line[1] == ''):
+        if data!= newData(header):
+            group["children"].append(data)
         if (group["children"] != []) & (group["name"] != ""):
             if isGroup != 0:
                 output.write(",")
             isGroup = 1
+            #print group["children"]
             json.dump(group, output, indent=4, separators=(',', ': '))
         group = newGroup(line[0])
+
         data = newData(header)
+
 
         #print "--------------", line[0], "sdfsfdsf", group
     #add json array
@@ -78,20 +83,23 @@ while text != '':
                     else:
                         data[header[count]] = col
                     isArray=0
-            count = count +1  
+            count = count +1    
     
         #print line  
         properties = addProperties(line, header)
         if properties != {}:
-            data["property"].append(properties) 
+            data["Property"].append(properties) 
 
     elif line[0]!='' :
         count=0
-      
+        
        #normal line  
         if data!= newData(header):
-            json.dump(data, output, indent=4, separators=(',', ': '))
-            output.write(",")
+            group["children"].append(data)
+            #print group["children"]
+            #print "\n\n\n"
+            #json.dump(data, output, indent=4, separators=(',', ': '))
+            #output.write(",")
         #print data["Dependency"]
         
         data = newData(header)
@@ -113,11 +121,11 @@ while text != '':
                     else:
                         data[header[count]] = col
                     
-            count = count +1  
+            count = count +1   
         #print line
         properties = addProperties(line,header)
         if(properties!={}) :
-            data["property"].append(properties)
+            data["Property"].append(properties)
               
   
 if (group["children"] != []) & (group["name"] != ""):

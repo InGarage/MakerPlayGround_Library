@@ -1,175 +1,1118 @@
  [
 {
-    "datatype": [
-        "int"
-    ],
-    "property": [
+    "children": [
         {
-            "control": "textbox",
-            "lable": "Percentage"
-        }
-    ],
-    "type": "LED",
-    "name": "dim",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "LED",
-    "name": "start",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "LED",
-    "name": "stop ",
-    "format": ""
-},{
-    "datatype": [
-        "int"
-    ],
-    "property": [
-        {
-            "control": "textbox",
-            "lable": "periode"
-        }
-    ],
-    "type": "LED",
-    "name": "start blink",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "LED",
-    "name": "stop blink",
-    "format": ""
-},{
-    "datatype": [
-        "int"
-    ],
-    "property": [
-        {
-            "control": "textbox",
-            "lable": "Percentage"
-        }
-    ],
-    "type": "Tri-ColourLED",
-    "name": "dim",
-    "format": ""
-},{
-    "datatype": [
-        "text"
-    ],
-    "property": [
-        {
-            "control": "textbox",
-            "lable": "Colour"
-        }
-    ],
-    "type": "LED",
-    "name": "start",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "Tri-ColourLED",
-    "name": "stop ",
-    "format": ""
-},{
-    "datatype": [
-        "int",
-        "text"
-    ],
-    "property": [
-        {
-            "control": "textbox",
-            "lable": "periode"
+            "description": [
+                "Dim LED"
+            ],
+            "image": "/assets/img/Motor_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Percentage",
+                    "name": "Brightness"
+                }
+            ],
+            "type": "LED",
+            "id": "1",
+            "name": "Dim"
         },
         {
-            "control": "textbox",
-            "lable": "Colour"
-        }
-    ],
-    "type": "Tri-ColourLED",
-    "name": "start blink",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "Tri-ColourLED",
-    "name": "stop blink",
-    "format": ""
-},{
-    "datatype": [
-        "text"
-    ],
-    "property": [
-        {
-            "control": "textbox 16x2",
-            "lable": "string"
-        }
-    ],
-    "type": "LCD",
-    "name": "show text",
-    "format": ""
-},{
-    "datatype": [
-        "text"
-    ],
-    "property": [
-        {
-            "control": "textbok",
-            "lable": "Colour"
-        }
-    ],
-    "type": "LCD",
-    "name": "open backlight",
-    "format": ""
-},{
-    "datatype": [],
-    "property": [],
-    "type": "LCD",
-    "name": "close backlight",
-    "format": ""
-},{
-    "datatype": [
-        "text"
-    ],
-    "property": [
-        {
-            "control": "textbok",
-            "lable": "Colour"
-        }
-    ],
-    "type": "LCD",
-    "name": "change colour backlight",
-    "format": ""
-},{
-    "datatype": [
-        "int"
-    ],
-    "property": [
-        {
-            "lable": "file name"
+            "description": [
+                "Turn on and turn off led depends on periode"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "Periode",
+                    "unit": "second"
+                }
+            ],
+            "type": "LED",
+            "id": "2",
+            "name": "Blink"
         },
         {
-            "control": "textbox",
-            "lable": "volume"
+            "description": [
+                "Turn on LED"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Percentage",
+                    "name": "brightness"
+                }
+            ],
+            "type": "LED",
+            "id": "3",
+            "name": "Turn on"
+        },
+        {
+            "description": [
+                "Turn off led"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "LED",
+            "id": "4",
+            "name": "Turn off"
         }
     ],
-    "type": "Amplifiers",
-    "name": "play",
-    "format": ""
+    "name": "LED"
 },{
-    "datatype": [],
-    "property": [],
-    "type": "Amplifiers",
-    "name": "volume up",
-    "format": ""
+    "children": [
+        {
+            "description": [
+                "Dim LED"
+            ],
+            "image": "/assets/img/Motor_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Percentage",
+                    "name": "brightness"
+                }
+            ],
+            "type": "RGBLED",
+            "id": "5",
+            "name": "Dim"
+        },
+        {
+            "description": [
+                "Turn on and turn off led depends on periode"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "Periode",
+                    "unit": "second"
+                }
+            ],
+            "type": "RGBLED",
+            "id": "6",
+            "name": "Blink"
+        },
+        {
+            "description": [
+                "Turn on LED"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Percentage",
+                    "name": "brightness"
+                },
+                {
+                    "control": "Colour",
+                    "name": "Colour"
+                }
+            ],
+            "type": "RGBLED",
+            "id": "7",
+            "name": "Turn on"
+        },
+        {
+            "description": [
+                "Turn off led"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "RGBLED",
+            "id": "8",
+            "name": "Turn off"
+        },
+        {
+            "description": [
+                "Change led colour"
+            ],
+            "image": "/assets/img/Motor_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Colour",
+                    "name": "Colour"
+                }
+            ],
+            "type": "RGBLED",
+            "id": "9",
+            "name": "Change Colour"
+        }
+    ],
+    "name": "RGBLED"
 },{
-    "datatype": [],
-    "property": [],
-    "type": "Amplifiers",
-    "name": "volume down",
-    "format": ""
-}, ]
+    "children": [
+        {
+            "description": [
+                "Turn the backlight on"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "10",
+            "name": "Backlight On"
+        },
+        {
+            "description": [
+                "Turn the backlight off"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "11",
+            "name": "Backlight Off"
+        },
+        {
+            "description": [
+                "Change backlight colour"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Colour",
+                    "name": "Colour"
+                }
+            ],
+            "type": "LCDbacklightcolour",
+            "id": "12",
+            "name": "backlight colour"
+        },
+        {
+            "description": [
+                "Show text"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "LCD_TEXT_16X2",
+                    "name": "Text"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "13",
+            "name": "Show text"
+        },
+        {
+            "description": [
+                "Change text colour"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "Colour",
+                    "name": "Colour"
+                }
+            ],
+            "type": "LCDtextcolour",
+            "id": "14",
+            "name": "text colour"
+        },
+        {
+            "description": [
+                "Clear led screen"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "15",
+            "name": "Clear screen"
+        }
+    ],
+    "name": "LCD16X2"
+},{
+    "children": [
+        {
+            "description": [
+                "Play audio in sdcard"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "Filename"
+                },
+                {
+                    "control": "SpinBox",
+                    "default": "20",
+                    "name": "Volume",
+                    "unit": "db"
+                }
+            ],
+            "type": "SDcard",
+            "id": "16",
+            "name": "Play audio"
+        },
+        {
+            "description": [
+                "Increase Volume 1 step"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Amplifiers",
+            "id": "17",
+            "name": "Increase Volume"
+        },
+        {
+            "description": [
+                "Decrease Volume 1 step"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Amplifiers",
+            "id": "18",
+            "name": "Decrease Volume"
+        },
+        {
+            "description": [
+                "Set Volume"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "SpinBox",
+                    "default": "20",
+                    "name": "Volume",
+                    "unit": "db"
+                }
+            ],
+            "type": "Amplifiers",
+            "id": "19",
+            "name": "Set Volume"
+        },
+        {
+            "description": [
+                "Set Volume"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Amplifiers",
+            "id": "20",
+            "name": "Stop"
+        }
+    ],
+    "name": "Amplifiers"
+},{
+    "children": [
+        {
+            "description": [
+                "Play audio in sdcard"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "SpinBox",
+                    "default": "20",
+                    "name": "Volume",
+                    "unit": "db"
+                }
+            ],
+            "type": "Buzzer",
+            "id": "21",
+            "name": "Play Buzzer"
+        },
+        {
+            "description": [
+                "Increase Volume 1 step"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Buzzer",
+            "id": "22",
+            "name": "Increase Volume"
+        },
+        {
+            "description": [
+                "Decrease Volume 1 step"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Buzzer",
+            "id": "23",
+            "name": "Decrease Volume"
+        },
+        {
+            "description": [
+                "Set Volume"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "SpinBox",
+                    "default": "20",
+                    "name": "Volume",
+                    "unit": "db"
+                }
+            ],
+            "type": "Buzzer",
+            "id": "24",
+            "name": "Set Volume"
+        }
+    ],
+    "name": "Buzzer"
+},{
+    "children": [
+        {
+            "description": [
+                "Rotate motor depends on direction and speed"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "direction"
+                },
+                {
+                    "control": "TextBox",
+                    "default": "0.01",
+                    "name": "speed",
+                    "unit": "m/s"
+                }
+            ],
+            "type": "Motor",
+            "id": "25",
+            "name": "Rotate"
+        },
+        {
+            "description": [
+                "Rotate motor to opposite direction"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Motor",
+            "id": "26",
+            "name": "Reverse"
+        },
+        {
+            "description": [
+                "Change motor speed"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "default": "0.01",
+                    "name": "Speed",
+                    "unit": "m/s"
+                }
+            ],
+            "type": "Motor",
+            "id": "27",
+            "name": "Speed"
+        },
+        {
+            "description": [
+                "Turn off the motor"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Motor",
+            "id": "28",
+            "name": "Stop"
+        },
+        {
+            "description": [
+                "Rotate motor by degree"
+            ],
+            "image": "/assets/img/LED_off.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "default": "30",
+                    "name": "Degree",
+                    "unit": "degree"
+                }
+            ],
+            "type": "Motor",
+            "id": "29",
+            "name": "Rotate by degree"
+        }
+    ],
+    "name": "Motor"
+},{
+    "children": [
+        {
+            "description": [
+                "Set initial time"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "time"
+                }
+            ],
+            "type": "Clock",
+            "id": "30",
+            "name": "Setup"
+        }
+    ],
+    "name": "Clock"
+},{
+    "children": [
+        {
+            "description": [
+                "show number on 7segment only 1 digit"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                }
+            ],
+            "type": "Sevensegment",
+            "id": "31",
+            "name": "Show number"
+        }
+    ],
+    "name": "Sevensegment"
+},{
+    "children": [
+        {
+            "description": [
+                "Display data on dot matrix"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "DOTMATRIX_CONTROL",
+                    "name": "Data"
+                }
+            ],
+            "type": "Dotmatrix",
+            "id": "32",
+            "name": "Display"
+        }
+    ],
+    "name": "Dotmatrix"
+},{
+    "children": [
+        {
+            "description": [
+                "Display temperature"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "25",
+                    "name": "name",
+                    "unit": "c"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "33",
+            "name": "Temperature"
+        },
+        {
+            "description": [
+                "Display Liquid Flow"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "0.000301",
+                    "name": "name",
+                    "unit": "m^3/s"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "34",
+            "name": "Liquid Flow"
+        },
+        {
+            "description": [
+                "Display Pressure"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "500",
+                    "name": "name",
+                    "unit": "pa"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "35",
+            "name": "Pressure"
+        },
+        {
+            "description": [
+                "Display Liquid Level"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "500",
+                    "name": "name",
+                    "unit": "pa"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "36",
+            "name": "Liquid Pressure"
+        },
+        {
+            "description": [
+                "Display Accelerometer"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "37",
+            "name": "Direction"
+        },
+        {
+            "description": [
+                "Display Orientation"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "38",
+            "name": "Orientation"
+        },
+        {
+            "description": [
+                "Display Illumination"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "1000",
+                    "name": "name",
+                    "unit": "lux"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "39",
+            "name": "Illumination"
+        },
+        {
+            "description": [
+                "Display distance"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "name",
+                    "unit": "m"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "40",
+            "name": "Distance"
+        },
+        {
+            "description": [
+                "Display humanity"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "60",
+                    "name": "name",
+                    "unit": "%RH"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "41",
+            "name": "Humanity"
+        },
+        {
+            "description": [
+                "Display RGB colour code"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "42",
+            "name": "Colour"
+        },
+        {
+            "description": [
+                "Display gesture direction"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "43",
+            "name": "Gesture"
+        },
+        {
+            "description": [
+                "Display data in serial communication"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "44",
+            "name": "UART"
+        },
+        {
+            "description": [
+                "Display button state"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "45",
+            "name": "Button state"
+        },
+        {
+            "description": [
+                "Display Liquid Level"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "0.001",
+                    "name": "name",
+                    "unit": "m"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "46",
+            "name": "Liquid Level"
+        },
+        {
+            "description": [
+                "Display General Analog voltage"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "3",
+                    "name": "name",
+                    "unit": "v"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "47",
+            "name": "General Analog voltage"
+        },
+        {
+            "description": [
+                "General Digital logic"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "name": "name"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "48",
+            "name": "General Digital logic"
+        },
+        {
+            "description": [
+                "Display Accelerometer x axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "4",
+                    "name": "name",
+                    "unit": "g"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "49",
+            "name": "Accelerometer_X"
+        },
+        {
+            "description": [
+                "Display Accelerometer y axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "4",
+                    "name": "name",
+                    "unit": "g"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "50",
+            "name": "Accelerometer_Y"
+        },
+        {
+            "description": [
+                "Display Accelerometer z axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "4",
+                    "name": "name",
+                    "unit": "g"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "51",
+            "name": "Accelerometer_Z"
+        },
+        {
+            "description": [
+                "Display Gyroscope x axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "name",
+                    "unit": "degree/s"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "52",
+            "name": "Gyroscope_X"
+        },
+        {
+            "description": [
+                "Display Gyroscope y axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "name",
+                    "unit": "degree/s"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "53",
+            "name": "Gyroscope_Y"
+        },
+        {
+            "description": [
+                "Display Gyroscope z axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "1",
+                    "name": "name",
+                    "unit": "degree/s"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "54",
+            "name": "Gyroscope_Z"
+        },
+        {
+            "description": [
+                "Display Magnetic x axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "0.00061",
+                    "name": "name",
+                    "unit": "t"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "55",
+            "name": "Magnetic_X"
+        },
+        {
+            "description": [
+                "Display Magnetic y axis"
+            ],
+            "image": "/assets/img/LED_on.png",
+            "Property": [
+                {
+                    "control": "TextBox",
+                    "default": "0.00061",
+                    "name": "name",
+                    "unit": "t"
+                },
+                {
+                    "control": "TextBox",
+                    "name": "LCD device name"
+                }
+            ],
+            "type": "LCD16X2",
+            "id": "56",
+            "name": "Magnetic_Y"
+        }
+    ],
+    "name": "Display"
+} ]

@@ -1,28 +1,116 @@
-nxxxxxxame,,lable,datxxatype,contzxczxczxcrol,
-name,type,lable,datatype,control,format
-LED,,,,,
-dim,LED,Percentage,int,textbox,
-start,LED,,,,
-stop ,LED,,,,
-start blink,LED,periode,int,textbox,
-stop blink,LED,,,,
-dim,Tri-ColourLED,Percentage,int,textbox,
-start,Tri-ColourLED,Colour,text,textbox,
-,LED,,,,
-stop ,Tri-ColourLED,,,,
-start blink,Tri-ColourLED,periode,int,textbox,
-,,Colour,text,textbox,
-stop blink,Tri-ColourLED,,,,
-change Colour,Tri-ColourLED,Colour,text,textbox,
-LCD,,,,,
-show text,LCD,string,text,textbox 16x2,
-open backlight,LCD,Colour,text,textbok,
-close backlight,LCD,,,,
-change colour backlight,LCD,Colour,text,textbok,
-change text colour,LCD,Colour,text,textbok,
-Sound,,,,,
-play,Amplifiers,file name,,,
-,Amplifiers,volume,int,textbox,
-volume up,Amplifiers,,,,
-volume down,Amplifiers,,,,
-change volume,Amplifiers,Percentage,int,slider,
+if you modify column in this file please config line2-4 in script.py,,,,,property,property,property,property
+id,name,type,description,image,name,control,default,unit
+LED,,,,,,,,
+1,Dim,LED,Dim LED,/assets/img/Motor_on.png,name,TextBox,,
+,,,,,Brightness,Percentage,,
+2,Blink,LED,Turn on and turn off led depends on periode,/assets/img/Motor_off.png,name,TextBox,,
+,,,,,Periode,TextBox,1,second
+3,Turn on,LED,Turn on LED,/assets/img/Motor_off.png,name,TextBox,,
+,,,,,brightness,Percentage,,
+4,Turn off,LED,Turn off led,/assets/img/Motor_off.png,name,TextBox,,
+RGBLED,,,,,,,,
+5,Dim,RGBLED,Dim LED,/assets/img/Motor_on.png,name,TextBox,,
+,,,,,brightness,Percentage,,
+6,Blink,RGBLED,Turn on and turn off led depends on periode,/assets/img/Motor_off.png,name,TextBox,,
+,,,,,Periode,TextBox,1,second
+7,Turn on,RGBLED,Turn on LED,/assets/img/Motor_off.png,name,TextBox,,
+,,,,,brightness,Percentage,,
+,,,,,Colour,Colour,,
+8,Turn off,RGBLED,Turn off led,/assets/img/Motor_off.png,name,TextBox,,
+9,Change Colour,RGBLED,Change led colour,/assets/img/Motor_off.png,name,TextBox,,
+,,,,,Colour,Colour,,
+LCD16X2,,,,,,,,
+10,Backlight On,LCD16X2,Turn the backlight on,/assets/img/LED_on.png,name,TextBox,,
+11,Backlight Off,LCD16X2,Turn the backlight off,/assets/img/LED_off.png,name,TextBox,,
+12,backlight colour,LCD16X2,Change backlight colour,/assets/img/LED_off.png,name,TextBox,,
+,,LCDbacklightcolour,,,Colour,Colour,,
+13,Show text,LCD16X2,Show text,/assets/img/LED_off.png,name,TextBox,,
+,,,,,Text,LCD_TEXT_16X2,,
+14,text colour,LCD16X2,Change text colour,/assets/img/LED_off.png,name,TextBox,,
+,,LCDtextcolour,,,Colour,Colour,,
+15,Clear screen,LCD16X2,Clear led screen,/assets/img/LED_off.png,name,TextBox,,
+Amplifiers,,,,,,,,
+16,Play audio,Amplifiers,Play audio in sdcard,/assets/img/LED_on.png,name,TextBox,,
+,,SDcard,,,Filename,TextBox,,
+,,,,,Volume,SpinBox,20,db
+17,Increase Volume,Amplifiers,Increase Volume 1 step,/assets/img/LED_off.png,name,TextBox,,
+18,Decrease Volume,Amplifiers,Decrease Volume 1 step,/assets/img/LED_off.png,name,TextBox,,
+19,Set Volume,Amplifiers,Set Volume,/assets/img/LED_on.png,name,TextBox,,
+,,,,,Volume,SpinBox,20,db
+20,Stop,Amplifiers,Set Volume,/assets/img/LED_on.png,name,TextBox,,
+Buzzer,,,,,,,,
+21,Play Buzzer,Buzzer,Play audio in sdcard,/assets/img/LED_on.png,name,TextBox,,
+,,,,,Volume,SpinBox,20,db
+22,Increase Volume,Buzzer,Increase Volume 1 step,/assets/img/LED_off.png,name,TextBox,,
+23,Decrease Volume,Buzzer,Decrease Volume 1 step,/assets/img/LED_off.png,name,TextBox,,
+24,Set Volume,Buzzer,Set Volume,/assets/img/LED_on.png,name,TextBox,,
+,,,,,Volume,SpinBox,20,db
+Motor,,,,,,,,
+25,Rotate,Motor,Rotate motor depends on direction and speed,/assets/img/LED_on.png,name,TextBox,,
+,,,,,direction,TextBox,,
+,,,,,speed,TextBox,0.01,m/s
+26,Reverse,Motor,Rotate motor to opposite direction,/assets/img/LED_off.png,name,TextBox,,
+27,Speed,Motor,Change motor speed,/assets/img/LED_off.png,name,TextBox,,
+,,,,,Speed,TextBox,0.01,m/s
+28,Stop,Motor,Turn off the motor,/assets/img/LED_off.png,name,TextBox,,
+29,Rotate by degree,Motor,Rotate motor by degree,/assets/img/LED_off.png,name,TextBox,,
+,,,,,Degree,TextBox,30,degree
+Clock,,,,,,,,
+30,Setup,Clock,Set initial time,/assets/img/LED_on.png,name,TextBox,,
+,,,,,time,TextBox,,
+Sevensegment,,,,,,,,
+31,Show number,Sevensegment,show number on 7segment only 1 digit,/assets/img/LED_on.png,name,TextBox,,
+Dotmatrix,,,,,,,,
+32,Display,Dotmatrix,Display data on dot matrix,/assets/img/LED_on.png,name,TextBox,,
+,,,,,Data,DOTMATRIX_CONTROL,,
+Display,,,,,,,,
+33,Temperature,Temperature,Display temperature,/assets/img/LED_on.png,name,TextBox,25,c
+,,LCD16X2,,,LCD device name,TextBox,,
+34,Liquid Flow,LiquidFlow,Display Liquid Flow,/assets/img/LED_on.png,name,TextBox,0.000301,m^3/s
+,,LCD16X2,,,LCD device name,TextBox,,
+35,Pressure,Barometer,Display Pressure,/assets/img/LED_on.png,name,TextBox,500,pa
+,,LCD16X2,,,LCD device name,TextBox,,
+36,Liquid Pressure,LiquidPressure,Display Liquid Level,/assets/img/LED_on.png,name,TextBox,500,pa
+,,LCD16X2,,,LCD device name,TextBox,,
+37,Direction,Magnetometer,Display Accelerometer,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+38,Orientation,Orientation,Display Orientation,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+39,Illumination,Illuminance,Display Illumination,/assets/img/LED_on.png,name,TextBox,1000,lux
+,,LCD16X2,,,LCD device name,TextBox,,
+40,Distance,Distance,Display distance,/assets/img/LED_on.png,name,TextBox,1,m
+,,LCD16X2,,,LCD device name,TextBox,,
+41,Humanity,Humanity,Display humanity,/assets/img/LED_on.png,name,TextBox,60,%RH
+,,LCD16X2,,,LCD device name,TextBox,,
+42,Colour,Colour,Display RGB colour code,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+43,Gesture,Gesture,Display gesture direction,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+44,UART,UART,Display data in serial communication,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+45,Button state,Button,Display button state,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+46,Liquid Level,LiquidLevel,Display Liquid Level,/assets/img/LED_on.png,name,TextBox,0.001,m
+,,LCD16X2,,,LCD device name,TextBox,,
+47,General Analog voltage,Generic,Display General Analog voltage,/assets/img/LED_on.png,name,TextBox,3,v
+,,LCD16X2,,,LCD device name,TextBox,,
+48,General Digital logic,Generic,General Digital logic,/assets/img/LED_on.png,name,TextBox,,
+,,LCD16X2,,,LCD device name,TextBox,,
+49,Accelerometer_X,AccelX,Display Accelerometer x axis,/assets/img/LED_on.png,name,TextBox,4,g
+,,LCD16X2,,,LCD device name,TextBox,,
+50,Accelerometer_Y,AccelY,Display Accelerometer y axis,/assets/img/LED_on.png,name,TextBox,4,g
+,,LCD16X2,,,LCD device name,TextBox,,
+51,Accelerometer_Z,AccelZ,Display Accelerometer z axis,/assets/img/LED_on.png,name,TextBox,4,g
+,,LCD16X2,,,LCD device name,TextBox,,
+52,Gyroscope_X,GyroX,Display Gyroscope x axis,/assets/img/LED_on.png,name,TextBox,1,degree/s
+,,LCD16X2,,,LCD device name,TextBox,,
+53,Gyroscope_Y,GyroY,Display Gyroscope y axis,/assets/img/LED_on.png,name,TextBox,1,degree/s
+,,LCD16X2,,,LCD device name,TextBox,,
+54,Gyroscope_Z,GyroZ,Display Gyroscope z axis,/assets/img/LED_on.png,name,TextBox,1,degree/s
+,,LCD16X2,,,LCD device name,TextBox,,
+55,Magnetic_X,MagneticX,Display Magnetic x axis,/assets/img/LED_on.png,name,TextBox,0.00061,t
+,,LCD16X2,,,LCD device name,TextBox,,
+56,Magnetic_Y,MagneticY,Display Magnetic y axis,/assets/img/LED_on.png,name,TextBox,0.00061,t
+,,LCD16X2,,,LCD device name,TextBox,,
+57,Magnetic_Z,MagneticZ,Display Magnetic z axis,/assets/img/LED_on.png,name,TextBox,0.00061,t
+,,LCD16X2,,,LCD device name,TextBox,,

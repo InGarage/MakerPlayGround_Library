@@ -1937,7 +1937,7 @@
     "Property": [
         {
             "Max": "800000",
-            "Type": "Liquid Pressure",
+            "Type": "LiquidPressure",
             "Unit": "pa",
             "Min": "20000"
         }
@@ -1961,7 +1961,7 @@
     "Property": [
         {
             "Max": "1000000",
-            "Type": "Liquid Pressure",
+            "Type": "LiquidPressure",
             "Unit": "pa",
             "Min": "0"
         }
@@ -1985,7 +1985,7 @@
     "Property": [
         {
             "Max": "0.000501",
-            "Type": "Liquid Flow",
+            "Type": "LiquidFlow",
             "Unit": "m^3/s",
             "Min": "0.0000167"
         }
@@ -2009,7 +2009,7 @@
     "Property": [
         {
             "Max": "0.000501",
-            "Type": "Liquid Flow",
+            "Type": "LiquidFlow",
             "Unit": "m^3/s",
             "Min": "0.0000167"
         }

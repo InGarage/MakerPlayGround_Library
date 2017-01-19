@@ -1,21 +1,71 @@
-if you modify column in this file please config line2 in script.py,,,property,property,,property,
-name,type,condition,lable,param,datatype,control,format
-Accelarometer,,,,,,,
-motion-active,Accelarometer,> < = !=,val,m/s^2,int,textbox,
-slope x,Accelarometer,> < = !=,val,m/s^2 degree,int,textbox,
-slope y,Accelarometer,> < = !=,val,m/s^2 degree,int,textbox,
-slope z,Accelarometer,> < = !=,val,m/s^2 degree,int,textbox,
-tap,Accelarometer,T F,,,,,
-double tap,Accelarometer,T F,,,,,
-free fall,Accelarometer,T F,,,,,
-Barometer,,,,,,,
-Pressure,Barometer,> < = !=,val,,int,textbox,
-Temperature,Barometer,> < = !=,val,,int,textbox,
-Altitude,Barometer,> < = !=,val,,int,textbox,
-button,,,,,,,
-press,button,T F,,,,,
-release,button,T F,,,,,
-press x times,button,T F,val,,int,textbox,
-hold,button,> < = !=,val,,int,textbox,
-Clock,,,,,,,
-real time,Clock,T F,time,,int,textbox,
+,,if you modify column in this file please config line2-4 in script.py,,,property,property,property,property,
+id,name,type,description,image,name,control,default,unit,placeholder
+Accelerometer,,,,,,,,,
+1,Accelerate X,AccelX,Accelerate on x axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,1,m/s^2,AccelX {condition} {value} {unit}
+2,Accelerate Y,AccelY,Accelerate on y axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,1,m/s^2,AccelY {condition} {value} {unit}
+3,Accelerate Z,AccelZ,Accelerate on z axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,1,m/s^2,AccelZ {condition} {value} {unit}
+4,Slope X,AccelX,Measure slope on x axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,180,degree,SlopeX {condition} {value} {unit}
+5,Slope Y,AccelY,Measure slope on y axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,180,degree,SlopeY {condition} {value} {unit}
+6,Slope Z,AccelZ,Measure slope z axis,/assets/img/Motor_on.png,Accelerate,NumberExpression,180,degree,SlopeZ {condition} {value} {unit}
+7,Tap,Tap,Tap detection,/assets/img/Motor_on.png,,,,,Tap
+8,Double Tap,DoubleTap,Double Tap detection,/assets/img/Motor_on.png,,,,,Double Tap
+9,Free fall,Freefall,Free fall detection,/assets/img/Motor_on.png,,,,,Free fall
+Barometer,,,,,,,,,
+10,Pressure,Pressure,Measure Pressure,/assets/img/LED_on.png,Pressure,NumberExpression,1000,hPa,Pressure {condition} {value} {unit}
+,,,,,,,,bar,
+11,Temperature,Barometer,Measure Temperature by using barometer,/assets/img/LED_on.png,Temperature,NumberExpression,25,C,Temp {condition} {value} {unit}
+,,Temperature,,,,,,K,
+,,,,,,,,F,
+12,Altitude,Barometer,Measure Altitude by using barometer,/assets/img/LED_on.png,Altitude,NumberExpression,10,cm,Altitude {condition} {value} {unit}
+,,AltitudeP,,,,,,m,
+,,AltitudeD,,,,,,,
+Button,,,,,,,,,
+13,Press,Button,Press the button,/assets/img/LED_on.png,,,,,Press
+14,Release,Button,Release the button,/assets/img/LED_on.png,,,,,Release
+15,Press x times,Button,Press the button x times,/assets/img/LED_on.png,Times,NumberExpression,3,times,Press {value} {unit}
+16,Hold,Button,Hold the button,/assets/img/LED_on.png,Times,NumberExpression,3,seconds,Hold {value} {unit}
+Clock,,,,,,,,,
+17,Check time,Clock,Check time in real world,/assets/img/LED_on.png,Time,NumberExpression,13:59:44,,When {value}
+General,,,,,,,,,
+18,Delay,Generic,Dealay time,/assets/img/LED_on.png,Time,NumberExpression,1000,milliseconds,Delay {value} {unit}
+,,,,,,,,seconds,
+,,,,,,,,minutes,
+,,,,,,,,hours,
+19,General Analog,Generic,Compare voltage from the whole analog input,/assets/img/LED_on.png,Voltage,NumberExpression,3000,millivolt,Voltage {condition} {value} {unit}
+,,,,,,,,volt,
+20,General Digital,Generic,Compare voltage from the whole analog input,/assets/img/LED_on.png,State,HighLow,HIGH,,State {condition} {value}
+Gyroscope,,,,,,,,,
+21,Rotate X,GyroX,Detect rotation on x axis in dps units,/assets/img/LED_on.png,Rotation,NumberExpression,100,dps,RotateX {condition} {value} {unit}
+22,Rotate Y,GyroY,Detect rotation on y axis in dps units,/assets/img/LED_on.png,Rotation,NumberExpression,100,dps,RotateY {condition} {value} {unit}
+23,Rotate Z,GyroZ,Detect rotation on z axis in dps units,/assets/img/LED_on.png,Rotation,NumberExpression,100,dps,RotateZ {condition} {value} {unit}
+Humidity,,,,,,,,,
+24,Humidity,Humidity,Measure Humidity,/assets/img/LED_on.png,Time,Percentage,30,%,Humidity {condition} {value} {unit}
+25,Temperature,Humidity,Measure Temperature,/assets/img/LED_on.png,Temperature,NumberExpression,25,C,Temp  {condition} {value} {unit}
+,,Temperature,,,,,,K,
+,,,,,,,,F,
+Light,,,,,,,,,
+26,Illuminance,Illuminance,Measure Illuminance,/assets/img/LED_on.png,Time,NumberExpression,15,Lux,Light {condition} {value} {unit}
+,,,,,,,,%,
+27,Colour,Colour,Detect colour,/assets/img/LED_on.png,Colour,Colour,Red,,Colour {condition} {value}
+LiquidLevel,,,,,,,,,
+28,Liquid Level,LiquidLevel,Measure Liquid level,/assets/img/LED_on.png,Level,NumberExpression,15,cm,LiquidLevel {condition} {value} {unit}
+29,Liquid Pressure,LiquidPressure,Measure Liquid Pressure,/assets/img/LED_on.png,Pressure,NumberExpression,500,pa,LiquidPressure {condition} {value} {unit}
+30,Liquid Flow,LiquidFlow,Measure Liquid Flow,/assets/img/LED_on.png,Volume per sec,NumberExpression,0.000301,m^3/s,Liquid Flow {condition} {value} {unit}
+Magnetometer,,,,,,,,,
+31,Compass,Compass,Detect 8 directions,/assets/img/LED_on.png,Direction,Direction,NE,,Compass {condition} {value}
+32,Magnetic X,MagneticX,Detect Magnetic on x axis,/assets/img/LED_on.png,Magnetic,NumberExpression,0.0003,t,MagneticX {condition} {value} {unit}
+33,Magnetic Y,MagneticY,Detect Magnetic on y axis,/assets/img/LED_on.png,Magnetic,NumberExpression,0.0003,t,MagneticY {condition} {value} {unit}
+34,Magnetic Z,MagneticZ,Detect Magnetic on z axis,/assets/img/LED_on.png,Magnetic,NumberExpression,0.0003,t,MagneticZ {condition} {value} {unit}
+Gesture,,,,,,,,,
+35,Gesture,Gesture,Detect Gesture,/assets/img/LED_on.png,Gesture,Gesture,,,Gesture {condition} {value}
+Orientation,,,,,,,,,
+36,Orientation,Orientation,Orientation 3 Dimensions,/assets/img/LED_on.png,Orientation,Orientation,,,Orientation {condition} {value}
+PIR,,,,,,,,,
+37,PIR,PIR,Detect motion and heat,/assets/img/LED_on.png,Sensitive(0-1023),NumberExpression,700,,PIR {condition} {value}
+Distance,,,,,,,,,
+38,Distance,Distance,Measure distance,/assets/img/LED_on.png,Distance,NumberExpression,70,cm,Distance {condition} {value} {unit}
+Sound,,,,,,,,,
+39,Volume,Sound,Measure volume,/assets/img/LED_on.png,Volume,NumberExpression,30,db,Volume {condition} {value} {unit}
+Communication,,,,,,,,,
+40,Text Receive,UART,Check Text Receive,/assets/img/LED_on.png,Text,Textbox,Hello Arduino,,Text Receive is {value}
+41,RFID,RFID,Check RFID,/assets/img/LED_on.png,ID(HEX),Textbox,,,RFID is {value}
