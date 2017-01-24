@@ -42,7 +42,9 @@ if __name__ == '__main__':
                     action['params'][row['param']] = param
                 elif len(row['param_arg']) != 0:
                     param['args'].append(row['param_arg'])
-                else:
+                
+                # Raise error if no valid information is found in any column
+                if (len(row['id']) == 0) and (len(row['param']) == 0) and (len(row['param_arg']) == 0):
                     raise csv.Error('No valid data is detected at this line!!!')
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid

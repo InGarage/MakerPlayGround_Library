@@ -1,778 +1,712 @@
- [
 {
-    "children": [
-        {
-            "description": "Accelerate on x axis",
-            "type": [
-                "AccelX"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "1",
-                    "name": "Accelerate",
-                    "unit": "m/s^2"
-                }
-            ],
-            "placeholder": "AccelX {condition} {value} {unit}",
-            "id": "1",
-            "name": "Accelerate X"
-        },
-        {
-            "description": "Accelerate on y axis",
-            "type": [
-                "AccelY"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "1",
-                    "name": "Accelerate",
-                    "unit": "m/s^2"
-                }
-            ],
-            "placeholder": "AccelY {condition} {value} {unit}",
-            "id": "2",
-            "name": "Accelerate Y"
-        },
-        {
-            "description": "Accelerate on z axis",
-            "type": [
-                "AccelZ"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "1",
-                    "name": "Accelerate",
-                    "unit": "m/s^2"
-                }
-            ],
-            "placeholder": "AccelZ {condition} {value} {unit}",
-            "id": "3",
-            "name": "Accelerate Z"
-        },
-        {
-            "description": "Measure slope on x axis",
-            "type": [
-                "AccelX"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "180",
-                    "name": "Accelerate",
-                    "unit": "degree"
-                }
-            ],
-            "placeholder": "SlopeX {condition} {value} {unit}",
-            "id": "4",
-            "name": "Slope X"
-        },
-        {
-            "description": "Measure slope on y axis",
-            "type": [
-                "AccelY"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "180",
-                    "name": "Accelerate",
-                    "unit": "degree"
-                }
-            ],
-            "placeholder": "SlopeY {condition} {value} {unit}",
-            "id": "5",
-            "name": "Slope Y"
-        },
-        {
-            "description": "Measure slope z axis",
-            "type": [
-                "AccelZ"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "180",
-                    "name": "Accelerate",
-                    "unit": "degree"
-                }
-            ],
-            "placeholder": "SlopeZ {condition} {value} {unit}",
-            "id": "6",
-            "name": "Slope Z"
-        },
-        {
-            "description": "Tap detection",
-            "type": [
-                "Tap"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [],
-            "placeholder": "Tap",
-            "id": "7",
-            "name": "Tap"
-        },
-        {
-            "description": "Double Tap detection",
-            "type": [
-                "DoubleTap"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [],
-            "placeholder": "Double Tap",
-            "id": "8",
-            "name": "Double Tap"
-        },
-        {
-            "description": "Free fall detection",
-            "type": [
-                "Freefall"
-            ],
-            "image": "/assets/img/Motor_on.png",
-            "Property": [],
-            "placeholder": "Free fall",
-            "id": "9",
-            "name": "Free fall"
+  "Accelerometer": [
+    {
+      "id": "Accel_1",
+      "name": "Accelerate X",
+      "short_description": "Accelerate on x axis",
+      "description": "",
+      "display_text": "AccelX {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "1",
+          "args": [
+            "m/s^2"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Accelerometer"
-},{
-    "children": [
-        {
-            "description": "Measure Pressure",
-            "type": [
-                "Pressure"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "1000",
-                    "name": "Pressure",
-                    "unit": "hPa"
-                },
-                {
-                    "unit": "bar"
-                }
-            ],
-            "placeholder": "Pressure {condition} {value} {unit}",
-            "id": "10",
-            "name": "Pressure"
-        },
-        {
-            "description": "Measure Temperature by using barometer",
-            "type": [
-                "Barometer",
-                "Temperature"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "25",
-                    "name": "Temperature",
-                    "unit": "C"
-                },
-                {
-                    "unit": "K"
-                },
-                {
-                    "unit": "F"
-                }
-            ],
-            "placeholder": "Temp {condition} {value} {unit}",
-            "id": "11",
-            "name": "Temperature"
-        },
-        {
-            "description": "Measure Altitude by using barometer",
-            "type": [
-                "Barometer",
-                "AltitudeP",
-                "AltitudeD"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "10",
-                    "name": "Altitude",
-                    "unit": "cm"
-                },
-                {
-                    "unit": "m"
-                }
-            ],
-            "placeholder": "Altitude {condition} {value} {unit}",
-            "id": "12",
-            "name": "Altitude"
+      }
+    },
+    {
+      "id": "Accel_2",
+      "name": "Accelerate Y",
+      "short_description": "Accelerate on y axis",
+      "description": "",
+      "display_text": "AccelY {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "1",
+          "args": [
+            "m/s^2"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Barometer"
-},{
-    "children": [
-        {
-            "description": "Press the button",
-            "type": [
-                "Button"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [],
-            "placeholder": "Press",
-            "id": "13",
-            "name": "Press"
-        },
-        {
-            "description": "Release the button",
-            "type": [
-                "Button"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [],
-            "placeholder": "Release",
-            "id": "14",
-            "name": "Release"
-        },
-        {
-            "description": "Press the button x times",
-            "type": [
-                "Button"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "3",
-                    "name": "Times",
-                    "unit": "times"
-                }
-            ],
-            "placeholder": "Press {value} {unit}",
-            "id": "15",
-            "name": "Press x times"
-        },
-        {
-            "description": "Hold the button",
-            "type": [
-                "Button"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "3",
-                    "name": "Times",
-                    "unit": "seconds"
-                }
-            ],
-            "placeholder": "Hold {value} {unit}",
-            "id": "16",
-            "name": "Hold"
+      }
+    },
+    {
+      "id": "Accel_3",
+      "name": "Accelerate Z",
+      "short_description": "Accelerate on z axis",
+      "description": "",
+      "display_text": "AccelZ {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "1",
+          "args": [
+            "m/s^2"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Button"
-},{
-    "children": [
-        {
-            "description": "Check time in real world",
-            "type": [
-                "Clock"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "13:59:44",
-                    "name": "Time"
-                }
-            ],
-            "placeholder": "When {value}",
-            "id": "17",
-            "name": "Check time"
+      }
+    },
+    {
+      "id": "Accel_4",
+      "name": "Slope X",
+      "short_description": "Measure slope on x axis",
+      "description": "",
+      "display_text": "SlopeX {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "180",
+          "args": [
+            "degree"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Clock"
-},{
-    "children": [
-        {
-            "description": "Dealay time",
-            "type": [
-                "Generic"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "1000",
-                    "name": "Time",
-                    "unit": "milliseconds"
-                },
-                {
-                    "unit": "seconds"
-                },
-                {
-                    "unit": "minutes"
-                },
-                {
-                    "unit": "hours"
-                }
-            ],
-            "placeholder": "Delay {value} {unit}",
-            "id": "18",
-            "name": "Delay"
-        },
-        {
-            "description": "Compare voltage from the whole analog input",
-            "type": [
-                "Generic"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "3000",
-                    "name": "Voltage",
-                    "unit": "millivolt"
-                },
-                {
-                    "unit": "volt"
-                }
-            ],
-            "placeholder": "Voltage {condition} {value} {unit}",
-            "id": "19",
-            "name": "General Analog"
-        },
-        {
-            "description": "Compare voltage from the whole analog input",
-            "type": [
-                "Generic"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "HighLow",
-                    "default": "HIGH",
-                    "name": "State"
-                }
-            ],
-            "placeholder": "State {condition} {value}",
-            "id": "20",
-            "name": "General Digital"
+      }
+    },
+    {
+      "id": "Accel_5",
+      "name": "Slope Y",
+      "short_description": "Measure slope on y axis",
+      "description": "",
+      "display_text": "SlopeY {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "180",
+          "args": [
+            "degree"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "General"
-},{
-    "children": [
-        {
-            "description": "Detect rotation on x axis in dps units",
-            "type": [
-                "GyroX"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "100",
-                    "name": "Rotation",
-                    "unit": "dps"
-                }
-            ],
-            "placeholder": "RotateX {condition} {value} {unit}",
-            "id": "21",
-            "name": "Rotate X"
-        },
-        {
-            "description": "Detect rotation on y axis in dps units",
-            "type": [
-                "GyroY"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "100",
-                    "name": "Rotation",
-                    "unit": "dps"
-                }
-            ],
-            "placeholder": "RotateY {condition} {value} {unit}",
-            "id": "22",
-            "name": "Rotate Y"
-        },
-        {
-            "description": "Detect rotation on z axis in dps units",
-            "type": [
-                "GyroZ"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "100",
-                    "name": "Rotation",
-                    "unit": "dps"
-                }
-            ],
-            "placeholder": "RotateZ {condition} {value} {unit}",
-            "id": "23",
-            "name": "Rotate Z"
+      }
+    },
+    {
+      "id": "Accel_6",
+      "name": "Slope Z",
+      "short_description": "Measure slope z axis",
+      "description": "",
+      "display_text": "SlopeZ {condition} {value} {unit}",
+      "params": {
+        "Accelerate": {
+          "control": "NumberExpression",
+          "default_value": "180",
+          "args": [
+            "degree"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Gyroscope"
-},{
-    "children": [
-        {
-            "description": "Measure Humidity",
-            "type": [
-                "Humidity"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Percentage",
-                    "default": "30",
-                    "name": "Time",
-                    "unit": "%"
-                }
-            ],
-            "placeholder": "Humidity {condition} {value} {unit}",
-            "id": "24",
-            "name": "Humidity"
-        },
-        {
-            "description": "Measure Temperature",
-            "type": [
-                "Humidity",
-                "Temperature"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "25",
-                    "name": "Temperature",
-                    "unit": "C"
-                },
-                {
-                    "unit": "K"
-                },
-                {
-                    "unit": "F"
-                }
-            ],
-            "placeholder": "Temp  {condition} {value} {unit}",
-            "id": "25",
-            "name": "Temperature"
+      }
+    },
+    {
+      "id": "Accel_7",
+      "name": "Tap",
+      "short_description": "Tap detection",
+      "description": "",
+      "display_text": "Tap",
+      "params": {}
+    },
+    {
+      "id": "Accel_8",
+      "name": "Double Tap",
+      "short_description": "Double Tap detection",
+      "description": "",
+      "display_text": "Double Tap",
+      "params": {}
+    },
+    {
+      "id": "Accel_9",
+      "name": "Free fall",
+      "short_description": "Free fall detection",
+      "description": "",
+      "display_text": "Free fall",
+      "params": {}
+    }
+  ],
+  "Barometer": [
+    {
+      "id": "Barometer_1",
+      "name": "Pressure",
+      "short_description": "Measure Pressure",
+      "description": "",
+      "display_text": "Pressure {condition} {value} {unit}",
+      "params": {
+        "Pressure": {
+          "control": "NumberExpression",
+          "default_value": "1000",
+          "args": [
+            "hPa"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Humidity"
-},{
-    "children": [
-        {
-            "description": "Measure Illuminance",
-            "type": [
-                "Illuminance"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "15",
-                    "name": "Time",
-                    "unit": "Lux"
-                },
-                {
-                    "unit": "%"
-                }
-            ],
-            "placeholder": "Light {condition} {value} {unit}",
-            "id": "26",
-            "name": "Illuminance"
-        },
-        {
-            "description": "Detect colour",
-            "type": [
-                "Colour"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Colour",
-                    "default": "Red",
-                    "name": "Colour"
-                }
-            ],
-            "placeholder": "Colour {condition} {value}",
-            "id": "27",
-            "name": "Colour"
+      }
+    },
+    {
+      "id": "Barometer_2",
+      "name": "Altitude",
+      "short_description": "Measure Altitude by using barometer",
+      "description": "",
+      "display_text": "Altitude {condition} {value} {unit}",
+      "params": {
+        "Altitude": {
+          "control": "NumberExpression",
+          "default_value": "10",
+          "args": [
+            "cm",
+            "m"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Light"
-},{
-    "children": [
-        {
-            "description": "Measure Liquid level",
-            "type": [
-                "LiquidLevel"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "15",
-                    "name": "Level",
-                    "unit": "cm"
-                }
-            ],
-            "placeholder": "LiquidLevel {condition} {value} {unit}",
-            "id": "28",
-            "name": "Liquid Level"
-        },
-        {
-            "description": "Measure Liquid Pressure",
-            "type": [
-                "LiquidPressure"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "500",
-                    "name": "Pressure",
-                    "unit": "pa"
-                }
-            ],
-            "placeholder": "LiquidPressure {condition} {value} {unit}",
-            "id": "29",
-            "name": "Liquid Pressure"
-        },
-        {
-            "description": "Measure Liquid Flow",
-            "type": [
-                "LiquidFlow"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "0.000301",
-                    "name": "Volume per sec",
-                    "unit": "m^3/s"
-                }
-            ],
-            "placeholder": "Liquid Flow {condition} {value} {unit}",
-            "id": "30",
-            "name": "Liquid Flow"
+      }
+    }
+  ],
+  "Temperature": [
+    {
+      "id": "Temp_1",
+      "name": "Temperature",
+      "short_description": "Measure Temperature by using barometer",
+      "description": "",
+      "display_text": "Temp {condition} {value} {unit}",
+      "params": {
+        "Temperature": {
+          "control": "NumberExpression",
+          "default_value": "25",
+          "args": [
+            "C",
+            "K",
+            "F"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "LiquidLevel"
-},{
-    "children": [
-        {
-            "description": "Detect 8 directions",
-            "type": [
-                "Compass"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Direction",
-                    "default": "NE",
-                    "name": "Direction"
-                }
-            ],
-            "placeholder": "Compass {condition} {value}",
-            "id": "31",
-            "name": "Compass"
-        },
-        {
-            "description": "Detect Magnetic on x axis",
-            "type": [
-                "MagneticX"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "0.0003",
-                    "name": "Magnetic",
-                    "unit": "t"
-                }
-            ],
-            "placeholder": "MagneticX {condition} {value} {unit}",
-            "id": "32",
-            "name": "Magnetic X"
-        },
-        {
-            "description": "Detect Magnetic on y axis",
-            "type": [
-                "MagneticY"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "0.0003",
-                    "name": "Magnetic",
-                    "unit": "t"
-                }
-            ],
-            "placeholder": "MagneticY {condition} {value} {unit}",
-            "id": "33",
-            "name": "Magnetic Y"
-        },
-        {
-            "description": "Detect Magnetic on z axis",
-            "type": [
-                "MagneticZ"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "0.0003",
-                    "name": "Magnetic",
-                    "unit": "t"
-                }
-            ],
-            "placeholder": "MagneticZ {condition} {value} {unit}",
-            "id": "34",
-            "name": "Magnetic Z"
+      }
+    }
+  ],
+  "Button": [
+    {
+      "id": "Button_1",
+      "name": "Press",
+      "short_description": "Press the button",
+      "description": "",
+      "display_text": "Press",
+      "params": {}
+    },
+    {
+      "id": "Button_2",
+      "name": "Release",
+      "short_description": "Release the button",
+      "description": "",
+      "display_text": "Release",
+      "params": {}
+    },
+    {
+      "id": "Button_3",
+      "name": "Press x times",
+      "short_description": "Press the button x times",
+      "description": "",
+      "display_text": "Press {value} {unit}",
+      "params": {
+        "Times": {
+          "control": "NumberExpression",
+          "default_value": "3",
+          "args": [
+            "times"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Magnetometer"
-},{
-    "children": [
-        {
-            "description": "Detect Gesture",
-            "type": [
-                "Gesture"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Gesture",
-                    "name": "Gesture"
-                }
-            ],
-            "placeholder": "Gesture {condition} {value}",
-            "id": "35",
-            "name": "Gesture"
+      }
+    },
+    {
+      "id": "Button_4",
+      "name": "Hold",
+      "short_description": "Hold the button",
+      "description": "",
+      "display_text": "Hold {value} {unit}",
+      "params": {
+        "Times": {
+          "control": "NumberExpression",
+          "default_value": "3",
+          "args": [
+            "seconds"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Gesture"
-},{
-    "children": [
-        {
-            "description": "Orientation 3 Dimensions",
-            "type": [
-                "Orientation"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Orientation",
-                    "name": "Orientation"
-                }
-            ],
-            "placeholder": "Orientation {condition} {value}",
-            "id": "36",
-            "name": "Orientation"
+      }
+    }
+  ],
+  "Time": [
+    {
+      "id": "Time_1",
+      "name": "Check time",
+      "short_description": "Check time in real world",
+      "description": "",
+      "display_text": "When {value}",
+      "params": {
+        "Time": {
+          "control": "NumberExpression",
+          "default_value": "13:59:44",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Orientation"
-},{
-    "children": [
-        {
-            "description": "Detect motion and heat",
-            "type": [
-                "PIR"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "700",
-                    "name": "Sensitive(0-1023)"
-                }
-            ],
-            "placeholder": "PIR {condition} {value}",
-            "id": "37",
-            "name": "PIR"
+      }
+    }
+  ],
+  "General": [
+    {
+      "id": "General_1",
+      "name": "Delay",
+      "short_description": "Dealay time",
+      "description": "",
+      "display_text": "Delay {value} {unit}",
+      "params": {
+        "Time": {
+          "control": "NumberExpression",
+          "default_value": "1000",
+          "args": [
+            "milliseconds",
+            "seconds",
+            "minutes",
+            "hours"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "PIR"
-},{
-    "children": [
-        {
-            "description": "Measure distance",
-            "type": [
-                "Distance"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "70",
-                    "name": "Distance",
-                    "unit": "cm"
-                }
-            ],
-            "placeholder": "Distance {condition} {value} {unit}",
-            "id": "38",
-            "name": "Distance"
+      }
+    },
+    {
+      "id": "General_2",
+      "name": "General Analog",
+      "short_description": "Compare voltage from the whole analog input",
+      "description": "",
+      "display_text": "Voltage {condition} {value} {unit}",
+      "params": {
+        "Voltage": {
+          "control": "NumberExpression",
+          "default_value": "3000",
+          "args": [
+            "millivolt",
+            "volt"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Distance"
-},{
-    "children": [
-        {
-            "description": "Measure volume",
-            "type": [
-                "Sound"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "NumberExpression",
-                    "default": "30",
-                    "name": "Volume",
-                    "unit": "db"
-                }
-            ],
-            "placeholder": "Volume {condition} {value} {unit}",
-            "id": "39",
-            "name": "Volume"
+      }
+    },
+    {
+      "id": "General_3",
+      "name": "General Digital",
+      "short_description": "Compare voltage from the whole analog input",
+      "description": "",
+      "display_text": "State {condition} {value}",
+      "params": {
+        "State": {
+          "control": "HighLow",
+          "default_value": "HIGH",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Sound"
-},{
-    "children": [
-        {
-            "description": "Check Text Receive",
-            "type": [
-                "UART"
-            ],
-            "image": "/assets/img/LED_on.png",
-            "Property": [
-                {
-                    "control": "Textbox",
-                    "default": "Hello Arduino",
-                    "name": "Text"
-                }
-            ],
-            "placeholder": "Text Receive is {value}",
-            "id": "40",
-            "name": "Text Receive"
+      }
+    }
+  ],
+  "Gyroscope": [
+    {
+      "id": "Gyro_1",
+      "name": "Rotate X",
+      "short_description": "Detect rotation on x axis in dps units",
+      "description": "",
+      "display_text": "RotateX {condition} {value} {unit}",
+      "params": {
+        "Rotation": {
+          "control": "NumberExpression",
+          "default_value": "100",
+          "args": [
+            "dps"
+          ],
+          "regex": "",
+          "description": ""
         }
-    ],
-    "name": "Communication"
-} ]
+      }
+    },
+    {
+      "id": "Gyro_2",
+      "name": "Rotate Y",
+      "short_description": "Detect rotation on y axis in dps units",
+      "description": "",
+      "display_text": "RotateY {condition} {value} {unit}",
+      "params": {
+        "Rotation": {
+          "control": "NumberExpression",
+          "default_value": "100",
+          "args": [
+            "dps"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Gyro_3",
+      "name": "Rotate Z",
+      "short_description": "Detect rotation on z axis in dps units",
+      "description": "",
+      "display_text": "RotateZ {condition} {value} {unit}",
+      "params": {
+        "Rotation": {
+          "control": "NumberExpression",
+          "default_value": "100",
+          "args": [
+            "dps"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Humidity": [
+    {
+      "id": "Humid_1",
+      "name": "Humidity",
+      "short_description": "Measure Humidity",
+      "description": "",
+      "display_text": "Humidity {condition} {value} {unit}",
+      "params": {
+        "Time": {
+          "control": "Percentage",
+          "default_value": "30",
+          "args": [
+            "%"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Light": [
+    {
+      "id": "Light_1",
+      "name": "Illuminance",
+      "short_description": "Measure Illuminance",
+      "description": "",
+      "display_text": "Light {condition} {value} {unit}",
+      "params": {
+        "Time": {
+          "control": "NumberExpression",
+          "default_value": "15",
+          "args": [
+            "Lux",
+            "%"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Light_2",
+      "name": "Colour",
+      "short_description": "Detect colour",
+      "description": "",
+      "display_text": "Colour {condition} {value}",
+      "params": {
+        "Colour": {
+          "control": "Colour",
+          "default_value": "Red",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "LiquidLevel": [
+    {
+      "id": "Liquid_1",
+      "name": "Liquid Level",
+      "short_description": "Measure Liquid level",
+      "description": "",
+      "display_text": "LiquidLevel {condition} {value} {unit}",
+      "params": {
+        "Level": {
+          "control": "NumberExpression",
+          "default_value": "15",
+          "args": [
+            "cm"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Liquid_2",
+      "name": "Liquid Pressure",
+      "short_description": "Measure Liquid Pressure",
+      "description": "",
+      "display_text": "LiquidPressure {condition} {value} {unit}",
+      "params": {
+        "Pressure": {
+          "control": "NumberExpression",
+          "default_value": "500",
+          "args": [
+            "pa"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Liquid_3",
+      "name": "Liquid Flow",
+      "short_description": "Measure Liquid Flow",
+      "description": "",
+      "display_text": "Liquid Flow {condition} {value} {unit}",
+      "params": {
+        "Volume per sec": {
+          "control": "NumberExpression",
+          "default_value": "0.000301",
+          "args": [
+            "m^3/s"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Magnetometer": [
+    {
+      "id": "Mag_1",
+      "name": "Compass",
+      "short_description": "Detect 8 directions",
+      "description": "",
+      "display_text": "Compass {condition} {value}",
+      "params": {
+        "Direction": {
+          "control": "Direction",
+          "default_value": "NE",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Mag_2",
+      "name": "Magnetic X",
+      "short_description": "Detect Magnetic on x axis",
+      "description": "",
+      "display_text": "MagneticX {condition} {value} {unit}",
+      "params": {
+        "Magnetic": {
+          "control": "NumberExpression",
+          "default_value": "0.0003",
+          "args": [
+            "t"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Mag_3",
+      "name": "Magnetic Y",
+      "short_description": "Detect Magnetic on y axis",
+      "description": "",
+      "display_text": "MagneticY {condition} {value} {unit}",
+      "params": {
+        "Magnetic": {
+          "control": "NumberExpression",
+          "default_value": "0.0003",
+          "args": [
+            "t"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Mag_4",
+      "name": "Magnetic Z",
+      "short_description": "Detect Magnetic on z axis",
+      "description": "",
+      "display_text": "MagneticZ {condition} {value} {unit}",
+      "params": {
+        "Magnetic": {
+          "control": "NumberExpression",
+          "default_value": "0.0003",
+          "args": [
+            "t"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Gesture": [
+    {
+      "id": "Gesture_1",
+      "name": "Gesture",
+      "short_description": "Detect Gesture",
+      "description": "",
+      "display_text": "Gesture {condition} {value}",
+      "params": {
+        "Gesture": {
+          "control": "Gesture",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Orientation": [
+    {
+      "id": "Orientation_1",
+      "name": "Orientation",
+      "short_description": "Orientation 3 Dimensions",
+      "description": "",
+      "display_text": "Orientation {condition} {value}",
+      "params": {
+        "Orientation": {
+          "control": "Orientation",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Proximity": [
+    {
+      "id": "Proximity_1",
+      "name": "PIR",
+      "short_description": "Detect motion and heat",
+      "description": "",
+      "display_text": "PIR {condition} {value}",
+      "params": {
+        "Sensitive(0-1023)": {
+          "control": "NumberExpression",
+          "default_value": "700",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Proximity_2",
+      "name": "Distance",
+      "short_description": "Measure distance",
+      "description": "",
+      "display_text": "Distance {condition} {value} {unit}",
+      "params": {
+        "Distance": {
+          "control": "NumberExpression",
+          "default_value": "70",
+          "args": [
+            "cm"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Sound": [
+    {
+      "id": "Sound_1",
+      "name": "Volume",
+      "short_description": "Measure volume",
+      "description": "",
+      "display_text": "Volume {condition} {value} {unit}",
+      "params": {
+        "Volume": {
+          "control": "NumberExpression",
+          "default_value": "30",
+          "args": [
+            "db"
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ],
+  "Communication": [
+    {
+      "id": "Comm_1",
+      "name": "Text Receive",
+      "short_description": "Check Text Receive",
+      "description": "",
+      "display_text": "Text Receive is {value}",
+      "params": {
+        "Text": {
+          "control": "Textbox",
+          "default_value": "Hello Arduino",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    },
+    {
+      "id": "Comm_2",
+      "name": "RFID",
+      "short_description": "Check RFID",
+      "description": "",
+      "display_text": "RFID is {value}",
+      "params": {
+        "ID(HEX)": {
+          "control": "Textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "",
+          "description": ""
+        }
+      }
+    }
+  ]
+}

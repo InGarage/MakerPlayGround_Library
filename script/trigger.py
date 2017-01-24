@@ -1,138 +1,55 @@
+import csv
 import json
-columnProperties = [5,6,7,8]   #if you want to add new property field please add index of column to this array(start from zero)
-columnArray = [2]
-columnNotArray = [0,1,3,4,9]
-def newData(header):
-    newDataVal = {}
-    for ca in columnArray:
-        newDataVal[header[ca]]=[]
-    for cna in columnNotArray:
-        newDataVal[header[cna]]=""
-    newDataVal["Property"] = []
-    return newDataVal
+import collections
+import sys
 
-def newGroup(name):
-    group = {}
-    group["children"] = []
-    group["name"] = name
-    return group
+if __name__ == '__main__':
+    input_filename = 'trigger.csv'
+    output_filename = 'trigger.json'
 
-def addProperties(line, header):
-    properties = {}
-    for c in columnProperties:
-        if line[c] != '':
-            properties[header[c]] = line[c] 
-    return properties
+    # Temporary variable to store data to be written to the json file
+    data = collections.OrderedDict()
 
-f = open("trigger.csv", "r")
-output = open("trigger.json", "w")
-text = f.readline()
-text = f.readline()
-output.write(" [\n")
-headers = text.split("\n")
-header = headers[0].split(",")
-#print header
-count = 0
-isGroup = 0
-isProperty = 0
-properties = {}
-group = newGroup("")
-data = newData(header)
-while text != '':
+    with open(input_filename, newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        category = None
+        action = None
+        param = None
+        try:
+            for row in reader:
+                # We have found a new category so we create an array and put it into the dict
+                if len(row['category']) != 0:
+                    category = []
+                    data[row['category']] = category
 
-    text = f.readline()
-    if text == '':
-        break
-    line = text.split("\n")
-    line = line[0].split(",")
-    #meet category name
-    if (line[0] != '') and (line[1] == ''):
-        if data!= newData(header):
-            group["children"].append(data)
-        if (group["children"] != []) & (group["name"] != ""):
-            if isGroup != 0:
-                output.write(",")
-            isGroup = 1
-            #print group["children"]
-            json.dump(group, output, indent=4, separators=(',', ': '))
-        group = newGroup(line[0])
+                # We have found a new trigger so we create a dict and append to the correct category
+                if len(row['id']) != 0:
+                    action = collections.OrderedDict([('id', row['id']),
+                                                      ('name', row['name']),
+                                                      ('short_description', row['short_description']),
+                                                      ('description', row['description']),
+                                                      ('display_text', row['display_text']),
+                                                      ('params', collections.OrderedDict())])
+                    category.append(action)
 
-        data = newData(header)
+                # If a parameter is found, we append it to the current trigger. If an argument
+                # is found, we append it the the current parameter
+                if len(row['param']) != 0:
+                    param = collections.OrderedDict([('control', row['param_control']),
+                                                     ('default_value', row['param_default_value']),
+                                                     ('args', [row['param_arg']]),
+                                                     ('regex', row['param_regex']),
+                                                     ('description', row['param_description'])])
+                    action['params'][row['param']] = param
+                elif len(row['param_arg']) != 0:
+                    param['args'].append(row['param_arg'])
+                
+                # Raise error if no valid information is found in any column
+                if (len(row['id']) == 0) and (len(row['param']) == 0) and (len(row['param_arg']) == 0):
+                    raise csv.Error('No valid data is detected at this line!!!')
+        except csv.Error as e:
+            # Exit and display error massage if the input CSV file is invalid
+            sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
 
-
-        #print "--------------", line[0], "sdfsfdsf", group
-    #add json array
-    elif line[0]=='':
-        
-        count = 0
-        for col in line:
-            isArray=0
-            isProperty=0
-            if col!='':
-                for c in columnProperties:
-                    if(count == c):
-                        isProperty = 1                    
-                if isProperty == 0:
-                    isArray=0
-                    for ca in columnArray :
-                        if count==ca :
-                            isArray=1
-                    #print isArray
-                    if isArray == 1:
-                        data[header[count]].append(col)
-                    else:
-                        data[header[count]] = col
-                    isArray=0
-            count = count +1    
-    
-        #print line  
-        properties = addProperties(line, header)
-        if properties != {}:
-            data["Property"].append(properties) 
-
-    elif line[0]!='' :
-        count=0
-        
-       #normal line  
-        if data!= newData(header):
-            group["children"].append(data)
-            #print group["children"]
-            #print "\n\n\n"
-            #json.dump(data, output, indent=4, separators=(',', ': '))
-            #output.write(",")
-        #print data["Dependency"]
-        
-        data = newData(header)
-        for col in line:
-            isArray=0
-            isProperty=0
-            if col!='':
-                for c in columnProperties:
-                    if(count == c):
-                        isProperty = 1                    
-                if isProperty == 0:
-                    
-                    for ca in columnArray :
-                        if count==ca :
-                            isArray=1
-                    
-                    if isArray == 1:
-                        data[header[count]].append(col)
-                    else:
-                        data[header[count]] = col
-                    
-            count = count +1   
-        #print line
-        properties = addProperties(line,header)
-        if(properties!={}) :
-            data["Property"].append(properties)
-              
-  
-if (group["children"] != []) & (group["name"] != ""):
-   output.write(",")
-   json.dump(group,output,indent=4,separators=(',', ': '))
-       
-
-f.close()
-output.write(" ]\n")
-output.close()
+    with open(output_filename, 'w') as csvfile:
+        json.dump(data, csvfile, indent=2)
