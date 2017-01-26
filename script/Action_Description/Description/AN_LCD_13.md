@@ -1,7 +1,7 @@
-<i class="icon-font"></i>Humanity
+
+<i class="icon-font"></i>Color
 ===================
-Show the humanity from humanity sensor to the LCD in SI unit.
+Show the color from color sensor to the LCD in hex-decimal code.
 
 **SensorName**
 : Blank to pick up a new one.
-

@@ -1,7 +1,7 @@
 
-<i class="icon-font"></i>Gyroscope_Z
+<i class="icon-font"></i>Magnetic_X
 ===================
-Show the gyroscope on Z axis from gyroscope sensor to the LCD in SI unit.
+Show the magnetic on X axis from magnetic sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

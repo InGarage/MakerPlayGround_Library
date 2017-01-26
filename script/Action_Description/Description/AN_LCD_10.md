@@ -1,7 +1,7 @@
 
-<i class="icon-font"></i>Orientation
+<i class="icon-font"></i>Illumination
 ===================
-Show the orientation from motion sensor to the LCD.
+Show the intensivity from illumination sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

@@ -1,7 +1,7 @@
-
-<i class="icon-font"></i>Distance
+<i class="icon-font"></i>Humanity
 ===================
-Show the distance from distance sensor to the LCD in SI unit.
+Show the humanity from humanity sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.
+

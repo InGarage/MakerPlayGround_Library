@@ -1,6 +1,6 @@
-<i class="icon-font"></i>Voltage
+<i class="icon-font"></i>Logic
 ===================
-Show the voltage from generic sensor to the LCD in SI unit.
+Show the logic from generic sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

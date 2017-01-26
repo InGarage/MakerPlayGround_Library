@@ -1,7 +1,7 @@
 
-<i class="icon-font"></i>Direction
+<i class="icon-font"></i>Orientation
 ===================
-Show the direction from motion sensor to the LCD.
+Show the orientation from motion sensor to the LCD.
 
 **SensorName**
 : Blank to pick up a new one.

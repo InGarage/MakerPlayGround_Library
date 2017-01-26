@@ -1,6 +1,6 @@
-<i class="icon-font"></i>Logic
+<i class="icon-font"></i>Accelerometer_X
 ===================
-Show the logic from generic sensor to the LCD in SI unit.
+Show the accelerometer on X axis from accelerometer sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

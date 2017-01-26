@@ -1,7 +1,7 @@
 
-<i class="icon-font"></i>Illumination
+<i class="icon-font"></i>Distance
 ===================
-Show the intensivity from illumination sensor to the LCD in SI unit.
+Show the distance from distance sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

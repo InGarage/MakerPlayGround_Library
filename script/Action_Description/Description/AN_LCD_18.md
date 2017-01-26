@@ -1,7 +1,6 @@
-
-<i class="icon-font"></i>Liquid Level
+<i class="icon-font"></i>Voltage
 ===================
-Show the level from liquid level sensor to the LCD in SI unit.
+Show the voltage from generic sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

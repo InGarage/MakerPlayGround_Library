@@ -1,6 +1,7 @@
-<i class="icon-font"></i>Button state
+
+<i class="icon-font"></i>Liquid Level
 ===================
-Show the logic from button to the LCD.
+Show the level from liquid level sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.

@@ -1,7 +1,6 @@
-
-<i class="icon-font"></i>Color
+<i class="icon-font"></i>Gesture
 ===================
-Show the color from color sensor to the LCD in hex-decimal code.
+Show the gesture from motion sensor to the LCD.
 
 **SensorName**
 : Blank to pick up a new one.

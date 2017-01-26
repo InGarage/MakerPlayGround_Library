@@ -1,6 +1,6 @@
-<i class="icon-font"></i>Gesture
+<i class="icon-font"></i>UART
 ===================
-Show the gesture from motion sensor to the LCD.
+Show the text from UART sensor to the LCD.
 
 **SensorName**
 : Blank to pick up a new one.

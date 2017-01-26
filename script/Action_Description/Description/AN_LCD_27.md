@@ -1,7 +1,6 @@
-
-<i class="icon-font"></i>Magnetic_X
+<i class="icon-font"></i>Magnetic_Y
 ===================
-Show the magnetic on X axis from magnetic sensor to the LCD in SI unit.
+Show the magnetic on Y axis from magnetic sensor to the LCD in SI unit.
 
 **SensorName**
 : Blank to pick up a new one.
