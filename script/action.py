@@ -27,7 +27,6 @@ if __name__ == '__main__':
                     action = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
                                                       ('short_description', row['short_description']),
-                                                      ('description', row['description']),
                                                       ('params', collections.OrderedDict())])
                     category.append(action)
 
@@ -37,8 +36,7 @@ if __name__ == '__main__':
                     param = collections.OrderedDict([('control', row['param_control']),
                                                      ('default_value', row['param_default_value']),
                                                      ('args', [row['param_arg']]),
-                                                     ('regex', row['param_regex']),
-                                                     ('description', row['param_description'])])
+                                                     ('regex', row['param_regex'])])
                     action['params'][row['param']] = param
                 elif len(row['param_arg']) != 0:
                     param['args'].append(row['param_arg'])

@@ -4,7 +4,6 @@
       "id": "Accel_1",
       "name": "Accelerate X",
       "short_description": "Accelerate on x axis",
-      "description": "",
       "display_text": "AccelX {condition} {value} {unit}",
       "params": {
         "Accelerate": {
@@ -13,8 +12,7 @@
           "args": [
             "m/s^2"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -22,7 +20,6 @@
       "id": "Accel_2",
       "name": "Accelerate Y",
       "short_description": "Accelerate on y axis",
-      "description": "",
       "display_text": "AccelY {condition} {value} {unit}",
       "params": {
         "Accelerate": {
@@ -31,8 +28,7 @@
           "args": [
             "m/s^2"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -40,7 +36,6 @@
       "id": "Accel_3",
       "name": "Accelerate Z",
       "short_description": "Accelerate on z axis",
-      "description": "",
       "display_text": "AccelZ {condition} {value} {unit}",
       "params": {
         "Accelerate": {
@@ -49,8 +44,7 @@
           "args": [
             "m/s^2"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -58,17 +52,15 @@
       "id": "Accel_4",
       "name": "Slope X",
       "short_description": "Measure slope on x axis",
-      "description": "",
       "display_text": "SlopeX {condition} {value} {unit}",
       "params": {
-        "Accelerate": {
+        "Angle": {
           "control": "NumberExpression",
           "default_value": "180",
           "args": [
             "degree"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|[1-2]\\d\\d([.]\\d{1,})?|3[0-5]\\d([.]\\d{1,})?|360)$"
         }
       }
     },
@@ -76,17 +68,15 @@
       "id": "Accel_5",
       "name": "Slope Y",
       "short_description": "Measure slope on y axis",
-      "description": "",
       "display_text": "SlopeY {condition} {value} {unit}",
       "params": {
-        "Accelerate": {
+        "Angle": {
           "control": "NumberExpression",
           "default_value": "180",
           "args": [
             "degree"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|[1-2]\\d\\d([.]\\d{1,})?|3[0-5]\\d([.]\\d{1,})?|360)$"
         }
       }
     },
@@ -94,17 +84,15 @@
       "id": "Accel_6",
       "name": "Slope Z",
       "short_description": "Measure slope z axis",
-      "description": "",
       "display_text": "SlopeZ {condition} {value} {unit}",
       "params": {
-        "Accelerate": {
+        "Angle": {
           "control": "NumberExpression",
           "default_value": "180",
           "args": [
             "degree"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|[1-2]\\d\\d([.]\\d{1,})?|3[0-5]\\d([.]\\d{1,})?|360)$"
         }
       }
     },
@@ -112,7 +100,6 @@
       "id": "Accel_7",
       "name": "Tap",
       "short_description": "Tap detection",
-      "description": "",
       "display_text": "Tap",
       "params": {}
     },
@@ -120,7 +107,6 @@
       "id": "Accel_8",
       "name": "Double Tap",
       "short_description": "Double Tap detection",
-      "description": "",
       "display_text": "Double Tap",
       "params": {}
     },
@@ -128,7 +114,6 @@
       "id": "Accel_9",
       "name": "Free fall",
       "short_description": "Free fall detection",
-      "description": "",
       "display_text": "Free fall",
       "params": {}
     }
@@ -138,7 +123,6 @@
       "id": "Barometer_1",
       "name": "Pressure",
       "short_description": "Measure Pressure",
-      "description": "",
       "display_text": "Pressure {condition} {value} {unit}",
       "params": {
         "Pressure": {
@@ -147,8 +131,7 @@
           "args": [
             "hPa"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -156,18 +139,15 @@
       "id": "Barometer_2",
       "name": "Altitude",
       "short_description": "Measure Altitude by using barometer",
-      "description": "",
       "display_text": "Altitude {condition} {value} {unit}",
       "params": {
         "Altitude": {
           "control": "NumberExpression",
           "default_value": "10",
           "args": [
-            "cm",
-            "m"
+            "cm"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -176,20 +156,16 @@
     {
       "id": "Temp_1",
       "name": "Temperature",
-      "short_description": "Measure Temperature by using barometer",
-      "description": "",
+      "short_description": "Measure temperature",
       "display_text": "Temp {condition} {value} {unit}",
       "params": {
         "Temperature": {
           "control": "NumberExpression",
           "default_value": "25",
           "args": [
-            "C",
-            "K",
-            "F"
+            "C"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -199,7 +175,6 @@
       "id": "Button_1",
       "name": "Press",
       "short_description": "Press the button",
-      "description": "",
       "display_text": "Press",
       "params": {}
     },
@@ -207,7 +182,6 @@
       "id": "Button_2",
       "name": "Release",
       "short_description": "Release the button",
-      "description": "",
       "display_text": "Release",
       "params": {}
     },
@@ -215,7 +189,6 @@
       "id": "Button_3",
       "name": "Press x times",
       "short_description": "Press the button x times",
-      "description": "",
       "display_text": "Press {value} {unit}",
       "params": {
         "Times": {
@@ -224,8 +197,7 @@
           "args": [
             "times"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     },
@@ -233,17 +205,15 @@
       "id": "Button_4",
       "name": "Hold",
       "short_description": "Hold the button",
-      "description": "",
       "display_text": "Hold {value} {unit}",
       "params": {
-        "Times": {
+        "Time": {
           "control": "NumberExpression",
           "default_value": "3",
           "args": [
             "seconds"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     }
@@ -253,7 +223,6 @@
       "id": "Time_1",
       "name": "Check time",
       "short_description": "Check time in real world",
-      "description": "",
       "display_text": "When {value}",
       "params": {
         "Time": {
@@ -262,8 +231,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)$"
         }
       }
     }
@@ -272,21 +240,16 @@
     {
       "id": "General_1",
       "name": "Delay",
-      "short_description": "Dealay time",
-      "description": "",
+      "short_description": "Delay time",
       "display_text": "Delay {value} {unit}",
       "params": {
         "Time": {
           "control": "NumberExpression",
           "default_value": "1000",
           "args": [
-            "milliseconds",
-            "seconds",
-            "minutes",
-            "hours"
+            "milliseconds"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     },
@@ -294,26 +257,22 @@
       "id": "General_2",
       "name": "General Analog",
       "short_description": "Compare voltage from the whole analog input",
-      "description": "",
       "display_text": "Voltage {condition} {value} {unit}",
       "params": {
         "Voltage": {
           "control": "NumberExpression",
           "default_value": "3000",
           "args": [
-            "millivolt",
-            "volt"
+            "millivolts"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
     {
       "id": "General_3",
       "name": "General Digital",
-      "short_description": "Compare voltage from the whole analog input",
-      "description": "",
+      "short_description": "Compare logic from the digital device",
       "display_text": "State {condition} {value}",
       "params": {
         "State": {
@@ -322,8 +281,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         }
       }
     }
@@ -333,7 +291,6 @@
       "id": "Gyro_1",
       "name": "Rotate X",
       "short_description": "Detect rotation on x axis in dps units",
-      "description": "",
       "display_text": "RotateX {condition} {value} {unit}",
       "params": {
         "Rotation": {
@@ -342,8 +299,7 @@
           "args": [
             "dps"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -351,7 +307,6 @@
       "id": "Gyro_2",
       "name": "Rotate Y",
       "short_description": "Detect rotation on y axis in dps units",
-      "description": "",
       "display_text": "RotateY {condition} {value} {unit}",
       "params": {
         "Rotation": {
@@ -360,8 +315,7 @@
           "args": [
             "dps"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -369,7 +323,6 @@
       "id": "Gyro_3",
       "name": "Rotate Z",
       "short_description": "Detect rotation on z axis in dps units",
-      "description": "",
       "display_text": "RotateZ {condition} {value} {unit}",
       "params": {
         "Rotation": {
@@ -378,8 +331,7 @@
           "args": [
             "dps"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -389,17 +341,15 @@
       "id": "Humid_1",
       "name": "Humidity",
       "short_description": "Measure Humidity",
-      "description": "",
       "display_text": "Humidity {condition} {value} {unit}",
       "params": {
-        "Time": {
+        "Humidity": {
           "control": "Percentage",
           "default_value": "30",
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     }
@@ -409,36 +359,31 @@
       "id": "Light_1",
       "name": "Illuminance",
       "short_description": "Measure Illuminance",
-      "description": "",
       "display_text": "Light {condition} {value} {unit}",
       "params": {
-        "Time": {
+        "Illuminance": {
           "control": "NumberExpression",
-          "default_value": "15",
+          "default_value": "",
           "args": [
-            "Lux",
-            "%"
+            "Lux"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
     {
       "id": "Light_2",
-      "name": "Colour",
-      "short_description": "Detect colour",
-      "description": "",
-      "display_text": "Colour {condition} {value}",
+      "name": "Color",
+      "short_description": "Detect color",
+      "display_text": "Color {condition} {value}",
       "params": {
-        "Colour": {
-          "control": "Colour",
-          "default_value": "Red",
+        "Color": {
+          "control": "Color",
+          "default_value": "#FFFFFF",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^#(\\d|[A-F]){6,6}$"
         }
       }
     }
@@ -448,7 +393,6 @@
       "id": "Liquid_1",
       "name": "Liquid Level",
       "short_description": "Measure Liquid level",
-      "description": "",
       "display_text": "LiquidLevel {condition} {value} {unit}",
       "params": {
         "Level": {
@@ -457,8 +401,7 @@
           "args": [
             "cm"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -466,7 +409,6 @@
       "id": "Liquid_2",
       "name": "Liquid Pressure",
       "short_description": "Measure Liquid Pressure",
-      "description": "",
       "display_text": "LiquidPressure {condition} {value} {unit}",
       "params": {
         "Pressure": {
@@ -475,8 +417,7 @@
           "args": [
             "pa"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -484,7 +425,6 @@
       "id": "Liquid_3",
       "name": "Liquid Flow",
       "short_description": "Measure Liquid Flow",
-      "description": "",
       "display_text": "Liquid Flow {condition} {value} {unit}",
       "params": {
         "Volume per sec": {
@@ -493,8 +433,7 @@
           "args": [
             "m^3/s"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -504,7 +443,6 @@
       "id": "Mag_1",
       "name": "Compass",
       "short_description": "Detect 8 directions",
-      "description": "",
       "display_text": "Compass {condition} {value}",
       "params": {
         "Direction": {
@@ -513,8 +451,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         }
       }
     },
@@ -522,7 +459,6 @@
       "id": "Mag_2",
       "name": "Magnetic X",
       "short_description": "Detect Magnetic on x axis",
-      "description": "",
       "display_text": "MagneticX {condition} {value} {unit}",
       "params": {
         "Magnetic": {
@@ -531,8 +467,7 @@
           "args": [
             "t"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -540,7 +475,6 @@
       "id": "Mag_3",
       "name": "Magnetic Y",
       "short_description": "Detect Magnetic on y axis",
-      "description": "",
       "display_text": "MagneticY {condition} {value} {unit}",
       "params": {
         "Magnetic": {
@@ -549,8 +483,7 @@
           "args": [
             "t"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     },
@@ -558,7 +491,6 @@
       "id": "Mag_4",
       "name": "Magnetic Z",
       "short_description": "Detect Magnetic on z axis",
-      "description": "",
       "display_text": "MagneticZ {condition} {value} {unit}",
       "params": {
         "Magnetic": {
@@ -567,8 +499,7 @@
           "args": [
             "t"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -578,7 +509,6 @@
       "id": "Gesture_1",
       "name": "Gesture",
       "short_description": "Detect Gesture",
-      "description": "",
       "display_text": "Gesture {condition} {value}",
       "params": {
         "Gesture": {
@@ -587,8 +517,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         }
       }
     }
@@ -598,7 +527,6 @@
       "id": "Orientation_1",
       "name": "Orientation",
       "short_description": "Orientation 3 Dimensions",
-      "description": "",
       "display_text": "Orientation {condition} {value}",
       "params": {
         "Orientation": {
@@ -607,8 +535,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         }
       }
     }
@@ -618,17 +545,15 @@
       "id": "Proximity_1",
       "name": "PIR",
       "short_description": "Detect motion and heat",
-      "description": "",
       "display_text": "PIR {condition} {value}",
       "params": {
-        "Sensitive(0-1023)": {
+        "Sensitive": {
           "control": "NumberExpression",
           "default_value": "700",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d|[1-9]\\d{1,2}|10([0-1]\\d)|(102[0-3]))$"
         }
       }
     },
@@ -636,7 +561,6 @@
       "id": "Proximity_2",
       "name": "Distance",
       "short_description": "Measure distance",
-      "description": "",
       "display_text": "Distance {condition} {value} {unit}",
       "params": {
         "Distance": {
@@ -645,8 +569,7 @@
           "args": [
             "cm"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,}([.]\\d{1,})?)$"
         }
       }
     }
@@ -656,7 +579,6 @@
       "id": "Sound_1",
       "name": "Volume",
       "short_description": "Measure volume",
-      "description": "",
       "display_text": "Volume {condition} {value} {unit}",
       "params": {
         "Volume": {
@@ -665,8 +587,7 @@
           "args": [
             "db"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|1[0-1]\\d([.]\\d{1,})?|120)$"
         }
       }
     }
@@ -676,7 +597,6 @@
       "id": "Comm_1",
       "name": "Text Receive",
       "short_description": "Check Text Receive",
-      "description": "",
       "display_text": "Text Receive is {value}",
       "params": {
         "Text": {
@@ -685,8 +605,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -694,17 +613,15 @@
       "id": "Comm_2",
       "name": "RFID",
       "short_description": "Check RFID",
-      "description": "",
       "display_text": "RFID is {value}",
       "params": {
-        "ID(HEX)": {
+        "ID": {
           "control": "Textbox",
           "default_value": "",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         }
       }
     }

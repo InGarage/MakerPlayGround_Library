@@ -1,8 +1,8 @@
 import json
-columnDependencies = [14,15,16,17]   #if you want to add new property field please add index of column to this array(start from zero)
-columnArray = [1,4,7]
-columnNotArray = [5,6,8,9,10,11,12,13,18,19]
-columnProperties = [1,2,3,4]
+columnDependencies = [16,17,18,19]   #if you want to add new property field please add index of column to this array(start from zero)
+columnArray = [1,2,9,13]
+columnNotArray = [0,7,8,10,11,12,14,15,20,21]
+columnProperties = [3,4,5,6]
 def newData(header):
     newDataVal = {}
     for ca in columnArray:

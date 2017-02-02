@@ -1,46 +1,96 @@
-category,id,name,short_description,description,param,param_control,param_arg,param_default_value,param_regex,param_description
-LED,LED_1,Dim,Adjust an LED brightness,,name,textbox,,,,
-,,,,,brightness,slider,%,50,,
-,LED_2,Blink,Blink an LED,,name,textbox,,,,
-,,,,,frequency,spinbox,Hz,2,,
-,LED_3,On,Turn an LED on,,name,textbox,,,,
-,,,,,brightness,slider,%,100,,
-,LED_4,Off,Turn an LED off,,name,textbox,,,,
-RGBLED,RGBLED_1,Dim,Adjust an LED brightness,,name,textbox,,,,
-,,,,,brightness,slider,%,50,,
-,RGBLED_2,Blink,Blink an LED,,name,textbox,,,,
-,,,,,frequency,spinbox,Hz,2,,
-,RGBLED_3,On,Turn an LED on,,name,textbox,,,,
-,,,,,brightness,slider,%,100,,
-,,,,,color,color,,white,,
-,RGBLED_4,Off,Turn an LED off,,name,textbox,,,,
-,RGBLED_5,Set Color,Set the color of an RGB LED,,name,textbox,,,,
-,,,,,color,color,,white,,
-Alphanumeric LCD,AN_LCD_1,Backlight On,Turn the LCD backlight on,,name,textbox,,,,
-,AN_LCD_2,Backlight Off,Turn the LCD backlight off,,name,textbox,,,,
-,AN_LCD_3,Show Text,Show text,,name,textbox,,,,
-,,,,,text,textbox,,,,
-,AN_LCD_4,Clear screen,Erase all content in the screen,,name,textbox,,,,
-Audio,Audio_1,Play audio,Play an audio file from a SD card,,name,textbox,,,,
-,,,,,filename,textbox,,,,
-,,,,,volume,slider,%,50,,
-,Audio_2,Volume Up,Increase volume by 10%,,name,textbox,,,,
-,Audio_3,Volume Down,Decrease volume by 10%,,name,textbox,,,,
-,Audio_4,Set Volume,Set audio playback volume,,name,textbox,,,,
-,,,,,volume,slider,%,50,,
-,Audio_5,Stop,Stop playing an audio file,,name,textbox,,,,
-,Audio_6,Beep,Play a beep sound,,name,textbox,,,,
-,,,,,frequency,spinbox,Hz,1000,,
-,,,,,duration,spinbox,ms,100,,
-DC Motor,DCMotor_1,On,Turn a motor on,,name,textbox,,,,
-,,,,,direction,radio,CV,,,
-,,,,,,,CCV,,,
-,,,,,speed,slider,%,50,,
-,DCMotor_2,Reverse,Change motor direction,,name,textbox,,,,
-,DCMotor_3,Set Speed,Change motor speed,,name,textbox,,,,
-,,,,,speed,slider,%,50,,
-,DCMotor_4,Stop,Turn a motor off,,name,textbox,,,,
-Time,Time_1,Set time,Set the current time,,name,textbox,,,,
-,,,,,time,textbox,,,,
-Segment LED,SegmentLED_1,Show number,Display digit(s) on the segment LED,,name,textbox,,,,
-,,,,,number,textbox,,0,,
+category,id,name,short_description,param,param_control,param_arg,param_default_value,param_regex
+LED,LED_1,Dim,Adjust an LED brightness,name,textbox,,,^[\S]+$
+,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,LED_2,Blink,Blink an LED,name,textbox,,,^[\S]+$
+,,,,frequency,spinbox,Hz,2,"^(\d{1,})$"
+,LED_3,On,Turn an LED on,name,textbox,,,^[\S]+$
+,,,,brightness,slider,%,100,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,LED_4,Off,Turn an LED off,name,textbox,,,^[\S]+$
+RGBLED,RGBLED_1,Dim,Adjust an LED brightness,name,textbox,,,^[\S]+$
+,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,RGBLED_2,Blink,Blink an LED,name,textbox,,,^[\S]+$
+,,,,frequency,spinbox,Hz,2,"^(\d{1,})$"
+,RGBLED_3,On,Turn an LED on,name,textbox,,,^[\S]+$
+,,,,brightness,slider,%,100,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,color,color,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
+,RGBLED_4,Off,Turn an LED off,name,textbox,,,^[\S]+$
+,RGBLED_5,Set Color,Set the color of an RGB LED,name,textbox,,,^[\S]+$
+,,,,color,color,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
+Alphanumeric LCD,AN_LCD_1,Backlight On,Turn the LCD backlight on,name,textbox,,,^[\S]+$
+,AN_LCD_2,Backlight Off,Turn the LCD backlight off,name,textbox,,,^[\S]+$
+,AN_LCD_3,Show Text,Show text,name,textbox,,,^[\S]+$
+,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
+,AN_LCD_4,Clear screen,Erase all content in the screen,name,textbox,,,^[\S]+$
+,AN_LCD_5,Temperature,Temperature,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_6,Liquid Flow,LiquidFlow,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_7,Pressure,Barometer,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_8,Liquid Pressure,LiquidPressure,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_9,Orientation,Orientation,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_10,Illumination,Illuminance,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_11,Distance,Distance,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_12,Humanity,Humanity,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_13,Color,Color,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_14,Gesture,Gesture,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_15,UART,UART,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_16,Button state,Button,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_17,Liquid Level,LiquidLevel,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_18,Voltage,Generic,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_19,Logic,Generic,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_20,Accelerometer_X,AccelX,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_21,Accelerometer_Y,AccelY,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_22,Accelerometer_Z,AccelZ,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_23,Gyroscope_X,GyroX,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_24,Gyroscope_Y,GyroY,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_25,Gyroscope_Z,GyroZ,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_26,Magnetic_X,MagneticX,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_27,Magnetic_Y,MagneticY,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+,AN_LCD_28,Magnetic_Z,MagneticZ,name,textbox,,,^[\S]+$
+,,,,sensor name,textbox,,,^[\S]+$
+Audio,Audio_1,Play audio,Play an audio file from a SD card,name,textbox,,,^[\S]+$
+,,,,filename,textbox,,,^[\S]+$
+,,,,volume,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,Audio_2,Volume Up,Increase volume by 10%,name,textbox,,,^[\S]+$
+,Audio_3,Volume Down,Decrease volume by 10%,name,textbox,,,^[\S]+$
+,Audio_4,Set Volume,Set audio playback volume,name,textbox,,,^[\S]+$
+,,,,volume,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,Audio_5,Stop,Stop playing an audio file,name,textbox,,,^[\S]+$
+,Audio_6,Beep,Play a beep sound,name,textbox,,,^[\S]+$
+,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
+,,,,duration,spinbox,ms,100,"^(\d{1,})$"
+DC Motor,DCMotor_1,On,Turn a motor on,name,textbox,,,^[\S]+$
+,,,,direction,radio,CW,,
+,,,,,,CCW,,
+,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,DCMotor_2,Reverse,Change motor direction,name,textbox,,,^[\S]+$
+,DCMotor_3,Set Speed,Change motor speed,name,textbox,,,^[\S]+$
+,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,DCMotor_4,Stop,Turn a motor off,name,textbox,,,^[\S]+$
+Time,Time_1,Set time,Set the current time,name,textbox,,,^[\S]+$
+,,,,time,textbox,,13:59:44,^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$
+Segment LED,SegmentLED_1,Show number,Display digit(s) on the segment LED,name,textbox,,,^[\S]+$
+,,,,number,textbox,,0,"^(\d{1,})$"
+Dotmatrix,Dotmatrix_1,Display,Display data on dot matrix,name,TextBox,,,^[\S]+$
+,,,,data,DOTMATRIX_CONTROL,,,

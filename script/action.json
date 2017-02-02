@@ -4,7 +4,6 @@
       "id": "LED_1",
       "name": "Dim",
       "short_description": "Adjust an LED brightness",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -12,8 +11,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "brightness": {
           "control": "slider",
@@ -21,8 +19,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -30,7 +27,6 @@
       "id": "LED_2",
       "name": "Blink",
       "short_description": "Blink an LED",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -38,8 +34,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "frequency": {
           "control": "spinbox",
@@ -47,8 +42,7 @@
           "args": [
             "Hz"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     },
@@ -56,7 +50,6 @@
       "id": "LED_3",
       "name": "On",
       "short_description": "Turn an LED on",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -64,8 +57,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "brightness": {
           "control": "slider",
@@ -73,8 +65,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -82,7 +73,6 @@
       "id": "LED_4",
       "name": "Off",
       "short_description": "Turn an LED off",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -90,8 +80,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     }
@@ -101,7 +90,6 @@
       "id": "RGBLED_1",
       "name": "Dim",
       "short_description": "Adjust an LED brightness",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -109,8 +97,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "brightness": {
           "control": "slider",
@@ -118,8 +105,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -127,7 +113,6 @@
       "id": "RGBLED_2",
       "name": "Blink",
       "short_description": "Blink an LED",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -135,8 +120,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "frequency": {
           "control": "spinbox",
@@ -144,8 +128,7 @@
           "args": [
             "Hz"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     },
@@ -153,7 +136,6 @@
       "id": "RGBLED_3",
       "name": "On",
       "short_description": "Turn an LED on",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -161,8 +143,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "brightness": {
           "control": "slider",
@@ -170,17 +151,15 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         },
         "color": {
           "control": "color",
-          "default_value": "white",
+          "default_value": "#FFFFFF",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^#(\\d|[A-F]){6,6}$"
         }
       }
     },
@@ -188,7 +167,6 @@
       "id": "RGBLED_4",
       "name": "Off",
       "short_description": "Turn an LED off",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -196,8 +174,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -205,7 +182,6 @@
       "id": "RGBLED_5",
       "name": "Set Color",
       "short_description": "Set the color of an RGB LED",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -213,17 +189,15 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "color": {
           "control": "color",
-          "default_value": "white",
+          "default_value": "#FFFFFF",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^#(\\d|[A-F]){6,6}$"
         }
       }
     }
@@ -233,7 +207,6 @@
       "id": "AN_LCD_1",
       "name": "Backlight On",
       "short_description": "Turn the LCD backlight on",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -241,8 +214,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -250,7 +222,6 @@
       "id": "AN_LCD_2",
       "name": "Backlight Off",
       "short_description": "Turn the LCD backlight off",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -258,8 +229,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -267,7 +237,6 @@
       "id": "AN_LCD_3",
       "name": "Show Text",
       "short_description": "Show text",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -275,8 +244,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "text": {
           "control": "textbox",
@@ -284,8 +252,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S ]{0,16}+\\n+[\\S ]{0,16}$"
         }
       }
     },
@@ -293,7 +260,6 @@
       "id": "AN_LCD_4",
       "name": "Clear screen",
       "short_description": "Erase all content in the screen",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -301,8 +267,559 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_5",
+      "name": "Temperature",
+      "short_description": "Temperature",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_6",
+      "name": "Liquid Flow",
+      "short_description": "LiquidFlow",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_7",
+      "name": "Pressure",
+      "short_description": "Barometer",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_8",
+      "name": "Liquid Pressure",
+      "short_description": "LiquidPressure",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_9",
+      "name": "Orientation",
+      "short_description": "Orientation",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_10",
+      "name": "Illumination",
+      "short_description": "Illuminance",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_11",
+      "name": "Distance",
+      "short_description": "Distance",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_12",
+      "name": "Humanity",
+      "short_description": "Humanity",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_13",
+      "name": "Color",
+      "short_description": "Color",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_14",
+      "name": "Gesture",
+      "short_description": "Gesture",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_15",
+      "name": "UART",
+      "short_description": "UART",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_16",
+      "name": "Button state",
+      "short_description": "Button",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_17",
+      "name": "Liquid Level",
+      "short_description": "LiquidLevel",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_18",
+      "name": "Voltage",
+      "short_description": "Generic",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_19",
+      "name": "Logic",
+      "short_description": "Generic",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_20",
+      "name": "Accelerometer_X",
+      "short_description": "AccelX",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_21",
+      "name": "Accelerometer_Y",
+      "short_description": "AccelY",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_22",
+      "name": "Accelerometer_Z",
+      "short_description": "AccelZ",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_23",
+      "name": "Gyroscope_X",
+      "short_description": "GyroX",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_24",
+      "name": "Gyroscope_Y",
+      "short_description": "GyroY",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_25",
+      "name": "Gyroscope_Z",
+      "short_description": "GyroZ",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_26",
+      "name": "Magnetic_X",
+      "short_description": "MagneticX",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_27",
+      "name": "Magnetic_Y",
+      "short_description": "MagneticY",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        }
+      }
+    },
+    {
+      "id": "AN_LCD_28",
+      "name": "Magnetic_Z",
+      "short_description": "MagneticZ",
+      "params": {
+        "name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "sensor name": {
+          "control": "textbox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
         }
       }
     }
@@ -312,7 +829,6 @@
       "id": "Audio_1",
       "name": "Play audio",
       "short_description": "Play an audio file from a SD card",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -320,8 +836,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "filename": {
           "control": "textbox",
@@ -329,8 +844,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "volume": {
           "control": "slider",
@@ -338,8 +852,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -347,7 +860,6 @@
       "id": "Audio_2",
       "name": "Volume Up",
       "short_description": "Increase volume by 10%",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -355,8 +867,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -364,7 +875,6 @@
       "id": "Audio_3",
       "name": "Volume Down",
       "short_description": "Decrease volume by 10%",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -372,8 +882,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -381,7 +890,6 @@
       "id": "Audio_4",
       "name": "Set Volume",
       "short_description": "Set audio playback volume",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -389,8 +897,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "volume": {
           "control": "slider",
@@ -398,8 +905,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -407,7 +913,6 @@
       "id": "Audio_5",
       "name": "Stop",
       "short_description": "Stop playing an audio file",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -415,8 +920,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -424,7 +928,6 @@
       "id": "Audio_6",
       "name": "Beep",
       "short_description": "Play a beep sound",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -432,8 +935,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "frequency": {
           "control": "spinbox",
@@ -441,8 +943,7 @@
           "args": [
             "Hz"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         },
         "duration": {
           "control": "spinbox",
@@ -450,8 +951,7 @@
           "args": [
             "ms"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
         }
       }
     }
@@ -461,7 +961,6 @@
       "id": "DCMotor_1",
       "name": "On",
       "short_description": "Turn a motor on",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -469,18 +968,16 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "direction": {
           "control": "radio",
           "default_value": "",
           "args": [
-            "CV",
-            "CCV"
+            "CW",
+            "CCW"
           ],
-          "regex": "",
-          "description": ""
+          "regex": ""
         },
         "speed": {
           "control": "slider",
@@ -488,8 +985,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -497,7 +993,6 @@
       "id": "DCMotor_2",
       "name": "Reverse",
       "short_description": "Change motor direction",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -505,8 +1000,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     },
@@ -514,7 +1008,6 @@
       "id": "DCMotor_3",
       "name": "Set Speed",
       "short_description": "Change motor speed",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -522,8 +1015,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "speed": {
           "control": "slider",
@@ -531,8 +1023,7 @@
           "args": [
             "%"
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
         }
       }
     },
@@ -540,7 +1031,6 @@
       "id": "DCMotor_4",
       "name": "Stop",
       "short_description": "Turn a motor off",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -548,8 +1038,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         }
       }
     }
@@ -559,7 +1048,6 @@
       "id": "Time_1",
       "name": "Set time",
       "short_description": "Set the current time",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -567,17 +1055,15 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "time": {
           "control": "textbox",
-          "default_value": "",
+          "default_value": "13:59:44",
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^([01]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)$"
         }
       }
     }
@@ -587,7 +1073,6 @@
       "id": "SegmentLED_1",
       "name": "Show number",
       "short_description": "Display digit(s) on the segment LED",
-      "description": "",
       "params": {
         "name": {
           "control": "textbox",
@@ -595,8 +1080,7 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^[\\S]+$"
         },
         "number": {
           "control": "textbox",
@@ -604,8 +1088,32 @@
           "args": [
             ""
           ],
-          "regex": "",
-          "description": ""
+          "regex": "^(\\d{1,})$"
+        }
+      }
+    }
+  ],
+  "Dotmatrix": [
+    {
+      "id": "Dotmatrix_1",
+      "name": "Display",
+      "short_description": "Display data on dot matrix",
+      "params": {
+        "name": {
+          "control": "TextBox",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": "^[\\S]+$"
+        },
+        "data": {
+          "control": "DOTMATRIX_CONTROL",
+          "default_value": "",
+          "args": [
+            ""
+          ],
+          "regex": ""
         }
       }
     }

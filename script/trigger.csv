@@ -1,49 +1,41 @@
-category,id,name,short_description,description,display_text,param,param_control,param_regex,param_default_value,param_arg,param_description
-Accelerometer,Accel_1,Accelerate X,Accelerate on x axis,,AccelX {condition} {value} {unit},Accelerate,NumberExpression,,1,m/s^2,
-,Accel_2,Accelerate Y,Accelerate on y axis,,AccelY {condition} {value} {unit},Accelerate,NumberExpression,,1,m/s^2,
-,Accel_3,Accelerate Z,Accelerate on z axis,,AccelZ {condition} {value} {unit},Accelerate,NumberExpression,,1,m/s^2,
-,Accel_4,Slope X,Measure slope on x axis,,SlopeX {condition} {value} {unit},Accelerate,NumberExpression,,180,degree,
-,Accel_5,Slope Y,Measure slope on y axis,,SlopeY {condition} {value} {unit},Accelerate,NumberExpression,,180,degree,
-,Accel_6,Slope Z,Measure slope z axis,,SlopeZ {condition} {value} {unit},Accelerate,NumberExpression,,180,degree,
-,Accel_7,Tap,Tap detection,,Tap,,,,,,
-,Accel_8,Double Tap,Double Tap detection,,Double Tap,,,,,,
-,Accel_9,Free fall,Free fall detection,,Free fall,,,,,,
-Barometer,Barometer_1,Pressure,Measure Pressure,,Pressure {condition} {value} {unit},Pressure,NumberExpression,,1000,hPa,
-,Barometer_2,Altitude,Measure Altitude by using barometer,,Altitude {condition} {value} {unit},Altitude,NumberExpression,,10,cm,
-,,,,,,,,,,m,
-Temperature,Temp_1,Temperature,Measure Temperature by using barometer,,Temp {condition} {value} {unit},Temperature,NumberExpression,,25,C,
-,,,,,,,,,,K,
-,,,,,,,,,,F,
-Button,Button_1,Press,Press the button,,Press,,,,,,
-,Button_2,Release,Release the button,,Release,,,,,,
-,Button_3,Press x times,Press the button x times,,Press {value} {unit},Times,NumberExpression,,3,times,
-,Button_4,Hold,Hold the button,,Hold {value} {unit},Times,NumberExpression,,3,seconds,
-Time,Time_1,Check time,Check time in real world,,When {value},Time,NumberExpression,,13:59:44,,
-General,General_1,Delay,Dealay time,,Delay {value} {unit},Time,NumberExpression,,1000,milliseconds,
-,,,,,,,,,,seconds,
-,,,,,,,,,,minutes,
-,,,,,,,,,,hours,
-,General_2,General Analog,Compare voltage from the whole analog input,,Voltage {condition} {value} {unit},Voltage,NumberExpression,,3000,millivolt,
-,,,,,,,,,,volt,
-,General_3,General Digital,Compare voltage from the whole analog input,,State {condition} {value},State,HighLow,,HIGH,,
-Gyroscope,Gyro_1,Rotate X,Detect rotation on x axis in dps units,,RotateX {condition} {value} {unit},Rotation,NumberExpression,,100,dps,
-,Gyro_2,Rotate Y,Detect rotation on y axis in dps units,,RotateY {condition} {value} {unit},Rotation,NumberExpression,,100,dps,
-,Gyro_3,Rotate Z,Detect rotation on z axis in dps units,,RotateZ {condition} {value} {unit},Rotation,NumberExpression,,100,dps,
-Humidity,Humid_1,Humidity,Measure Humidity,,Humidity {condition} {value} {unit},Time,Percentage,,30,%,
-Light,Light_1,Illuminance,Measure Illuminance,,Light {condition} {value} {unit},Time,NumberExpression,,15,Lux,
-,,,,,,,,,,%,
-,Light_2,Colour,Detect colour,,Colour {condition} {value},Colour,Colour,,Red,,
-LiquidLevel,Liquid_1,Liquid Level,Measure Liquid level,,LiquidLevel {condition} {value} {unit},Level,NumberExpression,,15,cm,
-,Liquid_2,Liquid Pressure,Measure Liquid Pressure,,LiquidPressure {condition} {value} {unit},Pressure,NumberExpression,,500,pa,
-,Liquid_3,Liquid Flow,Measure Liquid Flow,,Liquid Flow {condition} {value} {unit},Volume per sec,NumberExpression,,0.000301,m^3/s,
-Magnetometer,Mag_1,Compass,Detect 8 directions,,Compass {condition} {value},Direction,Direction,,NE,,
-,Mag_2,Magnetic X,Detect Magnetic on x axis,,MagneticX {condition} {value} {unit},Magnetic,NumberExpression,,0.0003,t,
-,Mag_3,Magnetic Y,Detect Magnetic on y axis,,MagneticY {condition} {value} {unit},Magnetic,NumberExpression,,0.0003,t,
-,Mag_4,Magnetic Z,Detect Magnetic on z axis,,MagneticZ {condition} {value} {unit},Magnetic,NumberExpression,,0.0003,t,
-Gesture,Gesture_1,Gesture,Detect Gesture,,Gesture {condition} {value},Gesture,Gesture,,,,
-Orientation,Orientation_1,Orientation,Orientation 3 Dimensions,,Orientation {condition} {value},Orientation,Orientation,,,,
-Proximity,Proximity_1,PIR,Detect motion and heat,,PIR {condition} {value},Sensitive(0-1023),NumberExpression,,700,,
-,Proximity_2,Distance,Measure distance,,Distance {condition} {value} {unit},Distance,NumberExpression,,70,cm,
-Sound,Sound_1,Volume,Measure volume,,Volume {condition} {value} {unit},Volume,NumberExpression,,30,db,
-Communication,Comm_1,Text Receive,Check Text Receive,,Text Receive is {value},Text,Textbox,,Hello Arduino,,
-,Comm_2,RFID,Check RFID,,RFID is {value},ID(HEX),Textbox,,,,
+category,id,name,short_description,display_text,param,param_control,param_regex,param_default_value,param_arg
+Accelerometer,Accel_1,Accelerate X,Accelerate on x axis,AccelX {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_2,Accelerate Y,Accelerate on y axis,AccelY {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_3,Accelerate Z,Accelerate on z axis,AccelZ {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_4,Slope X,Measure slope on x axis,SlopeX {condition} {value} {unit},Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
+,Accel_5,Slope Y,Measure slope on y axis,SlopeY {condition} {value} {unit},Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
+,Accel_6,Slope Z,Measure slope z axis,SlopeZ {condition} {value} {unit},Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
+,Accel_7,Tap,Tap detection,Tap,,,,,
+,Accel_8,Double Tap,Double Tap detection,Double Tap,,,,,
+,Accel_9,Free fall,Free fall detection,Free fall,,,,,
+Barometer,Barometer_1,Pressure,Measure Pressure,Pressure {condition} {value} {unit},Pressure,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1000,hPa
+,Barometer_2,Altitude,Measure Altitude by using barometer,Altitude {condition} {value} {unit},Altitude,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",10,cm
+Temperature,Temp_1,Temperature,Measure temperature,Temp {condition} {value} {unit},Temperature,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",25,C
+Button,Button_1,Press,Press the button,Press,,,,,
+,Button_2,Release,Release the button,Release,,,,,
+,Button_3,Press x times,Press the button x times,Press {value} {unit},Times,NumberExpression,"^(\d{1,})$",3,times
+,Button_4,Hold,Hold the button,Hold {value} {unit},Time,NumberExpression,"^(\d{1,})$",3,seconds
+Time,Time_1,Check time,Check time in real world,When {value},Time,NumberExpression,^([01]\d|2[0-3]):([0-5]\d):([0-5]\d)$,13:59:44,
+General,General_1,Delay,Delay time,Delay {value} {unit},Time,NumberExpression,"^(\d{1,})$",1000,milliseconds
+,General_2,General Analog,Compare voltage from the whole analog input,Voltage {condition} {value} {unit},Voltage,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",3000,millivolts
+,General_3,General Digital,Compare logic from the digital device,State {condition} {value},State,HighLow,,HIGH,
+Gyroscope,Gyro_1,Rotate X,Detect rotation on x axis in dps units,RotateX {condition} {value} {unit},Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+,Gyro_2,Rotate Y,Detect rotation on y axis in dps units,RotateY {condition} {value} {unit},Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+,Gyro_3,Rotate Z,Detect rotation on z axis in dps units,RotateZ {condition} {value} {unit},Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+Humidity,Humid_1,Humidity,Measure Humidity,Humidity {condition} {value} {unit},Humidity,Percentage,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",30,%
+Light,Light_1,Illuminance,Measure Illuminance,Light {condition} {value} {unit},Illuminance,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",,Lux
+,Light_2,Color,Detect color,Color {condition} {value},Color,Color,"^#(\d|[A-F]){6,6}$",#FFFFFF,
+LiquidLevel,Liquid_1,Liquid Level,Measure Liquid level,LiquidLevel {condition} {value} {unit},Level,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",15,cm
+,Liquid_2,Liquid Pressure,Measure Liquid Pressure,LiquidPressure {condition} {value} {unit},Pressure,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",500,pa
+,Liquid_3,Liquid Flow,Measure Liquid Flow,Liquid Flow {condition} {value} {unit},Volume per sec,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",0.000301,m^3/s
+Magnetometer,Mag_1,Compass,Detect 8 directions,Compass {condition} {value},Direction,Direction,,NE,
+,Mag_2,Magnetic X,Detect Magnetic on x axis,MagneticX {condition} {value} {unit},Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",0.0003,t
+,Mag_3,Magnetic Y,Detect Magnetic on y axis,MagneticY {condition} {value} {unit},Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",0.0003,t
+,Mag_4,Magnetic Z,Detect Magnetic on z axis,MagneticZ {condition} {value} {unit},Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",0.0003,t
+Gesture,Gesture_1,Gesture,Detect Gesture,Gesture {condition} {value},Gesture,Gesture,,,
+Orientation,Orientation_1,Orientation,Orientation 3 Dimensions,Orientation {condition} {value},Orientation,Orientation,,,
+Proximity,Proximity_1,PIR,Detect motion and heat,PIR {condition} {value},Sensitive,NumberExpression,"^(\d|[1-9]\d{1,2}|10([0-1]\d)|(102[0-3]))$",700,
+,Proximity_2,Distance,Measure distance,Distance {condition} {value} {unit},Distance,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",70,cm
+Sound,Sound_1,Volume,Measure volume,Volume {condition} {value} {unit},Volume,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|1[0-1]\d([.]\d{1,})?|120)$",30,db
+Communication,Comm_1,Text Receive,Check Text Receive,Text Receive is {value},Text,Textbox,^[\S]+$,Hello Arduino,
+,Comm_2,RFID,Check RFID,RFID is {value},ID,Textbox,,,
