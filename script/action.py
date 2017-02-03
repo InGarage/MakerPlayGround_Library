@@ -8,7 +8,7 @@ if __name__ == '__main__':
     output_filename = 'action.json'
 
     # Temporary variable to store data to be written to the json file
-    data = collections.OrderedDict()
+    data = []
 
     with open(input_filename, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -20,7 +20,8 @@ if __name__ == '__main__':
                 # We have found a new category so we create an array and put it into the dict
                 if len(row['category']) != 0:
                     category = []
-                    data[row['category']] = category
+                    data.append(collections.OrderedDict([('name', row['category']),
+                                                         ('children', category)]))
 
                 # We have found a new action so we create a dict and append to the correct category
                 if len(row['id']) != 0:
