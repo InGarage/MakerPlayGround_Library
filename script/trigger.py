@@ -30,20 +30,21 @@ if __name__ == '__main__':
                                                       ('short_description', row['short_description']),
                                                       #('description', row['description']),
                                                       ('display_text', row['display_text']),
-                                                      ('params', collections.OrderedDict())])
+                                                      ('params', [])])
                     category.append(action)
 
                 # If a parameter is found, we append it to the current trigger. If an argument
                 # is found, we append it the the current parameter
                 if len(row['param']) != 0:
-                    param = collections.OrderedDict([('control', row['param_control']),
+                    param = collections.OrderedDict([('name', row['param']),
+                                                     ('control', row['param_control']),
                                                      ('default_value', row['param_default_value']),
                                                      ('args', [row['param_arg']]),
-                                                     ('regex', row['param_regex'])])                                                    
-                    action['params'][row['param']] = param
+                                                     ('regex', row['param_regex'])])
+                    action['params'].append(param)
                 elif len(row['param_arg']) != 0:
                     param['args'].append(row['param_arg'])
-                
+
                 # Raise error if no valid information is found in any column
                 if (len(row['id']) == 0) and (len(row['param']) == 0) and (len(row['param_arg']) == 0):
                     raise csv.Error('No valid data is detected at this line!!!')
