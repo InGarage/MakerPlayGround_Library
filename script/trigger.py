@@ -33,20 +33,23 @@ if __name__ == '__main__':
                                                       ('params', [])])
                     category.append(action)
 
-                # If a parameter is found, we append it to the current trigger. If an argument
-                # is found, we append it the the current parameter
+                # If a parameter is found, we append it to the current trigger. If an argument or a                
+                # default value is found, we append it the the current parameter
                 if len(row['param']) != 0:
                     param = collections.OrderedDict([('name', row['param']),
                                                      ('control', row['param_control']),
-                                                     ('default_value', row['param_default_value']),
+                                                     ('default_value', [row['param_default_value']]),
                                                      ('args', [row['param_arg']]),
                                                      ('regex', row['param_regex'])])
                     action['params'].append(param)
-                elif len(row['param_arg']) != 0:
-                    param['args'].append(row['param_arg'])
+                else:
+                    if len(row['param_default_value']) != 0:
+                        param['default_value'].append(row['param_default_value'])
+                    if len(row['param_arg']) != 0:
+                        param['args'].append(row['param_arg'])
 
                 # Raise error if no valid information is found in any column
-                if (len(row['id']) == 0) and (len(row['param']) == 0) and (len(row['param_arg']) == 0):
+                if (len(row['id']) == 0) and (len(row['param']) == 0) and (len(row['param_default_value']) == 0) and (len(row['param_arg']) == 0):
                     raise csv.Error('No valid data is detected at this line!!!')
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid

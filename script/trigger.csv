@@ -1,5 +1,7 @@
 category,id,name,short_description,display_text,param,param_control,param_regex,param_default_value,param_arg
-Accelerometer,Accel_1,Accelerate X,Accelerate on x axis,{name} {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+Accelerometer,Accel_1,Accelerate X,Accelerate on x axis,{name} {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",>,m/s^2
+,,,,,,,,1,
+,,,,,,,,m/s^2,
 ,,,,,name,textbox,^[\S]+$,,
 ,Accel_2,Accelerate Y,Accelerate on y axis,{name}  {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
 ,,,,,name,textbox,^[\S]+$,,

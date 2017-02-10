@@ -10,7 +10,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -19,7 +21,9 @@
           {
             "name": "brightness",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -35,7 +39,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -44,7 +50,9 @@
           {
             "name": "frequency",
             "control": "spinbox",
-            "default_value": "2",
+            "default_value": [
+              "2"
+            ],
             "args": [
               "Hz"
             ],
@@ -60,7 +68,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -69,7 +79,9 @@
           {
             "name": "brightness",
             "control": "slider",
-            "default_value": "100",
+            "default_value": [
+              "100"
+            ],
             "args": [
               "%"
             ],
@@ -85,7 +97,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -106,7 +120,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -115,7 +131,9 @@
           {
             "name": "brightness",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -131,7 +149,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -140,7 +160,9 @@
           {
             "name": "frequency",
             "control": "spinbox",
-            "default_value": "2",
+            "default_value": [
+              "2"
+            ],
             "args": [
               "Hz"
             ],
@@ -156,7 +178,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -165,7 +189,9 @@
           {
             "name": "brightness",
             "control": "slider",
-            "default_value": "100",
+            "default_value": [
+              "100"
+            ],
             "args": [
               "%"
             ],
@@ -174,7 +200,9 @@
           {
             "name": "color",
             "control": "color",
-            "default_value": "#FFFFFF",
+            "default_value": [
+              "#FFFFFF"
+            ],
             "args": [
               ""
             ],
@@ -190,7 +218,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -206,7 +236,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -215,7 +247,9 @@
           {
             "name": "color",
             "control": "color",
-            "default_value": "#FFFFFF",
+            "default_value": [
+              "#FFFFFF"
+            ],
             "args": [
               ""
             ],
@@ -236,7 +270,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -252,7 +288,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -268,7 +306,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -277,7 +317,9 @@
           {
             "name": "text",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -293,7 +335,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -309,7 +353,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -318,7 +364,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -334,7 +382,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -343,7 +393,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -359,7 +411,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -368,7 +422,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -384,7 +440,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -393,7 +451,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -409,7 +469,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -418,7 +480,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -434,7 +498,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -443,7 +509,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -459,7 +527,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -468,7 +538,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -484,7 +556,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -493,7 +567,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -509,7 +585,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -518,7 +596,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -534,7 +614,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -543,7 +625,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -559,7 +643,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -568,7 +654,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -584,7 +672,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -593,7 +683,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -609,7 +701,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -618,7 +712,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -634,7 +730,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -643,7 +741,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -659,7 +759,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -668,7 +770,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -684,7 +788,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -693,7 +799,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -709,7 +817,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -718,7 +828,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -734,7 +846,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -743,7 +857,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -759,7 +875,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -768,7 +886,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -784,7 +904,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -793,7 +915,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -809,7 +933,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -818,7 +944,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -834,7 +962,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -843,7 +973,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -859,7 +991,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -868,7 +1002,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -884,7 +1020,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -893,7 +1031,9 @@
           {
             "name": "sensor name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -914,7 +1054,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -923,7 +1065,9 @@
           {
             "name": "filename",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -932,7 +1076,9 @@
           {
             "name": "volume",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -948,7 +1094,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -964,7 +1112,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -980,7 +1130,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -989,7 +1141,9 @@
           {
             "name": "volume",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -1005,7 +1159,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1021,7 +1177,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1030,7 +1188,9 @@
           {
             "name": "frequency",
             "control": "spinbox",
-            "default_value": "1000",
+            "default_value": [
+              "1000"
+            ],
             "args": [
               "Hz"
             ],
@@ -1039,7 +1199,9 @@
           {
             "name": "duration",
             "control": "spinbox",
-            "default_value": "100",
+            "default_value": [
+              "100"
+            ],
             "args": [
               "ms"
             ],
@@ -1060,7 +1222,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1069,7 +1233,9 @@
           {
             "name": "direction",
             "control": "radio",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               "CW",
               "CCW"
@@ -1079,7 +1245,9 @@
           {
             "name": "speed",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -1095,7 +1263,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1111,7 +1281,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1120,7 +1292,9 @@
           {
             "name": "speed",
             "control": "slider",
-            "default_value": "50",
+            "default_value": [
+              "50"
+            ],
             "args": [
               "%"
             ],
@@ -1136,7 +1310,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1157,7 +1333,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1166,7 +1344,9 @@
           {
             "name": "time",
             "control": "textbox",
-            "default_value": "13:59:44",
+            "default_value": [
+              "13:59:44"
+            ],
             "args": [
               ""
             ],
@@ -1187,7 +1367,9 @@
           {
             "name": "name",
             "control": "textbox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1196,7 +1378,9 @@
           {
             "name": "number",
             "control": "textbox",
-            "default_value": "0",
+            "default_value": [
+              "0"
+            ],
             "args": [
               ""
             ],
@@ -1217,7 +1401,9 @@
           {
             "name": "name",
             "control": "TextBox",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
@@ -1226,7 +1412,9 @@
           {
             "name": "data",
             "control": "DOTMATRIX_CONTROL",
-            "default_value": "",
+            "default_value": [
+              ""
+            ],
             "args": [
               ""
             ],
