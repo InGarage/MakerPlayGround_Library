@@ -1,4 +1,4 @@
-category,id,compartible_interface,fn_name,name,short_description,param,param_control,param_arg,param_default_value,param_regex
+category,id,compatible_interface,fn_name,name,short_description,param,param_control,param_arg,param_default_value,param_regex
 LED,LED_1,Led/MP_Led,dim,Dim,Adjust an LED brightness,name,textbox,,,^[\S]+$
 ,,,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,LED_2,Led/MP_Led,blink,Blink,Blink an LED,name,textbox,,,^[\S]+$

@@ -11,3 +11,4 @@ Temperature/MP_Temp,MP_TMP007,8
 Magnetometer/MP_Mag,MP_LSM303,9
 Accelerometer/MP_Accel,MP_LSM9DS1,10
 DCMotor/MP_DCMotor,MP_Adafruit_Motor_Shield_V2,11
+Button/MP_Button,MP_GenericButton,12

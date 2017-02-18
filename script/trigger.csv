@@ -1,4 +1,4 @@
-category,id,compartible_interface,fn_name,name,short_description,display_text,param,param_control,param_regex,param_default_value,param_arg
+category,id,compatible_interface,fn_name,name,short_description,display_text,param,param_control,param_regex,param_default_value,param_arg
 Accelerometer,Accel_1,Accelerometer/MP_Accel,accel_x,Accelerate X,Accelerate on x axis,{name} {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
 ,,,,,,,name,textbox,^[\S]+$,,
 ,Accel_2,Accelerometer/MP_Accel,accel_y,Accelerate Y,Accelerate on y axis,{name}  {condition} {value} {unit},Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
@@ -20,12 +20,8 @@ Barometer,Barometer_1,Barometer/MP_Baro,pressure,Pressure,Measure Pressure,{name
 ,,,,,,,name,textbox,^[\S]+$,,
 Temperature,Temp_1,Temperature/MP_Temp,temp,Temperature,Measure temperature,{name}  {condition} {value} {unit},Temperature,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",25,C
 ,,,,,,,name,textbox,^[\S]+$,,
-Button,Button_1,Button/MP_Button,press,Press,Press the button,{name} is pressed,name,textbox,^[\S]+$,,
-,Button_2,Button/MP_Button,release,Release,Release the button,{name} is released,name,textbox,^[\S]+$,,
-,Button_3,Button/MP_Button,pressTime,Press x times,Press the button x times,{name} is pressed {value} {unit},Times,NumberExpression,"^(\d{1,})$",3,times
-,,,,,,,name,textbox,^[\S]+$,,
-,Button_4,Button/MP_Button,hold,Hold,Hold the button,{name} is hold {value} {unit},Time,NumberExpression,"^(\d{1,})$",3,seconds
-,,,,,,,name,textbox,^[\S]+$,,
+Button,Button_1,Button/MP_Button,release,Release,Release the button,{name} is released,name,textbox,^[\S]+$,,
+,Button_2,Button/MP_Button,doubleRelease,DoubleRelease,Release the button 2 times,{name} is released 2 times,name,textbox,^[\S]+$,,
 Gyroscope,Gyro_1,Gyroscope/MP_Gyro,rotate_x,Rotate X,Detect rotation on x axis in dps units,{name}  {condition} {value} {unit},Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
 ,,,,,,,name,textbox,^[\S]+$,,
 ,Gyro_2,Gyroscope/MP_Gyro,rotate_y,Rotate Y,Detect rotation on y axis in dps units,{name}  {condition} {value} {unit},Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
