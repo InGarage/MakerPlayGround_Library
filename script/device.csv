@@ -1,43 +1,43 @@
-id,lib_name,type_fn,id_fn,fn_name,brand,model,ic,price,detail,image,connect,min_volt,max_volt,depend_type,depend_min,depend_max,depend_unit,datasheet,link
-1,MP_PAM8302A,Action,Audio_1,play,Adafruit,2130,PAM8302,3.95,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,GPIO,2,5.5,SDcard,,,,https://cdn-shop.adafruit.com/datasheets/PAM8302A.pdf,https://www.adafruit.com/products/2130
-,,,Audio_2,volUp,,,,,,,,,,,,,,,
-,,,Audio_3,volDown,,,,,,,,,,,,,,,
-,,,Audio_4,setVol,,,,,,,,,,,,,,,
-,,,Audio_5,stop,,,,,,,,,,,,,,,
-,,,Audio_6,beep,,,,,,,,,,,,,,,
-2,MP_MAX4466,Trigger,Sound_1,vol,Adafruit,1063,MAX4466,6.95,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,GPIO,2.4,5.5,,,,,https://cdn-shop.adafruit.com/datasheets/CMA-4544PF-W.pdf,https://www.adafruit.com/products/1063
-3,MP_BME280,Trigger,Barometer_1,pressure,Adafruit,2652,BME280,19.95,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,I2C,3.3,3.3,,,,,https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads,https://www.adafruit.com/products/2652
-,,,Temp_1,temp,,,,,,,,,,,,,,,
-,,,Barometer_2,attitude,,,,,,,,,,,,,,,
-,,,Humid_1,humidity,,,,,,,,,,,,,,,
-4,MP_Si7021,Trigger,Humid_1,humidity,Adafruit,3251,Si7021,6.95,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/downloads,https://www.adafruit.com/products/3251
-,,,Temp_1,temp,,,,,,,,,,,,,,,
-5,MP_LCD16X2,Action,AN_LCD_1,backlight_on,Adafruit,292,,9.95,i2c / SPI character LCD backpack,https://cdn-shop.adafruit.com/970x728/292-04.jpg,I2C,5,5,,,,,https://learn.adafruit.com/i2c-spi-lcd-backpack/downloads,https://www.adafruit.com/products/292
-,,,AN_LCD_2,backlight_off,,,,,,,,,,,,,,,
-,,,AN_LCD_3,show,,,,,,,,,,,,,,,
-,,,AN_LCD_4,clear,,,,,,,,,,,,,,,
-6,MP_GeneralLed,Action,LED_1,dim,sparkfun,9590,,0.35,LED - Basic Red 5mm,https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg,GPIO,2.2,,Resistor,470,470,ohm,http://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf,https://www.sparkfun.com/products/9590
-,,,LED_2,blink,,,,,,,,,,,,,,,
-,,,LED_3,on,,,,,,,,,,,,,,,
-,,,LED_4,off,,,,,,,,,,,,,,,
-7,MP_L3GD20,Trigger,Gyro_1,rotate_x,Adafruit,1032,L3GD20H,12.5,L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H,https://cdn-shop.adafruit.com/970x728/1032-03.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/adafruit-triple-axis-gyro-breakout/downloads,https://www.adafruit.com/products/1032
-,,,Gyro_2,rotate_y,,,,,,,,,,,,,,,
-,,,Gyro_3,rotate_z,,,,,,,,,,,,,,,
-8,MP_TMP007,Trigger,Temp_1,temp,Adafruit,2023,TMP007,12.5,Contact-less Infrared Thermopile Sensor Breakout - TMP007,https://cdn-shop.adafruit.com/970x728/2023-00.jpg,I2C,2.2,5.5,,,,,https://learn.adafruit.com/adafruit-tmp007-sensor-breakout/downloads,https://www.adafruit.com/products/2023
-9,MP_LSM303,Trigger,Accel_1,accel_x,Adafruit,1120,LSM303,14.95,Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303,https://cdn-shop.adafruit.com/970x728/1120-00.jpg,I2C,3.3,5,,,,,https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/downloads,https://www.adafruit.com/products/1120
-,,,Accel_2,accel_y,,,,,,,,,,,,,,,
-,,,Accel_3,accel_z,,,,,,,,,,,,,,,
-,,,Mag_1,compass,,,,,,,,,,,,,,,
-,,,Mag_2,mag_x,,,,,,,,,,,,,,,
-,,,Mag_3,mag_y,,,,,,,,,,,,,,,
-,,,Mag_4,mag_z,,,,,,,,,,,,,,,
-10,MP_LSM9DS1,Trigger,Accel_1,accel_x,sparkfun,13944,LSM9DS1,14.95,SparkFun 9DoF Sensor Stick,https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg,I2C,1.9,3.6,,,,,https://learn.sparkfun.com/tutorials/9dof-sensor-stick-hookup-guide?_ga=1.200477930.59458894.1483968401,https://www.sparkfun.com/products/13944
-,,,Accel_2,accel_y,,,,,,,,,,,,,,,
-,,,Accel_3,accel_z,,,,,,,,,,,,,,,
-,,,Gyro_1,rotate_x,,,,,,,,,,,,,,,
-,,,Gyro_2,rotate_y,,,,,,,,,,,,,,,
-,,,Gyro_3,rotate_z,,,,,,,,,,,,,,,
-,,,Mag_1,compass,,,,,,,,,,,,,,,
-,,,Mag_2,mag_x,,,,,,,,,,,,,,,
-,,,Mag_3,mag_y,,,,,,,,,,,,,,,
-,,,Mag_4,mag_z,,,,,,,,,,,,,,,
+id,mfr,mfr_part_no,description,ic,price,connectivity,vcc_min,vcc_max,vccio_min,vccio_max,lib_name,compatibility,id,fn_name,image,link
+1,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,PWM,2,5.5,,,MP_PAM8302A,Action,Audio_1,play,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130
+,,,,,,,,,,,,,Audio_2,volUp,,
+,,,,,,,,,,,,,Audio_3,volDown,,
+,,,,,,,,,,,,,Audio_4,setVol,,
+,,,,,,,,,,,,,Audio_5,stop,,
+,,,,,,,,,,,,,Audio_6,beep,,
+2,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,Analog,2.4,5,,,MP_MAX4466,Trigger,Sound_1,vol,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063
+3,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,I2C,3,5,,,MP_BME280,Trigger,Barometer_1,pressure,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652
+,,,,,,,,,,,,,Temp_1,temp,,
+,,,,,,,,,,,,,Barometer_2,attitude,,
+,,,,,,,,,,,,,Humid_1,humidity,,
+4,Adafruit,3251,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,Si7021,6.95,I2C,3,5,,,MP_Si7021,Trigger,Humid_1,humidity,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,https://www.adafruit.com/products/3251
+,,,,,,,,,,,,,Temp_1,temp,,
+5,Adafruit,292,I2C / SPI character LCD backpack,,9.95,I2C,5,5,,,MP_LCD16X2,Action,AN_LCD_1,backlight_on,https://cdn-shop.adafruit.com/970x728/292-04.jpg,https://www.adafruit.com/products/292
+,,,,,,,,,,,,,AN_LCD_2,backlight_off,,
+,,,,,,,,,,,,,AN_LCD_3,show,,
+,,,,,,,,,,,,,AN_LCD_4,clear,,
+6,N/A,,General Led,,,PWM,,,,,MP_Led,Action,LED_1,dim,https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg,https://www.sparkfun.com/products/9590
+,,,,,,,,,,,,,LED_2,blink,,
+,,,,,,,,,,,,,LED_3,on,,
+,,,,,,,,,,,,,LED_4,off,,
+7,Adafruit,1032,L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H,L3GD20H,12.5,I2C,3,5,,,MP_L3GD20,Trigger,Gyro_1,rotate_x,https://cdn-shop.adafruit.com/970x728/1032-03.jpg,https://www.adafruit.com/products/1032
+,,,,,,,,,,,,,Gyro_2,rotate_y,,
+,,,,,,,,,,,,,Gyro_3,rotate_z,,
+8,Adafruit,2023,Contact-less Infrared Thermopile Sensor Breakout - TMP007,TMP007,12.5,I2C,2.5,5,,,MP_TMP007,Trigger,Temp_1,temp,https://cdn-shop.adafruit.com/970x728/2023-00.jpg,https://www.adafruit.com/products/2023
+9,Adafruit,1120,Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303,LSM303,14.95,I2C,3,5,,,MP_LSM303,Trigger,Accel_1,accel_x,https://cdn-shop.adafruit.com/970x728/1120-00.jpg,https://www.adafruit.com/products/1120
+,,,,,,,,,,,,,Accel_2,accel_y,,
+,,,,,,,,,,,,,Accel_3,accel_z,,
+,,,,,,,,,,,,,Mag_1,compass,,
+,,,,,,,,,,,,,Mag_2,mag_x,,
+,,,,,,,,,,,,,Mag_3,mag_y,,
+,,,,,,,,,,,,,Mag_4,mag_z,,
+10,sparkfun,13944,SparkFun 9DoF Sensor Stick,LSM9DS1,14.95,I2C,1.9,3.6,,,MP_LSM9DS1,Trigger,Accel_1,accel_x,https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg,https://www.sparkfun.com/products/13944
+,,,,,,,,,,,,,Accel_2,accel_y,,
+,,,,,,,,,,,,,Accel_3,accel_z,,
+,,,,,,,,,,,,,Gyro_1,rotate_x,,
+,,,,,,,,,,,,,Gyro_2,rotate_y,,
+,,,,,,,,,,,,,Gyro_3,rotate_z,,
+,,,,,,,,,,,,,Mag_1,compass,,
+,,,,,,,,,,,,,Mag_2,mag_x,,
+,,,,,,,,,,,,,Mag_3,mag_y,,
+,,,,,,,,,,,,,Mag_4,mag_z,,
