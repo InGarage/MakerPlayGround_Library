@@ -1,0 +1,13 @@
+name,lib_name,device_id
+General/MP_General,MP_Delay,
+Amplifier/MP_Amplifier,MP_PAM8302A,1
+Sound/MP_Sound,MP_MAX4466,2
+Barometer/MP_Baro,MP_BME280,3
+Humidity/MP_Humidity,MP_Si7021,4
+Display/MP_LCD,MP_LCD16X2,5
+Led/MP_Led,MP_GeneralLed,6
+Gyroscope/MP_Gyro,MP_L3GD20,7
+Temperature/MP_Temp,MP_TMP007,8
+Magnetometer/MP_Mag,MP_LSM303,9
+Accelerometer/MP_Accel,MP_LSM9DS1,10
+DCMotor/MP_DCMotor,MP_Adafruit_Motor_Shield_V2,11
