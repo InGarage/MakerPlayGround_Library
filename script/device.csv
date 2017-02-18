@@ -1,13 +1,13 @@
 id,mfr,mfr_part_no,description,ic,price,connectivity,vcc_min,vcc_max,vccio_min,vccio_max,image,link
-1,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,PWM,2,5.5,,,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130
-2,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,Analog,2.4,5,,,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063
-3,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652
-4,Adafruit,3251,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,Si7021,6.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,https://www.adafruit.com/products/3251
-5,Adafruit,292,I2C / SPI character LCD backpack,,9.95,I2C,5,5,,,https://cdn-shop.adafruit.com/970x728/292-04.jpg,https://www.adafruit.com/products/292
-6,N/A,,General Led,,,PWM,,,,,https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg,https://www.sparkfun.com/products/9590
-7,Adafruit,1032,L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H,L3GD20H,12.5,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1032-03.jpg,https://www.adafruit.com/products/1032
-8,Adafruit,2023,Contact-less Infrared Thermopile Sensor Breakout - TMP007,TMP007,12.5,I2C,2.5,5,,,https://cdn-shop.adafruit.com/970x728/2023-00.jpg,https://www.adafruit.com/products/2023
-9,Adafruit,1120,Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303,LSM303,14.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1120-00.jpg,https://www.adafruit.com/products/1120
-10,sparkfun,13944,SparkFun 9DoF Sensor Stick,LSM9DS1,14.95,I2C,1.9,3.6,,,https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg,https://www.sparkfun.com/products/13944
-11,N/A,,General Button,,,GPIO,,,,,https://cdn-shop.adafruit.com/970x728/476-00.jpg,https://www.adafruit.com/products/476
-12,Adafruit,1438,Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3,,19.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1438-00.jpg,https://www.adafruit.com/product/1438
+DEV_1,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,PWM,2,5.5,,,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130
+DEV_2,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,Analog,2.4,5,,,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063
+DEV_3,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652
+DEV_4,Adafruit,3251,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,Si7021,6.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,https://www.adafruit.com/products/3251
+DEV_5,Adafruit,292,I2C / SPI character LCD backpack,,9.95,I2C,5,5,,,https://cdn-shop.adafruit.com/970x728/292-04.jpg,https://www.adafruit.com/products/292
+DEV_6,N/A,,General Led,,,PWM,,,,,https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg,https://www.sparkfun.com/products/9590
+DEV_7,Adafruit,1032,L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H,L3GD20H,12.5,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1032-03.jpg,https://www.adafruit.com/products/1032
+DEV_8,Adafruit,2023,Contact-less Infrared Thermopile Sensor Breakout - TMP007,TMP007,12.5,I2C,2.5,5,,,https://cdn-shop.adafruit.com/970x728/2023-00.jpg,https://www.adafruit.com/products/2023
+DEV_9,Adafruit,1120,Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303,LSM303,14.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1120-00.jpg,https://www.adafruit.com/products/1120
+DEV_10,sparkfun,13944,SparkFun 9DoF Sensor Stick,LSM9DS1,14.95,I2C,1.9,3.6,,,https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg,https://www.sparkfun.com/products/13944
+DEV_11,N/A,,General Button,,,GPIO,,,,,https://cdn-shop.adafruit.com/970x728/476-00.jpg,https://www.adafruit.com/products/476
+DEV_12,Adafruit,1438,Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3,,19.95,I2C,3,5,,,https://cdn-shop.adafruit.com/970x728/1438-00.jpg,https://www.adafruit.com/product/1438

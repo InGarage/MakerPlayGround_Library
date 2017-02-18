@@ -1,278 +1,182 @@
 [
   {
-    "id": "1",
-    "lib_name": "MP_PAM8302A",
-    "compatibility": {
-      "Action": {
-        "Audio_1": "play",
-        "Audio_2": "volUp",
-        "Audio_3": "volDown",
-        "Audio_4": "setVol",
-        "Audio_5": "stop",
-        "Audio_6": "beep"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "2130",
+    "id": "DEV_1",
+    "mfr": "N/A",
+    "mfr_part_no": "",
+    "description": "General Led",
+    "ic": "",
+    "price": "",
+    "connectivity": "PWM",
+    "vcc_min": "",
+    "vcc_max": "",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "DEV_2",
+    "mfr": "N/A",
+    "mfr_part_no": "",
+    "description": "General Button",
+    "ic": "",
+    "price": "",
+    "connectivity": "GPIO",
+    "vcc_min": "",
+    "vcc_max": "",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "DEV_3",
+    "mfr": "N/A",
+    "mfr_part_no": "",
+    "description": "General Potentiometer",
+    "ic": "",
+    "price": "",
+    "connectivity": "Analog",
+    "vcc_min": "",
+    "vcc_max": "",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "",
+    "link": ""
+  },
+  {
+    "id": "DEV_4",
+    "mfr": "Adafruit",
+    "mfr_part_no": "2130",
+    "description": "Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302",
     "ic": "PAM8302",
     "price": "3.95",
-    "detail": "Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302",
+    "connectivity": "PWM",
+    "vcc_min": "2",
+    "vcc_max": "5.5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2130-01.jpg",
-    "connect": [
-      "GPIO"
-    ],
-    "min_volt": "2",
-    "max_volt": "5.5",
-    "dependency": [
-      {
-        "type": "SDcard",
-        "min": "",
-        "max": "",
-        "unit": ""
-      }
-    ],
-    "datasheet": "https://cdn-shop.adafruit.com/datasheets/PAM8302A.pdf",
     "link": "https://www.adafruit.com/products/2130"
   },
   {
-    "id": "2",
-    "lib_name": "MP_MAX4466",
-    "compatibility": {
-      "Trigger": {
-        "Sound_1": "vol"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "1063",
+    "id": "DEV_5",
+    "mfr": "Adafruit",
+    "mfr_part_no": "1063",
+    "description": "Electret Microphone Amplifier - MAX4466 with Adjustable Gain",
     "ic": "MAX4466",
     "price": "6.95",
-    "detail": "Electret Microphone Amplifier - MAX4466 with Adjustable Gain",
+    "connectivity": "Analog",
+    "vcc_min": "2.4",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1063-03.jpg",
-    "connect": [
-      "GPIO"
-    ],
-    "min_volt": "2.4",
-    "max_volt": "5.5",
-    "dependency": [],
-    "datasheet": "https://cdn-shop.adafruit.com/datasheets/CMA-4544PF-W.pdf",
     "link": "https://www.adafruit.com/products/1063"
   },
   {
-    "id": "3",
-    "lib_name": "MP_BME280",
-    "compatibility": {
-      "Trigger": {
-        "Barometer_1": "pressure",
-        "Temp_1": "temp",
-        "Barometer_2": "attitude",
-        "Humid_1": "humidity"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "2652",
+    "id": "DEV_6",
+    "mfr": "Adafruit",
+    "mfr_part_no": "2652",
+    "description": "Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor",
     "ic": "BME280",
     "price": "19.95",
-    "detail": "Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor",
+    "connectivity": "I2C",
+    "vcc_min": "3",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2652-00.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "3.3",
-    "max_volt": "3.3",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads",
     "link": "https://www.adafruit.com/products/2652"
   },
   {
-    "id": "4",
-    "lib_name": "MP_Si7021",
-    "compatibility": {
-      "Trigger": {
-        "Humid_1": "humidity",
-        "Temp_1": "temp"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "3251",
+    "id": "DEV_7",
+    "mfr": "Adafruit",
+    "mfr_part_no": "3251",
+    "description": "Adafruit Si7021 Temperature & Humidity Sensor Breakout Board",
     "ic": "Si7021",
     "price": "6.95",
-    "detail": "Adafruit Si7021 Temperature & Humidity Sensor Breakout Board",
+    "connectivity": "I2C",
+    "vcc_min": "3",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/3251-00.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "3.3",
-    "max_volt": "5",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/adafruit-si7021-temperature-plus-humidity-sensor/downloads",
     "link": "https://www.adafruit.com/products/3251"
   },
   {
-    "id": "5",
-    "lib_name": "MP_LCD16X2",
-    "compatibility": {
-      "Action": {
-        "AN_LCD_1": "backlight_on",
-        "AN_LCD_2": "backlight_off",
-        "AN_LCD_3": "show",
-        "AN_LCD_4": "clear"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "292",
+    "id": "DEV_8",
+    "mfr": "Adafruit",
+    "mfr_part_no": "292",
+    "description": "I2C / SPI character LCD backpack",
     "ic": "",
     "price": "9.95",
-    "detail": "i2c / SPI character LCD backpack",
+    "connectivity": "I2C",
+    "vcc_min": "5",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/292-04.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "5",
-    "max_volt": "5",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/i2c-spi-lcd-backpack/downloads",
     "link": "https://www.adafruit.com/products/292"
   },
   {
-    "id": "6",
-    "lib_name": "MP_GeneralLed",
-    "compatibility": {
-      "Action": {
-        "LED_1": "dim",
-        "LED_2": "blink",
-        "LED_3": "on",
-        "LED_4": "off"
-      }
-    },
-    "brand": "sparkfun",
-    "model": "9590",
-    "ic": "",
-    "price": "0.35",
-    "detail": "LED - Basic Red 5mm",
-    "image": "https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg",
-    "connect": [
-      "GPIO"
-    ],
-    "min_volt": "2.2",
-    "max_volt": "",
-    "dependency": [
-      {
-        "type": "Resistor",
-        "min": "470",
-        "max": "470",
-        "unit": "ohm"
-      }
-    ],
-    "datasheet": "http://www.sparkfun.com/datasheets/Components/LED/COM-09590-YSL-R531R3D-D2.pdf",
-    "link": "https://www.sparkfun.com/products/9590"
-  },
-  {
-    "id": "7",
-    "lib_name": "MP_L3GD20",
-    "compatibility": {
-      "Trigger": {
-        "Gyro_1": "rotate_x",
-        "Gyro_2": "rotate_y",
-        "Gyro_3": "rotate_z"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "1032",
+    "id": "DEV_9",
+    "mfr": "Adafruit",
+    "mfr_part_no": "1032",
+    "description": "L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H",
     "ic": "L3GD20H",
     "price": "12.5",
-    "detail": "L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H",
+    "connectivity": "I2C",
+    "vcc_min": "3",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1032-03.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "3.3",
-    "max_volt": "5",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/adafruit-triple-axis-gyro-breakout/downloads",
     "link": "https://www.adafruit.com/products/1032"
   },
   {
-    "id": "8",
-    "lib_name": "MP_TMP007",
-    "compatibility": {
-      "Trigger": {
-        "Temp_1": "temp"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "2023",
+    "id": "DEV_10",
+    "mfr": "Adafruit",
+    "mfr_part_no": "2023",
+    "description": "Contact-less Infrared Thermopile Sensor Breakout - TMP007",
     "ic": "TMP007",
     "price": "12.5",
-    "detail": "Contact-less Infrared Thermopile Sensor Breakout - TMP007",
+    "connectivity": "I2C",
+    "vcc_min": "2.5",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2023-00.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "2.2",
-    "max_volt": "5.5",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/adafruit-tmp007-sensor-breakout/downloads",
     "link": "https://www.adafruit.com/products/2023"
   },
   {
-    "id": "9",
-    "lib_name": "MP_LSM303",
-    "compatibility": {
-      "Trigger": {
-        "Accel_1": "accel_x",
-        "Accel_2": "accel_y",
-        "Accel_3": "accel_z",
-        "Mag_1": "compass",
-        "Mag_2": "mag_x",
-        "Mag_3": "mag_y",
-        "Mag_4": "mag_z"
-      }
-    },
-    "brand": "Adafruit",
-    "model": "1120",
+    "id": "DEV_11",
+    "mfr": "Adafruit",
+    "mfr_part_no": "1120",
+    "description": "Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303",
     "ic": "LSM303",
     "price": "14.95",
-    "detail": "Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303",
+    "connectivity": "I2C",
+    "vcc_min": "3",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1120-00.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "3.3",
-    "max_volt": "5",
-    "dependency": [],
-    "datasheet": "https://learn.adafruit.com/lsm303-accelerometer-slash-compass-breakout/downloads",
     "link": "https://www.adafruit.com/products/1120"
   },
   {
-    "id": "10",
-    "lib_name": "MP_LSM9DS1",
-    "compatibility": {
-      "Trigger": {
-        "Accel_1": "accel_x",
-        "Accel_2": "accel_y",
-        "Accel_3": "accel_z",
-        "Gyro_1": "rotate_x",
-        "Gyro_2": "rotate_y",
-        "Gyro_3": "rotate_z",
-        "Mag_1": "compass",
-        "Mag_2": "mag_x",
-        "Mag_3": "mag_y",
-        "Mag_4": "mag_z"
-      }
-    },
-    "brand": "sparkfun",
-    "model": "13944",
+    "id": "DEV_12",
+    "mfr": "sparkfun",
+    "mfr_part_no": "13944",
+    "description": "SparkFun 9DoF Sensor Stick",
     "ic": "LSM9DS1",
     "price": "14.95",
-    "detail": "SparkFun 9DoF Sensor Stick",
+    "connectivity": "I2C",
+    "vcc_min": "1.9",
+    "vcc_max": "3.6",
+    "vccio_min": "",
+    "vccio_max": "",
     "image": "https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg",
-    "connect": [
-      "I2C"
-    ],
-    "min_volt": "1.9",
-    "max_volt": "3.6",
-    "dependency": [],
-    "datasheet": "https://learn.sparkfun.com/tutorials/9dof-sensor-stick-hookup-guide?_ga=1.200477930.59458894.1483968401",
     "link": "https://www.sparkfun.com/products/13944"
   }
 ]
