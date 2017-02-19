@@ -25,12 +25,15 @@ if __name__ == '__main__':
 
                 # We have found a new trigger so we create a dict and append to the correct category
                 if len(row['id']) != 0:
+                    compatibility = collections.OrderedDict([('interface', row['compatible_interface']),
+                                                            ('fn_name', row['fn_name'])])
                     action = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
                                                       ('short_description', row['short_description']),
                                                       #('description', row['description']),
                                                       ('display_text', row['display_text']),
-                                                      ('params', [])])
+                                                      ('params', []),
+                                                      ('compatibility', compatibility)])
                     category.append(action)
 
                 # If a parameter is found, we append it to the current trigger. If an argument or a                
