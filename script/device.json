@@ -1,51 +1,6 @@
 [
   {
     "id": "DEV_1",
-    "mfr": "N/A",
-    "mfr_part_no": "",
-    "description": "General Led",
-    "ic": "",
-    "price": "",
-    "connectivity": "PWM",
-    "vcc_min": "",
-    "vcc_max": "",
-    "vccio_min": "",
-    "vccio_max": "",
-    "image": "",
-    "link": ""
-  },
-  {
-    "id": "DEV_2",
-    "mfr": "N/A",
-    "mfr_part_no": "",
-    "description": "General Button",
-    "ic": "",
-    "price": "",
-    "connectivity": "GPIO",
-    "vcc_min": "",
-    "vcc_max": "",
-    "vccio_min": "",
-    "vccio_max": "",
-    "image": "",
-    "link": ""
-  },
-  {
-    "id": "DEV_3",
-    "mfr": "N/A",
-    "mfr_part_no": "",
-    "description": "General Potentiometer",
-    "ic": "",
-    "price": "",
-    "connectivity": "Analog",
-    "vcc_min": "",
-    "vcc_max": "",
-    "vccio_min": "",
-    "vccio_max": "",
-    "image": "",
-    "link": ""
-  },
-  {
-    "id": "DEV_4",
     "mfr": "Adafruit",
     "mfr_part_no": "2130",
     "description": "Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302",
@@ -60,7 +15,7 @@
     "link": "https://www.adafruit.com/products/2130"
   },
   {
-    "id": "DEV_5",
+    "id": "DEV_2",
     "mfr": "Adafruit",
     "mfr_part_no": "1063",
     "description": "Electret Microphone Amplifier - MAX4466 with Adjustable Gain",
@@ -75,7 +30,7 @@
     "link": "https://www.adafruit.com/products/1063"
   },
   {
-    "id": "DEV_6",
+    "id": "DEV_3",
     "mfr": "Adafruit",
     "mfr_part_no": "2652",
     "description": "Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor",
@@ -90,7 +45,7 @@
     "link": "https://www.adafruit.com/products/2652"
   },
   {
-    "id": "DEV_7",
+    "id": "DEV_4",
     "mfr": "Adafruit",
     "mfr_part_no": "3251",
     "description": "Adafruit Si7021 Temperature & Humidity Sensor Breakout Board",
@@ -105,7 +60,7 @@
     "link": "https://www.adafruit.com/products/3251"
   },
   {
-    "id": "DEV_8",
+    "id": "DEV_5",
     "mfr": "Adafruit",
     "mfr_part_no": "292",
     "description": "I2C / SPI character LCD backpack",
@@ -120,7 +75,22 @@
     "link": "https://www.adafruit.com/products/292"
   },
   {
-    "id": "DEV_9",
+    "id": "DEV_6",
+    "mfr": "N/A",
+    "mfr_part_no": "",
+    "description": "General Led",
+    "ic": "",
+    "price": "",
+    "connectivity": "PWM",
+    "vcc_min": "",
+    "vcc_max": "",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg",
+    "link": "https://www.sparkfun.com/products/9590"
+  },
+  {
+    "id": "DEV_7",
     "mfr": "Adafruit",
     "mfr_part_no": "1032",
     "description": "L3GD20H Triple-Axis Gyro Breakout Board - L3GD20/L3G4200 Upgrade - L3GD20H",
@@ -135,7 +105,7 @@
     "link": "https://www.adafruit.com/products/1032"
   },
   {
-    "id": "DEV_10",
+    "id": "DEV_8",
     "mfr": "Adafruit",
     "mfr_part_no": "2023",
     "description": "Contact-less Infrared Thermopile Sensor Breakout - TMP007",
@@ -150,7 +120,7 @@
     "link": "https://www.adafruit.com/products/2023"
   },
   {
-    "id": "DEV_11",
+    "id": "DEV_9",
     "mfr": "Adafruit",
     "mfr_part_no": "1120",
     "description": "Triple-axis Accelerometer+Magnetometer (Compass) Board - LSM303",
@@ -165,7 +135,7 @@
     "link": "https://www.adafruit.com/products/1120"
   },
   {
-    "id": "DEV_12",
+    "id": "DEV_10",
     "mfr": "sparkfun",
     "mfr_part_no": "13944",
     "description": "SparkFun 9DoF Sensor Stick",
@@ -178,5 +148,35 @@
     "vccio_max": "",
     "image": "https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg",
     "link": "https://www.sparkfun.com/products/13944"
+  },
+  {
+    "id": "DEV_11",
+    "mfr": "N/A",
+    "mfr_part_no": "",
+    "description": "General Button",
+    "ic": "",
+    "price": "",
+    "connectivity": "GPIO",
+    "vcc_min": "",
+    "vcc_max": "",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "https://cdn-shop.adafruit.com/970x728/476-00.jpg",
+    "link": "https://www.adafruit.com/products/476"
+  },
+  {
+    "id": "DEV_12",
+    "mfr": "Adafruit",
+    "mfr_part_no": "1438",
+    "description": "Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3",
+    "ic": "",
+    "price": "19.95",
+    "connectivity": "I2C",
+    "vcc_min": "3",
+    "vcc_max": "5",
+    "vccio_min": "",
+    "vccio_max": "",
+    "image": "https://cdn-shop.adafruit.com/970x728/1438-00.jpg",
+    "link": "https://www.adafruit.com/product/1438"
   }
 ]
