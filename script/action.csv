@@ -11,15 +11,7 @@ Alphanumeric LCD,AN_LCD_1,MP_LCD,backlight_on,Backlight On,Turn the LCD backligh
 ,AN_LCD_3,MP_LCD,show,Show Text,Show text,name,textbox,,,^[\S]+$
 ,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
 ,AN_LCD_4,MP_LCD,clear,Clear screen,Erase all content in the screen,name,textbox,,,^[\S]+$
-Audio,Audio_1,MP_Amplifier,play,play,Play an audio file from a SD card,name,textbox,,,^[\S]+$
-,,,,,,filename,textbox,,,^[\S]+$
-,,,,,,volume,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,Audio_2,MP_Amplifier,volUp,volUp,Increase volume by 10%,name,textbox,,,^[\S]+$
-,Audio_3,MP_Amplifier,volDown,volDown,Decrease volume by 10%,name,textbox,,,^[\S]+$
-,Audio_4,MP_Amplifier,setVol,setVol,Set audio playback volume,name,textbox,,,^[\S]+$
-,,,,,,volume,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,Audio_5,MP_Amplifier,stop,stop,Stop playing an audio file,name,textbox,,,^[\S]+$
-,Audio_6,MP_Amplifier,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
+Audio,Audio_1,MP_Amplifier,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
 ,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
 ,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 DC Motor,DCMotor_1,MP_DCMotor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
