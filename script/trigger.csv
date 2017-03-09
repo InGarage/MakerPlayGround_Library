@@ -1,51 +1,45 @@
-category,id,compatible_interface,fn_name,name,short_description,display_text,param,param_control,param_regex,param_default_value,param_arg
-Accelerometer,Accel_1,MP_Accel,accel_x,Accelerate X,Accelerate on x axis,{name} {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
-,Accel_2,MP_Accel,accel_y,Accelerate Y,Accelerate on y axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
-,Accel_3,MP_Accel,accel_z,Accelerate Z,Accelerate on z axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Accelerate,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
-,Accel_4,MP_Accel,slop_x,Slope X,Measure slope on x axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
-,Accel_5,MP_Accel,slop_y,Slope Y,Measure slope on y axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
-,Accel_6,MP_Accel,slop_z,Slope Z,Measure slope z axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Angle,NumberExpression,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|[1-2]\d\d([.]\d{1,})?|3[0-5]\d([.]\d{1,})?|360)$",180,degree
-,Accel_7,MP_Accel,tap,Tap,Tap detection,{name}  is taped,name,textbox,^[\S]+$,,
-,Accel_8,MP_Accel,doubletap,Double Tap,Double Tap detection,{name} is double taped,name,textbox,^[\S]+$,,
-,Accel_9,MP_Accel,freefall,Free fall,Free fall detection,{name}  is free fell,name,textbox,^[\S]+$,,
-Barometer,Barometer_1,MP_Baro,pressure,Pressure,Measure Pressure,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Pressure,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1000,hPa
-,Barometer_2,MP_Baro,attitude,Altitude,Measure Altitude by using barometer,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Altitude,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",10,cm
-Temperature,Temp_1,MP_Temp,checkTemp,Temperature,Measure temperature,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Temperature,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",25,C
-Button,Button_1,MP_Button,release,Release,Release the button,{name} is released,name,textbox,^[\S]+$,,
-,Button_2,MP_Button,doubleRelease,DoubleRelease,Release the button 2 times,{name} is released 2 times,name,textbox,^[\S]+$,,
-Gyroscope,Gyro_1,MP_Gyro,rotate_x,Rotate X,Detect rotation on x axis in dps units,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
-,Gyro_2,MP_Gyro,rotate_y,Rotate Y,Detect rotation on y axis in dps units,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
-,Gyro_3,MP_Gyro,rotate_z,Rotate Z,Detect rotation on z axis in dps units,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
-Humidity,Humid_1,MP_Humidity,humidity,Humidity,Measure Humidity,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Humidity,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",30,%
-Sound,Sound_1,MP_Sound,checkVol,Volume,Measure volume,{name} {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Volume,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",30,%
-General,Delay_1,MP_Delay,delay,Delay,Delay time,Delay {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Time,NumberExpression,"^(\d{1,})$",1000,milliseconds
-Magnetometer,Mag_1,MP_Mag,compass,Compass,Detect 8 directions,{name} {condition} {value},name,textbox,^[\S]+$,,
-,,,,,,,Direction,Dropdown,,,NE
-,,,,,,,,,,,N
-,,,,,,,,,,,E
-,,,,,,,,,,,W
-,,,,,,,,,,,NW
-,,,,,,,,,,,S
-,,,,,,,,,,,SW
-,,,,,,,,,,,SE
-,Mag_2,MP_Mag,mag_x,Magnetic X,Detect Magnetic on x axis,{name} {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut
-,Mag_3,MP_Mag,mag_y,Magnetic Y,Detect Magnetic on y axis,{name} {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut
-,Mag_4,MP_Mag,mag_z,Magnetic Z,Detect Magnetic on z axis,{name}  {condition} {value} {unit},name,textbox,^[\S]+$,,
-,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut
+category,id,compatible_interface,fn_name,name,short_description,display_text,display_text_param,param,param_control,param_regex,param_default_value,param_arg
+Accelerometer,Accel_1,MP_Accel,accel_x,Accelerate X,Accelerate on x axis,{0},Acceleration,name,textbox,^[\S]+$,,
+,,,,,,,,Acceleration,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_2,MP_Accel,accel_y,Accelerate Y,Accelerate on y axis,{0},Acceleration,name,textbox,^[\S]+$,,
+,,,,,,,,Acceleration,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_3,MP_Accel,accel_z,Accelerate Z,Accelerate on z axis,{0},Acceleration,name,textbox,^[\S]+$,,
+,,,,,,,,Acceleration,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1,m/s^2
+,Accel_4,MP_Accel,tap,Tap,Tap detection,Tapped,,name,textbox,^[\S]+$,,
+,Accel_5,MP_Accel,doubletap,Double Tap,Double Tap detection,Double Tapped,,name,textbox,^[\S]+$,,
+,Accel_6,MP_Accel,freefall,Free fall,Free fall detection,Free fall,,name,textbox,^[\S]+$,,
+Barometer,Barometer_1,MP_Baro,pressure,Pressure,Measure Pressure,{0},Pressure,name,textbox,^[\S]+$,,
+,,,,,,,,Pressure,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",1000,hPa
+,Barometer_2,MP_Baro,attitude,Altitude,Measure Altitude by using barometer,{0},Altitude,name,textbox,^[\S]+$,,
+,,,,,,,,Altitude,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",10,cm
+Temperature,Temp_1,MP_Temp,checkTemp,Temperature,Measure temperature,{0},Temperature,name,textbox,^[\S]+$,,
+,,,,,,,,Temperature,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",25,C
+Button,Button_1,MP_Button,release,Press,Release the button,Pressed,,name,textbox,^[\S]+$,,
+,Button_2,MP_Button,doubleRelease,Double Press,Release the button 2 times,Pressed 2 times,,name,textbox,^[\S]+$,,
+Gyroscope,Gyro_1,MP_Gyro,rotate_x,Rotate X,Detect rotation on x axis in dps units,{0},Rotation,name,textbox,^[\S]+$,,
+,,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+,Gyro_2,MP_Gyro,rotate_y,Rotate Y,Detect rotation on y axis in dps units,{0},Rotation,name,textbox,^[\S]+$,,
+,,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+,Gyro_3,MP_Gyro,rotate_z,Rotate Z,Detect rotation on z axis in dps units,{0},Rotation,name,textbox,^[\S]+$,,
+,,,,,,,,Rotation,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",100,dps
+Humidity,Humid_1,MP_Humidity,humidity,Humidity,Measure Humidity,{0},Humidity,name,textbox,^[\S]+$,,
+,,,,,,,,Humidity,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",30,%
+Sound,Sound_1,MP_Sound,checkVol,Volume,Measure volume,{0},Volume,name,textbox,^[\S]+$,,
+,,,,,,,,Volume,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",30,%
+General,Delay_1,MP_Delay,delay,Delay,Delay time,{0},Time,name,textbox,^[\S]+$,,
+,,,,,,,,Time,NumberExpression,"^(\d{1,})$",1000,milliseconds
+Magnetometer,Mag_1,MP_Mag,compass,Compass,Detect 8 directions,{0},Direction,name,textbox,^[\S]+$,,
+,,,,,,,,Direction,Dropdown,,,NE
+,,,,,,,,,,,,N
+,,,,,,,,,,,,E
+,,,,,,,,,,,,W
+,,,,,,,,,,,,NW
+,,,,,,,,,,,,S
+,,,,,,,,,,,,SW
+,,,,,,,,,,,,SE
+,Mag_2,MP_Mag,mag_x,Magnetic X,Detect Magnetic on x axis,{0},Magnetic,name,textbox,^[\S]+$,,
+,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut
+,Mag_3,MP_Mag,mag_y,Magnetic Y,Detect Magnetic on y axis,{0},Magnetic,name,textbox,^[\S]+$,,
+,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut
+,Mag_4,MP_Mag,mag_z,Magnetic Z,Detect Magnetic on z axis,{0},Magnetic,name,textbox,^[\S]+$,,
+,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",300,ut

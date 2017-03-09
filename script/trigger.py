@@ -32,9 +32,13 @@ if __name__ == '__main__':
                                                       ('short_description', row['short_description']),
                                                       #('description', row['description']),
                                                       ('display_text', row['display_text']),
+                                                      ('display_text_param', []),
                                                       ('params', []),
                                                       ('compatibility', compatibility)])
                     category.append(action)
+
+                if len(row['display_text_param']) != 0:
+                    action['display_text_param'].append(row['display_text_param'])
 
                 # If a parameter is found, we append it to the current trigger. If an argument or a                
                 # default value is found, we append it the the current parameter
