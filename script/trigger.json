@@ -26,7 +26,9 @@
             "name": "Acceleration",
             "control": "NumberExpression",
             "default_value": [
-              "1"
+              ">",
+              "1",
+              "m/s^2"
             ],
             "args": [
               "m/s^2"
@@ -34,8 +36,8 @@
             "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "accel_x"
         }
       },
@@ -63,7 +65,9 @@
             "name": "Acceleration",
             "control": "NumberExpression",
             "default_value": [
-              "1"
+              ">",
+              "1",
+              "m/s^2"
             ],
             "args": [
               "m/s^2"
@@ -71,8 +75,8 @@
             "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "accel_y"
         }
       },
@@ -100,7 +104,9 @@
             "name": "Acceleration",
             "control": "NumberExpression",
             "default_value": [
-              "1"
+              ">",
+              "1",
+              "m/s^2"
             ],
             "args": [
               "m/s^2"
@@ -108,8 +114,8 @@
             "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "accel_z"
         }
       },
@@ -132,8 +138,8 @@
             "regex": "^[\\S]+$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "tap"
         }
       },
@@ -156,8 +162,8 @@
             "regex": "^[\\S]+$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "doubletap"
         }
       },
@@ -180,8 +186,8 @@
             "regex": "^[\\S]+$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Accel",
+        "require": {
+          "type": "Accelerometer",
           "fn_name": "freefall"
         }
       }
@@ -214,7 +220,9 @@
             "name": "Pressure",
             "control": "NumberExpression",
             "default_value": [
-              "1000"
+              ">",
+              "1000",
+              "hPa"
             ],
             "args": [
               "hPa"
@@ -222,8 +230,8 @@
             "regex": "^\\-?(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Baro",
+        "require": {
+          "type": "Pressure",
           "fn_name": "pressure"
         }
       },
@@ -251,7 +259,9 @@
             "name": "Altitude",
             "control": "NumberExpression",
             "default_value": [
-              "10"
+              ">",
+              "10",
+              "cm"
             ],
             "args": [
               "cm"
@@ -259,8 +269,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Baro",
+        "require": {
+          "type": "Pressure",
           "fn_name": "attitude"
         }
       }
@@ -293,7 +303,9 @@
             "name": "Temperature",
             "control": "NumberExpression",
             "default_value": [
-              "25"
+              ">",
+              "25",
+              "C"
             ],
             "args": [
               "C"
@@ -301,8 +313,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Temp",
+        "require": {
+          "type": "Temperature",
           "fn_name": "checkTemp"
         }
       }
@@ -330,8 +342,8 @@
             "regex": "^[\\S]+$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Button",
+        "require": {
+          "type": "Button",
           "fn_name": "release"
         }
       },
@@ -354,8 +366,8 @@
             "regex": "^[\\S]+$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Button",
+        "require": {
+          "type": "Button",
           "fn_name": "doubleRelease"
         }
       }
@@ -388,7 +400,9 @@
             "name": "Rotation",
             "control": "NumberExpression",
             "default_value": [
-              "100"
+              ">",
+              "100",
+              "dps"
             ],
             "args": [
               "dps"
@@ -396,8 +410,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Gyro",
+        "require": {
+          "type": "Gyroscope",
           "fn_name": "rotate_x"
         }
       },
@@ -425,7 +439,9 @@
             "name": "Rotation",
             "control": "NumberExpression",
             "default_value": [
-              "100"
+              ">",
+              "100",
+              "dps"
             ],
             "args": [
               "dps"
@@ -433,8 +449,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Gyro",
+        "require": {
+          "type": "Gyroscope",
           "fn_name": "rotate_y"
         }
       },
@@ -462,7 +478,9 @@
             "name": "Rotation",
             "control": "NumberExpression",
             "default_value": [
-              "100"
+              ">",
+              "100",
+              "dps"
             ],
             "args": [
               "dps"
@@ -470,8 +488,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Gyro",
+        "require": {
+          "type": "Gyroscope",
           "fn_name": "rotate_z"
         }
       }
@@ -502,9 +520,11 @@
           },
           {
             "name": "Humidity",
-            "control": "Slider",
+            "control": "NumberExpression",
             "default_value": [
-              "30"
+              ">",
+              "30",
+              "%"
             ],
             "args": [
               "%"
@@ -512,8 +532,8 @@
             "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Humidity",
+        "require": {
+          "type": "Humidity",
           "fn_name": "humidity"
         }
       }
@@ -546,7 +566,8 @@
             "name": "Volume",
             "control": "Slider",
             "default_value": [
-              "30"
+              "50",
+              "%"
             ],
             "args": [
               "%"
@@ -554,8 +575,8 @@
             "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Sound",
+        "require": {
+          "type": "Sound",
           "fn_name": "checkVol"
         }
       }
@@ -588,7 +609,8 @@
             "name": "Time",
             "control": "NumberExpression",
             "default_value": [
-              "1000"
+              "1000",
+              "ms"
             ],
             "args": [
               "milliseconds"
@@ -596,8 +618,8 @@
             "regex": "^(\\d{1,})$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Delay",
+        "require": {
+          "type": "General",
           "fn_name": "delay"
         }
       }
@@ -630,7 +652,7 @@
             "name": "Direction",
             "control": "Dropdown",
             "default_value": [
-              ""
+              "NE"
             ],
             "args": [
               "NE",
@@ -645,8 +667,8 @@
             "regex": ""
           }
         ],
-        "compatibility": {
-          "interface": "MP_Mag",
+        "require": {
+          "type": "Magnetometer",
           "fn_name": "compass"
         }
       },
@@ -674,7 +696,9 @@
             "name": "Magnetic",
             "control": "NumberExpression",
             "default_value": [
-              "300"
+              ">",
+              "300",
+              "ut"
             ],
             "args": [
               "ut"
@@ -682,8 +706,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Mag",
+        "require": {
+          "type": "Magnetometer",
           "fn_name": "mag_x"
         }
       },
@@ -711,7 +735,9 @@
             "name": "Magnetic",
             "control": "NumberExpression",
             "default_value": [
-              "300"
+              ">",
+              "300",
+              "ut"
             ],
             "args": [
               "ut"
@@ -719,8 +745,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Mag",
+        "require": {
+          "type": "Magnetometer",
           "fn_name": "mag_y"
         }
       },
@@ -748,7 +774,9 @@
             "name": "Magnetic",
             "control": "NumberExpression",
             "default_value": [
-              "300"
+              ">",
+              "300",
+              "ut"
             ],
             "args": [
               "ut"
@@ -756,8 +784,8 @@
             "regex": "^(\\d{1,}([.]\\d{1,})?)$"
           }
         ],
-        "compatibility": {
-          "interface": "MP_Mag",
+        "require": {
+          "type": "Magnetometer",
           "fn_name": "mag_z"
         }
       }

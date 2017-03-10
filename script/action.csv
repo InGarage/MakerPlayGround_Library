@@ -1,24 +1,31 @@
-category,id,compatible_interface,fn_name,name,short_description,param,param_control,param_arg,param_default_value,param_regex
-LED,LED_1,MP_LED,dim,Dim,Adjust an LED brightness,name,textbox,,,^[\S]+$
+category,id,type,fn_name,name,short_description,param,param_control,param_arg,param_default_value,param_regex
+LED,LED_1,Led,dim,Dim,Adjust an LED brightness,name,textbox,,,^[\S]+$
 ,,,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,LED_2,MP_LED,blink,Blink,Blink an LED,name,textbox,,,^[\S]+$
+,,,,,,,,,%,
+,LED_2,Led,blink,Blink,Blink an LED,name,textbox,,,^[\S]+$
 ,,,,,,frequency,spinbox,Hz,2,"^(\d{1,})$"
-,LED_3,MP_LED,on,On,Turn an LED on,name,textbox,,,^[\S]+$
+,,,,,,,,,Hz,
+,LED_3,Led,on,On,Turn an LED on,name,textbox,,,^[\S]+$
 ,,,,,,brightness,slider,%,100,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,LED_4,MP_LED,off,Off,Turn an LED off,name,textbox,,,^[\S]+$
-Alphanumeric LCD,AN_LCD_1,MP_LCD,backlight_on,Backlight On,Turn the LCD backlight on,name,textbox,,,^[\S]+$
-,AN_LCD_2,MP_LCD,backlight_off,Backlight Off,Turn the LCD backlight off,name,textbox,,,^[\S]+$
-,AN_LCD_3,MP_LCD,show,Show Text,Show text,name,textbox,,,^[\S]+$
+,,,,,,,,,%,
+,LED_4,Led,off,Off,Turn an LED off,name,textbox,,,^[\S]+$
+Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight on,name,textbox,,,^[\S]+$
+,AN_LCD_2,Lcd,backlight_off,Backlight Off,Turn the LCD backlight off,name,textbox,,,^[\S]+$
+,AN_LCD_3,Lcd,show,Show Text,Show text,name,textbox,,,^[\S]+$
 ,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
-,AN_LCD_4,MP_LCD,clear,Clear screen,Erase all content in the screen,name,textbox,,,^[\S]+$
-Audio,Audio_1,MP_Amplifier,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
+,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,name,textbox,,,^[\S]+$
+Audio,Audio_1,Audio,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
 ,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
+,,,,,,,,,Hz,
 ,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
-DC Motor,DCMotor_1,MP_DCMotor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
-,,,,,,direction,radio,CW,,
+,,,,,,,,,ms,
+DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
+,,,,,,direction,radio,CW,CW,
 ,,,,,,,,CCW,,
 ,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,DCMotor_2,MP_DCMotor,reverse,reverse,Change motor direction,name,textbox,,,^[\S]+$
-,DCMotor_3,MP_DCMotor,set_speed,set_speed,Change motor speed,name,textbox,,,^[\S]+$
+,,,,,,,,,%,
+,DCMotor_2,Motor,reverse,reverse,Change motor direction,name,textbox,,,^[\S]+$
+,DCMotor_3,Motor,set_speed,set_speed,Change motor speed,name,textbox,,,^[\S]+$
 ,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,DCMotor_4,MP_DCMotor,stop,stop,Turn a motor off,name,textbox,,,^[\S]+$
+,,,,,,,,,%,
+,DCMotor_4,Motor,stop,stop,Turn a motor off,name,textbox,,,^[\S]+$

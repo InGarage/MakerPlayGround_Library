@@ -29,8 +29,24 @@ if __name__ == '__main__':
                                                       ('vccio_min', row['vccio_min']),
                                                       ('vccio_max', row['vccio_max']),
                                                       ('image', row['image']),
-                                                      ('link', row['link'])])
+                                                      ('link', row['link']),
+                                                      ('sub_device', []),
+                                                      ('compatibility', [])])
                     data.append(device)
+
+                if len(row['sub_device']) != 0:
+                    conflict = []
+                    device['sub_device'].append(collections.OrderedDict([('name', row['sub_device']),
+                                                                         ('conflict', conflict)]))
+                if len(row['sub_device_conflict']) != 0:
+                    conflict.append(row['sub_device_conflict'])
+
+                if len(row['type']) != 0:
+                    fn = []
+                    device['compatibility'].append(collections.OrderedDict([('type', row['type']),
+                                                                            ('fn', fn)]))
+                if len(row['compatible_fn']) != 0:
+                    fn.append(row['compatible_fn'])
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))

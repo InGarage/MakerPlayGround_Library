@@ -12,7 +12,16 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2130-01.jpg",
-    "link": "https://www.adafruit.com/products/2130"
+    "link": "https://www.adafruit.com/products/2130",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Audio",
+        "fn": [
+          "beep"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_2",
@@ -27,7 +36,16 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1063-03.jpg",
-    "link": "https://www.adafruit.com/products/1063"
+    "link": "https://www.adafruit.com/products/1063",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Audio",
+        "fn": [
+          "checkVol"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_3",
@@ -42,7 +60,29 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2652-00.jpg",
-    "link": "https://www.adafruit.com/products/2652"
+    "link": "https://www.adafruit.com/products/2652",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Temperature",
+        "fn": [
+          "checkTemp"
+        ]
+      },
+      {
+        "type": "Humidity",
+        "fn": [
+          "humidity"
+        ]
+      },
+      {
+        "type": "Pressure",
+        "fn": [
+          "pressure",
+          "attitude"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_4",
@@ -57,7 +97,22 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/3251-00.jpg",
-    "link": "https://www.adafruit.com/products/3251"
+    "link": "https://www.adafruit.com/products/3251",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Temperature",
+        "fn": [
+          "checkTemp"
+        ]
+      },
+      {
+        "type": "Humidity",
+        "fn": [
+          "humidity"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_5",
@@ -72,7 +127,19 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/292-04.jpg",
-    "link": "https://www.adafruit.com/products/292"
+    "link": "https://www.adafruit.com/products/292",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Lcd",
+        "fn": [
+          "backlight_on",
+          "backlight_off",
+          "show",
+          "clear"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_6",
@@ -86,8 +153,19 @@
     "vcc_max": "",
     "vccio_min": "",
     "vccio_max": "",
-    "image": "https://cdn.sparkfun.com//assets/parts/8/3/4/08377-02-L.jpg",
-    "link": "https://www.sparkfun.com/products/9590"
+    "image": "",
+    "link": "https://www.sparkfun.com/products/9590",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Led",
+        "fn": [
+          "on",
+          "off",
+          "dim"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_7",
@@ -102,7 +180,18 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1032-03.jpg",
-    "link": "https://www.adafruit.com/products/1032"
+    "link": "https://www.adafruit.com/products/1032",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Gyroscope",
+        "fn": [
+          "rotate_x",
+          "rotate_y",
+          "rotate_z"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_8",
@@ -117,7 +206,16 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/2023-00.jpg",
-    "link": "https://www.adafruit.com/products/2023"
+    "link": "https://www.adafruit.com/products/2023",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Temperature",
+        "fn": [
+          "checkTemp"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_9",
@@ -132,7 +230,27 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1120-00.jpg",
-    "link": "https://www.adafruit.com/products/1120"
+    "link": "https://www.adafruit.com/products/1120",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Accelerometer",
+        "fn": [
+          "accel_x",
+          "accel_y",
+          "accel_z"
+        ]
+      },
+      {
+        "type": "Magnetometer",
+        "fn": [
+          "mac_x",
+          "mac_y",
+          "mac_z",
+          "compass"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_10",
@@ -147,7 +265,35 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn.sparkfun.com//assets/parts/1/1/6/3/3/13944-01.jpg",
-    "link": "https://www.sparkfun.com/products/13944"
+    "link": "https://www.sparkfun.com/products/13944",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Accelerometer",
+        "fn": [
+          "accel_x",
+          "accel_y",
+          "accel_z"
+        ]
+      },
+      {
+        "type": "Magnetometer",
+        "fn": [
+          "mac_x",
+          "mac_y",
+          "mac_z",
+          "compass"
+        ]
+      },
+      {
+        "type": "Gyroscope",
+        "fn": [
+          "rotate_x",
+          "rotate_y",
+          "rotate_z"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_11",
@@ -161,8 +307,18 @@
     "vcc_max": "",
     "vccio_min": "",
     "vccio_max": "",
-    "image": "https://cdn-shop.adafruit.com/970x728/476-00.jpg",
-    "link": "https://www.adafruit.com/products/476"
+    "image": "",
+    "link": "https://www.adafruit.com/products/476",
+    "sub_device": [],
+    "compatibility": [
+      {
+        "type": "Button",
+        "fn": [
+          "release",
+          "doubleRelease"
+        ]
+      }
+    ]
   },
   {
     "id": "DEV_12",
@@ -177,6 +333,57 @@
     "vccio_min": "",
     "vccio_max": "",
     "image": "https://cdn-shop.adafruit.com/970x728/1438-00.jpg",
-    "link": "https://www.adafruit.com/product/1438"
+    "link": "https://www.adafruit.com/product/1438",
+    "sub_device": [
+      {
+        "name": "DC Motor 1",
+        "conflict": [
+          "Step Motor 1"
+        ]
+      },
+      {
+        "name": "DC Motor 2",
+        "conflict": [
+          "Step Motor 1"
+        ]
+      },
+      {
+        "name": "DC Motor 3",
+        "conflict": [
+          "Step Motor 2"
+        ]
+      },
+      {
+        "name": "DC Motor 4",
+        "conflict": [
+          "Step Motor 2"
+        ]
+      },
+      {
+        "name": "Step Motor 1",
+        "conflict": [
+          "DC Motor 1",
+          "DC Motor 2"
+        ]
+      },
+      {
+        "name": "Step Motor 2",
+        "conflict": [
+          "DC Motor 3",
+          "DC Motor 4"
+        ]
+      }
+    ],
+    "compatibility": [
+      {
+        "type": "Motor",
+        "fn": [
+          "on",
+          "reverse",
+          "set_speed",
+          "stop"
+        ]
+      }
+    ]
   }
 ]

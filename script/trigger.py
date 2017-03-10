@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
                 # We have found a new trigger so we create a dict and append to the correct category
                 if len(row['id']) != 0:
-                    compatibility = collections.OrderedDict([('interface', row['compatible_interface']),
+                    compatibility = collections.OrderedDict([('type', row['type']),
                                                             ('fn_name', row['fn_name'])])
                     action = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
@@ -34,7 +34,7 @@ if __name__ == '__main__':
                                                       ('display_text', row['display_text']),
                                                       ('display_text_param', []),
                                                       ('params', []),
-                                                      ('compatibility', compatibility)])
+                                                      ('require', compatibility)])
                     category.append(action)
 
                 if len(row['display_text_param']) != 0:
