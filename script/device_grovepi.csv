@@ -1,16 +1,15 @@
 id,mfr,mfr_part_no,description,ic,price,connectivity,vcc_min,vcc_max,vccio_min,vccio_max,image,link,sub_device,sub_device_conflict,type,compatible_fn
 DEV_1,Dexter,8.56E+11,Grove Buzzer,,4.99,Grove,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Buzzer-800x800.jpg,https://www.dexterindustries.com/shop/grove-buzzer/,,,Audio,beep
 DEV_2,Dexter, 855947002767,Grove Sound Sensor,,11.99,Grove,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Sound-Sensor-800x800.jpg,https://www.dexterindustries.com/shop/grove-sound-sensor/,,,Audio,checkVol
-,Seedstudio,101020030,Grove - Temperature&Humidity Sensor Pro,,9.9,Grove,,,,,https://statics3.seeedstudio.com/images/101020030%201.jpg,https://www.seeedstudio.com/Grove---Digital-Light-Sensor-p-1281.html,,,Temperature,checkTemp
+DEV_3,Dexter, 101020011,Grove - Temp&Humi Sensor,,5.9,Grove,,,,,https://statics3.seeedstudio.com/seeed/img/2017-02/0Es2ATc90JsEW4xNSNyBpVak.jpg,https://www.seeedstudio.com/Grove---Temp%26amp%3BHumi-Sensor-p-745.html,,,Temperature,checkTemp
 ,,,,,,,,,,,,,,,Humidity,humidity
-DEV_3,Dexter,101020074,Grove - Temperature&Humidity Sensor (High-Accuracy & Mini),,8.5,Grove,,,,,https://statics3.seeedstudio.com/images/product/Grove%20Tem%20Hum%20Accuracy%20Mini.jpg,https://www.seeedstudio.com/Grove-Temperature%26Humidity-Sensor-%28High-Accuracy-%26-Mini%29-p-1921.html,,,Temperature,checkTemp
-,,,,,,,,,,,,,,,Humidity,humidity
-,Dexter, 101020011,Grove - Temp&Humi Sensor,,5.9,Grove,,,,,https://statics3.seeedstudio.com/seeed/img/2017-02/0Es2ATc90JsEW4xNSNyBpVak.jpg,https://www.seeedstudio.com/Grove---Temp%26amp%3BHumi-Sensor-p-745.html,,,Temperature,checkTemp
-,,,,,,,,,,,,,,,Humidity,humidity
-DEV_3,Dexter,101020032,Grove - Barometer Sensor,,14.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/groveBarometer%20Sensor.jpg,https://www.seeedstudio.com/Grove-Barometer-Sensor-p-1199.html,,,Pressure,pressure
-,,,,,,,,,,,,,,,,attitude
-DEV_4,Dexter,101020015,Grove - Temperature Sensor,,2.9,Grove,,,,,https://statics3.seeedstudio.com/images/101020015%201.jpg,https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html,,,Temperature,checkTemp
-DEV_6,Dexter,8.56E+11,Grove LED – Green,,4.99,Grove,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Green-LED-800x800.jpg,https://www.dexterindustries.com/shop/grove-green-led/,,,Led,on
+DEV_6,Dexter,104030007,Grove LED – Green,,1.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/grove%20greedled.jpg,https://www.seeedstudio.com/Grove---Green-LED-p-1144.html,,,Led,on
+,,,,,,,,,,,,,,,,off
+,,,,,,,,,,,,,,,,dim
+DEV_6,Dexter,104030005,Grove LED – Red,,1.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/Red%20LED.jpg,https://www.seeedstudio.com/Grove-Red-LED-p-1142.html,,,Led,on
+,,,,,,,,,,,,,,,,off
+,,,,,,,,,,,,,,,,dim
+DEV_6,Dexter,104030010,Grove LED – Blue,,1.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/groveblue%20led.jpg,https://www.seeedstudio.com/Grove-Blue-LED-p-1139.html,,,Led,on
 ,,,,,,,,,,,,,,,,off
 ,,,,,,,,,,,,,,,,dim
 DEV_7,Dexter,101020252,Grove - IMU 10DOF v2.0,,16.9,Grove,,,,,https://statics3.seeedstudio.com/seeed/img/2016-08/mr7fhEvszUFQsHT2SjUSVb29.jpg,https://www.seeedstudio.com/Grove-IMU-10DOF-v2.0-p-2691.html,,,Gyroscope,rotate_x
@@ -26,20 +25,10 @@ DEV_7,Dexter,101020252,Grove - IMU 10DOF v2.0,,16.9,Grove,,,,,https://statics3.s
 ,,,,,,,,,,,,,,,Pressure,pressure
 ,,,,,,,,,,,,,,,,attitude
 DEV_8,Dexter,101020017,Grove - Rotary Angle Sensor,,2.9,Grove,,,,,https://statics3.seeedstudio.com/images/101020017%201.jpg,https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html,,,General,analogRead
-DEV_9,Dexter,101020039,Grove - 3-Axis Digital Accelerometer(±1.5g),,9.9,Grove,,,,,https://statics3.seeedstudio.com/images/101020039%201.jpg,https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer(%C2%B11.5g)-p-765.html,,,Accelerometer,accel_x
-,,,,,,,,,,,,,,,,accel_y
-,,,,,,,,,,,,,,,,accel_z
-DEV_10,Dexter,101020034,Grove - 3-Axis Digital Compass,,14.95,Grove,,,,,https://statics3.seeedstudio.com/images/101020034%201.jpg,https://www.seeedstudio.com/grove-3axis-compass-p-759.html?cPath=144_145,,,Magnetometer,mac_x
-,,,,,,,,,,,,,,,,mac_y
-,,,,,,,,,,,,,,,,mac_z
-,,,,,,,,,,,,,,,,compass
 DEV_11,Dexter,104030003,Grove - 4-Digit Display,,5.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/4-Digital%20Display.jpg,https://www.seeedstudio.com/grove-4digital-display-p-1198.html,,,7Seg,show4digit
 ,,,,,,,,,,,,,,,,clear4digit
 DEV_11,Dexter,103020005,Grove - Relay,,2.9,Grove,,,,,https://statics3.seeedstudio.com/images/1030200051.jpg,https://www.seeedstudio.com/Grove-Relay-p-769.html,,,Relay,on
 ,,,,,,,,,,,,,,,,off
-DEV_11,Dexter,101020050,Grove - 3-Axis Digital Gyro,,19.9,Grove,,,,,https://statics3.seeedstudio.com/images/101020050%201.jpg,http://wiki.seeedstudio.com/wiki/Grove_-_Single_Axis_Analog_Gyro,,,Gyroscope,rotate_x
-,,,,,,,,,,,,,,,,rotate_y
-,,,,,,,,,,,,,,,,rotate_z
 DEV_11,Dexter,8.56E+11,Grove Button,,4.99,Grove,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Button--800x800.jpg,https://www.dexterindustries.com/shop/grove-button/,,,Button,release
 ,,,,,,,,,,,,,,,,doubleRelease
 DEV_11,Dexter,101020014,Grove - Light Sensor,,2.9,Grove,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Ultrasonic-Sensor-800x800.jpg,https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html,,,Light,light
