@@ -23,7 +23,6 @@ if __name__ == '__main__':
                                                       ('description', row['description']),
                                                       ('ic', row['ic']),
                                                       ('price', row['price']),
-                                                      ('connectivity', row['connectivity']),
                                                       ('vcc_min', row['vcc_min']),
                                                       ('vcc_max', row['vcc_max']),
                                                       ('vccio_min', row['vccio_min']),
@@ -41,12 +40,21 @@ if __name__ == '__main__':
                 if len(row['sub_device_conflict']) != 0:
                     conflict.append(row['sub_device_conflict'])
 
+                if len(row['connection']) != 0:
+                    device_type = []
+                    device['compatibility'].append(collections.OrderedDict([('connection', row['connection']),
+                                                                            ('optional_connection', row['optional_connection']),
+                                                                            ('type', device_type)]))
                 if len(row['type']) != 0:
                     fn = []
-                    device['compatibility'].append(collections.OrderedDict([('type', row['type']),
-                                                                            ('fn', fn)]))
+                    device_type.append(collections.OrderedDict([('name', row['type']),
+                                                                ('fn', fn)]))
                 if len(row['compatible_fn']) != 0:
-                    fn.append(row['compatible_fn'])
+                    dependency = []
+                    fn.append(collections.OrderedDict([('name', row['compatible_fn']), 
+                                                       ('dependency', dependency)]))
+                if len(row['dependency']) != 0:
+                    dependency.append(row['dependency'])
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
