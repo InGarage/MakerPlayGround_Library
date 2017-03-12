@@ -80,3 +80,6 @@ Distance,Dis_1,Ultrasonic,distance,Distance,Measure distance,{0},Distance,name,t
 Light,Lig_1,Light,light,Light,Measure light,{0},Value,name,textbox,^[\S]+$,,
 ,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,%,
+Motion,Mot_1,PIR,motion,Motion,Measure motion,{0},Sensitivity,name,textbox,^[\S]+$,,
+,,,,,,,,Sensitivity,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
+,,,,,,,,,,,%,
