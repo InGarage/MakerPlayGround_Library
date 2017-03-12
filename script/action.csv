@@ -17,6 +17,11 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight o
 ,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,name,textbox,,,^[\S]+$
 ,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
 Audio,Audio_1,Audio,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
+,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,%,
+,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
+,,,,,,,,,ms,
+Audio,Audio_2,Audio,tone,tone,Play a tone sound,name,textbox,,,^[\S]+$
 ,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
 ,,,,,,,,,Hz,
 ,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
@@ -31,11 +36,17 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
 ,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,%,
 ,DCMotor_4,Motor,stop,stop,Turn a motor off,name,textbox,,,^[\S]+$
-7Seg,7Seg_1,7Seg,show4digit,Show 4Digit,Show 4Digit,name,textbox,,,^[\S]+$
-,,,,,,number,textbox,,800,"^(\d{1,4})$"
-,7Seg_2,7Seg,clear4digit,clear4digit,clear 4digit,name,textbox,,,^[\S]+$
+7Seg,7Seg_1,7Seg,show,show,show,name,textbox,,,^[\S]+$
+,,,,,,number1,textbox,,1,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,number2,textbox,,A,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,number3,textbox,,B,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,colon,checkbox,,,
+,7Seg_2,7Seg,off,off,off,name,textbox,,,^[\S]+$
 Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,name,textbox,,,^[\S]+$
 ,,,,,,text,textbox,,hello world,^[\S]+$
 ,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,name,textbox,,,^[\S]+$
 ,,,,,,text,textbox,,hello world,^[\S]+$
 ,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,name,textbox,,,^[\S]+$
+Relay,Relay_1,Relay,on,on,on,name,textbox,,,^[\S]+$
+,Relay_2,Relay,off,off,off,name,textbox,,,^[\S]+$
