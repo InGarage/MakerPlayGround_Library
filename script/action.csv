@@ -34,3 +34,8 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
 7Seg,7Seg_1,7Seg,show4digit,Show 4Digit,Show 4Digit,name,textbox,,,^[\S]+$
 ,,,,,,number,textbox,,800,"^(\d{1,4})$"
 ,7Seg_2,7Seg,clear4digit,clear4digit,clear 4digit,name,textbox,,,^[\S]+$
+Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,name,textbox,,,^[\S]+$
+,,,,,,text,textbox,,hello world,^[\S]+$
+,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,name,textbox,,,^[\S]+$
+,,,,,,text,textbox,,hello world,^[\S]+$
+,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,name,textbox,,,^[\S]+$
