@@ -14,6 +14,8 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight o
 ,AN_LCD_3,Lcd,show,Show Text,Show text,name,textbox,,,^[\S]+$
 ,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
 ,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,name,textbox,,,^[\S]+$
+,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,name,textbox,,,^[\S]+$
+,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
 Audio,Audio_1,Audio,beep,beep,Play a beep sound,name,textbox,,,^[\S]+$
 ,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
 ,,,,,,,,,Hz,
@@ -29,3 +31,6 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,name,textbox,,,^[\S]+$
 ,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,%,
 ,DCMotor_4,Motor,stop,stop,Turn a motor off,name,textbox,,,^[\S]+$
+7Seg,7Seg_1,7Seg,show4digit,Show 4Digit,Show 4Digit,name,textbox,,,^[\S]+$
+,,,,,,number,textbox,,800,"^(\d{1,4})$"
+,7Seg_2,7Seg,clear4digit,clear4digit,clear 4digit,name,textbox,,,^[\S]+$

@@ -47,9 +47,12 @@ Humidity,Humid_1,Humidity,humidity,Humidity,Measure Humidity,{0},Humidity,name,t
 Sound,Sound_1,Sound,checkVol,Volume,Measure volume,{0},Volume,name,textbox,^[\S]+$,,
 ,,,,,,,,Volume,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,%,
-General,Delay_1,General,delay,Delay,Delay time,{0},Time,name,textbox,^[\S]+$,,
+General,Gen_1,General,delay,Delay,Delay time,{0},Time,name,textbox,^[\S]+$,,
 ,,,,,,,,Time,NumberExpression,"^(\d{1,})$",1000,milliseconds
 ,,,,,,,,,,,ms,
+,Gen_2,General,analogRead,Read analog,Read analog,{0},Value,name,textbox,^[\S]+$,,
+,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
+,,,,,,,,,,,%,
 Magnetometer,Mag_1,Magnetometer,compass,Compass,Detect 8 directions,{0},Direction,name,textbox,^[\S]+$,,
 ,,,,,,,,Direction,Dropdown,,NE,NE
 ,,,,,,,,,,,,N
@@ -71,3 +74,9 @@ Magnetometer,Mag_1,Magnetometer,compass,Compass,Detect 8 directions,{0},Directio
 ,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",>,ut
 ,,,,,,,,,,,300,
 ,,,,,,,,,,,ut,
+Distance,Dis_1,Ultrasonic,distance,Distance,Measure distance,{0},Distance,name,textbox,^[\S]+$,,
+,,,,,,,,Distance,Slider,"^(\d{1,})$",1000,cm
+,,,,,,,,,,,cm,
+Light,Lig_1,Light,light,Light,Measure light,{0},Value,name,textbox,^[\S]+$,,
+,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
+,,,,,,,,,,,%,
