@@ -13,36 +13,52 @@ if __name__ == '__main__':
     with open(input_filename, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         device = None
+        pin = None
+        display = None
         try:
             for row in reader:
                 # We have found a new trigger so we create a dict and append to the correct category
                 if len(row['id']) != 0:
+                    display = collections.OrderedDict()
+                    pin = collections.OrderedDict([('gpio', []),
+                                                   ('pwm', []),
+                                                   ('analog', []),
+                                                   ('i2c', []),
+                                                   ('spi', []),
+                                                   ('uart', [])])
                     device = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
                                                       ('variant', []),
-                                                      ('gpio', []),
-                                                      ('pwm', []),
-                                                      ('analog', []),
-                                                      ('i2c', []),
-                                                      ('spi', []),
-                                                      ('uart', []),])
+                                                      ('pin', pin),
+                                                      ('display', display)])
                     data.append(device)
 
                 if len(row['variant']) != 0:
                     device['variant'].append(collections.OrderedDict([('name', row['variant']),
                                                                       ('image', row['image'])]))
                 if len(row['gpio']) != 0:
-                    device['gpio'].append(row['gpio'])
+                    pin['gpio'].append(row['gpio'])
                 if len(row['pwm']) != 0:
-                    device['pwm'].append(row['pwm'])
+                    pin['pwm'].append(row['pwm'])
                 if len(row['analog']) != 0:
-                    device['analog'].append(row['analog'])
+                    pin['analog'].append(row['analog'])
                 if len(row['i2c']) != 0:
-                    device['i2c'].append(row['i2c'])
+                    pin['i2c'].append(row['i2c'])
                 if len(row['spi']) != 0:
-                    device['spi'].append(row['spi'])
+                    pin['spi'].append(row['spi'])
                 if len(row['uart']) != 0:
-                    device['uart'].append(row['uart'])
+                    pin['uart'].append(row['uart'])
+
+                if len(row['display_type']) != 0:
+                    display['type'] = row['display_type']
+                    display['width'] = row['width']
+                    display['height'] = row['height']
+                    display['pin'] = []
+                
+                if len(row['pin_name']) != 0:
+                    display['pin'].append(collections.OrderedDict([('name', row['pin_name']),
+                                                                   ('x', row['location_x']),
+                                                                   ('y', row['location_y'])]))
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
