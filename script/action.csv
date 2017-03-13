@@ -16,37 +16,37 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight o
 ,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
 ,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,,name,textbox,,,^[\S]+$
 ,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
-Audio,Audio_1,Audio,beep,Beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
+Audio,Audio_1,Audio,beep,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
 ,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,%,
 ,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 ,,,,,,,,,,ms,
-Audio,Audio_2,Audio,tone,Tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
+Audio,Audio_2,Audio,tone,tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
 ,,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
 ,,,,,,,,,,Hz,
 ,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 ,,,,,,,,,,ms,
-DC Motor,DCMotor_1,Motor,on,On,Turn a motor on,/assets/img-action/DC_ON.svg,name,textbox,,Motor ?,^[\S]+$
+DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name,textbox,,Motor ?,^[\S]+$
 ,,,,,,,direction,radio,CW,CW,
 ,,,,,,,,,CCW,,
 ,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,%,
-,DCMotor_2,Motor,reverse,Reverse,Change motor direction,/assets/img-action/DC_reverse.svg,name,textbox,,Motor ?,^[\S]+$
-,DCMotor_3,Motor,set speed,Set speed,Change motor speed,/assets/img-action/DC_setSpeed.svg,name,textbox,,Motor ?,^[\S]+$
+,DCMotor_2,Motor,reverse,reverse,Change motor direction,/assets/img-action/DC_reverse.svg,name,textbox,,Motor ?,^[\S]+$
+,DCMotor_3,Motor,set speed,set_speed,Change motor speed,/assets/img-action/DC_setSpeed.svg,name,textbox,,Motor ?,^[\S]+$
 ,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,%,
-,DCMotor_4,Motor,stop,Stop,Turn a motor off,/assets/img-action/DC_stop.svg,name,textbox,,Motor ?,^[\S]+$
-7Seg,7Seg_1,7Seg,show,Show,show,/assets/img-action/7-seg-showDigit.svg,name,textbox,,7Seg ?,^[\S]+$
+,DCMotor_4,Motor,stop,stop,Turn a motor off,/assets/img-action/DC_stop.svg,name,textbox,,Motor ?,^[\S]+$
+7Seg,7Seg_1,7Seg,show,show,show,/assets/img-action/7-seg-showDigit.svg,name,textbox,,7Seg ?,^[\S]+$
 ,,,,,,,number1,textbox,,1,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,number2,textbox,,A,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,number3,textbox,,B,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,colon,checkbox,,,
-,7Seg_2,7Seg,off,Off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
+,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
 Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,,name,textbox,,Tweet ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
 ,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
 ,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,,name,textbox,,Azure ?,^[\S]+$
-Relay,Relay_1,Relay,on,On,on,,name,textbox,,Relay ?,^[\S]+$
-,Relay_2,Relay,off,Off,off,,name,textbox,,Relay ?,^[\S]+$
+Relay,Relay_1,Relay,on,on,on,,name,textbox,,Relay ?,^[\S]+$
+,Relay_2,Relay,off,off,off,,name,textbox,,Relay ?,^[\S]+$
