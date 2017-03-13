@@ -81,5 +81,3 @@ Light,Lig_1,Light,light,Light,Measure light,,{0},Value,name,textbox,^[\S]+$,Ligh
 ,,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,,%,
 Motion,Mot_1,PIR,motion,Motion,Measure motion,,{0},Sensitivity,name,textbox,^[\S]+$,PIR ?,
-,,,,,,,,,Sensitivity,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
-,,,,,,,,,,,,%,
