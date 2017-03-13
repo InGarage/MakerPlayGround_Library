@@ -30,6 +30,7 @@ if __name__ == '__main__':
                     action = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
                                                       ('short_description', row['short_description']),
+                                                      ('img_path', row['img_path']),
                                                       #('description', row['description']),
                                                       ('display_text', row['display_text']),
                                                       ('display_text_param', []),

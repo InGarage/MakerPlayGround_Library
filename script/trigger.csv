@@ -1,4 +1,4 @@
-category,id,type,fn_name,name,short_description,img-path,display_text,display_text_param,param,param_control,param_regex,param_default_value,param_arg
+category,id,type,fn_name,name,short_description,img_path,display_text,display_text_param,param,param_control,param_regex,param_default_value,param_arg
 Accelerometer,Accel_1,Accelerometer,accel_x,Accelerate X,Accelerate on x axis,/assets/img-trigger/AcceleX.svg,{0},Acceleration,name,textbox,^[\S]+$,Accel ?,
 ,,,,,,,,,Acceleration,NumberExpression,"^\-?(\d{1,}([.]\d{1,})?)$",>,m/s^2
 ,,,,,,,,,,,,1,

@@ -30,6 +30,7 @@ if __name__ == '__main__':
                     action = collections.OrderedDict([('id', row['id']),
                                                       ('name', row['name']),
                                                       ('short_description', row['short_description']),
+                                                      ('img_path', row['img_path']),
                                                       ('params', []),
                                                       ('require', compatibility)])
                     category.append(action)
