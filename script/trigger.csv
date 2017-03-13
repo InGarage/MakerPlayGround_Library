@@ -50,7 +50,7 @@ Sound,Sound_1,Sound,checkVol,Volume,Measure volume,/assets/img-trigger/Sound.svg
 General,Gen_1,General,delay,Delay,Delay time,/assets/img-trigger/Delay.svg,{0},Time,name,textbox,^[\S]+$,Delay ?,
 ,,,,,,,,,Time,NumberExpression,"^(\d{1,})$",1000,milliseconds
 ,,,,,,,,,,,,ms,
-,Gen_2,General,analogRead,Read analog,Read analog,,{0},Value,name,textbox,^[\S]+$,Analog ?,
+,Gen_2,General,analogRead,Read analog,Read analog,/assets/img-trigger/ReadAnalog.svg,{0},Value,name,textbox,^[\S]+$,Analog ?,
 ,,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,,%,
 Magnetometer,Mag_1,Magnetometer,compass,Compass,Detect 8 directions,/assets/img-trigger/Compass.svg,{0},Direction,name,textbox,^[\S]+$,Compass ?,
@@ -62,22 +62,10 @@ Magnetometer,Mag_1,Magnetometer,compass,Compass,Detect 8 directions,/assets/img-
 ,,,,,,,,,,,,,S
 ,,,,,,,,,,,,,SW
 ,,,,,,,,,,,,,SE
-,Mag_2,Magnetometer,mag_x,Magnetic X,Detect Magnetic on x axis,,{0},Magnetic,name,textbox,^[\S]+$,Mag ?,
-,,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",>,ut
-,,,,,,,,,,,,300,
-,,,,,,,,,,,,ut,
-,Mag_3,Magnetometer,mag_y,Magnetic Y,Detect Magnetic on y axis,,{0},Magnetic,name,textbox,^[\S]+$,Mag ?,
-,,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",>,ut
-,,,,,,,,,,,,300,
-,,,,,,,,,,,,ut,
-,Mag_4,Magnetometer,mag_z,Magnetic Z,Detect Magnetic on z axis,,{0},Magnetic,name,textbox,^[\S]+$,Mag ?,
-,,,,,,,,,Magnetic,NumberExpression,"^(\d{1,}([.]\d{1,})?)$",>,ut
-,,,,,,,,,,,,300,
-,,,,,,,,,,,,ut,
-Distance,Dis_1,Ultrasonic,distance,Distance,Measure distance,,{0},Distance,name,textbox,^[\S]+$,Ultra ?,
+Distance,Dis_1,Ultrasonic,distance,Distance,Measure distance,/assets/img-trigger/Distance.svg,{0},Distance,name,textbox,^[\S]+$,Ultra ?,
 ,,,,,,,,,Distance,Slider,"^(\d{1,})$",1000,cm
 ,,,,,,,,,,,,cm,
-Light,Lig_1,Light,light,Light,Measure light,,{0},Value,name,textbox,^[\S]+$,Light ?,
+Light,Lig_1,Light,light,Light,Measure light,/assets/img-trigger/Light.svg,{0},Value,name,textbox,^[\S]+$,Light ?,
 ,,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,,%,
-Motion,Mot_1,PIR,motion,Motion,Measure motion,,{0},Sensitivity,name,textbox,^[\S]+$,PIR ?,
+Motion,Mot_1,PIR,motion,Motion,Measure motion,/assets/img-trigger/Motion.svg,{0},Sensitivity,name,textbox,^[\S]+$,PIR ?,

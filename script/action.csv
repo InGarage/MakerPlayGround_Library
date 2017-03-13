@@ -14,7 +14,7 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight o
 ,AN_LCD_3,Lcd,show,Show Text,Show text,/assets/img-action/LCD_ShowText.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
 ,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
-,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,,name,textbox,,,^[\S]+$
+,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,/assets/img-action/LCD_color.svg,name,textbox,,,^[\S]+$
 ,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
 Audio,Audio_1,Audio,beep,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
 ,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
@@ -43,10 +43,10 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name
 ,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,colon,checkbox,,,
 ,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
-Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,,name,textbox,,Tweet ?,^[\S]+$
+Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
-,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,,name,textbox,,Azure ?,^[\S]+$
+,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,/assets/img-action/Cloud_AzureUp.svg,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
-,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,,name,textbox,,Azure ?,^[\S]+$
-Relay,Relay_1,Relay,on,on,on,,name,textbox,,Relay ?,^[\S]+$
-,Relay_2,Relay,off,off,off,,name,textbox,,Relay ?,^[\S]+$
+,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,/assets/img-action/Cloud_AzureDownload.svg,name,textbox,,Azure ?,^[\S]+$
+Relay,Relay_1,Relay,on,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
+,Relay_2,Relay,off,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$

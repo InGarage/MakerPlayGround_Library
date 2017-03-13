@@ -242,7 +242,7 @@
         "id": "AN_LCD_5",
         "name": "Backlight Color",
         "short_description": "Set Backlight Color",
-        "img_path": "",
+        "img_path": "/assets/img-action/LCD_color.svg",
         "params": [
           {
             "name": "name",
@@ -624,7 +624,7 @@
         "id": "Cloud_1",
         "name": "Tweeter",
         "short_description": "Tweet some text on tweeter",
-        "img_path": "",
+        "img_path": "/assets/img-action/twitter.svg",
         "params": [
           {
             "name": "name",
@@ -658,7 +658,7 @@
         "id": "Cloud_2",
         "name": "AzureUpload",
         "short_description": "AzureUpload",
-        "img_path": "",
+        "img_path": "/assets/img-action/Cloud_AzureUp.svg",
         "params": [
           {
             "name": "name",
@@ -692,7 +692,7 @@
         "id": "Cloud_3",
         "name": "AzureDown",
         "short_description": "AzureDown",
-        "img_path": "",
+        "img_path": "/assets/img-action/Cloud_AzureDownload.svg",
         "params": [
           {
             "name": "name",
@@ -720,7 +720,7 @@
         "id": "Relay_1",
         "name": "on",
         "short_description": "on",
-        "img_path": "",
+        "img_path": "/assets/img-action/Relay_ON.svg",
         "params": [
           {
             "name": "name",
@@ -743,7 +743,7 @@
         "id": "Relay_2",
         "name": "off",
         "short_description": "off",
-        "img_path": "",
+        "img_path": "/assets/img-action/Relay_OFF.svg",
         "params": [
           {
             "name": "name",

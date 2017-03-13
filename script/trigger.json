@@ -644,7 +644,7 @@
         "id": "Gen_2",
         "name": "Read analog",
         "short_description": "Read analog",
-        "img_path": "",
+        "img_path": "/assets/img-trigger/ReadAnalog.svg",
         "display_text": "{0}",
         "display_text_param": [
           "Value"
@@ -728,126 +728,6 @@
           "type": "Magnetometer",
           "fn_name": "compass"
         }
-      },
-      {
-        "id": "Mag_2",
-        "name": "Magnetic X",
-        "short_description": "Detect Magnetic on x axis",
-        "img_path": "",
-        "display_text": "{0}",
-        "display_text_param": [
-          "Magnetic"
-        ],
-        "params": [
-          {
-            "name": "name",
-            "control": "textbox",
-            "default_value": [
-              "Mag ?"
-            ],
-            "args": [
-              ""
-            ],
-            "regex": "^[\\S]+$"
-          },
-          {
-            "name": "Magnetic",
-            "control": "NumberExpression",
-            "default_value": [
-              ">",
-              "300",
-              "ut"
-            ],
-            "args": [
-              "ut"
-            ],
-            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
-          }
-        ],
-        "require": {
-          "type": "Magnetometer",
-          "fn_name": "mag_x"
-        }
-      },
-      {
-        "id": "Mag_3",
-        "name": "Magnetic Y",
-        "short_description": "Detect Magnetic on y axis",
-        "img_path": "",
-        "display_text": "{0}",
-        "display_text_param": [
-          "Magnetic"
-        ],
-        "params": [
-          {
-            "name": "name",
-            "control": "textbox",
-            "default_value": [
-              "Mag ?"
-            ],
-            "args": [
-              ""
-            ],
-            "regex": "^[\\S]+$"
-          },
-          {
-            "name": "Magnetic",
-            "control": "NumberExpression",
-            "default_value": [
-              ">",
-              "300",
-              "ut"
-            ],
-            "args": [
-              "ut"
-            ],
-            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
-          }
-        ],
-        "require": {
-          "type": "Magnetometer",
-          "fn_name": "mag_y"
-        }
-      },
-      {
-        "id": "Mag_4",
-        "name": "Magnetic Z",
-        "short_description": "Detect Magnetic on z axis",
-        "img_path": "",
-        "display_text": "{0}",
-        "display_text_param": [
-          "Magnetic"
-        ],
-        "params": [
-          {
-            "name": "name",
-            "control": "textbox",
-            "default_value": [
-              "Mag ?"
-            ],
-            "args": [
-              ""
-            ],
-            "regex": "^[\\S]+$"
-          },
-          {
-            "name": "Magnetic",
-            "control": "NumberExpression",
-            "default_value": [
-              ">",
-              "300",
-              "ut"
-            ],
-            "args": [
-              "ut"
-            ],
-            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
-          }
-        ],
-        "require": {
-          "type": "Magnetometer",
-          "fn_name": "mag_z"
-        }
       }
     ]
   },
@@ -858,7 +738,7 @@
         "id": "Dis_1",
         "name": "Distance",
         "short_description": "Measure distance",
-        "img_path": "",
+        "img_path": "/assets/img-trigger/Distance.svg",
         "display_text": "{0}",
         "display_text_param": [
           "Distance"
@@ -902,7 +782,7 @@
         "id": "Lig_1",
         "name": "Light",
         "short_description": "Measure light",
-        "img_path": "",
+        "img_path": "/assets/img-trigger/Light.svg",
         "display_text": "{0}",
         "display_text_param": [
           "Value"
@@ -946,7 +826,7 @@
         "id": "Mot_1",
         "name": "Motion",
         "short_description": "Measure motion",
-        "img_path": "",
+        "img_path": "/assets/img-trigger/Motion.svg",
         "display_text": "{0}",
         "display_text_param": [
           "Sensitivity"
@@ -962,18 +842,6 @@
               ""
             ],
             "regex": "^[\\S]+$"
-          },
-          {
-            "name": "Sensitivity",
-            "control": "Slider",
-            "default_value": [
-              "50",
-              "%"
-            ],
-            "args": [
-              "%"
-            ],
-            "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
           }
         ],
         "require": {
