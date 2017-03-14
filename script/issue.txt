@@ -1,0 +1,17 @@
+Alphanumeric LCD
+- change backlight color (how to infer a single color / multicolor / RGB LCD?)
+- Is it possible to set text color?
+- How to show text on the screen?
+- Create custom control for show text
+Motor
+- create step and servo as a separate category
+Clock
+- How to get current time? => is it possible to create a function that will be invoke for a specific thing
+Segment
+- How to support multiple digits?
+Dotmatrix
+- Temporary removed
+Display
+- Temporary removed
+
+Placeholder can't be used with NumberExpression

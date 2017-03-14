@@ -58,7 +58,8 @@ if __name__ == '__main__':
                 if len(row['pin_name']) != 0:
                     display['pin'].append(collections.OrderedDict([('name', row['pin_name']),
                                                                    ('x', row['location_x']),
-                                                                   ('y', row['location_y'])]))
+                                                                   ('y', row['location_y']),
+                                                                   ('side', row['side'])]))
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
