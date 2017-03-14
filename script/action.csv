@@ -53,3 +53,13 @@ Twitter,Twit_1,Twitter,tweet,Tweeter,Tweet some text on tweeter,/assets/img-acti
 ,,,,,,,intro_str,textbox,,shortly intro,
 Relay,Relay_1,Relay,on,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
 ,Relay_2,Relay,off,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$
+AdafruitIO,AIO_1,AdafruitIO,uptocloud,uptocloud,uptocloud,,name,textbox,,Tweet ?,^[\S]+$
+,,,,,,,feed name,textbox,,your feed name in AdaIO,^[\S]+$
+,,,,,,,text,textbox,,your text,^[\S]+$
+,AIO_2,AdafruitIO,downtohost,downtohost,downtohost,,name,textbox,,Tweet ?,^[\S]+$
+,,,,,,,feed name,textbox,,hello world,^[\S]+$
+,AIO_3,AdafruitIO,setup,setup,Initial theAdafruitIO's value,,name,textbox,,Azure ?,^[\S]+$
+,,,,,,,IO_USERNAME,textbox,,your adafruitIO username,^[\S]+$
+,,,,,,,IO_KEY,textbox,,your adafruitIO key,^[\S]+$
+,,,,,,,WIFI_SSID,textbox,,your wifi name,^[\S]+$
+,,,,,,,WIFI_PASS,textbox,,your wifi password,^[\S]+$
