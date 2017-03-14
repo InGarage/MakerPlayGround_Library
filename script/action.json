@@ -242,7 +242,7 @@
         "id": "AN_LCD_5",
         "name": "Backlight Color",
         "short_description": "Set Backlight Color",
-        "img_path": "/assets/img-action/LCD_color.svg",
+        "img_path": "/assets/img-action/backlight_color.svg",
         "params": [
           {
             "name": "name",
@@ -455,7 +455,7 @@
         "id": "DCMotor_3",
         "name": "set_speed",
         "short_description": "Change motor speed",
-        "img_path": "/assets/img-action/DC_setSpeed.svg",
+        "img_path": "/assets/img-action/DC_SetSpeed.svg",
         "params": [
           {
             "name": "name",
@@ -618,13 +618,13 @@
     ]
   },
   {
-    "name": "Cloud",
+    "name": "Twitter",
     "children": [
       {
-        "id": "Cloud_1",
+        "id": "Twit_1",
         "name": "Tweeter",
         "short_description": "Tweet some text on tweeter",
-        "img_path": "/assets/img-action/twitter.svg",
+        "img_path": "/assets/img-action/Cloud_twitter.svg",
         "params": [
           {
             "name": "name",
@@ -650,15 +650,15 @@
           }
         ],
         "require": {
-          "type": "Cloud",
+          "type": "Twitter",
           "fn_name": "tweet"
         }
       },
       {
-        "id": "Cloud_2",
-        "name": "AzureUpload",
-        "short_description": "AzureUpload",
-        "img_path": "/assets/img-action/Cloud_AzureUp.svg",
+        "id": "Twit_2",
+        "name": "setup",
+        "short_description": "Initial the twitter's value",
+        "img_path": "",
         "params": [
           {
             "name": "name",
@@ -672,43 +672,64 @@
             "regex": "^[\\S]+$"
           },
           {
-            "name": "text",
+            "name": "consumer_key",
             "control": "textbox",
             "default_value": [
-              "hello world"
+              "your consumer_key"
             ],
             "args": [
               ""
             ],
             "regex": "^[\\S]+$"
-          }
-        ],
-        "require": {
-          "type": "Cloud",
-          "fn_name": "azureUp"
-        }
-      },
-      {
-        "id": "Cloud_3",
-        "name": "AzureDown",
-        "short_description": "AzureDown",
-        "img_path": "/assets/img-action/Cloud_AzureDownload.svg",
-        "params": [
+          },
           {
-            "name": "name",
+            "name": "consumer_secret",
             "control": "textbox",
             "default_value": [
-              "Azure ?"
+              "your consumer_secret"
             ],
             "args": [
               ""
             ],
-            "regex": "^[\\S]+$"
+            "regex": ""
+          },
+          {
+            "name": "access_token_key",
+            "control": "textbox",
+            "default_value": [
+              "your access_token_key"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": ""
+          },
+          {
+            "name": "access_token_secret",
+            "control": "textbox",
+            "default_value": [
+              "your access_token_secret"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": ""
+          },
+          {
+            "name": "intro_str",
+            "control": "textbox",
+            "default_value": [
+              "shortly intro"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": ""
           }
         ],
         "require": {
-          "type": "Cloud",
-          "fn_name": "azureDown"
+          "type": "Twitter",
+          "fn_name": "setup"
         }
       }
     ]
@@ -760,6 +781,157 @@
         "require": {
           "type": "Relay",
           "fn_name": "off"
+        }
+      }
+    ]
+  },
+  {
+    "name": "AdafruitIO",
+    "children": [
+      {
+        "id": "AIO_1",
+        "name": "uptocloud",
+        "short_description": "uptocloud",
+        "img_path": "",
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Tweet ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "feed name",
+            "control": "textbox",
+            "default_value": [
+              "your feed name in AdaIO"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "text",
+            "control": "textbox",
+            "default_value": [
+              "your text"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          }
+        ],
+        "require": {
+          "type": "AdafruitIO",
+          "fn_name": "uptocloud"
+        }
+      },
+      {
+        "id": "AIO_2",
+        "name": "downtohost",
+        "short_description": "downtohost",
+        "img_path": "",
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Tweet ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "feed name",
+            "control": "textbox",
+            "default_value": [
+              "hello world"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          }
+        ],
+        "require": {
+          "type": "AdafruitIO",
+          "fn_name": "downtohost"
+        }
+      },
+      {
+        "id": "AIO_3",
+        "name": "setup",
+        "short_description": "Initial theAdafruitIO's value",
+        "img_path": "",
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Azure ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "IO_USERNAME",
+            "control": "textbox",
+            "default_value": [
+              "your adafruitIO username"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "IO_KEY",
+            "control": "textbox",
+            "default_value": [
+              "your adafruitIO key"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "WIFI_SSID",
+            "control": "textbox",
+            "default_value": [
+              "your wifi name"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "WIFI_PASS",
+            "control": "textbox",
+            "default_value": [
+              "your wifi password"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          }
+        ],
+        "require": {
+          "type": "AdafruitIO",
+          "fn_name": "setup"
         }
       }
     ]
