@@ -14,7 +14,7 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight o
 ,AN_LCD_3,Lcd,show,Show Text,Show text,/assets/img-action/LCD_ShowText.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
 ,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
-,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,/assets/img-action/LCD_color.svg,name,textbox,,,^[\S]+$
+,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,/assets/img-action/backlight_color.svg,name,textbox,,,^[\S]+$
 ,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
 Audio,Audio_1,Audio,beep,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
 ,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
@@ -32,7 +32,7 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name
 ,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,%,
 ,DCMotor_2,Motor,reverse,reverse,Change motor direction,/assets/img-action/DC_reverse.svg,name,textbox,,Motor ?,^[\S]+$
-,DCMotor_3,Motor,set speed,set_speed,Change motor speed,/assets/img-action/DC_setSpeed.svg,name,textbox,,Motor ?,^[\S]+$
+,DCMotor_3,Motor,set speed,set_speed,Change motor speed,/assets/img-action/DC_SetSpeed.svg,name,textbox,,Motor ?,^[\S]+$
 ,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,%,
 ,DCMotor_4,Motor,stop,stop,Turn a motor off,/assets/img-action/DC_stop.svg,name,textbox,,Motor ?,^[\S]+$
@@ -43,11 +43,7 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name
 ,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,colon,checkbox,,,
 ,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
-<<<<<<< HEAD
-Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/Cloud_twitter.svg,name,textbox,,Tweet ?,^[\S]+$
-=======
-Twitter,Twit_1,Twitter,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
->>>>>>> fd3498225815c513d58a83735638ff20d1ca89e6
+Twitter,Twit_1,Twitter,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/Cloud_twitter.svg,name,textbox,,Tweet ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
 ,Twit_2,Twitter,setup,setup,Initial the twitter's value,,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,consumer_key,textbox,,your consumer_key,^[\S]+$
