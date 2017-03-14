@@ -7,6 +7,7 @@ DEV_1,MP_PAM8302A,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM
 DEV_2,MP_MAX4466,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,2.4,5,,,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063,,,Analog,,Audio,checkVol,breakout,39.6,61.2,OUT,10.823,55.462,Analog
 ,,,,,,,,,,,,,,,,,,getVol,,,,GND,18.023,55.462,GND
 ,,,,,,,,,,,,,,,,,,,,,,VCC,25.223,55.462,VCC
+,,,,,,,,,,,,,,,,,,,,,,,,,
 DEV_3,MP_BME280,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,3,5,,,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652,,,I2C,,Temperature,checkTemp,breakout,50.4,54,VIN,2.183,45.382,VCC
 ,,,,,,,,,,,,,,,,,,getTemp,,,,3Vo,9.383,45.382,
 ,,,,,,,,,,,,,,,,,Humidity,humidity,,,,GND,16.583,45.382,GND
@@ -25,6 +26,23 @@ DEV_5,MP_LCD16X2,Adafruit,292,I2C / SPI character LCD backpack,,9.95,5,5,,,https
 ,,,,,,,,,,,,,,,,,,show,,,,CLK,114.489,51.033,
 ,,,,,,,,,,,,,,,,,,clear,,,,5V,124.4103333,51.033,VCC
 ,,,,,,,,,,,,,,,,,,displayTemp,,,,GND,134.3318333,51.033,GND
+,,,,,,,,,,,,,,,,,,showAccel_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showAccel_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showAccel_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showAttitude,,,,,,,
+,,,,,,,,,,,,,,,,,,showCompass,,,,,,,
+,,,,,,,,,,,,,,,,,,showDoubleRelease,,,,,,,
+,,,,,,,,,,,,,,,,,,showHumidity,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showPressure,,,,,,,
+,,,,,,,,,,,,,,,,,,showRelease,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showTemp,,,,,,,
+,,,,,,,,,,,,,,,,,,showVolume,,,,,,,
 DEV_6,MP_GeneralLed,N/A,,General Led,,,,,,,,https://www.sparkfun.com/products/9590,,,GPIO,,Led,on,,,,,,,
 ,,,,,,,,,,,,,,,,,,off,,,,,,,
 ,,,,,,,,,,,,,,,PWM,,Led,on,,,,,,,
@@ -84,5 +102,25 @@ DEV_12,MP_Adafruit_Motor_Shield_V2,Adafruit,1438,Adafruit Motor/Stepper/Servo Sh
 ,,,,,,,,,,,,,,DC Motor 2,,,,,,,,,,,
 ,,,,,,,,,,,,,Step Motor 2,DC Motor 3,,,,,,,,,,,
 ,,,,,,,,,,,,,,DC Motor 4,,,,,,,,,,,
-DEV_13,MP_AdafruitIO,Adafruit,,AdafruitIO,,0,,,,,https://blog.adafruit.com/wp-content/uploads/2015/11/Adafruit-IO-Logo.png,https://io.adafruit.com/Bright130/dashboards,,,,,AdafruitIO,uptocloud,,,,,,,
-,,,,,,,,,,,,,,,,,,downtohost,,,,,,,
+DEV_13,MP_LCD16X2_Chiness,Chiness,,Simple LCD with backpack,,3,5,5,,,https://i.lnwfile.com/f3qvk9.jpg,https://www.arduinoall.com/product/142/1602-lcd-blue-screen-16x2-lcd-with-backlight-of-the-lcd-screen,,,I2C,,Lcd,backlight_on,standalone,142.143,63.145,LAT,94.646,51.033,
+,,,,,,,,,,,,,,,,,,backlight_off,,,,DAT,104.567,51.033,
+,,,,,,,,,,,,,,,,,,show,,,,CLK,114.489,51.033,
+,,,,,,,,,,,,,,,,,,clear,,,,5V,124.4103333,51.033,VCC
+,,,,,,,,,,,,,,,,,,displayTemp,,,,GND,134.3318333,51.033,GND
+,,,,,,,,,,,,,,,,,,showAccel_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showAccel_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showAccel_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showAttitude,,,,,,,
+,,,,,,,,,,,,,,,,,,showCompass,,,,,,,
+,,,,,,,,,,,,,,,,,,showDoubleRelease,,,,,,,
+,,,,,,,,,,,,,,,,,,showHumidity,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showMag_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showPressure,,,,,,,
+,,,,,,,,,,,,,,,,,,showRelease,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_x,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_y,,,,,,,
+,,,,,,,,,,,,,,,,,,showRotate_z,,,,,,,
+,,,,,,,,,,,,,,,,,,showTemp,,,,,,,
+,,,,,,,,,,,,,,,,,,showVolume,,,,,,,

@@ -1,65 +1,166 @@
-category,id,type,fn_name,name,short_description,img_path,param,param_control,param_arg,param_default_value,param_regex
-LED,LED_1,Led,dim,Dim,Adjust an LED brightness,/assets/img-action/LED_Dim.svg,name,textbox,,LED ?,^[\S]+$
-,,,,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,,,,,,,,,,%,
-,LED_2,Led,blink,Blink,Blink an LED,/assets/img-action/LED_Blink.svg,name,textbox,,LED ?,^[\S]+$
-,,,,,,,frequency,spinbox,Hz,2,"^(\d{1,})$"
-,,,,,,,,,,Hz,
-,LED_3,Led,on,On,Turn an LED on,/assets/img-action/LED_ON.svg,name,textbox,,LED ?,^[\S]+$
-,,,,,,,brightness,slider,%,100,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,,,,,,,,,,%,
-,LED_4,Led,off,Off,Turn an LED off,/assets/img-action/LED_OFF.svg,name,textbox,,LED ?,^[\S]+$
-Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,Backlight On,Turn the LCD backlight on,/assets/img-action/LCD_Backlight_ON.svg,name,textbox,,LCD ?,^[\S]+$
-,AN_LCD_2,Lcd,backlight_off,Backlight Off,Turn the LCD backlight off,/assets/img-action/LCD_Backlight_OFF.svg,name,textbox,,LCD ?,^[\S]+$
-,AN_LCD_3,Lcd,show,Show Text,Show text,/assets/img-action/LCD_ShowText.svg,name,textbox,,LCD ?,^[\S]+$
-,,,,,,,text,textbox,,,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
-,AN_LCD_4,Lcd,clear,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
-,AN_LCD_5,Lcd,backlight_color,Backlight Color,Set Backlight Color,/assets/img-action/LCD_color.svg,name,textbox,,,^[\S]+$
-,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
-Audio,Audio_1,Audio,beep,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
-,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,,,,,,,,,,%,
-,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
-,,,,,,,,,,ms,
-Audio,Audio_2,Audio,tone,tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
-,,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
-,,,,,,,,,,Hz,
-,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
-,,,,,,,,,,ms,
-DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name,textbox,,Motor ?,^[\S]+$
-,,,,,,,direction,radio,CW,CW,
-,,,,,,,,,CCW,,
-,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,,,,,,,,,,%,
-,DCMotor_2,Motor,reverse,reverse,Change motor direction,/assets/img-action/DC_reverse.svg,name,textbox,,Motor ?,^[\S]+$
-,DCMotor_3,Motor,set speed,set_speed,Change motor speed,/assets/img-action/DC_setSpeed.svg,name,textbox,,Motor ?,^[\S]+$
-,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
-,,,,,,,,,,%,
-,DCMotor_4,Motor,stop,stop,Turn a motor off,/assets/img-action/DC_stop.svg,name,textbox,,Motor ?,^[\S]+$
-7Seg,7Seg_1,7Seg,show,show,show,/assets/img-action/7-seg-showDigit.svg,name,textbox,,7Seg ?,^[\S]+$
-,,,,,,,number1,textbox,,1,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
-,,,,,,,number2,textbox,,A,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
-,,,,,,,number3,textbox,,B,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
-,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
-,,,,,,,colon,checkbox,,,
-,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
-Twitter,Twit_1,Twitter,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
-,,,,,,,text,textbox,,hello world,^[\S]+$
-,Twit_2,Twitter,setup,setup,Initial the twitter's value,,name,textbox,,Azure ?,^[\S]+$
-,,,,,,,consumer_key,textbox,,your consumer_key,^[\S]+$
-,,,,,,,consumer_secret,textbox,,your consumer_secret,
-,,,,,,,access_token_key,textbox,,your access_token_key,
-,,,,,,,access_token_secret,textbox,,your access_token_secret,
-,,,,,,,intro_str,textbox,,shortly intro,
-Relay,Relay_1,Relay,on,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
-,Relay_2,Relay,off,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$
-AdafruitIO,AIO_1,AdafruitIO,uptocloud,uptocloud,uptocloud,,name,textbox,,Tweet ?,^[\S]+$
-,,,,,,,feed name,textbox,,your feed name in AdaIO,^[\S]+$
-,,,,,,,text,textbox,,your text,^[\S]+$
-,AIO_2,AdafruitIO,downtohost,downtohost,downtohost,,name,textbox,,Tweet ?,^[\S]+$
-,,,,,,,feed name,textbox,,hello world,^[\S]+$
-,AIO_3,AdafruitIO,setup,setup,Initial theAdafruitIO's value,,name,textbox,,Azure ?,^[\S]+$
-,,,,,,,IO_USERNAME,textbox,,your adafruitIO username,^[\S]+$
-,,,,,,,IO_KEY,textbox,,your adafruitIO key,^[\S]+$
-,,,,,,,WIFI_SSID,textbox,,your wifi name,^[\S]+$
-,,,,,,,WIFI_PASS,textbox,,your wifi password,^[\S]+$
+category,id,type,fn_name,sub_type,name,short_description,img_path,param,param_control,param_arg,param_default_value,param_regex
+LED,LED_1,Led,dim,,Dim,Adjust an LED brightness,/assets/img-action/LED_Dim.svg,name,textbox,,LED ?,^[\S]+$
+,,,,,,,,brightness,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,,,%,
+,LED_2,Led,blink,,Blink,Blink an LED,/assets/img-action/LED_Blink.svg,name,textbox,,LED ?,^[\S]+$
+,,,,,,,,frequency,spinbox,Hz,2,"^(\d{1,})$"
+,,,,,,,,,,,Hz,
+,LED_3,Led,on,,On,Turn an LED on,/assets/img-action/LED_ON.svg,name,textbox,,LED ?,^[\S]+$
+,,,,,,,,brightness,slider,%,100,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,,,%,
+,LED_4,Led,off,,Off,Turn an LED off,/assets/img-action/LED_OFF.svg,name,textbox,,LED ?,^[\S]+$
+Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,,Backlight On,Turn the LCD backlight on,/assets/img-action/LCD_Backlight_ON.svg,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_2,Lcd,backlight_off,,Backlight Off,Turn the LCD backlight off,/assets/img-action/LCD_Backlight_OFF.svg,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_3,Lcd,show,,Show Text,Show text,/assets/img-action/LCD_ShowText.svg,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,Text here,"^[\S ]{0,16}+\n+[\S ]{0,16}$"
+,AN_LCD_4,Lcd,clear,,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_5,Lcd,backlight_color,,Backlight Color,Set Backlight Color,/assets/img-action/LCD_color.svg,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
+,AN_LCD_6,Lcd,showAccel_x,Accel_x,Display Accel_x,Display Accel_x,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_7,Lcd,showAccel_y,Accel_y,Display Accel_y,Display Accel_y,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_8,Lcd,showAccel_z,Accel_z,Display Accel_z,Display Accel_z,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_9,Lcd,showAttitude,Attitude,Display Attitude,Display Attitude,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_10,Lcd,showCompass,Compass,Display Compass,Display Compass,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_11,Lcd,showDoubleRelease,DoubleRelease,Display DoubleRelease,Display DoubleRelease,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_12,Lcd,showHumidity,Humidity,Display Humidity,Display Humidity,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_13,Lcd,showMag_x,Mag_x,Display Mag_x,Display Mag_x,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_14,Lcd,showMag_y,Mag_y,Display Mag_y,Display Mag_y,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_15,Lcd,showMag_z,Mag_z,Display Mag_z,Display Mag_z,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_16,Lcd,showPressure,Pressure,Display Pressure,Display Pressure,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_17,Lcd,showRelease,Release,Display Release,Display Release,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_18,Lcd,showRotate_x,Rotate_x,Display Rotate_x,Display Rotate_x,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_19,Lcd,showRotate_y,Rotate_y,Display Rotate_y,Display Rotate_y,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_20,Lcd,showRotate_z,Rotate_z,Display Rotate_z,Display Rotate_z,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_21,Lcd,showTemp,Temp,Display Temp,Display Temp,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+,AN_LCD_22,Lcd,showVolume,Vol,Display Volume,Display Volume,,name,textbox,,LCD ?,^[\S]+$
+,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
+,,,,,,,,device,textbox,,,
+Audio,Audio_1,Audio,beep,,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
+,,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,,,%,
+,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
+,,,,,,,,,,,ms,
+Audio,Audio_2,Audio,tone,,tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
+,,,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
+,,,,,,,,,,,Hz,
+,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
+,,,,,,,,,,,ms,
+DC Motor,DCMotor_1,Motor,on,,on,Turn a motor on,/assets/img-action/DC_ON.svg,name,textbox,,Motor ?,^[\S]+$
+,,,,,,,,direction,radio,CW,CW,
+,,,,,,,,,,CCW,,
+,,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,,,%,
+,DCMotor_2,Motor,reverse,,reverse,Change motor direction,/assets/img-action/DC_reverse.svg,name,textbox,,Motor ?,^[\S]+$
+,DCMotor_3,Motor,set speed,,set_speed,Change motor speed,/assets/img-action/DC_setSpeed.svg,name,textbox,,Motor ?,^[\S]+$
+,,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,,,,%,
+,DCMotor_4,Motor,stop,,stop,Turn a motor off,/assets/img-action/DC_stop.svg,name,textbox,,Motor ?,^[\S]+$
+7Seg,7Seg_1,7Seg,show,,show,show,/assets/img-action/7-seg-showDigit.svg,name,textbox,,7Seg ?,^[\S]+$
+,,,,,,,,number1,textbox,,1,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,,,number2,textbox,,A,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,,,number3,textbox,,B,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
+,,,,,,,,colon,checkbox,,,
+,7Seg_2,7Seg,off,,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
+Twitter,Twit_1,Twitter,tweet,,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
+,,,,,,,,text,textbox,,hello world,^[\S]+$
+,Twit_2,Twitter,setup,,setup,Initial the twitter's value,,name,textbox,,Azure ?,^[\S]+$
+,,,,,,,,consumer_key,textbox,,your consumer_key,^[\S]+$
+,,,,,,,,consumer_secret,textbox,,your consumer_secret,
+,,,,,,,,access_token_key,textbox,,your access_token_key,
+,,,,,,,,access_token_secret,textbox,,your access_token_secret,
+,,,,,,,,intro_str,textbox,,shortly intro,
+Relay,Relay_1,Relay,on,,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
+,Relay_2,Relay,off,,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$
+Cloud,Cloud_1,Cloud,setup,,setup,Initial the cloud's value,,name,textbox,,Azure ?,^[\S]+$
+,,,,,,,,IO_USERNAME,textbox,,your adafruitIO username,^[\S]+$
+,,,,,,,,IO_KEY,textbox,,your adafruitIO key,^[\S]+$
+,,,,,,,,WIFI_SSID,textbox,,your wifi name,^[\S]+$
+,,,,,,,,WIFI_PASS,textbox,,your wifi password,^[\S]+$
+,Cloud_2,Cloud,adaRotate_x,Rotate_x,Display Rotate_x,Cloud Display Rotate_x,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_3,Cloud,adaRotate_y,Rotate_y,Display Rotate_y,Cloud Display Rotate_y,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_4,Cloud,adaRotate_z,Rotate_z,Display Rotate_z,Cloud Display Rotate_z,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_5,Cloud,adaTemp,Temp,Display Temp,Cloud Display Temp,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_6,Cloud,adaAccel_x,Accel_x,Display Accel_x,Cloud Display Accel_x,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_7,Cloud,adaAccel_y,Accel_y,Display Accel_y,Cloud Display Accel_y,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_8,Cloud,adaAccel_z,Accel_z,Display Accel_z,Cloud Display Accel_z,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_9,Cloud,adaAttitude,Attitude,Display Attitude,Cloud Display Attitude,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_10,Cloud,adaCompass,Compass,Display Compass,Cloud Display Compass,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_11,Cloud,adaDoubleRelease,DoubleRelease,Display DoubleRelease,Cloud Display DoubleRelease,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_12,Cloud,adaHumidity,Humidity,Display Humidity,Cloud Display Humidity,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_13,Cloud,adaMag_x,Mag_x,Display Mag_x,Cloud Display Mag_x,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_14,Cloud,adaMag_y,Mag_y,Display Mag_y,Cloud Display Mag_y,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_15,Cloud,adaMag_z,Mag_z,Display Mag_z,Cloud Display Mag_z,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_16,Cloud,adaPressure,Pressure,Display Pressure,Cloud Display Pressure,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_17,Cloud,adaRelease,Release,Display Release,Cloud Display Release,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_18,Cloud,adaVolume,Vol,Display Volume,Cloud Display Volume,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,,,,,,,,device,textbox,,,
+,Cloud_19,Cloud,adaControlLED,Led,Control Led,Control Led on cloud by percentage,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
+,Cloud_20,Cloud,adaControlMotor,Led,Control Motor,Control Motor on cloud by percentage,,name,textbox,,Cloud ?,^[\S]+$
+,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$

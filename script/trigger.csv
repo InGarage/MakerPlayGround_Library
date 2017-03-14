@@ -81,3 +81,11 @@ Light,Lig_1,Light,light,Light,Measure light,/assets/img-trigger/Light.svg,{0},Va
 ,,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
 ,,,,,,,,,,,,%,
 Motion,Mot_1,PIR,motion,Motion,Measure motion,/assets/img-trigger/Motion.svg,{0},Sensitivity,name,textbox,^[\S]+$,PIR ?,
+Cloud,Cloud_1,Clond,checkState,State,check state,,{0},Stage,name,textbox,^[\S]+$,Compass ?,
+,,,,,,,,,feed,textbox,^[\S]+$,feed name(lable of cloud panel),
+,,,,,,,,,Direction,Dropdown,,ON,ON
+,,,,,,,,,,,,,OFF
+,Cloud_2,Clond,checkPercentage,Percentage,check percentage,,{0},Percentage,name,textbox,^[\S]+$,Analog ?,
+,,,,,,,,,feed,textbox,^[\S]+$,feed name(lable of cloud panel),
+,,,,,,,,,Value,Slider,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$",50,%
+,,,,,,,,,,,,%,
