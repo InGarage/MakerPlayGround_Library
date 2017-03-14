@@ -1,6 +1,6 @@
 id,lib_name,mfr,mfr_part_no,description,ic,price,vcc_min,vcc_max,vccio_min,vccio_max,image,link,sub_device,sub_device_conflict,connection,optional_connection,type,compatible_fn,display_type,width,height,pin_name,location_x,location_y,connect_to
 DEV_1,MP_PAM8302A,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,2,5.5,,,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130,,,PWM,GPIO,Audio,beep,breakout,43.2,68.4,A+,5.783,58.342,PWM
-,,,,,,,,,,,,,,,,,,,,,,A-,12.983,58.342,
+,,,,,,,,,,,,,,,,,,tone,,,,A-,12.983,58.342,
 ,,,,,,,,,,,,,,,,,,,,,,SD,20.183,58.342,GPIO
 ,,,,,,,,,,,,,,,,,,,,,,Vin,27.383,58.342,VCC
 ,,,,,,,,,,,,,,,,,,,,,,Gnd,34.583,58.342,GND

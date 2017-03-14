@@ -33,4 +33,6 @@ DEV_13,,Dexter,108020021,Grove - Mini Fan v1.1,,7.5,Grove,,,,,https://statics3.s
 ,,,,,,,,,,,,,,,,,set_speed
 ,,,,,,,,,,,,,,,,,stop
 ,,,,,,,,,,,,,,,,,reverse
-DEV_13,,Dexter,101020020,Grove - PIR Motion Sensor,,8.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/Grove%20-%20PIR%20Motion%20Sensor.jpg,https://www.seeedstudio.com/Grove-PIR-Motion-Sensor-p-802.html,,,PIR,motion
+DEV_13,MP_PIR,Dexter,101020020,Grove - PIR Motion Sensor,,8.9,Grove,,,,,https://statics3.seeedstudio.com/images/product/Grove%20-%20PIR%20Motion%20Sensor.jpg,https://www.seeedstudio.com/Grove-PIR-Motion-Sensor-p-802.html,,,PIR,motion
+DEV_13,MP_Twitter,Twitter,,Twitter,,0,,,,,,https://abs.twimg.com/icons/apple-touch-icon-192x192.png,https://apps.twitter.com/,,,Twitter,tweet
+,,,,,,,,,,,,,,,,,setup
