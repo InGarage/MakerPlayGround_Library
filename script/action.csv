@@ -43,7 +43,7 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name
 ,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,colon,checkbox,,,
 ,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
-Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
+Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/Cloud_twitter.svg,name,textbox,,Tweet ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$
 ,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,/assets/img-action/Cloud_AzureUp.svg,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,text,textbox,,hello world,^[\S]+$

@@ -624,7 +624,7 @@
         "id": "Cloud_1",
         "name": "Tweeter",
         "short_description": "Tweet some text on tweeter",
-        "img_path": "/assets/img-action/twitter.svg",
+        "img_path": "/assets/img-action/Cloud_twitter.svg",
         "params": [
           {
             "name": "name",
