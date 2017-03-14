@@ -1,35 +1,33 @@
-id,lib_name,mfr,mfr_part_no,description,ic,price,connectivity,vcc_min,vcc_max,vccio_min,vccio_max,image,link,sub_device,sub_device_conflict,type,compatible_fn
-DEV_1,MP_Buzzer,Dexter,8.56E+11,Grove Buzzer,,4.99,PWM,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Buzzer-800x800.jpg,https://www.dexterindustries.com/shop/grove-buzzer/,,,Audio,beep
-,,,,,,,GPIO,,,,,,,,,,
-DEV_2,MP_SoundSensor,Dexter, 855947002767,Grove Sound Sensor,,11.99,Analog,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Sound-Sensor-800x800.jpg,https://www.dexterindustries.com/shop/grove-sound-sensor/,,,Audio,checkVol
-DEV_3,MP_Dht_blue,Dexter, 101020011,Grove - Temp&Humi Sensor,,5.9,Analog,,,,,https://statics3.seeedstudio.com/seeed/img/2017-02/0Es2ATc90JsEW4xNSNyBpVak.jpg,https://www.seeedstudio.com/Grove---Temp%26amp%3BHumi-Sensor-p-745.html,,,Temperature,checkTemp
-,,,,,,,,,,,,,,,,Humidity,humidity
-DEV_4,MP_LED,Dexter,104030007,Grove LED – Green,,1.9,PWM,,,,,https://statics3.seeedstudio.com/images/product/grove%20greedled.jpg,https://www.seeedstudio.com/Grove---Green-LED-p-1144.html,,,Led,on
-,,,,,,,GPIO,,,,,,,,,,off
-,,,,,,,,,,,,,,,,,dim
-DEV_5,MP_LED,Dexter,104030005,Grove LED – Red,,1.9,PWM,,,,,https://statics3.seeedstudio.com/images/product/Red%20LED.jpg,https://www.seeedstudio.com/Grove-Red-LED-p-1142.html,,,Led,on
-,,,,,,,GPIO,,,,,,,,,,off
-,,,,,,,,,,,,,,,,,dim
-DEV_6,MP_LED,Dexter,104030010,Grove LED – Blue,,1.9,PWM,,,,,https://statics3.seeedstudio.com/images/product/groveblue%20led.jpg,https://www.seeedstudio.com/Grove-Blue-LED-p-1139.html,,,Led,on
-,,,,,,,GPIO,,,,,,,,,,off
-,,,,,,,,,,,,,,,,,dim
-DEV_7,MP_Accel16g,Dexter,101020054,Grove - 3-Axis Digital Accelerometer(±16g),,9.9,Analog,,,,,https://statics3.seeedstudio.com/images/101020054%201.jpg,https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer%28%C2%B116g%29-p-1156.html,,,Accelerometer,accel_x
-,,,,,,,,,,,,,,,,,accel_y
-,,,,,,,,,,,,,,,,,accel_z
-DEV_8,MP_AnalogRead,Dexter,101020017,Grove - Rotary Angle Sensor,,2.9,Analog,,,,,https://statics3.seeedstudio.com/images/101020017%201.jpg,https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html,,,General,analogRead
-DEV_9,MP_FourSevenSeg,Dexter,104030003,Grove - 4-Digit Display,,5.9,I2C,,,,,https://statics3.seeedstudio.com/images/product/4-Digital%20Display.jpg,https://www.seeedstudio.com/grove-4digital-display-p-1198.html,,,7Seg,show4digit
-,,,,,,,,,,,,,,,,,clear4digit
-DEV_10,MP_Relay,Dexter,103020005,Grove - Relay,,2.9,GPIO,,,,,https://statics3.seeedstudio.com/images/1030200051.jpg,https://www.seeedstudio.com/Grove-Relay-p-769.html,,,Relay,on
-,,,,,,,,,,,,,,,,,off
-DEV_11,MP_Button,Dexter,8.56E+11,Grove Button,,4.99,GPIO,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Button--800x800.jpg,https://www.dexterindustries.com/shop/grove-button/,,,Button,release
-,,,,,,,,,,,,,,,,,doubleRelease
-DEV_12,MP_LightSensor,Dexter,101020014,Grove - Light Sensor,,2.9,Analog,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Ultrasonic-Sensor-800x800.jpg,https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html,,,Light,light
-DEV_13,MP_Ultrasonic,Dexter,8.56E+11,Ultrasonic Sensor,,19.99,I2C,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Ultrasonic-Sensor-800x800.jpg,https://www.dexterindustries.com/shop/ultrasonic-sensor/,,,Ultrasonic,distance
-DEV_14,MP_RGBLcd,Dexter,104030001,Grove - LCD RGB Backlight,,13.9,I2C,,,,,https://statics3.seeedstudio.com/images/104030001%201.jpg,https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html,,,Alphanumeric LCD,backlight_on
-,,,,,,,,,,,,,,,,,backlight_off
-,,,,,,,,,,,,,,,,,show
-,,,,,,,,,,,,,,,,,clear
-,,,,,,,,,,,,,,,,,backlight_color
-DEV_15,MP_PIR,Dexter,101020020,Grove - PIR Motion Sensor,,8.9,GPIO,,,,,https://statics3.seeedstudio.com/images/product/Grove%20-%20PIR%20Motion%20Sensor.jpg,https://www.seeedstudio.com/Grove-PIR-Motion-Sensor-p-802.html,,,PIR,motion
-DEV_16,MP_Twitter,Twitter,,Twitter,,0,,,,,,https://abs.twimg.com/icons/apple-touch-icon-192x192.png,https://apps.twitter.com/,,,Twitter,tweet
-,,,,,,,,,,,,,,,,,setup
+id,lib_name,mfr,mfr_part_no,description,ic,price,vcc_min,vcc_max,vccio_min,vccio_max,image,link,sub_device,sub_device_conflict,connection,optional_connection,type,compatible_fn,display_type,width,height,pin_name,location_x,location_y,connect_to
+DEV_1,MP_Buzzer,Dexter,8.56E+11,Grove Buzzer,,4.99,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Buzzer-800x800.jpg,https://www.dexterindustries.com/shop/grove-buzzer/,,,PWM,GPIO,Audio,beep,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+DEV_2,MP_SoundSensor,Dexter, 855947002767,Grove Sound Sensor,,11.99,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Sound-Sensor-800x800.jpg,https://www.dexterindustries.com/shop/grove-sound-sensor/,,,Analog,,Audio,checkVol,,,,,,,
+DEV_3,MP_Dht_blue,Dexter, 101020011,Grove - Temp&Humi Sensor,,5.9,,,,,https://statics3.seeedstudio.com/seeed/img/2017-02/0Es2ATc90JsEW4xNSNyBpVak.jpg,https://www.seeedstudio.com/Grove---Temp%26amp%3BHumi-Sensor-p-745.html,,,Analog,,Temperature,checkTemp,,,,,,,
+,,,,,,,,,,,,,,,,,Humidity,humidity,,,,,,,
+DEV_4,MP_LED,Dexter,104030007,Grove LED – Green,,1.9,,,,,https://statics3.seeedstudio.com/images/product/grove%20greedled.jpg,https://www.seeedstudio.com/Grove---Green-LED-p-1144.html,,,PWM,GPIO,Led,on,,,,,,,
+,,,,,,,,,,,,,,,,,,off,,,,,,,
+,,,,,,,,,,,,,,,,,,dim,,,,,,,
+DEV_5,MP_LED,Dexter,104030005,Grove LED – Red,,1.9,,,,,https://statics3.seeedstudio.com/images/product/Red%20LED.jpg,https://www.seeedstudio.com/Grove-Red-LED-p-1142.html,,,PWM,GPIO,Led,on,,,,,,,
+,,,,,,,,,,,,,,,,,,off,,,,,,,
+,,,,,,,,,,,,,,,,,,dim,,,,,,,
+DEV_6,MP_LED,Dexter,104030010,Grove LED – Blue,,1.9,,,,,https://statics3.seeedstudio.com/images/product/groveblue%20led.jpg,https://www.seeedstudio.com/Grove-Blue-LED-p-1139.html,,,PWM,GPIO,Led,on,,,,,,,
+,,,,,,,,,,,,,,,,,,off,,,,,,,
+,,,,,,,,,,,,,,,,,,dim,,,,,,,
+DEV_7,MP_Accel16g,Dexter,101020054,Grove - 3-Axis Digital Accelerometer(±16g),,9.9,,,,,https://statics3.seeedstudio.com/images/101020054%201.jpg,https://www.seeedstudio.com/Grove-3-Axis-Digital-Accelerometer%28%C2%B116g%29-p-1156.html,,,Analog,,Accelerometer,accel_x,,,,,,,
+,,,,,,,,,,,,,,,,,,accel_y,,,,,,,
+,,,,,,,,,,,,,,,,,,accel_z,,,,,,,
+DEV_8,MP_AnalogRead,Dexter,101020017,Grove - Rotary Angle Sensor,,2.9,,,,,https://statics3.seeedstudio.com/images/101020017%201.jpg,https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html,,,Analog,,General,analogRead,,,,,,,
+DEV_9,MP_FourSevenSeg,Dexter,104030003,Grove - 4-Digit Display,,5.9,,,,,https://statics3.seeedstudio.com/images/product/4-Digital%20Display.jpg,https://www.seeedstudio.com/grove-4digital-display-p-1198.html,,,I2C,,7Seg,show4digit,,,,,,,
+,,,,,,,,,,,,,,,,,,clear4digit,,,,,,,
+DEV_10,MP_Relay,Dexter,103020005,Grove - Relay,,2.9,,,,,https://statics3.seeedstudio.com/images/1030200051.jpg,https://www.seeedstudio.com/Grove-Relay-p-769.html,,,GPIO,,Relay,on,,,,,,,
+,,,,,,,,,,,,,,,,,,off,,,,,,,
+DEV_11,MP_Button,Dexter,8.56E+11,Grove Button,,4.99,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Button--800x800.jpg,https://www.dexterindustries.com/shop/grove-button/,,,GPIO,,Button,release,,,,,,,
+,,,,,,,,,,,,,,,,,,doubleRelease,,,,,,,
+DEV_12,MP_LightSensor,Dexter,101020014,Grove - Light Sensor,,2.9,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Ultrasonic-Sensor-800x800.jpg,https://www.seeedstudio.com/Grove-Light-Sensor-p-746.html,,,Analog,,Light,light,,,,,,,
+DEV_13,MP_Ultrasonic,Dexter,8.56E+11,Ultrasonic Sensor,,19.99,,,,,https://32414320wji53mwwch1u68ce-wpengine.netdna-ssl.com/wp-content/uploads/2015/07/Grove-Ultrasonic-Sensor-800x800.jpg,https://www.dexterindustries.com/shop/ultrasonic-sensor/,,,I2C,,Ultrasonic,distance,,,,,,,
+DEV_14,MP_RGBLcd,Dexter,104030001,Grove - LCD RGB Backlight,,13.9,,,,,https://statics3.seeedstudio.com/images/104030001%201.jpg,https://www.seeedstudio.com/Grove-LCD-RGB-Backlight-p-1643.html,,,I2C,,Alphanumeric LCD,backlight_on,,,,,,,
+,,,,,,,,,,,,,,,,,,backlight_off,,,,,,,
+,,,,,,,,,,,,,,,,,,show,,,,,,,
+,,,,,,,,,,,,,,,,,,clear,,,,,,,
+,,,,,,,,,,,,,,,,,,backlight_color,,,,,,,
+DEV_15,MP_PIR,Dexter,101020020,Grove - PIR Motion Sensor,,8.9,,,,,https://statics3.seeedstudio.com/images/product/Grove%20-%20PIR%20Motion%20Sensor.jpg,https://www.seeedstudio.com/Grove-PIR-Motion-Sensor-p-802.html,,,GPIO,,PIR,motion,,,,,,,
