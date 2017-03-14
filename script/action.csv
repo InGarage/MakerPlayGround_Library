@@ -43,10 +43,27 @@ DC Motor,DCMotor_1,Motor,on,on,Turn a motor on,/assets/img-action/DC_ON.svg,name
 ,,,,,,,number4,textbox,,F,^(\d|A|B|C|D|F|a|b|c|d|e|f)?$
 ,,,,,,,colon,checkbox,,,
 ,7Seg_2,7Seg,off,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
+<<<<<<< HEAD
 Cloud,Cloud_1,Cloud,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/Cloud_twitter.svg,name,textbox,,Tweet ?,^[\S]+$
+=======
+Twitter,Twit_1,Twitter,tweet,Tweeter,Tweet some text on tweeter,/assets/img-action/twitter.svg,name,textbox,,Tweet ?,^[\S]+$
+>>>>>>> fd3498225815c513d58a83735638ff20d1ca89e6
 ,,,,,,,text,textbox,,hello world,^[\S]+$
-,Cloud_2,Cloud,azureUp,AzureUpload,AzureUpload,/assets/img-action/Cloud_AzureUp.svg,name,textbox,,Azure ?,^[\S]+$
-,,,,,,,text,textbox,,hello world,^[\S]+$
-,Cloud_3,Cloud,azureDown,AzureDown,AzureDown,/assets/img-action/Cloud_AzureDownload.svg,name,textbox,,Azure ?,^[\S]+$
+,Twit_2,Twitter,setup,setup,Initial the twitter's value,,name,textbox,,Azure ?,^[\S]+$
+,,,,,,,consumer_key,textbox,,your consumer_key,^[\S]+$
+,,,,,,,consumer_secret,textbox,,your consumer_secret,
+,,,,,,,access_token_key,textbox,,your access_token_key,
+,,,,,,,access_token_secret,textbox,,your access_token_secret,
+,,,,,,,intro_str,textbox,,shortly intro,
 Relay,Relay_1,Relay,on,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
 ,Relay_2,Relay,off,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$
+AdafruitIO,AIO_1,AdafruitIO,uptocloud,uptocloud,uptocloud,,name,textbox,,Tweet ?,^[\S]+$
+,,,,,,,feed name,textbox,,your feed name in AdaIO,^[\S]+$
+,,,,,,,text,textbox,,your text,^[\S]+$
+,AIO_2,AdafruitIO,downtohost,downtohost,downtohost,,name,textbox,,Tweet ?,^[\S]+$
+,,,,,,,feed name,textbox,,hello world,^[\S]+$
+,AIO_3,AdafruitIO,setup,setup,Initial theAdafruitIO's value,,name,textbox,,Azure ?,^[\S]+$
+,,,,,,,IO_USERNAME,textbox,,your adafruitIO username,^[\S]+$
+,,,,,,,IO_KEY,textbox,,your adafruitIO key,^[\S]+$
+,,,,,,,WIFI_SSID,textbox,,your wifi name,^[\S]+$
+,,,,,,,WIFI_PASS,textbox,,your wifi password,^[\S]+$
