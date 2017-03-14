@@ -68,7 +68,7 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,,Backlight On,Turn the LCD backlight 
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
 Audio,Audio_1,Audio,beep,,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
-,,,,,,,,volume,percentage,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
+,,,,,,,,volume,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,,%,
 ,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 ,,,,,,,,,,,ms,
@@ -78,7 +78,7 @@ Audio,Audio_2,Audio,tone,,tone,Play a tone sound,/assets/img-action/Audio_playTo
 ,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 ,,,,,,,,,,,ms,
 DC Motor,DCMotor_1,Motor,on,,on,Turn a motor on,/assets/img-action/DC_ON.svg,name,textbox,,Motor ?,^[\S]+$
-,,,,,,,,direction,radio,CW,CW,
+,,,,,,,,direction,Dropdown,CW,CW,
 ,,,,,,,,,,CCW,,
 ,,,,,,,,speed,slider,%,50,"^(\d([.]\d{1,})?|[1-9]\d([.]\d{1,})?|100)$"
 ,,,,,,,,,,,%,

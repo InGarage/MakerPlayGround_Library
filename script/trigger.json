@@ -728,6 +728,126 @@
           "type": "Magnetometer",
           "fn_name": "compass"
         }
+      },
+      {
+        "id": "Mag_2",
+        "name": "Magnetic X",
+        "short_description": "Detect Magnetic on x axis",
+        "img_path": "",
+        "display_text": "{0}",
+        "display_text_param": [
+          "Magnetic"
+        ],
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Mag ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "Magnetic",
+            "control": "NumberExpression",
+            "default_value": [
+              ">",
+              "300",
+              "ut"
+            ],
+            "args": [
+              "ut"
+            ],
+            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
+          }
+        ],
+        "require": {
+          "type": "Magnetometer",
+          "fn_name": "mag_x"
+        }
+      },
+      {
+        "id": "Mag_3",
+        "name": "Magnetic Y",
+        "short_description": "Detect Magnetic on y axis",
+        "img_path": "",
+        "display_text": "{0}",
+        "display_text_param": [
+          "Magnetic"
+        ],
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Mag ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "Magnetic",
+            "control": "NumberExpression",
+            "default_value": [
+              ">",
+              "300",
+              "ut"
+            ],
+            "args": [
+              "ut"
+            ],
+            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
+          }
+        ],
+        "require": {
+          "type": "Magnetometer",
+          "fn_name": "mag_y"
+        }
+      },
+      {
+        "id": "Mag_4",
+        "name": "Magnetic Z",
+        "short_description": "Detect Magnetic on z axis",
+        "img_path": "",
+        "display_text": "{0}",
+        "display_text_param": [
+          "Magnetic"
+        ],
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Mag ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "Magnetic",
+            "control": "NumberExpression",
+            "default_value": [
+              ">",
+              "300",
+              "ut"
+            ],
+            "args": [
+              "ut"
+            ],
+            "regex": "^(\\d{1,}([.]\\d{1,})?)$"
+          }
+        ],
+        "require": {
+          "type": "Magnetometer",
+          "fn_name": "mag_z"
+        }
       }
     ]
   },
@@ -847,6 +967,111 @@
         "require": {
           "type": "PIR",
           "fn_name": "motion"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cloud",
+    "children": [
+      {
+        "id": "Cloud_1",
+        "name": "State",
+        "short_description": "check state",
+        "img_path": "",
+        "display_text": "{0}",
+        "display_text_param": [
+          "Stage"
+        ],
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Compass ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "feed",
+            "control": "textbox",
+            "default_value": [
+              "feed name(lable of cloud panel)"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "Direction",
+            "control": "Dropdown",
+            "default_value": [
+              "ON"
+            ],
+            "args": [
+              "ON",
+              "OFF"
+            ],
+            "regex": ""
+          }
+        ],
+        "require": {
+          "type": "Clond",
+          "fn_name": "checkState"
+        }
+      },
+      {
+        "id": "Cloud_2",
+        "name": "Percentage",
+        "short_description": "check percentage",
+        "img_path": "",
+        "display_text": "{0}",
+        "display_text_param": [
+          "Percentage"
+        ],
+        "params": [
+          {
+            "name": "name",
+            "control": "textbox",
+            "default_value": [
+              "Analog ?"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "feed",
+            "control": "textbox",
+            "default_value": [
+              "feed name(lable of cloud panel)"
+            ],
+            "args": [
+              ""
+            ],
+            "regex": "^[\\S]+$"
+          },
+          {
+            "name": "Value",
+            "control": "Slider",
+            "default_value": [
+              "50",
+              "%"
+            ],
+            "args": [
+              "%"
+            ],
+            "regex": "^(\\d([.]\\d{1,})?|[1-9]\\d([.]\\d{1,})?|100)$"
+          }
+        ],
+        "require": {
+          "type": "Clond",
+          "fn_name": "checkPercentage"
         }
       }
     ]
