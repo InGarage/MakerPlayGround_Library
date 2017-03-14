@@ -72,7 +72,7 @@ Audio,Audio_1,Audio,beep,,beep,Play a beep sound,/assets/img-action/Audio_playSo
 ,,,,,,,,,,,%,
 ,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"
 ,,,,,,,,,,,ms,
-Audio,Audio_2,Audio,tone,,tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
+,Audio_2,Audio,tone,,tone,Play a tone sound,/assets/img-action/Audio_playTone.svg,name,textbox,,Speaker ?,^[\S]+$
 ,,,,,,,,frequency,spinbox,Hz,1000,"^(\d{1,})$"
 ,,,,,,,,,,,Hz,
 ,,,,,,,,duration,spinbox,ms,100,"^(\d{1,})$"

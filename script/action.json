@@ -1088,12 +1088,7 @@
           "type": "Audio",
           "fn_name": "beep"
         }
-      }
-    ]
-  },
-  {
-    "name": "Audio",
-    "children": [
+      },
       {
         "id": "Audio_2",
         "name": "tone",
