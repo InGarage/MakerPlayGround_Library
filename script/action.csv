@@ -16,55 +16,46 @@ Alphanumeric LCD,AN_LCD_1,Lcd,backlight_on,,Backlight On,Turn the LCD backlight 
 ,AN_LCD_4,Lcd,clear,,Clear screen,Erase all content in the screen,/assets/img-action/LCD_Clear.svg,name,textbox,,LCD ?,^[\S]+$
 ,AN_LCD_5,Lcd,backlight_color,,Backlight Color,Set Backlight Color,/assets/img-action/backlight_color.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,color,textbox,,#FFFFFF,"^#(\d|[A-F]){6,6}$"
-,AN_LCD_6,Lcd,showAccel_x,Accel_x,Display Accel_x,Display Accel_x,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_6,Lcd,showAccel_x,Accel_x,Display Accel_x,Display Accel_x,/assets/img-action/Display-AccelX.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_7,Lcd,showAccel_y,Accel_y,Display Accel_y,Display Accel_y,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_7,Lcd,showAccel_y,Accel_y,Display Accel_y,Display Accel_y,/assets/img-action/Display-AccelY.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_8,Lcd,showAccel_z,Accel_z,Display Accel_z,Display Accel_z,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_8,Lcd,showAccel_z,Accel_z,Display Accel_z,Display Accel_z,/assets/img-action/Display-AccelZ.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_9,Lcd,showAttitude,Attitude,Display Attitude,Display Attitude,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_9,Lcd,showAltitude,Altitude,Display Altitude,Display Altitude,/assets/img-action/Display-Altitude.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_10,Lcd,showCompass,Compass,Display Compass,Display Compass,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_10,Lcd,showCompass,Compass,Display Compass,Display Compass,/assets/img-action/Display-compass.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_11,Lcd,showDoubleRelease,DoubleRelease,Display DoubleRelease,Display DoubleRelease,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_11,Lcd,showDoubleRelease,DoubleRelease,Display DoubleRelease,Display DoubleRelease,/assets/img-action/Display-doublePress.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_12,Lcd,showHumidity,Humidity,Display Humidity,Display Humidity,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_12,Lcd,showHumidity,Humidity,Display Humidity,Display Humidity,/assets/img-action/Display-humid.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_13,Lcd,showMag_x,Mag_x,Display Mag_x,Display Mag_x,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_16,Lcd,showPressure,Pressure,Display Pressure,Display Pressure,/assets/img-action/Display-pressure.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_14,Lcd,showMag_y,Mag_y,Display Mag_y,Display Mag_y,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_17,Lcd,showRelease,Release,Display Release,Display Release,/assets/img-action/Display-release.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_15,Lcd,showMag_z,Mag_z,Display Mag_z,Display Mag_z,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_18,Lcd,showRotate_x,Rotate_x,Display Rotate_x,Display Rotate_x,/assets/img-action/Display-roll.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_16,Lcd,showPressure,Pressure,Display Pressure,Display Pressure,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_19,Lcd,showRotate_y,Rotate_y,Display Rotate_y,Display Rotate_y,/assets/img-action/Display-pitch.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_17,Lcd,showRelease,Release,Display Release,Display Release,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_20,Lcd,showRotate_z,Rotate_z,Display Rotate_z,Display Rotate_z,/assets/img-action/Display-yaw.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_18,Lcd,showRotate_x,Rotate_x,Display Rotate_x,Display Rotate_x,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_21,Lcd,showTemp,Temp,Display Temp,Display Temp,/assets/img-action/Display-temp.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
-,AN_LCD_19,Lcd,showRotate_y,Rotate_y,Display Rotate_y,Display Rotate_y,,name,textbox,,LCD ?,^[\S]+$
-,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
-,,,,,,,,device,textbox,,,
-,AN_LCD_20,Lcd,showRotate_z,Rotate_z,Display Rotate_z,Display Rotate_z,,name,textbox,,LCD ?,^[\S]+$
-,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
-,,,,,,,,device,textbox,,,
-,AN_LCD_21,Lcd,showTemp,Temp,Display Temp,Display Temp,,name,textbox,,LCD ?,^[\S]+$
-,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
-,,,,,,,,device,textbox,,,
-,AN_LCD_22,Lcd,showVolume,Vol,Display Volume,Display Volume,,name,textbox,,LCD ?,^[\S]+$
+,AN_LCD_22,Lcd,showVolume,Vol,Display Volume,Display Volume,/assets/img-action/Display--volume.svg,name,textbox,,LCD ?,^[\S]+$
 ,,,,,,,,text,textbox,,your text,"^[\S ]{0,16}$"
 ,,,,,,,,device,textbox,,,
 Audio,Audio_1,Audio,beep,,beep,Play a beep sound,/assets/img-action/Audio_playSound.svg,name,textbox,,Speaker ?,^[\S]+$
@@ -96,7 +87,7 @@ DC Motor,DCMotor_1,Motor,on,,on,Turn a motor on,/assets/img-action/DC_ON.svg,nam
 ,7Seg_2,7Seg,off,,off,off,/assets/img-action/7-seg-noShowDigit.svg,name,textbox,,7Seg ?,^[\S]+$
 Twitter,Twit_1,Twitter,tweet,,Tweeter,Tweet some text on tweeter,/assets/img-action/Cloud_twitter.svg,name,textbox,,Tweet ?,^[\S]+$
 ,,,,,,,,text,textbox,,hello world,^[\S]+$
-,Twit_2,Twitter,setup,,setup,Initial the twitter's value,,name,textbox,,Azure ?,^[\S]+$
+,Twit_2,Twitter,setup,,setup,Initial the twitter's value,/assets/img-action/cloud-twitter-setup.svg,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,,consumer_key,textbox,,your consumer_key,^[\S]+$
 ,,,,,,,,consumer_secret,textbox,,your consumer_secret,
 ,,,,,,,,access_token_key,textbox,,your access_token_key,
@@ -104,60 +95,51 @@ Twitter,Twit_1,Twitter,tweet,,Tweeter,Tweet some text on tweeter,/assets/img-act
 ,,,,,,,,intro_str,textbox,,shortly intro,
 Relay,Relay_1,Relay,on,,on,on,/assets/img-action/Relay_ON.svg,name,textbox,,Relay ?,^[\S]+$
 ,Relay_2,Relay,off,,off,off,/assets/img-action/Relay_OFF.svg,name,textbox,,Relay ?,^[\S]+$
-Cloud,Cloud_1,Cloud,setup,,setup,Initial the cloud's value,,name,textbox,,Azure ?,^[\S]+$
+Cloud,Cloud_1,Cloud,setup,,setup,Initial the cloud's value,/assets/img-action/cloud-setup.svg,name,textbox,,Azure ?,^[\S]+$
 ,,,,,,,,IO_USERNAME,textbox,,your adafruitIO username,^[\S]+$
 ,,,,,,,,IO_KEY,textbox,,your adafruitIO key,^[\S]+$
 ,,,,,,,,WIFI_SSID,textbox,,your wifi name,^[\S]+$
 ,,,,,,,,WIFI_PASS,textbox,,your wifi password,^[\S]+$
-,Cloud_2,Cloud,adaRotate_x,Rotate_x,Display Rotate_x,Cloud Display Rotate_x,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_2,Cloud,adaRotate_x,Rotate_x,Display Rotate_x,Cloud Display Rotate_x,/assets/img-action/cloud-display-roll.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_3,Cloud,adaRotate_y,Rotate_y,Display Rotate_y,Cloud Display Rotate_y,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_3,Cloud,adaRotate_y,Rotate_y,Display Rotate_y,Cloud Display Rotate_y,/assets/img-action/cloud-display-pitch.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_4,Cloud,adaRotate_z,Rotate_z,Display Rotate_z,Cloud Display Rotate_z,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_4,Cloud,adaRotate_z,Rotate_z,Display Rotate_z,Cloud Display Rotate_z,/assets/img-action/cloud-display-yaw.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_5,Cloud,adaTemp,Temp,Display Temp,Cloud Display Temp,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_5,Cloud,adaTemp,Temp,Display Temp,Cloud Display Temp,/assets/img-action/cloud-display-temp.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_6,Cloud,adaAccel_x,Accel_x,Display Accel_x,Cloud Display Accel_x,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_6,Cloud,adaAccel_x,Accel_x,Display Accel_x,Cloud Display Accel_x,/assets/img-action/cloud-display-accelX.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_7,Cloud,adaAccel_y,Accel_y,Display Accel_y,Cloud Display Accel_y,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_7,Cloud,adaAccel_y,Accel_y,Display Accel_y,Cloud Display Accel_y,/assets/img-action/cloud-display-accelY.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_8,Cloud,adaAccel_z,Accel_z,Display Accel_z,Cloud Display Accel_z,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_8,Cloud,adaAccel_z,Accel_z,Display Accel_z,Cloud Display Accel_z,/assets/img-action/cloud-display-accelZ.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_9,Cloud,adaAttitude,Attitude,Display Attitude,Cloud Display Attitude,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_9,Cloud,adaAttitude,Altitude,Display Altitude,Cloud Display Altitude,/assets/img-action/cloud-display-altitude.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_10,Cloud,adaCompass,Compass,Display Compass,Cloud Display Compass,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_10,Cloud,adaCompass,Compass,Display Compass,Cloud Display Compass,/assets/img-action/cloud-display-compass.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_11,Cloud,adaDoubleRelease,DoubleRelease,Display DoubleRelease,Cloud Display DoubleRelease,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_11,Cloud,adaDoubleRelease,DoubleRelease,Display DoubleRelease,Cloud Display DoubleRelease,/assets/img-action/cloud-display-doublePress.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_12,Cloud,adaHumidity,Humidity,Display Humidity,Cloud Display Humidity,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_12,Cloud,adaHumidity,Humidity,Display Humidity,Cloud Display Humidity,/assets/img-action/cloud-display-humid.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_13,Cloud,adaMag_x,Mag_x,Display Mag_x,Cloud Display Mag_x,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_16,Cloud,adaPressure,Pressure,Display Pressure,Cloud Display Pressure,/assets/img-action/cloud-display-pressure.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_14,Cloud,adaMag_y,Mag_y,Display Mag_y,Cloud Display Mag_y,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_17,Cloud,adaRelease,Release,Display Release,Cloud Display Release,/assets/img-action/cloud-display-release.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
-,Cloud_15,Cloud,adaMag_z,Mag_z,Display Mag_z,Cloud Display Mag_z,,name,textbox,,Cloud ?,^[\S]+$
-,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
-,,,,,,,,device,textbox,,,
-,Cloud_16,Cloud,adaPressure,Pressure,Display Pressure,Cloud Display Pressure,,name,textbox,,Cloud ?,^[\S]+$
-,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
-,,,,,,,,device,textbox,,,
-,Cloud_17,Cloud,adaRelease,Release,Display Release,Cloud Display Release,,name,textbox,,Cloud ?,^[\S]+$
-,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
-,,,,,,,,device,textbox,,,
-,Cloud_18,Cloud,adaVolume,Vol,Display Volume,Cloud Display Volume,,name,textbox,,Cloud ?,^[\S]+$
+,Cloud_18,Cloud,adaVolume,Vol,Display Volume,Cloud Display Volume,/assets/img-action/cloud-display-volume.svg,name,textbox,,Cloud ?,^[\S]+$
 ,,,,,,,,feed,textbox,,feed name(lable of cloud panel),^[\S]+$
 ,,,,,,,,device,textbox,,,
 ,Cloud_19,Cloud,adaControlLED,Led,Control Led,Control Led on cloud by percentage,,name,textbox,,Cloud ?,^[\S]+$
