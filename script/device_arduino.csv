@@ -1,31 +1,30 @@
 id,lib_name,mfr,mfr_part_no,description,ic,price,vcc_min,vcc_max,vccio_min,vccio_max,image,link,sub_device,sub_device_conflict,connection,optional_connection,type,compatible_fn,display_type,width,height,pin_name,location_x,location_y,connect_to
-DEV_1,MP_PAM8302A,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,2,5.5,,,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130,,,PWM,GPIO,Audio,beep,breakout,43.2,68.4,A+,5.783,58.342,PWM
-,,,,,,,,,,,,,,,,,,tone,,,,A-,12.983,58.342,
-,,,,,,,,,,,,,,,,,,,,,,SD,20.183,58.342,GPIO
-,,,,,,,,,,,,,,,,,,,,,,Vin,27.383,58.342,VCC
-,,,,,,,,,,,,,,,,,,,,,,Gnd,34.583,58.342,GND
-DEV_2,MP_MAX4466,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,2.4,5,,,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063,,,Analog,,Audio,checkVol,breakout,39.6,61.2,OUT,10.823,55.462,Analog
-,,,,,,,,,,,,,,,,,,getVol,,,,GND,18.023,55.462,GND
-,,,,,,,,,,,,,,,,,,,,,,VCC,25.223,55.462,VCC
-,,,,,,,,,,,,,,,,,,,,,,,,,
-DEV_3,MP_BME280,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,3,5,,,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652,,,I2C,,Temperature,checkTemp,breakout,50.4,54,VIN,2.183,45.382,VCC
-,,,,,,,,,,,,,,,,,,getTemp,,,,3Vo,9.383,45.382,
-,,,,,,,,,,,,,,,,,Humidity,humidity,,,,GND,16.583,45.382,GND
-,,,,,,,,,,,,,,,,,,getHumidity,,,,SCK,23.783,45.382,SCK
-,,,,,,,,,,,,,,,,,Pressure,pressure,,,,SDO,30.983,45.382,
-,,,,,,,,,,,,,,,,,,getPressure,,,,SDI,38.183,45.382,SDA
-,,,,,,,,,,,,,,,,,,attitude,,,,CS,45.383,45.382,
+DEV_1,MP_PAM8302A,Adafruit,2130,Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302,PAM8302,3.95,2,5.5,,,https://cdn-shop.adafruit.com/970x728/2130-01.jpg,https://www.adafruit.com/products/2130,,,PWM,GPIO,Audio,beep,breadboard,86.4,136.8,A+,11.566,116.684,PWM
+,,,,,,,,,,,,,,,,,,tone,,,,A-,25.966,116.684,
+,,,,,,,,,,,,,,,,,,,,,,SD,40.366,116.684,
+,,,,,,,,,,,,,,,,,,,,,,Vin,54.766,116.684,VCC
+,,,,,,,,,,,,,,,,,,,,,,Gnd,69.166,116.684,GND
+DEV_2,MP_MAX4466,Adafruit,1063,Electret Microphone Amplifier - MAX4466 with Adjustable Gain,MAX4466,6.95,2.4,5,,,https://cdn-shop.adafruit.com/970x728/1063-03.jpg,https://www.adafruit.com/products/1063,,,Analog,,Audio,checkVol,breadboard,79.2,122.4,OUT,21.646,110.924,Analog
+,,,,,,,,,,,,,,,,,,getVol,,,,GND,36.046,110.924,GND
+,,,,,,,,,,,,,,,,,,,,,,VCC,50.446,110.924,VCC
+DEV_3,MP_BME280,Adafruit,2652,Adafruit BME280 I2C or SPI Temperature Humidity Pressure Sensor,BME280,19.95,3,5,,,https://cdn-shop.adafruit.com/970x728/2652-00.jpg,https://www.adafruit.com/products/2652,,,I2C,,Temperature,checkTemp,breadboard,100.8,108,VIN,4.366,90.764,VCC
+,,,,,,,,,,,,,,,,,,getTemp,,,,3Vo,18.766,90.764,
+,,,,,,,,,,,,,,,,,Humidity,humidity,,,,GND,33.166,90.764,GND
+,,,,,,,,,,,,,,,,,,getHumidity,,,,SCK,47.566,90.764,SCL
+,,,,,,,,,,,,,,,,,Pressure,pressure,,,,SDO,61.966,90.764,
+,,,,,,,,,,,,,,,,,,getPressure,,,,SDI,76.366,90.764,SDA
+,,,,,,,,,,,,,,,,,,attitude,,,,CS,90.766,90.764,
 ,,,,,,,,,,,,,,,,,,getAttitude,,,,,,,
-DEV_4,MP_Si7021,Adafruit,3251,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,Si7021,6.95,3,5,,,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,https://www.adafruit.com/products/3251,,,I2C,,Temperature,checkTemp,breakout,43.2,50.4,VIN,5.783,41.782,VCC
-,,,,,,,,,,,,,,,,,,getTemp,,,,3Vo,12.983,41.782,
-,,,,,,,,,,,,,,,,,Humidity,humidity,,,,GND,20.183,41.782,GND
-,,,,,,,,,,,,,,,,,,getHumidity,,,,SCL,27.383,41.782,SCL
-,,,,,,,,,,,,,,,,,,,,,,SDA,34.583,41.782,SDA
-DEV_5,MP_LCD16X2,Adafruit,292,I2C / SPI character LCD backpack,,9.95,5,5,,,https://cdn-shop.adafruit.com/970x728/292-04.jpg,https://www.adafruit.com/products/292,,,I2C,,Lcd,backlight_on,standalone,142.143,63.145,LAT,94.646,51.033,
-,,,,,,,,,,,,,,,,,,backlight_off,,,,DAT,104.567,51.033,
-,,,,,,,,,,,,,,,,,,show,,,,CLK,114.489,51.033,
-,,,,,,,,,,,,,,,,,,clear,,,,5V,124.4103333,51.033,VCC
-,,,,,,,,,,,,,,,,,,displayTemp,,,,GND,134.3318333,51.033,GND
+DEV_4,MP_Si7021,Adafruit,3251,Adafruit Si7021 Temperature & Humidity Sensor Breakout Board,Si7021,6.95,3,5,,,https://cdn-shop.adafruit.com/970x728/3251-00.jpg,https://www.adafruit.com/products/3251,,,I2C,,Temperature,checkTemp,breadboard,86.4,100.8,VIN,11.566,83.564,VCC
+,,,,,,,,,,,,,,,,,,getTemp,,,,3Vo,25.966,83.564,
+,,,,,,,,,,,,,,,,,Humidity,humidity,,,,GND,40.366,83.564,GND
+,,,,,,,,,,,,,,,,,,getHumidity,,,,SCL,54.766,83.564,SCL
+,,,,,,,,,,,,,,,,,,,,,,SDA,69.166,83.564,SDA
+DEV_5,MP_LCD16X2,Adafruit,292,I2C / SPI character LCD backpack,,9.95,5,5,,,https://cdn-shop.adafruit.com/970x728/292-04.jpg,https://www.adafruit.com/products/292,,,I2C,,Lcd,backlight_on,standalone,284.286,126.29,LAT,189.292,102.066,
+,,,,,,,,,,,,,,,,,,backlight_off,,,,DAT,209.134,102.066,
+,,,,,,,,,,,,,,,,,,show,,,,CLK,228.978,102.066,
+,,,,,,,,,,,,,,,,,,clear,,,,5V,248.8206666,102.066,VCC
+,,,,,,,,,,,,,,,,,,displayTemp,,,,GND,268.6636666,102.066,GND
 ,,,,,,,,,,,,,,,,,,showAccel_x,,,,,,,
 ,,,,,,,,,,,,,,,,,,showAccel_y,,,,,,,
 ,,,,,,,,,,,,,,,,,,showAccel_z,,,,,,,
@@ -102,11 +101,11 @@ DEV_12,MP_Adafruit_Motor_Shield_V2,Adafruit,1438,Adafruit Motor/Stepper/Servo Sh
 ,,,,,,,,,,,,,,DC Motor 2,,,,,,,,,,,
 ,,,,,,,,,,,,,Step Motor 2,DC Motor 3,,,,,,,,,,,
 ,,,,,,,,,,,,,,DC Motor 4,,,,,,,,,,,
-DEV_13,MP_LCD16X2_Chiness,Chiness,,Simple LCD with backpack,,3,5,5,,,https://i.lnwfile.com/f3qvk9.jpg,https://www.arduinoall.com/product/142/1602-lcd-blue-screen-16x2-lcd-with-backlight-of-the-lcd-screen,,,I2C,,Lcd,backlight_on,standalone,142.143,63.145,LAT,94.646,51.033,
-,,,,,,,,,,,,,,,,,,backlight_off,,,,DAT,104.567,51.033,
-,,,,,,,,,,,,,,,,,,show,,,,CLK,114.489,51.033,
-,,,,,,,,,,,,,,,,,,clear,,,,5V,124.4103333,51.033,VCC
-,,,,,,,,,,,,,,,,,,displayTemp,,,,GND,134.3318333,51.033,GND
+DEV_13,MP_LCD16X2_Chiness,Chiness,,Simple LCD with backpack,,3,5,5,,,https://i.lnwfile.com/f3qvk9.jpg,https://www.arduinoall.com/product/142/1602-lcd-blue-screen-16x2-lcd-with-backlight-of-the-lcd-screen,,,I2C,,Lcd,backlight_on,,,,,,,
+,,,,,,,,,,,,,,,,,,backlight_off,,,,,,,
+,,,,,,,,,,,,,,,,,,show,,,,,,,
+,,,,,,,,,,,,,,,,,,clear,,,,,,,
+,,,,,,,,,,,,,,,,,,displayTemp,,,,,,,
 ,,,,,,,,,,,,,,,,,,showAccel_x,,,,,,,
 ,,,,,,,,,,,,,,,,,,showAccel_y,,,,,,,
 ,,,,,,,,,,,,,,,,,,showAccel_z,,,,,,,
