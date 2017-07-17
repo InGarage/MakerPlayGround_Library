@@ -1,0 +1,428 @@
+[
+  {
+    "name": "Button",
+    "action": [
+      {
+        "name": "Wait For Press",
+        "funcname": "isPressed",
+        "type": "Active",
+        "parameter": []
+      },
+      {
+        "name": "Click Count",
+        "funcname": "isMultiPressed",
+        "type": "Active",
+        "parameter": [
+          {
+            "name": "Count",
+            "value": 1.0,
+            "constraint": {
+              "min": 1.0,
+              "max": 100.0,
+              "unit": "TIME"
+            },
+            "datatype": "INTEGER",
+            "controltype": "SPINBOX"
+          }
+        ]
+      },
+      {
+        "name": "Wait For Release",
+        "funcname": "isReleased",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": []
+  },
+  {
+    "name": "Accelerometer",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      },
+      {
+        "name": "Tap",
+        "funcname": "isTapped",
+        "type": "Active",
+        "parameter": []
+      },
+      {
+        "name": "Free Fall",
+        "funcname": "isFallen",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "X",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "METERPERSECSQUARE"
+        }
+      },
+      {
+        "name": "Y",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "METERPERSECSQUARE"
+        }
+      },
+      {
+        "name": "Z",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "METERPERSECSQUARE"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Pressuremeter",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Pressure",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 300.0,
+          "max": 1150.0,
+          "unit": "HECTOPASCAL"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Altimeter",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Altitude",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "METER"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Temperature",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Temperature",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "CELSIUS"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gyroscope",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "X",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "RADIUSPERSEC"
+        }
+      },
+      {
+        "name": "Y",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "RADIUSPERSEC"
+        }
+      },
+      {
+        "name": "Z",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "RADIUSPERSEC"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Humidity",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Humidity",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 100.0,
+          "unit": "PERCENT"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Sound",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Sound Level",
+        "dataType": "INTEGER",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "DECIBEL"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Magnetometer",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      },
+      {
+        "name": "Direction",
+        "funcname": "checkDirection",
+        "type": "Active",
+        "parameter": [
+          {
+            "name": "Direction",
+            "value": "North",
+            "constraint": [
+              "North",
+              "South",
+              "East",
+              "West"
+            ],
+            "datatype": "ENUM",
+            "controltype": "DROPDOWN"
+          }
+        ]
+      }
+    ],
+    "value": [
+      {
+        "name": "Heading",
+        "dataType": "ENUM",
+        "constraint": [
+          "North",
+          "South",
+          "East",
+          "West"
+        ]
+      },
+      {
+        "name": "X",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "MICROTESLA"
+        }
+      },
+      {
+        "name": "Y",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "MICROTESLA"
+        }
+      },
+      {
+        "name": "Z",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 200.0,
+          "unit": "MICROTESLA"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Distance",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Distance",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "CENTIMETER"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Light",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Light Level",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.1,
+          "max": 40000.0,
+          "unit": "LUX"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Presence",
+    "action": [
+      {
+        "name": "Detect Human",
+        "funcname": "isDetected",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": []
+  },
+  {
+    "name": "Orientation",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Roll",
+        "dataType": "INTEGER",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "DEGREE"
+        }
+      },
+      {
+        "name": "Pitch",
+        "dataType": "INTEGER",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "DEGREE"
+        }
+      },
+      {
+        "name": "Yaw",
+        "dataType": "INTEGER",
+        "constraint": {
+          "min": 0.0,
+          "max": 0.0,
+          "unit": "DEGREE"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Time",
+    "action": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Time",
+        "dataType": "CUSTOM",
+        "constraint": []
+      },
+      {
+        "name": "Date",
+        "dataType": "CUSTOM",
+        "constraint": []
+      }
+    ]
+  }
+]

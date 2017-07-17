@@ -1,0 +1,38 @@
+name,action_name,fn_name,action_type,action_paramname,action_default,action_constraintmin,action_constraintmax,action_constraintunit,action_constraintvalue,action_paramtype,action_control
+LED,On,on,Active,Brightness,100,0,100,PERCENT,,DOUBLE,SLIDER
+,Blink,blink,Active,Brightness,100,0,100,PERCENT,,DOUBLE,SLIDER
+,,,,Time period,1,0,60,SECOND,,DOUBLE,SPINBOX
+,,,,Blink speed,Medium,,,,Slow,ENUM,DROPDOWN
+,,,,,,,,,Medium,,
+,,,,,,,,,Fast,,
+,Off,off,Inactive,,,,,,,,
+LCD,Print,print,Active,Backlight,On,,,,On,ENUM,DROPDOWN
+,,,,,,,,,Off,,
+,,,,Print Text,,,,,,CUSTOM,CUSTOMPRINT
+,Clear,clear,Active,Backlight,On,,,,On,ENUM,DROPDOWN
+,,,,,,,,,Off,,
+,Off,off,Inactive,,,,,,,,
+Buzzer,Tone,tone,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
+,Blink Tone,blinkTone,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
+,,,,Time Period,1,0,60,SECOND,,DOUBLE,SPINBOX
+,,,,Blink Speed,Medium,,,,Slow,ENUM,DROPDOWN
+,,,,,,,,,Medium,,
+,,,,,,,,,Fast,,
+,Stop,stop,Inactive,,,,,,,,
+Speaker,Play,play,Active,Name,untitled.wav,,,,,STRING,TEXTBOX
+,,,,Repeat,Loop,,,,1 time,ENUM,DROPDOWN
+,,,,,,,,,Loop,,
+,,,,Volume,100,0,100,PERCENT,,DOUBLE,SLIDER
+,Pause,pause,Active,,,,,,,,
+,Stop,stop,Inactive,,,,,,,,
+7 Segment,Show Number,showNumber,Active,Value,,,,,,CUSTOM,CUSTOMSEGMENT
+,,,,Colon,TRUE,,,,TRUE,ENUM,CHECKBOX
+,,,,,,,,,FALSE,,
+,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
+,,,,Colon,TRUE,,,,TRUE,ENUM,CHECKBOX
+,,,,,,,,,FALSE,,
+,Off,off,Inactive,,,,,,,,
+DC Motor,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
+,,,,,,,,,Backward,,
+,,,,Speed,100,0,100,PERCENT,,DOUBLE,SLIDER
+,Off,off,Inactive,,,,,,,,

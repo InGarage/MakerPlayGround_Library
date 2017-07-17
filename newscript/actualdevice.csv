@@ -1,0 +1,5 @@
+brand,model,url,supportdevice,supportaction,supportactionparam,constraintmin,constraintmax,constraintunit,constraintvalue,supportdevicevalue,supportvalue,constraintvaluemin,constraintvaluemax,constraintvalueunit,constraintvaluevalue
+Sparkfun,9590,https://www.sparkfun.com/products/9590,LED,On,Brightness,0,100,PERCENT,,Temperature,Temperature Value,0,100,CELSIUS,
+,,,,Blink,Brightness,0,100,PERCENT,,,,0,100,FAHRENHEIT,
+,,,,,Time Period,0,60,SECOND,,,,0,100,KELVIN,
+,,,,Off,,,,,,,,,,,
