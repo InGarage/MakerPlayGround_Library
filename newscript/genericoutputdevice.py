@@ -4,14 +4,6 @@ import collections
 import sys
 
 
-def isfloat(tempfloat):
-    try:
-        float(tempfloat)
-        return float(tempfloat)
-    except ValueError:
-        return tempfloat
-
-
 if __name__ == '__main__':
     input_filename = 'genericoutputdevice.csv'
     output_filename = 'genericoutputdevice.json'
@@ -42,9 +34,9 @@ if __name__ == '__main__':
                 if len(row['action_paramname']) != 0:
                     constraints = []
                     if row['action_paramtype'] == 'DOUBLE' or row['action_paramtype'] == 'INTEGER':
-                        defaultValue = isfloat(row['action_default'])
-                        constraints = collections.OrderedDict([('min', isfloat(row['action_constraintmin'])),
-                                                               ('max', isfloat(row['action_constraintmax'])),
+                        defaultValue = float(row['action_default'])
+                        constraints = collections.OrderedDict([('min', float(row['action_constraintmin'])),
+                                                               ('max', float(row['action_constraintmax'])),
                                                                ('unit', row['action_constraintunit'])])
                     else:
                         defaultValue = row['action_default']

@@ -3,15 +3,6 @@ import json
 import collections
 import sys
 
-
-def isfloat(tempfloat):
-    try:
-        float(tempfloat)
-        return float(tempfloat)
-    except ValueError:
-        return tempfloat
-
-
 if __name__ == '__main__':
     input_filename = 'genericinputdevice.csv'
     output_filename = 'genericinputdevice.json'
@@ -45,9 +36,9 @@ if __name__ == '__main__':
                 if len(row['action_paramname']) != 0:
                     constraints = []
                     if row['action_paramtype'] == 'DOUBLE' or row['action_paramtype'] == 'INTEGER':
-                        defaultValue = isfloat(row['action_default'])
-                        constraints = collections.OrderedDict([('min', isfloat(row['action_constraintmin'])),
-                                                               ('max', isfloat(row['action_constraintmax'])),
+                        defaultValue = float(row['action_default'])
+                        constraints = collections.OrderedDict([('min', float(row['action_constraintmin'])),
+                                                               ('max', float(row['action_constraintmax'])),
                                                                ('unit', row['action_constraintunit'])])
                     elif row['action_paramtype'] == 'ENUM':
                         defaultValue = row['action_default']
@@ -64,8 +55,8 @@ if __name__ == '__main__':
                 if len(row['value_name']) != 0:
                     valueconstraints = []
                     if row['value_datatype'] == 'DOUBLE' or row['value_datatype'] == 'INTEGER':
-                        valueconstraints = collections.OrderedDict([('min', isfloat(row['value_constraintmin'])),
-                                                                    ('max', isfloat(row['value_constraintmax'])),
+                        valueconstraints = collections.OrderedDict([('min', float(row['value_constraintmin'])),
+                                                                    ('max', float(row['value_constraintmax'])),
                                                                     ('unit', row['value_constraintunit'])])
                     elif row['value_datatype'] == 'ENUM':
                         valueconstraints.append(row['value_constraintvalue'])
