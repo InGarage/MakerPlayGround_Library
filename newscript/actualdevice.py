@@ -125,9 +125,9 @@ if __name__ == '__main__':
 
                 # Raise error if no valid information is found in any column
                 if ((len(row['id']) == 0) and (len(row['platform']) == 0)
-                    and (len(row['portname']) == 0) and (len(row['connectivity']) == 0)
-                    and (len(row['compatibility']) == 0) and (len(row['action']) == 0)
-                    and (len(row['param']) == 0) and (len(row['unit']) == 0)
+                    and (len(row['portname']) == 0) and (len(row['functiontype']) == 0)
+                    and (len(row['connectivity']) == 0) and (len(row['compatibility']) == 0)
+                    and (len(row['action']) == 0) and (len(row['param']) == 0)
                     and (len(row['constraint']) == 0) and (len(row['value']) == 0)
                     and (len(row['valueconstraint']) == 0) and (len(row['dependency']) == 0)
                     and (len(row['device']) == 0)):
