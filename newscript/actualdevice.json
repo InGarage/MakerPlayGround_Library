@@ -2359,8 +2359,8 @@
     "platform": [
       "ARDUINO"
     ],
-    "width": 154.0,
-    "height": 154.0,
+    "width": 116.0,
+    "height": 117.0,
     "port": [
       {
         "name": "LED",
@@ -2373,8 +2373,8 @@
         ],
         "v_min": 3.3,
         "v_max": 5.0,
-        "x": 19.25,
-        "y": 142.449
+        "x": 14.401,
+        "y": 106.559
       },
       {
         "name": "INT",
@@ -2382,8 +2382,8 @@
         "function": [],
         "v_min": "",
         "v_max": "",
-        "x": 38.5,
-        "y": 142.449
+        "x": 28.801,
+        "y": 106.559
       },
       {
         "name": "SDA",
@@ -2396,8 +2396,8 @@
         ],
         "v_min": 3.3,
         "v_max": 5.0,
-        "x": 57.75,
-        "y": 142.449
+        "x": 43.201,
+        "y": 106.559
       },
       {
         "name": "SCL",
@@ -2410,8 +2410,8 @@
         ],
         "v_min": 3.3,
         "v_max": 5.0,
-        "x": 77.0,
-        "y": 142.449
+        "x": 57.601,
+        "y": 106.559
       },
       {
         "name": "3V3",
@@ -2419,8 +2419,8 @@
         "function": [],
         "v_min": "",
         "v_max": "",
-        "x": 96.25,
-        "y": 142.449
+        "x": 72.001,
+        "y": 106.559
       },
       {
         "name": "GND",
@@ -2433,8 +2433,8 @@
         ],
         "v_min": 3.3,
         "v_max": 5.0,
-        "x": 115.5,
-        "y": 142.449
+        "x": 86.401,
+        "y": 106.559
       },
       {
         "name": "VIN",
@@ -2447,8 +2447,8 @@
         ],
         "v_min": 3.5,
         "v_max": 5.0,
-        "x": 134.75,
-        "y": 142.449
+        "x": 100.801,
+        "y": 106.559
       }
     ],
     "connectivity": [
@@ -2487,7 +2487,7 @@
     "model": "7 Segment 4 Digit Display LED Module Clock",
     "url": "https://www.arduinoall.com/product/454/7-segment-4-digit-display-led-module-clock-for-arduino-0-36",
     "type": "PERIPHERAL",
-    "formfactor": "BREAKOUT_BOARD_TWOSIDE",
+    "formfactor": "STANDALONE",
     "platform": [
       "ARDUINO"
     ],
@@ -2760,10 +2760,10 @@
     "dependency": []
   },
   {
-    "id": "SEN-13322",
-    "brand": "Sparkfun",
+    "id": "Arduinothai-165",
+    "brand": "Arduinothai",
     "model": "SparkFun Soil Moisture Sensor",
-    "url": "https://www.sparkfun.com/products/13322",
+    "url": "https://www.arduinothai.com/product/165/soil-moisture-sensor",
     "type": "PERIPHERAL",
     "formfactor": "STANDALONE",
     "platform": [
@@ -2837,6 +2837,108 @@
             }
           }
         ],
+        "count": ""
+      }
+    ],
+    "dependency": []
+  },
+  {
+    "id": "Arduinoall-332",
+    "brand": "Arduinoall",
+    "model": "RGB LED Module",
+    "url": "https://www.arduinoall.com/product/332/rgb-3-color-full-color-ky-016-led-module-for-arduino-avr-pic",
+    "type": "PERIPHERAL",
+    "formfactor": "BREAKOUT_BOARD_ONESIDE",
+    "platform": [
+      "ARDUINO"
+    ],
+    "width": 86.0,
+    "height": 107.0,
+    "port": [
+      {
+        "name": "R",
+        "type": "WIRE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 5.0,
+        "v_max": 5.0,
+        "x": 20.743,
+        "y": 90.968
+      },
+      {
+        "name": "G",
+        "type": "WIRE",
+        "function": [
+          {
+            "type": "GPIO_2",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 5.0,
+        "v_max": 5.0,
+        "x": 35.144,
+        "y": 90.968
+      },
+      {
+        "name": "B",
+        "type": "WIRE",
+        "function": [
+          {
+            "type": "GPIO_3",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 5.0,
+        "v_max": 5.0,
+        "x": 49.544,
+        "y": 90.968
+      },
+      {
+        "name": "-",
+        "type": "WIRE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 5.0,
+        "v_max": 5.0,
+        "x": 63.944,
+        "y": 90.968
+      }
+    ],
+    "connectivity": [
+      "GPIO_1",
+      "GPIO_2",
+      "GPIO_3"
+    ],
+    "compatibility": [
+      {
+        "name": "RGB LED",
+        "action": [
+          {
+            "name": "On",
+            "parameter": [
+              {
+                "name": "Color",
+                "constraint": [
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Cyan",
+                  "Magenta",
+                  "Yellow"
+                ]
+              }
+            ]
+          }
+        ],
+        "value": [],
         "count": ""
       }
     ],
