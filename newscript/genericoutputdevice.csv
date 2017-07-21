@@ -25,14 +25,15 @@ Speaker,Play,play,Active,Name,untitled.wav,,,,,STRING,TEXTBOX
 ,,,,Volume,100,0,100,PERCENT,,DOUBLE,SLIDER
 ,Pause,pause,Active,,,,,,,,
 ,Stop,stop,Inactive,,,,,,,,
-7 Segment,Show Number,showNumber,Active,Value,,,,,,CUSTOM,CUSTOMSEGMENT
-,,,,Colon,TRUE,,,,TRUE,ENUM,CHECKBOX
-,,,,,,,,,FALSE,,
-,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
-,,,,Colon,TRUE,,,,TRUE,ENUM,CHECKBOX
-,,,,,,,,,FALSE,,
+7 Segment,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
 ,Off,off,Inactive,,,,,,,,
 DC Motor,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
 ,,,,,,,,,Backward,,
 ,,,,Speed,100,0,100,PERCENT,,DOUBLE,SLIDER
 ,Off,off,Inactive,,,,,,,,
+RGB LED,On,on,Active,Color,Red,,,,Red,ENUM,DROPDOWN
+,,,,,,,,,Green,,
+,,,,,,,,,Blue,,
+,,,,,,,,,Cyan,,
+,,,,,,,,,Magenta,,
+,,,,,,,,,Yellow,,
