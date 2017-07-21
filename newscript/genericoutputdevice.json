@@ -301,6 +301,12 @@
             "controltype": "DROPDOWN"
           }
         ]
+      },
+      {
+        "name": "Off",
+        "funcname": "off",
+        "type": "Inactive",
+        "parameter": []
       }
     ],
     "value": []

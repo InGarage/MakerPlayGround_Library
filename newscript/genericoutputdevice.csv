@@ -32,3 +32,4 @@ RGB LED,On,on,Active,Color,Red,,,,Red,ENUM,DROPDOWN
 ,,,,,,,,,Cyan,,
 ,,,,,,,,,Magenta,,
 ,,,,,,,,,Yellow,,
+,Off,off,Inactive,,,,,,,,
