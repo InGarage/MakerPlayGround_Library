@@ -21,99 +21,6 @@
         ]
       },
       {
-        "name": "Blink",
-        "funcname": "blink",
-        "type": "Active",
-        "parameter": [
-          {
-            "name": "Brightness",
-            "value": 100.0,
-            "constraint": {
-              "min": 0.0,
-              "max": 100.0,
-              "unit": "PERCENT"
-            },
-            "datatype": "DOUBLE",
-            "controltype": "SLIDER"
-          },
-          {
-            "name": "Time period",
-            "value": 1.0,
-            "constraint": {
-              "min": 0.0,
-              "max": 60.0,
-              "unit": "SECOND"
-            },
-            "datatype": "DOUBLE",
-            "controltype": "SPINBOX"
-          },
-          {
-            "name": "Blink speed",
-            "value": "Medium",
-            "constraint": [
-              "Slow",
-              "Medium",
-              "Fast"
-            ],
-            "datatype": "ENUM",
-            "controltype": "DROPDOWN"
-          }
-        ]
-      },
-      {
-        "name": "Off",
-        "funcname": "off",
-        "type": "Inactive",
-        "parameter": []
-      }
-    ],
-    "value": []
-  },
-  {
-    "name": "LCD",
-    "action": [
-      {
-        "name": "Print",
-        "funcname": "print",
-        "type": "Active",
-        "parameter": [
-          {
-            "name": "Backlight",
-            "value": "On",
-            "constraint": [
-              "On",
-              "Off"
-            ],
-            "datatype": "ENUM",
-            "controltype": "DROPDOWN"
-          },
-          {
-            "name": "Print Text",
-            "value": "",
-            "constraint": [],
-            "datatype": "CUSTOM",
-            "controltype": "CUSTOMPRINT"
-          }
-        ]
-      },
-      {
-        "name": "Clear",
-        "funcname": "clear",
-        "type": "Active",
-        "parameter": [
-          {
-            "name": "Backlight",
-            "value": "On",
-            "constraint": [
-              "On",
-              "Off"
-            ],
-            "datatype": "ENUM",
-            "controltype": "DROPDOWN"
-          }
-        ]
-      },
-      {
         "name": "Off",
         "funcname": "off",
         "type": "Inactive",
@@ -126,8 +33,8 @@
     "name": "Buzzer",
     "action": [
       {
-        "name": "Tone",
-        "funcname": "tone",
+        "name": "Beep",
+        "funcname": "beep",
         "type": "Active",
         "parameter": [
           {
@@ -148,6 +55,24 @@
               "min": 0.0,
               "max": 1000.0,
               "unit": "SECOND"
+            },
+            "datatype": "INTEGER",
+            "controltype": "SPINBOX"
+          }
+        ]
+      },
+      {
+        "name": "Play",
+        "funcname": "play",
+        "type": "Active",
+        "parameter": [
+          {
+            "name": "Tone Frequency",
+            "value": 2000.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 10000.0,
+              "unit": "HERTZ"
             },
             "datatype": "INTEGER",
             "controltype": "SPINBOX"
