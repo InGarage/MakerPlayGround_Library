@@ -11,6 +11,11 @@
     ],
     "width": 128.0,
     "height": 173.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "VCC",
@@ -109,8 +114,7 @@
     "connectivity": [
       "SPI_1"
     ],
-    "compatibility": [],
-    "dependency": []
+    "compatibility": []
   },
   {
     "id": "Adafruit-1063",
@@ -124,6 +128,11 @@
     ],
     "width": 79.2,
     "height": 122.4,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "OUT",
@@ -192,8 +201,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-2130",
@@ -207,6 +215,11 @@
     ],
     "width": 86.4,
     "height": 136.8,
+    "v": 0.0,
+    "i": 0.0,
+    "w": 2.5,
+    "dependency": "",
+    "category": "amplifier",
     "port": [
       {
         "name": "A+",
@@ -370,55 +383,7 @@
     "connectivity": [
       "PWM_1"
     ],
-    "compatibility": [
-      {
-        "name": "Speaker",
-        "action": [
-          {
-            "name": "Play",
-            "parameter": [
-              {
-                "name": "Name",
-                "constraint": []
-              },
-              {
-                "name": "Repeat",
-                "constraint": [
-                  "1 time",
-                  "Loop"
-                ]
-              },
-              {
-                "name": "Volume",
-                "constraint": {
-                  "min": 0.0,
-                  "max": 100.0,
-                  "unit": "PERCENT"
-                }
-              }
-            ]
-          },
-          {
-            "name": "Pause",
-            "parameter": []
-          },
-          {
-            "name": "Stop",
-            "parameter": []
-          }
-        ],
-        "value": [],
-        "count": 1.0
-      }
-    ],
-    "dependency": [
-      {
-        "name": "Sd Card",
-        "device": [
-          "DEV-13743"
-        ]
-      }
-    ]
+    "compatibility": []
   },
   {
     "id": "Adafruit-2652",
@@ -432,6 +397,11 @@
     ],
     "width": 100.8,
     "height": 108.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "VIN",
@@ -581,8 +551,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-3251",
@@ -596,6 +565,11 @@
     ],
     "width": 86.4,
     "height": 100.8,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "VIN",
@@ -707,8 +681,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-1032",
@@ -722,6 +695,11 @@
     ],
     "width": 173.0,
     "height": 108.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "SCL",
@@ -865,8 +843,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-2023",
@@ -880,6 +857,11 @@
     ],
     "width": 116.0,
     "height": 116.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "VCC",
@@ -989,8 +971,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "SEN-13944",
@@ -1004,6 +985,11 @@
     ],
     "width": 59.0,
     "height": 131.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "GND",
@@ -1102,8 +1088,7 @@
         ],
         "count": 1.0
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "DEV-13975",
@@ -1117,6 +1102,11 @@
     ],
     "width": 531.0,
     "height": 410.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "0",
@@ -1550,8 +1540,7 @@
       "ANALOG_4",
       "ANALOG_5"
     ],
-    "compatibility": [],
-    "dependency": []
+    "compatibility": []
   },
   {
     "id": "Adafruit-1120",
@@ -1565,6 +1554,11 @@
     ],
     "width": 130.0,
     "height": 117.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "SCL",
@@ -1725,8 +1719,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinoall-29",
@@ -1740,6 +1733,11 @@
     ],
     "width": 235.0,
     "height": 230.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "5V",
@@ -1804,8 +1802,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-1438",
@@ -1819,6 +1816,11 @@
     ],
     "width": 454.0,
     "height": 204.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "M1+",
@@ -2070,8 +2072,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-1119",
@@ -2085,6 +2086,11 @@
     ],
     "width": 18.0,
     "height": 25.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "S1A",
@@ -2157,8 +2163,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-292",
@@ -2172,6 +2177,11 @@
     ],
     "width": 284.286,
     "height": 126.29,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "LAT",
@@ -2282,8 +2292,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "COM-09590",
@@ -2297,6 +2306,11 @@
     ],
     "width": 111.0,
     "height": 129.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "GND",
@@ -2384,8 +2398,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Adafruit-1334",
@@ -2399,6 +2412,11 @@
     ],
     "width": 116.0,
     "height": 117.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "LED",
@@ -2516,8 +2534,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinoall-454",
@@ -2531,6 +2548,11 @@
     ],
     "width": 285.0,
     "height": 142.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "CLK",
@@ -2609,8 +2631,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinoall-1015",
@@ -2624,6 +2645,11 @@
     ],
     "width": 158.0,
     "height": 155.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "VCC",
@@ -2686,8 +2712,7 @@
         "value": [],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinoall-687",
@@ -2701,6 +2726,11 @@
     ],
     "width": 41.0,
     "height": 185.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "GND",
@@ -2769,8 +2799,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinothai-165",
@@ -2784,6 +2813,11 @@
     ],
     "width": 130.0,
     "height": 347.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "SIG",
@@ -2852,8 +2886,7 @@
         ],
         "count": ""
       }
-    ],
-    "dependency": []
+    ]
   },
   {
     "id": "Arduinoall-332",
@@ -2867,6 +2900,11 @@
     ],
     "width": 86.0,
     "height": 107.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
     "port": [
       {
         "name": "R",
@@ -2958,7 +2996,86 @@
         "value": [],
         "count": ""
       }
+    ]
+  },
+  {
+    "id": "Adafruit-1891",
+    "brand": "Adafruit",
+    "model": "Thin Plastic Speaker w/Wires - 8 ohm 0.25W",
+    "url": "https://www.adafruit.com/product/1891",
+    "type": "PERIPHERAL",
+    "formfactor": "STANDALONE",
+    "platform": [
+      "ARDUINO"
     ],
-    "dependency": []
+    "width": "",
+    "height": "",
+    "v": 0.0,
+    "i": 0.0,
+    "w": 0.25,
+    "dependency": "amplifier",
+    "category": "speaker",
+    "port": [
+      {
+        "name": "+",
+        "type": "WIRE",
+        "function": [],
+        "v_min": "",
+        "v_max": "",
+        "x": "",
+        "y": ""
+      },
+      {
+        "name": "-",
+        "type": "WIRE",
+        "function": [],
+        "v_min": "",
+        "v_max": "",
+        "x": "",
+        "y": ""
+      }
+    ],
+    "connectivity": [],
+    "compatibility": [
+      {
+        "name": "Speaker",
+        "action": [
+          {
+            "name": "Play",
+            "parameter": [
+              {
+                "name": "Name",
+                "constraint": []
+              },
+              {
+                "name": "Repeat",
+                "constraint": [
+                  "1 time",
+                  "Loop"
+                ]
+              },
+              {
+                "name": "Volume",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 100.0,
+                  "unit": "PERCENT"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Pause",
+            "parameter": []
+          },
+          {
+            "name": "Stop",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
   }
 ]

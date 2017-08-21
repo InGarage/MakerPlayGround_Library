@@ -22,7 +22,6 @@ if __name__ == '__main__':
         reader = csv.DictReader(csvfile)
         ports = []
         compatibilities = []
-        dependencies = []
         functions = []
         actions = []
         values = []
@@ -35,7 +34,6 @@ if __name__ == '__main__':
                 if len(row['id']) != 0:
                     ports = []
                     compatibilities = []
-                    dependencies = []
                     actualdevice = collections.OrderedDict([('id', row['id']),
                                                             ('brand', row['brand']),
                                                             ('model', row['model']),
@@ -45,10 +43,14 @@ if __name__ == '__main__':
                                                             ('platform', []),
                                                             ('width', isfloat(row['width'])),
                                                             ('height', isfloat(row['height'])),
+                                                            ('v', isfloat(row['v'])),
+                                                            ('i', isfloat(row['i'])),
+                                                            ('w', isfloat(row['w'])),
+                                                            ('dependency', row['dependency']),
+                                                            ('category', row['category']),
                                                             ('port', ports),
                                                             ('connectivity', []),
                                                             ('compatibility', compatibilities),
-                                                            ('dependency', dependencies),
                                                             ])
                     data.append(actualdevice)
 
@@ -115,22 +117,13 @@ if __name__ == '__main__':
                 if len(row['valueconstraint']) != 0:
                     valueconstraint.append(row['valueconstraint'])
 
-                if len(row['dependency']) != 0:
-                    dependency = collections.OrderedDict([('name', row['dependency']),
-                                                          ('device', [])])
-                    dependencies.append(dependency)
-
-                if len(row['device']) != 0:
-                    dependency['device'].append(row['device'])
-
                 # Raise error if no valid information is found in any column
                 if ((len(row['id']) == 0) and (len(row['platform']) == 0)
                     and (len(row['portname']) == 0) and (len(row['functiontype']) == 0)
                     and (len(row['connectivity']) == 0) and (len(row['compatibility']) == 0)
                     and (len(row['action']) == 0) and (len(row['param']) == 0)
                     and (len(row['constraint']) == 0) and (len(row['value']) == 0)
-                    and (len(row['valueconstraint']) == 0) and (len(row['dependency']) == 0)
-                    and (len(row['device']) == 0)):
+                    and (len(row['valueconstraint']) == 0) and (len(row['dependency']) == 0)):
                     raise csv.Error('No valid data is detected at this line!!!')
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
