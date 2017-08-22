@@ -1,6 +1,7 @@
 [
   {
     "name": "LED",
+    "description": "This is LED",
     "action": [
       {
         "name": "On",
@@ -31,6 +32,7 @@
   },
   {
     "name": "Buzzer",
+    "description": "This is Buzzer",
     "action": [
       {
         "name": "Beep",
@@ -84,6 +86,7 @@
   },
   {
     "name": "Speaker",
+    "description": "This is Speaker",
     "action": [
       {
         "name": "Play",
@@ -137,6 +140,7 @@
   },
   {
     "name": "7 Segment",
+    "description": "This is LED",
     "action": [
       {
         "name": "Show Value",
@@ -165,6 +169,7 @@
   },
   {
     "name": "DC Motor",
+    "description": "This is LED",
     "action": [
       {
         "name": "On",
@@ -205,6 +210,7 @@
   },
   {
     "name": "RGB LED",
+    "description": "This is LED",
     "action": [
       {
         "name": "On",

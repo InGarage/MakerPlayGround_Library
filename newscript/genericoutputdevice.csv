@@ -1,25 +1,25 @@
-name,action_name,fn_name,action_type,action_paramname,action_default,action_constraintmin,action_constraintmax,action_constraintunit,action_constraintvalue,action_paramtype,action_control
-LED,On,on,Active,Brightness,100,0,100,PERCENT,,DOUBLE,SLIDER
-,Off,off,Inactive,,,,,,,,
-Buzzer,Beep,beep,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
-,,,,Duration,2,0,1000,SECOND,,INTEGER,SPINBOX
-,Play,play,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
-Speaker,Play,play,Active,Name,untitled.wav,,,,,STRING,TEXTBOX
-,,,,Repeat,Loop,,,,1 time,ENUM,DROPDOWN
-,,,,,,,,,Loop,,
-,,,,Volume,100,0,100,PERCENT,,DOUBLE,SLIDER
-,Pause,pause,Active,,,,,,,,
-,Stop,stop,Inactive,,,,,,,,
-7 Segment,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
-,Off,off,Inactive,,,,,,,,
-DC Motor,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
-,,,,,,,,,Backward,,
-,,,,Speed,100,0,100,PERCENT,,DOUBLE,SLIDER
-,Off,off,Inactive,,,,,,,,
-RGB LED,On,on,Active,Color,Red,,,,Red,ENUM,DROPDOWN
-,,,,,,,,,Green,,
-,,,,,,,,,Blue,,
-,,,,,,,,,Cyan,,
-,,,,,,,,,Magenta,,
-,,,,,,,,,Yellow,,
-,Off,off,Inactive,,,,,,,,
+name,description,action_name,fn_name,action_type,action_paramname,action_default,action_constraintmin,action_constraintmax,action_constraintunit,action_constraintvalue,action_paramtype,action_control
+LED,This is LED,On,on,Active,Brightness,100,0,100,PERCENT,,DOUBLE,SLIDER
+,,Off,off,Inactive,,,,,,,,
+Buzzer,This is Buzzer,Beep,beep,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
+,,,,,Duration,2,0,1000,SECOND,,INTEGER,SPINBOX
+,,Play,play,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX
+Speaker,This is Speaker,Play,play,Active,Name,untitled.wav,,,,,STRING,TEXTBOX
+,,,,,Repeat,Loop,,,,1 time,ENUM,DROPDOWN
+,,,,,,,,,,Loop,,
+,,,,,Volume,100,0,100,PERCENT,,DOUBLE,SLIDER
+,,Pause,pause,Active,,,,,,,,
+,,Stop,stop,Inactive,,,,,,,,
+7 Segment,This is LED,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
+,,Off,off,Inactive,,,,,,,,
+DC Motor,This is LED,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
+,,,,,,,,,,Backward,,
+,,,,,Speed,100,0,100,PERCENT,,DOUBLE,SLIDER
+,,Off,off,Inactive,,,,,,,,
+RGB LED,This is LED,On,on,Active,Color,Red,,,,Red,ENUM,DROPDOWN
+,,,,,,,,,,Green,,
+,,,,,,,,,,Blue,,
+,,,,,,,,,,Cyan,,
+,,,,,,,,,,Magenta,,
+,,,,,,,,,,Yellow,,
+,,Off,off,Inactive,,,,,,,,

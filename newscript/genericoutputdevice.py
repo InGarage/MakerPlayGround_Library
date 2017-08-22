@@ -20,6 +20,7 @@ if __name__ == '__main__':
                 if len(row['name']) != 0:
                     outputs = []
                     obj = collections.OrderedDict([('name', row['name']),
+                                                   ('description', row['description']),
                                                    ('action', outputs),
                                                    ('value', [])])
                     data.append(obj)
