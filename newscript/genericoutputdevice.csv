@@ -10,7 +10,7 @@ Speaker,This is Speaker,Play,play,Active,Name,untitled.wav,,,,,STRING,TEXTBOX
 ,,,,,Volume,100,0,100,PERCENT,,DOUBLE,SLIDER
 ,,Pause,pause,Active,,,,,,,,
 ,,Stop,stop,Inactive,,,,,,,,
-7 Segment,This is LED,Show Value,showValue,Active,Value,,,,,value_list,ENUM,DROPDOWN
+7 Segment,This is LED,Show Value,showValue,Active,Value,,,,,,VALUE,DROPDOWN
 ,,Off,off,Inactive,,,,,,,,
 DC Motor,This is LED,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
 ,,,,,,,,,,Backward,,
