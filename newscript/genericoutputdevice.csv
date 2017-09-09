@@ -11,6 +11,7 @@ Speaker,It can play music and control frequency of sound,Play,play,Active,Name,u
 ,,Pause,pause,Active,,,,,,,,
 ,,Stop,stop,Inactive,,,,,,,,
 7 Segment,A screen that can display number and some alphabet,Show Value,showValue,Active,Value,,,,,,VALUE,DROPDOWN
+,,Show Data,showData,Inactive,Data,1000,0,9999,NUMBER,,INTEGER,SPINBOX
 ,,Off,off,Inactive,,,,,,,,
 DC Motor,A motor. It can drive a wheel.,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
 ,,,,,,,,,,Backward,,
