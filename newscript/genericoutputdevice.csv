@@ -13,6 +13,14 @@ Speaker,It can play music and control frequency of sound,Play,play,Active,Name,u
 7 Segment,A screen that can display number and some alphabet,Show Value,showValue,Active,Value,,,,,,VALUE,DROPDOWN
 ,,Show Data,showData,Inactive,Data,1000,0,9999,NUMBER,,INTEGER,SPINBOX
 ,,Off,off,Inactive,,,,,,,,
+,,Set Brightness,setBrightness,Inactive,Brightness,7,,,,0,ENUM,DROPDOWN
+,,,,,,,,,,1,,
+,,,,,,,,,,2,,
+,,,,,,,,,,3,,
+,,,,,,,,,,4,,
+,,,,,,,,,,5,,
+,,,,,,,,,,6,,
+,,,,,,,,,,7,,
 DC Motor,A motor. It can drive a wheel.,On,on,Active,Direction,Forward,,,,Forward,ENUM,DROPDOWN
 ,,,,,,,,,,Backward,,
 ,,,,,Speed,100,0,100,PERCENT,,DOUBLE,SLIDER
