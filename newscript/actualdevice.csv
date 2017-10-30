@@ -120,7 +120,7 @@ Adafruit-1438,Adafruit,Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - 
 ,,,,,,,,,,,,,,,SCL,WIRE,I2C_1,I2C_SCL,5,5,154.5,21.907,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,5V,WIRE,POWER,VCC,5,5,300.559,387.372,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,WIRE,POWER,GND,5,5,319.626,387.372,,,,,,,,,,,,,,
-Adafruit-1119,Adafruit,Tactile Switch Buttons,https://www.adafruit.com/product/1119,PERIPHERAL,BREAKOUT_BOARD_TWOSIDE,ARDUINO,MP_GenericButton,59.335,33.108,,,,,,S1A,WIRE,GPIO_1,INOUT,,,31.785,42.489,GPIO_1,Button,Wait For Press,isPressed,,,,,,,,,,
+Adafruit-1119,Adafruit,Tactile Switch Buttons,https://www.adafruit.com/product/1119,PERIPHERAL,BREAKOUT_BOARD_TWOSIDE,ARDUINO,MP_GenericButton,119,82,,,,,,S1A,WIRE,GPIO_1,INOUT,,,31.785,42.489,GPIO_1,Button,Wait For Press,isPressed,,,,,,,,,,
 ,,,,,,,,,,,,,,,S1B,WIRE,POWER,VCC,5,5,2.984,0.002,,,Click Count,isMultiPressed,1,100,TIME,,,,,,,
 ,,,,,,,,,,,,,,,GND,WIRE,POWER,GND,5,5,117.42,60.299,,,Wait For Release,isReleased,,,,,,,,,,
 COM-09590,Sparkfun,LED - Basic Red 5mm,https://www.sparkfun.com/products/9590,PERIPHERAL,BREAKOUT_BOARD_ONESIDE,ARDUINO,MP_LED,111,129,,,,,,GND,WIRE,POWER,GND,5,5,9.054,107.646,PWM_1,LED,On,Brightness,0,100,PERCENT,,,,,,,
