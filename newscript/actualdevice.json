@@ -4197,9 +4197,8 @@
       "ARDUINO"
     ],
     "library": [
-      "MP_BME280",
-      "Adafruit_BME280",
-      "Adafruit_Sensor"
+      "MP_DHT11",
+      "DHT"
     ],
     "width": 93.542,
     "height": 140.332,
@@ -4534,7 +4533,7 @@
       "ARDUINO"
     ],
     "library": [
-      "MP_BME280"
+      "MP_OneAnalogReadToPercent"
     ],
     "width": 130.194,
     "height": 203.991,
@@ -4610,7 +4609,7 @@
         ],
         "value": [
           {
-            "name": "LPG",
+            "name": "Percent",
             "constraint": {
               "min": 0.0,
               "max": 100.0,
@@ -4633,7 +4632,7 @@
       "ARDUINO"
     ],
     "library": [
-      "MP_BME280"
+      "MP_OneAnalogReadToPercent"
     ],
     "width": 130.194,
     "height": 203.991,
@@ -4709,7 +4708,7 @@
         ],
         "value": [
           {
-            "name": "Alcohol",
+            "name": "Percent",
             "constraint": {
               "min": 0.0,
               "max": 100.0,
