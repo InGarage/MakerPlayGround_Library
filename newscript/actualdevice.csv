@@ -246,3 +246,7 @@ Arduinoall-261,Arduinoall,MQ-3 alcohol sensor Alcohol,https://www.arduinoall.com
 Arduinoall-377,Arduinoall,Rain Raindrop Water Level Sensor Module Height Depth of Detection For Arduino,https://www.arduinoall.com/product/377/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5-%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9D%E0%B8%99-%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%99%E0%B9%89%E0%B8%B3-rain-raindrop-water-level-sensor-module-height-depth-of-detection-for-a-3,PERIPHERAL,BREAKOUT_BOARD_ONESIDE,ARDUINO,MP_Waterlvl,113.378,351.498,,,,,,GND,WIRE,POWER,GND,3.3,5,44.417,341.748,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,VCC,WIRE,POWER,VCC,3.3,5,58.817,341.748,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,S,WIRE,GPIO_1,INOUT,3.3,5,73.217,341.748,GPIO_1,Water,Wait sensor is wet,isWet,,,,,,,,,,
+Arduitronics-1705,Arduitronics,DHT12 Humidity Temperature Sensor Module,https://www.arduitronics.com/product/1705/dht12-humidity-temperature-sensor-module-free-cable-i2c-interface,PERIPHERAL,BREAKOUT_BOARD_ONESIDE,ARDUINO,MP_DHT12,72,72,,,,,,VIN,WIRE,POWER,VCC,3.3,5,14.5,69,,Temperature,Compare,,,,,,Temperature,0,50,CELSIUS,,
+,,,,,,,DHT,,,,,,,,SDA,WIRE,I2C_1,I2C_SDA,3.3,5,28.9,69,,Humidity,Compare,,,,,,Humidity,20,80,PERCENT,,
+,,,,,,,,,,,,,,,GND,WIRE,POWER,GND,3.3,5,43.3,69,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,SCL,WIRE,I2C_1,I2C_SCL,3.3,5,57.7,69,I2C_1,,,,,,,,,,,,,
