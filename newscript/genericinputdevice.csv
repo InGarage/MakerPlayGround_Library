@@ -1,9 +1,10 @@
 name,description,action_name,fn_name,action_type,action_paramname,action_default,action_default_unit,action_constraintmin,action_constraintmax,action_constraintunit,action_constraintvalue,action_paramtype,action_control,value_name,value_datatype,value_constraintunit,value_constraintmin,value_constraintmax,value_constraintvalue
 Button,This is buttons. You can press or release the button to do some action. \nRelated project:\n\tPiano\n\tSwitch to controll devices,Wait For Press,isPressed,Active,,,,,,,,,,,,,,,
 ,,Wait For Release,isReleased,Active,,,,,,,,,,,,,,,
-Accelerometer,"Accelerometer is a sensor to measure acceleration.\nYou can use it to detect free fall, acceleration on x,y,z axis. \nRelated project:\n\tFalling object detector",Compare,,Active,,,,,,,,,,Accel_X,DOUBLE,METERPERSECSQUARE,-200,200,
-,,,,,,,,,,,,,,Accel_Y,DOUBLE,METERPERSECSQUARE,-200,200,
-,,,,,,,,,,,,,,Accel_Z,DOUBLE,METERPERSECSQUARE,-200,200,
+Accelerometer,"Accelerometer is a sensor to measure acceleration.\nYou can use it to detect free fall, acceleration on x,y,z axis. \nRelated project:\n\tFalling object detector",Compare,,Active,,,,,,,,,,Accel_X,DOUBLE,METERPERSECSQUARE,-100,100,
+,,,,,,,,,,,,,,Accel_Y,DOUBLE,METERPERSECSQUARE,-100,100,
+,,,,,,,,,,,,,,Accel_Z,DOUBLE,METERPERSECSQUARE,-100,100,
+,,,,,,,,,,,,,,Accel_Magnitude,DOUBLE,METERPERSECSQUARE,0,100,
 ,,Tap,isTapped,Active,,,,,,,,,,,,,,,
 ,,Free Fall,isFallen,Active,,,,,,,,,,,,,,,
 Pressuremeter,Pressuremeter is a sensor to measure pressure. \nRelated project:\n\tAtmosphere detector,Compare,,Active,,,,,,,,,,Pressure,DOUBLE,HECTOPASCAL,-3000,3000,
