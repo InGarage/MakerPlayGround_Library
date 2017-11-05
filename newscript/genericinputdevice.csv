@@ -28,6 +28,7 @@ Magnetometer,A sensor that measure magnetic. \nRelated project:\n\tMagnet detect
 ,,,,,,,,,,,SouthWest,,,,,,,,
 Distance,A sensor that measure distance. \nRelated project:\n\tWall detector\n\tObject detector,Compare,,Active,,,,,,,,,,Distance,DOUBLE,CENTIMETER,0,10000,
 Presence,A sensor that measure movement. \nRelated project:\n\tHuman detector,Detect Human,isDetected,Active,,,,,,,,,,,,,,,
+,,No Human,isNotDetected,Active,,,,,,,,,,,,,,,
 Color,A sensor that detect color. \nRelated project:\n\tColor detector,Detect Color,isColor,Active,Color,Red,,,,,Red,ENUM,DROPDOWN,,,,,,
 ,,,,,,,,,,,Green,,,,,,,,
 ,,,,,,,,,,,Blue,,,,,,,,

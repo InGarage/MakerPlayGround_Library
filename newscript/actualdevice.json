@@ -1550,6 +1550,15 @@
                 "constraint": []
               }
             ]
+          },
+          {
+            "name": "No Human",
+            "parameter": [
+              {
+                "name": "isNotDetected",
+                "constraint": []
+              }
+            ]
           }
         ],
         "value": [],
@@ -3665,7 +3674,7 @@
       "ARDUINO"
     ],
     "library": [
-      "MP_HC_SR501"
+      "MP_Infrared_Barrier"
     ],
     "width": 41.041,
     "height": 102.929,
@@ -3730,6 +3739,15 @@
             "parameter": [
               {
                 "name": "isDetected",
+                "constraint": []
+              }
+            ]
+          },
+          {
+            "name": "No Human",
+            "parameter": [
+              {
+                "name": "isNotDetected",
                 "constraint": []
               }
             ]
