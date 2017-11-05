@@ -36,6 +36,7 @@ Color,A sensor that detect color. \nRelated project:\n\tColor detector,Detect Co
 ,,,,,,,,,,,Yellow,,,,,,,,
 ,,,,,,,,,,,White,,,,,,,,
 Light,A sensor that detect light. \nRelated project:\n\tAutomatic light,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,
-Water,A sensor that detect water level. \nRelated project:\n\tRain detection\n\tWater level detector,Wait sensor is wet,isWet,Active,,,,,,,,,,,,,,,
+Water,A sensor that detect water level. \nRelated project:\n\tRain detection\n\tWater level detector,Detect Water,isWet,Active,,,,,,,,,,,,,,,
+,,No Water,isDry,Active,,,,,,,,,,,,,,,
 Alcohol,A sensor that detect alcohol. \nRelated project:\n\tAlcohol meter,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,
 LPG,A sensor that detect gas LPG. \nRelated project:\n\tGas dectetor,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,
