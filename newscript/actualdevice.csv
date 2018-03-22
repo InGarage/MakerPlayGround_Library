@@ -284,7 +284,7 @@ Grove-101020003,SeeedStudio,Grove - Button,https://www.seeedstudio.com/Grove-But
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,2.984,0.002,,,Wait For Release,isReleased,,,,,,,,,,
 ,,,,,,,,,,,,,,,VCC,GROVE,POWER,VCC,3.3,5,117.42,60.299,,,,,,,,,,,,,,
 Grove-103020005,SeeedStudio,Grove - Relay,https://www.seeedstudio.com/Grove-Relay-p-769.html,PERIPHERAL,GROVE,ARDUINO,MP_Relay_Module,50,50,,,,,,VCC,GROVE,POWER,VCC,3.3,5,1.531,19.764,,Relay Module,On,,,,,,,,,,,
-,,,,,,,,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,,Off,,,,,,,,,,,
+,,,,,,,,,,,,,,,SIG,GROVE,GPIO_1,INOUT,3.3,5,45.2,31.9095,GPIO_1,,Off,,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,132.212,22.0465,,,,,,,,,,,,,,
 Grove-101020020,SeeedStudio,Grove - PIR Motion Sensor,https://www.seeedstudio.com/Grove-PIR-Motion-Sensor%EF%BC%88BISS0001%EF%BC%89-p-802.html,PERIPHERAL,GROVE,ARDUINO,MP_GROVE_PIR,50,50,,,,,,SIG,GROVE,GPIO_1,INOUT,3,5,31.785,42.489,GPIO_1,Presence,Detect Human,isDetected,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3,5,2.984,0.002,,,No Human,isNotDetected,,,,,,,,,,
