@@ -23,7 +23,8 @@ if __name__ == '__main__':
                     values = []
                     obj = collections.OrderedDict([('name', row['name']),
                                                    ('description', row['description']),
-                                                   ('action', inputs),
+                                                   ('action', []),
+                                                   ('condition', inputs),
                                                    ('value', values)])
                     data.append(obj)
 
