@@ -1,7 +1,7 @@
 [
   {
     "name": "Button",
-    "description": "This is buttons. You can press or release the button to do some action. \\nRelated project:\\n\\tPiano\\n\\tSwitch to controll devices",
+    "description": "This is buttons. You can press or release the button to do some action. \\nRelated project:\\n\\tPiano\\n\\tSwitch to control devices",
     "action": [],
     "condition": [
       {
@@ -454,6 +454,30 @@
   {
     "name": "LPG",
     "description": "A sensor that detect gas LPG. \\nRelated project:\\n\\tGas dectetor",
+    "action": [],
+    "condition": [
+      {
+        "name": "Compare",
+        "funcname": "",
+        "type": "Active",
+        "parameter": []
+      }
+    ],
+    "value": [
+      {
+        "name": "Percent",
+        "dataType": "DOUBLE",
+        "constraint": {
+          "min": 0.0,
+          "max": 100.0,
+          "unit": "PERCENT"
+        }
+      }
+    ]
+  },
+  {
+    "name": "POT",
+    "description": "This is potentiometer. You can turn to adjust and make some action.\\nRelated project:\\n\\tHelp many projects in selecting action and/or adjusting the sensor value",
     "action": [],
     "condition": [
       {
