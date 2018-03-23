@@ -14,6 +14,7 @@ if __name__ == '__main__':
         reader = csv.DictReader(csvfile)
         outputs = []
         constraints = []
+        properties = []
         try:
             for row in reader:
                 # We have found a new category so we create an array and put it into the obj
@@ -23,7 +24,8 @@ if __name__ == '__main__':
                                                    ('description', row['description']),
                                                    ('action', outputs),
                                                    ('condition', []),
-                                                   ('value', [])])
+                                                   ('value', []),
+                                                   ('property', properties)])
                     data.append(obj)
 
                 if len(row['action_name']) != 0:
@@ -53,9 +55,14 @@ if __name__ == '__main__':
                 elif len(row['action_constraintvalue']) != 0:
                     constraints.append(row['action_constraintvalue'])
 
+                if len(row['propertyname']) != 0:
+                    properties.append(collections.OrderedDict([('name', row['propertyname']),
+                                                               ('type', row['propertytype'])]))
+
                 # Raise error if no valid information is found in any column
                 if ((len(row['action_name']) == 0) and (len(row['action_paramname']) == 0)
-                    and (len(row['action_constraintvalue']) == 0)):
+                    and (len(row['action_constraintvalue']) == 0)
+                    and (len(row['propertyname']) == 0)):
                     raise csv.Error('No valid data is detected at this line!!!')
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
