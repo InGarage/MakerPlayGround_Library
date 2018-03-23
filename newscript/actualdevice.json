@@ -5836,7 +5836,9 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [],
+    "library": [
+      "MP_GROVE_Ultrasonic_Ranger"
+    ],
     "width": 50.0,
     "height": 50.0,
     "v": "",
@@ -5904,9 +5906,9 @@
           {
             "name": "Distance",
             "constraint": {
-              "min": 0.02,
-              "max": 4.5,
-              "unit": "METER"
+              "min": 3.0,
+              "max": 350.0,
+              "unit": "CENTIMETER"
             }
           }
         ],
