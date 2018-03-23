@@ -296,6 +296,6 @@ Grove-101020054,SeeedStudio,Grove - 3-Axis Digital Accelerometer(±16g),http://wi
 Grove-101020011,SeeedStudio,Grove - Temperature & Humidity Sensor ?DHT11?,https://www.seeedstudio.com/Grove-Temperature-%26amp%3B-Humidity-Sensor-%EF%BC%88DHT11%EF%BC%89-p-745.html,PERIPHERAL,GROVE,ARDUINO,MP_DHT11,50,50,,,,,,VCC,GROVE,POWER,VCC,3.3,5,1.531,19.764,,Temperature,Compare,,,,,,Temperature,0,50,CELSIUS,,
 ,,,,,,,DHT,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,Humidity,Compare,,,,,,Humidity,20,80,PERCENT,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,132.212,22.0465,,,,,,,,,,,,,,
-Grove-101020010,SeeedStudio,Grove - Ultrasonic Ranger,https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html,PERIPHERAL,GROVE,ARDUINO,,50,50,,,,,,VCC,GROVE,POWER,VCC,3.3,5,1.531,19.764,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,Distance,Compare,,,,,,Distance,0.02,4.5,METER,,
+Grove-101020010,SeeedStudio,Grove - Ultrasonic Ranger,https://www.seeedstudio.com/Grove-Ultrasonic-Ranger-p-960.html,PERIPHERAL,GROVE,ARDUINO,MP_GROVE_Ultrasonic_Ranger,50,50,,,,,,VCC,GROVE,POWER,VCC,3.3,5,1.531,19.764,,Distance,Compare,,,,,,Distance,3,350,CENTIMETER,,
+,,,,,,,,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,132.212,22.0465,,,,,,,,,,,,,,
