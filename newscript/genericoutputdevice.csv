@@ -1,7 +1,8 @@
 name,description,action_name,fn_name,action_type,action_paramname,action_default,action_constraintmin,action_constraintmax,action_constraintunit,action_constraintvalue,action_paramtype,action_control,propertyname,propertytype
 LED,LED lamp,On,on,Active,Brightness,100,0,100,PERCENT,,DOUBLE,SLIDER,,
 ,,Off,off,Inactive,,,,,,,,,,
-Buzzer,A kind of speaker that can control frequency of sound,Play,play,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX,,
+Buzzer,A kind of speaker that can control frequency of sound,Beep,beep,Active,,,,,,,,,,
+Piezo,A kind of speaker that can control frequency of sound,Play,play,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX,,
 ,,,,,Duration,2,0,1000,SECOND,,INTEGER,SPINBOX,,
 ,,Beep,beep,Active,Tone Frequency,2000,0,10000,HERTZ,,INTEGER,SPINBOX,,
 7 Segment,A screen that can display number and some alphabet,Show Value,showValue,Active,Value,,,,,,VALUE,DROPDOWN,,
