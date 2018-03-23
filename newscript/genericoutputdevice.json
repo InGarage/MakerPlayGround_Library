@@ -29,7 +29,8 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   },
   {
     "name": "Buzzer",
@@ -84,7 +85,8 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   },
   {
     "name": "7 Segment",
@@ -153,7 +155,8 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   },
   {
     "name": "DC Motor",
@@ -195,7 +198,8 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   },
   {
     "name": "RGB LED",
@@ -231,7 +235,8 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   },
   {
     "name": "Relay Module",
@@ -251,6 +256,7 @@
       }
     ],
     "condition": [],
-    "value": []
+    "value": [],
+    "property": []
   }
 ]

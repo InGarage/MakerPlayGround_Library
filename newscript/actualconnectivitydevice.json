@@ -1,6 +1,6 @@
 [
   {
-    "id": "SeeedStudio-113020010",
+    "id": "Grove-113020010",
     "brand": "SeeedStudio",
     "model": "Grove - Uart Wifi",
     "url": "https://www.seeedstudio.com/s/Grove-Uart-Wifi-p-2495.html",
@@ -24,7 +24,7 @@
     "port": [
       {
         "name": "VIN",
-        "type": "WIRE",
+        "type": "GROVE",
         "function": [
           {
             "type": "POWER",
@@ -38,7 +38,7 @@
       },
       {
         "name": "GND",
-        "type": "WIRE",
+        "type": "GROVE",
         "function": [
           {
             "type": "POWER",
@@ -52,7 +52,7 @@
       },
       {
         "name": "RX",
-        "type": "WIRE",
+        "type": "GROVE",
         "function": [
           {
             "type": "GPIO_1",
@@ -66,7 +66,7 @@
       },
       {
         "name": "TX",
-        "type": "WIRE",
+        "type": "GROVE",
         "function": [
           {
             "type": "GPIO_2",
@@ -233,20 +233,6 @@
           }
         ],
         "count": ""
-      }
-    ],
-    "property": [
-      {
-        "name": "auth",
-        "type": "STRING"
-      },
-      {
-        "name": "ssid",
-        "type": "STRING"
-      },
-      {
-        "name": "pass",
-        "type": "STRING"
       }
     ]
   }

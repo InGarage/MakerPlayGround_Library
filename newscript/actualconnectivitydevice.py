@@ -52,8 +52,7 @@ if __name__ == '__main__':
                                                             ('category', row['category']),
                                                             ('port', ports),
                                                             ('connectivity', []),
-                                                            ('compatibility', compatibilities),
-                                                            ('property', properties)
+                                                            ('compatibility', compatibilities)
                                                             ])
                     data.append(actualdevice)
 
@@ -122,10 +121,6 @@ if __name__ == '__main__':
 
                 if len(row['valueconstraint']) != 0:
                     valueconstraint.append(row['valueconstraint'])
-
-                if len(row['propertyname']) != 0:
-                    properties.append(collections.OrderedDict([('name', row['propertyname']),
-                                                               ('type', row['propertytype'])]))
 
                 # Raise error if no valid information is found in any column
                 if ((len(row['id']) == 0) and (len(row['platform']) == 0)
