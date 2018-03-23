@@ -278,7 +278,7 @@ Grove-101020023,SeeedStudio,Grove - Sound Sensor,https://www.seeedstudio.com/Gro
 ,,,,,,,,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,132.212,22.0465,,,,,,,,,,,,,,
 Grove-107020000,SeeedStudio,Grove - Buzzer,https://www.seeedstudio.com/Grove-Buzzer-p-768.html,PERIPHERAL,GROVE,ARDUINO,MP_GROVE_Buzzer,128,148,,,,,,VCC,GROVE,POWER,VCC,3.3,5,1.531,19.764,,Buzzer,Beep,,,,,,,,,,,
-,,,,,,,,,,,,,,,SIG,GROVE,ANALOG_1,INOUT,3.3,5,45.2,31.9095,ANALOG_1,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,SIG,GROVE,GPIO_1,INOUT,3.3,5,45.2,31.9095,GPIO_1,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,132.212,22.0465,,,,,,,,,,,,,,
 Grove-101020003,SeeedStudio,Grove - Button,https://www.seeedstudio.com/Grove-Button-p-766.html,PERIPHERAL,GROVE,ARDUINO,MP_GROVE_Button,128,148,,,,,,SIG,GROVE,GPIO_1,INOUT,3.3,5,31.785,42.489,GPIO_1,Button,Wait For Press,isPressed,,,,,,,,,,
 ,,,,,,,,,,,,,,,GND,GROVE,POWER,GND,3.3,5,2.984,0.002,,,Wait For Release,isReleased,,,,,,,,,,
