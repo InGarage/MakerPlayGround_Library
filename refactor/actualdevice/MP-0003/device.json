@@ -1,0 +1,69 @@
+{
+  "id": "MP-0003",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - Buzzer",
+  "url": "http://www.makerplayground.io/library/MP-0003",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_PWM": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_PWM": [
+      {
+        "name": "",
+        "wiring": "MP_PWM",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Buzzer",
+      "actionList": [
+        {
+          "action": "Beep",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

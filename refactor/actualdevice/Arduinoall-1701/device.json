@@ -1,0 +1,105 @@
+{
+  "id": "Arduinoall-1701",
+  "brand": "Arduinoall",
+  "model": "Infrared Barrier tracking avoidance Obstacle Sensor Module",
+  "url": "https://www.arduinoall.com/product/1701/infrared-barrier-tracking-avoidance-obstacle-sensor-module-%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%B5%E0%B8%94%E0%B8%82%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%9F%E0%B8%B2%E0%B9%80%E0%B8%A3%E0%B8%94",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
+  "width": 205.0,
+  "height": 80.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "GPIO": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "GPIO": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GPIO",
+            "function": "INOUT",
+            "x": 194.0,
+            "y": 54.4,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ],
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 194.0,
+            "y": 40.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 194.0,
+            "y": 25.6,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "POWER3V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 194.0,
+            "y": 40.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "VCC",
+            "function": "VCC_3V",
+            "x": 194.0,
+            "y": 25.6,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Presence",
+      "conditionList": [
+        {
+          "condition": "Detect Human",
+          "params": []
+        },
+        {
+          "condition": "No Human",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_Infrared_Barrier"
+    ]
+  }
+}

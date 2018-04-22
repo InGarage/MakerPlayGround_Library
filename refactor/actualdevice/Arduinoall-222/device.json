@@ -1,0 +1,106 @@
+{
+  "id": "Arduinoall-222",
+  "brand": "Arduinoall",
+  "model": "Module MQ-2 FC-22 Smoke Gas Sensor Smoke methane gas liquefied flammable gas sensor module for arduano",
+  "url": "https://www.arduinoall.com/product/222/module-mq-2-fc-22-smoke-gas-sensor-smoke-methane-gas-liquefied-flammable-gas-sensor-module-for-ardua",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 130.194,
+  "height": 203.991,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "ANALOG": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 43.398,
+            "y": 190.593,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 57.797,
+            "y": 190.593,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "NC": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "D0",
+            "function": "NC",
+            "x": 72.196,
+            "y": 190.593,
+            "adapt_pin": "NO_OP"
+          }
+        ]
+      }
+    ],
+    "ANALOG": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "A0",
+            "function": "GPIO",
+            "x": 86.593,
+            "y": 190.593,
+            "adapt_pin": "ANALOG"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "LPG",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Percent",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 100.0,
+          "unit": "PERCENT"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_OneAnalogReadToPercent"
+    ]
+  }
+}

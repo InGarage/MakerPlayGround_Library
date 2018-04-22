@@ -1,0 +1,137 @@
+{
+  "id": "Arduitronics-220",
+  "brand": "Arduitronics",
+  "model": "4 digit display LED module clock for Arduino 0.36\"",
+  "url": "https://www.arduitronics.com/product/220/seven-segment-4-digit-clock-display-0-36-inches-catalex",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
+  "width": 372.0,
+  "height": 153.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "GPIO": [
+            0,
+            1
+          ],
+          "POWER5V": [
+            0
+          ]
+        },
+        {
+          "GPIO": [
+            0,
+            1
+          ],
+          "POWER3V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "GPIO": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "CLK",
+            "function": "GPIO",
+            "x": 321.0,
+            "y": 53.3,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "DIO",
+            "function": "GPIO",
+            "x": 321.0,
+            "y": 67.8,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ],
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC_5V",
+            "function": "VCC",
+            "x": 321.0,
+            "y": 82.3,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 321.0,
+            "y": 96.8,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "POWER3V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC_3V",
+            "function": "VCC",
+            "x": 321.0,
+            "y": 82.3,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 321.0,
+            "y": 96.8,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "7 Segment",
+      "actionList": [
+        {
+          "action": "Set Brightness",
+          "params": [
+            {
+              "name": "Brightness",
+              "type": "INTEGER",
+              "minNumberValue": 0,
+              "maxNumberValue": 100,
+              "defaultNumberValue": 100,
+              "numberUnit": "PERCENT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_7segI2C_Colon",
+      "TM1637Display"
+    ]
+  }
+}

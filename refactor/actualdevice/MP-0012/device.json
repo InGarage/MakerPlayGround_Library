@@ -1,0 +1,85 @@
+{
+  "id": "MP-0012",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - 7 Segment",
+  "url": "http://www.makerplayground.io/library/MP-0012",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_GPIO": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_GPIO": [
+      {
+        "name": "",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "SIG",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "7 Segment",
+      "actionList": [
+        {
+          "action": "Set Brightness",
+          "params": [
+            {
+              "name": "Brightness",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 100.0,
+              "defaultNumberValue": 100.0,
+              "numberUnit": "PERCENT"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

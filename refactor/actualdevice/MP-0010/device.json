@@ -1,0 +1,103 @@
+{
+  "id": "MP-0010",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - Distance/Gesture",
+  "url": "http://www.makerplayground.io/library/MP-0010",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_ANALOG": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_ANALOG": [
+      {
+        "name": "",
+        "wiring": "MP_ANALOG",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Distance",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Distance",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 10000.0,
+          "unit": "CENTIMETER"
+        }
+      ]
+    },
+    {
+      "generic_device": "Gesture",
+      "conditionList": [
+        {
+          "condition": "Detect Hand",
+          "params": [
+            {
+              "name": "Gesture",
+              "type": "ENUM",
+              "possibleEnumValues": [
+                "Left",
+                "Right",
+                "Up",
+                "Down"
+              ],
+              "defaultEnumValue": "Left"
+            }
+          ]
+        },
+        {
+          "condition": "No Hand",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

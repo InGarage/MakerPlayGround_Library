@@ -1,0 +1,147 @@
+{
+  "id": "Arduitronics-1705",
+  "brand": "Arduitronics",
+  "model": "DHT12 Humidity Temperature Sensor Module",
+  "url": "https://www.arduitronics.com/product/1705/dht12-humidity-temperature-sensor-module-free-cable-i2c-interface",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 72.0,
+  "height": 72.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "I2C": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        },
+        {
+          "I2C": [
+            0
+          ],
+          "POWER3V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VIN",
+            "function": "VCC_5V",
+            "x": 14.5,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 43.3,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "POWER3V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VIN",
+            "function": "VCC_3V",
+            "x": 14.5,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 43.3,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "I2C": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "SCL",
+            "function": "I2C_SCL",
+            "x": 57.7,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SDA",
+            "function": "I2C_SDA",
+            "x": 28.9,
+            "y": 69.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Temperature",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Temperature",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 50.0,
+          "unit": "CELSIUS"
+        }
+      ]
+    },
+    {
+      "generic_device": "Humidity",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Humidity",
+          "type": "DOUBLE",
+          "minValue": 20.0,
+          "maxValue": 80.0,
+          "unit": "PERCENT"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_DHT12",
+      "dht_dplasa"
+    ]
+  }
+}

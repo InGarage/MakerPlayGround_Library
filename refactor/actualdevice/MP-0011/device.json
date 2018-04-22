@@ -1,0 +1,78 @@
+{
+  "id": "MP-0011",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - Microphone",
+  "url": "http://www.makerplayground.io/library/MP-0011",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_ANALOG": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_ANALOG": [
+      {
+        "name": "",
+        "wiring": "MP_ANALOG",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Sound",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "SoundLevel",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 100.0,
+          "unit": "PERCENT"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

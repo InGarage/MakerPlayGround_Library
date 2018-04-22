@@ -1,0 +1,603 @@
+{
+  "id": "MP-0000",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - BASE BOARD",
+  "url": "http://www.makerplayground.io/library/MP-0000",
+  "type": "CONTROLLER",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [],
+  "portInstances": {
+    "MP_GPIO": [
+      {
+        "name": "D1",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "3",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "4",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D2",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "5",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "6",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D3",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "6",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "7",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D4",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "9",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "10",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D5",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A1",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A2",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D6",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A2",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A3",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "I2C",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A4",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A5",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      }
+    ],
+    "MP_ANALOG": [
+      {
+        "name": "A1",
+        "wiring": "MP_ANALOG",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A1",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A2",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "A2",
+        "wiring": "MP_ANALOG",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A2",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A3",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      }
+    ],
+    "MP_I2C": [
+      {
+        "name": "I2C",
+        "wiring": "MP_I2C",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A4",
+            "function": "I2C_SDA",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A5",
+            "function": "I2C_SCL",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "I2C",
+        "wiring": "MP_I2C",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A4",
+            "function": "I2C_SDA",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A5",
+            "function": "I2C_SCL",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "I2C",
+        "wiring": "MP_I2C",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A4",
+            "function": "I2C_SDA",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A5",
+            "function": "I2C_SCL",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "I2C",
+        "wiring": "MP_I2C",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A4",
+            "function": "I2C_SDA",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "A5",
+            "function": "I2C_SCL",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      }
+    ],
+    "MP_PWM": [
+      {
+        "name": "D1",
+        "wiring": "MP_PWM",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "3",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "4",
+            "function": "NC",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D2",
+        "wiring": "MP_PWM",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "5",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "6",
+            "function": "NC",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D3",
+        "wiring": "MP_PWM",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "6",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "7",
+            "function": "NC",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      },
+      {
+        "name": "D4",
+        "wiring": "MP_PWM",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "9",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "10",
+            "function": "NC",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

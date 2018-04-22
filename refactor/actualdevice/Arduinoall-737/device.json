@@ -1,0 +1,96 @@
+{
+  "id": "Arduinoall-737",
+  "brand": "Arduinoall",
+  "model": "Fan DC Motor Module L9110 Fan Module for Arduino",
+  "url": "https://www.arduinoall.com/product/737/fan-dc-motor-module-l9110-fan-module-for-arduino",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
+  "width": 235.329,
+  "height": 241.152,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "PWM": [
+            0,
+            1
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "PWM": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "INA",
+            "function": "PWM",
+            "x": 75.983,
+            "y": 128.556,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "INB",
+            "function": "PWM",
+            "x": 61.67,
+            "y": 128.556,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ],
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 90.296,
+            "y": 128.556,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 104.609,
+            "y": 128.556,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "DC Motor",
+      "actionList": [
+        {
+          "action": "Off",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_Arduinoall_Fan"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Arduinoall-261",
+  "brand": "Arduinoall",
+  "model": "MQ-3 alcohol sensor Alcohol",
+  "url": "https://www.arduinoall.com/product/261/%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%AD%E0%B8%A5%E0%B8%81%E0%B8%AD%E0%B8%AE%E0%B8%AD%E0%B8%A5%E0%B9%8C-mq-3-alcohol-sensor-alcohol",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 130.194,
+  "height": 203.991,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "ANALOG": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 43.398,
+            "y": 190.593,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 57.797,
+            "y": 190.593,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "NC": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "D0",
+            "function": "NO_OP",
+            "x": 72.196,
+            "y": 190.593,
+            "adapt_pin": "NO_OP"
+          }
+        ]
+      }
+    ],
+    "ANALOG": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "A0",
+            "function": "ANALOG",
+            "x": 86.593,
+            "y": 190.593,
+            "adapt_pin": "ANALOG"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Alcohol",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Percent",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 100.0,
+          "unit": "PERCENT"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_OneAnalogReadToPercent"
+    ]
+  }
+}

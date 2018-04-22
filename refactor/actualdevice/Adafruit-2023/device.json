@@ -1,0 +1,148 @@
+{
+  "id": "Adafruit-2023",
+  "brand": "Adafruit",
+  "model": "Contact-less Infrared Thermopile Sensor Breakout - TMP007",
+  "url": "https://www.adafruit.com/product/2023",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 116.0,
+  "height": 116.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "I2C": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        },
+        {
+          "I2C": [
+            0
+          ],
+          "POWER3V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 14.5,
+            "y": 101.5,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 28.9,
+            "y": 101.5,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "I2C": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "SDA",
+            "function": "I2C_SDA",
+            "x": 43.3,
+            "y": 101.5,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SCL",
+            "function": "I2C_SCL",
+            "x": 57.7,
+            "y": 101.5,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "NC": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "ALERT",
+            "function": "NC",
+            "x": 72.1,
+            "y": 101.5,
+            "adapt_pin": "NO_OP"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "AD1",
+            "function": "NC",
+            "x": 86.5,
+            "y": 101.5,
+            "adapt_pin": "NO_OP"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "AD0",
+            "function": "NC",
+            "x": 100.9,
+            "y": 101.5,
+            "adapt_pin": "NO_OP"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Temperature",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Temperature",
+          "type": "DOUBLE",
+          "minValue": -40.0,
+          "maxValue": 125.0,
+          "unit": "CELSIUS"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "Adafruit_TMP007",
+      "MP_TMP007"
+    ]
+  }
+}

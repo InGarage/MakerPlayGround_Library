@@ -1,0 +1,86 @@
+{
+  "id": "Arduinoall-29",
+  "brand": "Arduinoall",
+  "model": "PIR Motion Sensor Module HC-SR501",
+  "url": "https://www.arduinoall.com/product/29/pir-hc-sr501-%E0%B9%80%E0%B8%8B%E0%B8%99%E0%B9%80%E0%B8%8B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%88%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%AB%E0%B8%A7-motion-sensor-module-hc-sr501",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
+  "width": 235.0,
+  "height": 230.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "GPIO": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "5V",
+            "function": "VCC_5V",
+            "x": 135.0,
+            "y": 229.074,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 99.0,
+            "y": 229.074,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "GPIO": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "DO",
+            "function": "GPIO",
+            "x": 117.0,
+            "y": 229.074,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Presence",
+      "conditionList": [
+        {
+          "condition": "Detect Human",
+          "params": []
+        },
+        {
+          "condition": "No Human",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_HC_SR501"
+    ]
+  }
+}

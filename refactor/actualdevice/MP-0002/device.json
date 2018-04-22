@@ -1,0 +1,91 @@
+{
+  "id": "MP-0002",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - RGB LED",
+  "url": "http://www.makerplayground.io/library/MP-0002",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_I2C": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_I2C": [
+      {
+        "name": "",
+        "wiring": "MP_I2C",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SDA",
+            "function": "I2C_SDA",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SCL",
+            "function": "I2C_SCL",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "RGB LED",
+      "actionList": [
+        {
+          "action": "On",
+          "params": [
+            {
+              "name": "Color",
+              "type": "ENUM",
+              "possibleEnumValues": [
+                "Red",
+                "Green",
+                "Blue",
+                "Cyan",
+                "Magenta",
+                "Yellow",
+                "White"
+              ],
+              "defaultEnumValue": "Red"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

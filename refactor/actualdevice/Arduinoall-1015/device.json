@@ -1,0 +1,107 @@
+{
+  "id": "Arduinoall-1015",
+  "brand": "Arduinoall",
+  "model": "Active Buzzer DC 1.5V-12V",
+  "url": "https://www.arduinoall.com/product/1015/active-buzzer-dc-1-5v-12v-buzzer",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 158.0,
+  "height": 155.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "GPIO": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        },
+        {
+          "GPIO": [
+            0
+          ],
+          "POWER3V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "GPIO": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "GPIO",
+            "x": 85.742,
+            "y": 151.8,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ],
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 71.279,
+            "y": 151.8,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "POWER3V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 71.279,
+            "y": 151.8,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Piezo",
+      "actionList": [
+        {
+          "action": "Beep",
+          "params": [
+            {
+              "name": "Tone Frequency",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 10000.0,
+              "defaultNumberValue": 2000.0,
+              "numberUnit": "HERTZ"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_Piezo"
+    ]
+  }
+}

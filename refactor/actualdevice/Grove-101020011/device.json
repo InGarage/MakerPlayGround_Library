@@ -1,0 +1,99 @@
+{
+  "id": "Grove-101020011",
+  "brand": "SeeedStudio",
+  "model": "Grove - Temperature & Humidity Sensor (DHT11)",
+  "url": "https://www.seeedstudio.com/Grove-Temperature-%26amp%3B-Humidity-Sensor-%EF%BC%88DHT11%EF%BC%89-p-745.html",
+  "type": "PERIPHERAL",
+  "formfactor": "GROVE",
+  "width": 128.0,
+  "height": 148.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "Grove-103030000"
+      ],
+      "connectivityList": [
+        {
+          "GROVE_ANALOG": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "GROVE_ANALOG": [
+      {
+        "name": "",
+        "wiring": "GROVE_ANALOG",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "ANALOG",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Temperature",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Temperature",
+          "type": "DOUBLE",
+          "minValue": 0.0,
+          "maxValue": 50.0,
+          "unit": "CELSIUS"
+        }
+      ]
+    },
+    {
+      "generic_device": "Humidity",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Humidity",
+          "type": "DOUBLE",
+          "minValue": 20.0,
+          "maxValue": 80.0,
+          "unit": "PERCENT"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_DHT11",
+      "DHT"
+    ]
+  }
+}

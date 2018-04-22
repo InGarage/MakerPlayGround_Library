@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Blynk",
+    "description": "Blynk IoT Platform",
+    "conditionList": [
+      {
+        "name": "Compare",
+        "functionName": "",
+        "parameterList": []
+      },
+      {
+        "name": "Check value",
+        "functionName": "checkVirtualPinValue",
+        "parameterList": [
+          {
+            "name": "Virtual Pin",
+            "type": "ENUM",
+            "control": "DROPDOWN",
+            "possibleEnumValues": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "defaultEnumValue": "0"
+          },
+          {
+            "name": "Data",
+            "type": "INTEGER",
+            "control": "SPINBOX",
+            "minNumberValue": -32768.0,
+            "maxNumberValue": 32767.0,
+            "defaultNumberValue": 0.0,
+            "numberUnit": "NOT_SPECIFIED"
+          }
+        ]
+      }
+    ],
+    "sensibleValueList": [
+      {
+        "name": "VirtualPin0",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin1",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin2",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin3",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin4",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin5",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin6",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      },
+      {
+        "name": "VirtualPin7",
+        "type": "INTEGER",
+        "unit": "NOT_SPECIFIED",
+        "minValue": 0.0,
+        "maxValue": 255.0
+      }
+    ],
+    "actionList": [
+      {
+        "name": "Push value",
+        "functionName": "writeVirtualPin",
+        "parameterList": [
+          {
+            "name": "Virtual Pin",
+            "type": "ENUM",
+            "control": "DROPDOWN",
+            "possibleEnumValues": [
+              "0",
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "defaultEnumValue": "0"
+          },
+          {
+            "name": "Value",
+            "type": "VALUE",
+            "control": "DROPDOWN"
+          }
+        ]
+      }
+    ],
+    "propertyList": [
+      {
+        "name": "Blink Auth Key",
+        "type": "STRING"
+      },
+      {
+        "name": "Wifi SSID",
+        "type": "STRING"
+      },
+      {
+        "name": "Wifi Password",
+        "type": "STRING"
+      }
+    ]
+  }
+]

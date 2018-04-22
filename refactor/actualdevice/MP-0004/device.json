@@ -1,0 +1,115 @@
+{
+  "id": "MP-0004",
+  "brand": "MakerPlayground",
+  "model": "Maker Playground - Load Driver",
+  "url": "http://www.makerplayground.io/library/MP-0004",
+  "type": "PERIPHERAL",
+  "formfactor": "MAKER_PLAYGROUND",
+  "width": 0.0,
+  "height": 0.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MP-0000"
+      ],
+      "connectivityList": [
+        {
+          "MP_GPIO": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "supportHostList": [
+        "POWER_1"
+      ],
+      "connectivityList": [
+        {
+          "EXT_SOURCE": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "MP_GPIO": [
+      {
+        "name": "",
+        "wiring": "MP_GPIO",
+        "pinList": [
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "SIG",
+            "function": "GPIO",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "MP_LOAD": [
+      {
+        "name": "",
+        "wiring": "MP_LOAD",
+        "pinList": [
+          {
+            "name": "OUT+",
+            "function": "LOAD_POSITIVE",
+            "x": 17.0,
+            "y": 177.5,
+            "adapt_pin": "CREATE"
+          },
+          {
+            "name": "OUT-",
+            "function": "LOAD_NEGATIVE",
+            "x": 17.0,
+            "y": 205.5,
+            "adapt_pin": "CREATE"
+          }
+        ]
+      }
+    ],
+    "EXT_SOURCE": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "V+",
+            "function": "EXT_VCC",
+            "x": 156.0,
+            "y": 397.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "V-",
+            "function": "EXT_GND",
+            "x": 181.0,
+            "y": 397.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [],
+  "platformLibraries": {
+    "ARDUINO": []
+  }
+}

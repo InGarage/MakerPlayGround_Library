@@ -1,0 +1,91 @@
+{
+  "id": "Adafruit-1063",
+  "brand": "Adafruit",
+  "model": "Electret Microphone Amplifier - MAX4466 with Adjustable Gain",
+  "url": "https://www.adafruit.com/product/1063",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 79.2,
+  "height": 122.4,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "ANALOG": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "ANALOG": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "OUT",
+            "function": "ANALOG",
+            "x": 21.646,
+            "y": 110.924,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ],
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 36.046,
+            "y": 110.924,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 50.446,
+            "y": 110.924,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "Sound",
+      "conditionList": [
+        {
+          "condition": "Compare",
+          "params": []
+        }
+      ],
+      "sensibleValueList": [
+        {
+          "name": "Sound Level",
+          "type": "DOUBLE",
+          "minValue": -40.0,
+          "maxValue": 50.0,
+          "unit": "DECIBEL"
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_MAX4466"
+    ]
+  }
+}

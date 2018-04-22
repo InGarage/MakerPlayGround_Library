@@ -1,0 +1,98 @@
+{
+  "id": "COM-09590",
+  "brand": "Sparkfun",
+  "model": "LED - Basic Red 5mm",
+  "url": "https://www.sparkfun.com/products/9590",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
+  "width": 111.0,
+  "height": 129.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "MCU_1"
+      ],
+      "connectivityList": [
+        {
+          "PWM": [
+            0
+          ],
+          "POWER3V": [
+            0
+          ]
+        },
+        {
+          "PWM": [
+            0
+          ],
+          "POWER5V": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "POWER5V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 9.054,
+            "y": 107.646,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "POWER3V": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 9.054,
+            "y": 107.646,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ],
+    "PWM": [
+      {
+        "name": "",
+        "wiring": "WIRE",
+        "pinList": [
+          {
+            "name": "V+",
+            "function": "INOUT",
+            "x": 109.966,
+            "y": 107.0,
+            "adapt_pin": "USE_BLOCK"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "LED",
+      "actionList": [
+        {
+          "action": "Off",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_LED"
+    ]
+  }
+}

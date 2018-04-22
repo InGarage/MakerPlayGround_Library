@@ -1,0 +1,71 @@
+{
+  "id": "Grove-104030007",
+  "brand": "SeeedStudio",
+  "model": "Grove LED Socket Kit (Red, Green, White)",
+  "url": "https://www.seeedstudio.com/Grove-Green-LED-p-1144.html",
+  "type": "PERIPHERAL",
+  "formfactor": "GROVE",
+  "width": 128.0,
+  "height": 148.0,
+  "hostConnectionsList": [
+    {
+      "supportHostList": [
+        "Grove-103030000"
+      ],
+      "connectivityList": [
+        {
+          "GROVE_GPIO": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "portInstances": {
+    "GROVE_PWM": [
+      {
+        "name": "",
+        "wiring": "GROVE_PWM",
+        "pinList": [
+          {
+            "name": "SIG",
+            "function": "PWM",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE_BLOCK"
+          },
+          {
+            "name": "GND",
+            "function": "GND",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          },
+          {
+            "name": "VCC",
+            "function": "VCC_5V",
+            "x": 0.0,
+            "y": 0.0,
+            "adapt_pin": "USE"
+          }
+        ]
+      }
+    ]
+  },
+  "listGenericDeviceCompatible": [
+    {
+      "generic_device": "LED",
+      "actionList": [
+        {
+          "action": "Off",
+          "params": []
+        }
+      ]
+    }
+  ],
+  "platformLibraries": {
+    "ARDUINO": [
+      "MP_LED"
+    ]
+  }
+}
