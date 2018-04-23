@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -99,8 +99,8 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [],
-  "platformLibraries": {
+  "genericDeviceCompatibleList": [],
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

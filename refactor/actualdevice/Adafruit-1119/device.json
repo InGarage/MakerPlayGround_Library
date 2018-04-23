@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GPIO": [
       {
         "name": "",
@@ -93,7 +93,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Button",
       "conditionList": [
@@ -108,7 +108,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_GenericButton"
     ]

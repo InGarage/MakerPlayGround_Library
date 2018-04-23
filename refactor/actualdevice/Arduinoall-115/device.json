@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -168,7 +168,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Color",
       "conditionList": [
@@ -193,7 +193,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_TCS3200"
     ]

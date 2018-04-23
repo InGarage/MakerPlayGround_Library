@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GROVE_GPIO": [
       {
         "name": "",
@@ -52,7 +52,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Presence",
       "conditionList": [
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_GROVE_PIR"
     ]

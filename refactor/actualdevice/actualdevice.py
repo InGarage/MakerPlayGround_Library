@@ -17,9 +17,9 @@ if __name__ == '__main__':
                 # We have found a new category so we create an array and put it into the actualdevice
                 if len(row['id']) != 0:
                     hostConnectionsList = []
-                    portInstances = {}
-                    listGenericDeviceCompatible = []
-                    platformLibraries = {}
+                    portInstancesMap = {}
+                    genericDeviceCompatibleList = []
+                    platformLibrariesMap = {}
                     actualdevice = collections.OrderedDict([
                         ('id', row['id']),
                         ('brand', row['brand']),
@@ -30,16 +30,16 @@ if __name__ == '__main__':
                         ('width', float(row['width'])),
                         ('height', float(row['height'])),
                         ('hostConnectionsList', hostConnectionsList),
-                        ('portInstances', portInstances),
-                        ('listGenericDeviceCompatible', listGenericDeviceCompatible),
-                        ('platformLibraries', platformLibraries),
+                        ('portInstancesMap', portInstancesMap),
+                        ('genericDeviceCompatibleList', genericDeviceCompatibleList),
+                        ('platformLibrariesMap', platformLibrariesMap),
                     ])
                     data.append(actualdevice)
 
                 if len(row['porttype']) != 0:
                     port_type = row['porttype']
-                    portInstances[port_type] = []
-                    # actualdevice['portInstances'] = { port_type : [] }
+                    portInstancesMap[port_type] = []
+                    # actualdevice['portInstancesMap'] = { port_type : [] }
 
                 if len(row['portinstance']) != 0:
                     pinList = []
@@ -48,7 +48,7 @@ if __name__ == '__main__':
                         'wiring': row['wiring'],
                         'pinList': pinList,
                     }
-                    actualdevice['portInstances'][port_type].append(port)
+                    actualdevice['portInstancesMap'][port_type].append(port)
 
                 if len(row['pinname']) != 0:
                     pin = {
@@ -90,7 +90,7 @@ if __name__ == '__main__':
                     genericDeviceCompatible = {
                         'generic_device': generic_device,
                     }
-                    listGenericDeviceCompatible.append(genericDeviceCompatible)
+                    genericDeviceCompatibleList.append(genericDeviceCompatible)
 
                 if len(row['compatible_genericinput_device_conditions']) != 0:
                     if 'conditionList' not in genericDeviceCompatible:
@@ -136,12 +136,12 @@ if __name__ == '__main__':
                     possibleConditionEnumValues.append(row['condition_enum_values'])
 
                 if len(row['compatible_genericoutput_device_actions']) != 0:
-                    if 'action' not in genericDeviceCompatible:
+                    if 'actionList' not in genericDeviceCompatible:
                         genericDeviceCompatible['actionList'] = []
                     listActionParams = []
                     device_action = {
-                        'action': row['compatible_genericoutput_device_actions'],
-                        'params': listActionParams
+                        'name': row['compatible_genericoutput_device_actions'],
+                        'parameterList': listActionParams
                     }
                     genericDeviceCompatible['actionList'].append(device_action)
 
@@ -194,7 +194,7 @@ if __name__ == '__main__':
                 if len(row['platform']) != 0:
                     libraryList = []
                     platform = row['platform']
-                    platformLibraries[platform] = libraryList
+                    platformLibrariesMap[platform] = libraryList
 
                 if len(row['library']) != 0:
                     libraryList.append(row['library'])
@@ -219,7 +219,7 @@ if __name__ == '__main__':
     for device in data:
         filename = device["id"] + "/device.json"
         os.makedirs(os.path.dirname(filename), exist_ok=True)
-        for platform in device['platformLibraries']:
+        for platform in device['platformLibrariesMap']:
             path = device["id"] + "/" + platform + "/tmp.file"
             os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(filename, 'w') as myFile:

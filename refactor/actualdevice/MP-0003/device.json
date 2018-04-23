@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_PWM": [
       {
         "name": "",
@@ -52,18 +52,18 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Buzzer",
       "actionList": [
         {
-          "action": "Beep",
-          "params": []
+          "name": "Beep",
+          "parameterList": []
         }
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

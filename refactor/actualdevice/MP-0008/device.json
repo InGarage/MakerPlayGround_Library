@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_I2C": [
       {
         "name": "",
@@ -59,7 +59,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Accelerometer",
       "conditionList": [
@@ -97,7 +97,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

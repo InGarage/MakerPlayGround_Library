@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "UART": [
       {
         "name": "",
@@ -505,7 +505,7 @@
         "pinList": [
           {
             "name": "3.3V",
-            "function": "VCC3V3",
+            "function": "VCC_3V",
             "x": 0.0,
             "y": 0.0,
             "adapt_pin": "USE"
@@ -1105,8 +1105,8 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [],
-  "platformLibraries": {
+  "genericDeviceCompatibleList": [],
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

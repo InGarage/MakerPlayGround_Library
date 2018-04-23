@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "I2C": [
       {
         "name": "",
@@ -76,7 +76,7 @@
         "pinList": [
           {
             "name": "3Vo",
-            "function": "VCC_3V3",
+            "function": "VCC_3V",
             "x": 129.8,
             "y": 99.0,
             "adapt_pin": "NO_OP"
@@ -137,7 +137,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Gyroscope",
       "conditionList": [
@@ -157,7 +157,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_L3GD20",
       "Adafruit_Sensor",

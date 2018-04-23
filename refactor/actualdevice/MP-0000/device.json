@@ -8,7 +8,7 @@
   "width": 0.0,
   "height": 0.0,
   "hostConnectionsList": [],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_GPIO": [
       {
         "name": "D1",
@@ -596,8 +596,8 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [],
-  "platformLibraries": {
+  "genericDeviceCompatibleList": [],
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

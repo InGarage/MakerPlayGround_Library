@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -136,7 +136,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Color",
       "conditionList": [
@@ -161,7 +161,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "Adafruit_TCS34725",
       "MP_TCS34725"

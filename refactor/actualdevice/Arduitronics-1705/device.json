@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -100,7 +100,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Temperature",
       "conditionList": [
@@ -138,7 +138,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_DHT12",
       "dht_dplasa"

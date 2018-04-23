@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER": [
       {
         "name": "",
@@ -119,7 +119,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Temperature",
       "conditionList": [
@@ -139,7 +139,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "Adafruit_TMP007",
       "MP_TMP007"

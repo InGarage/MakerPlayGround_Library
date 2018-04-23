@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_GPIO": [
       {
         "name": "",
@@ -52,18 +52,22 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Relay Module",
       "actionList": [
         {
-          "action": "Off",
-          "params": []
+          "name": "On",
+          "parameterList": []
+        },
+        {
+          "name": "Off",
+          "parameterList": []
         }
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

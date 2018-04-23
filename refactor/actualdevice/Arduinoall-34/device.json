@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -154,7 +154,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Accelerometer",
       "conditionList": [
@@ -192,7 +192,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "Adafruit_Sensor",
       "MPU6050",

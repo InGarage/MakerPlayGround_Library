@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -70,7 +70,7 @@
         "pinList": [
           {
             "name": "V+",
-            "function": "INOUT",
+            "function": "PWM",
             "x": 109.966,
             "y": 107.0,
             "adapt_pin": "USE_BLOCK"
@@ -79,18 +79,31 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "LED",
       "actionList": [
         {
-          "action": "Off",
-          "params": []
+          "name": "On",
+          "parameterList": [
+            {
+              "name": "Brightness",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 100.0,
+              "defaultNumberValue": 100.0,
+              "numberUnit": "PERCENT"
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "parameterList": []
         }
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_LED"
     ]

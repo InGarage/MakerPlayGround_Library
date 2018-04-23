@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_ANALOG": [
       {
         "name": "",
@@ -52,7 +52,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Distance",
       "conditionList": [
@@ -97,7 +97,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

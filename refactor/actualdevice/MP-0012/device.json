@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_GPIO": [
       {
         "name": "",
@@ -59,13 +59,49 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "7 Segment",
       "actionList": [
         {
-          "action": "Set Brightness",
-          "params": [
+          "name": "Show Value",
+          "parameterList": [
+            {
+              "name": "Color",
+              "type": "ENUM",
+              "possibleEnumValues": [
+                "Red",
+                "Green",
+                "Blue",
+                "Cyan",
+                "Magenta",
+                "Yellow",
+                "White"
+              ],
+              "defaultEnumValue": "Red"
+            }
+          ]
+        },
+        {
+          "name": "Show Data",
+          "parameterList": [
+            {
+              "name": "Data",
+              "type": "DOUBLE",
+              "minNumberValue": -999.0,
+              "maxNumberValue": 9999.0,
+              "defaultNumberValue": 1000.0,
+              "numberUnit": "NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "parameterList": []
+        },
+        {
+          "name": "Set Brightness",
+          "parameterList": [
             {
               "name": "Brightness",
               "type": "DOUBLE",
@@ -79,7 +115,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

@@ -8,7 +8,7 @@
   "width": 425.0,
   "height": 303.0,
   "hostConnectionsList": [],
-  "portInstances": {
+  "portInstancesMap": {
     "UART": [
       {
         "name": "",
@@ -440,7 +440,7 @@
         "pinList": [
           {
             "name": "3.3V",
-            "function": "VCC3V3",
+            "function": "VCC_3V",
             "x": 281.492,
             "y": 387.372,
             "adapt_pin": "CREATE"
@@ -558,8 +558,8 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [],
-  "platformLibraries": {
+  "genericDeviceCompatibleList": [],
+  "platformLibrariesMap": {
     "ARDUINO": []
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MOTOR": [
       {
         "name": "",
@@ -593,13 +593,13 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "DC Motor",
       "actionList": [
         {
-          "action": "On",
-          "params": [
+          "name": "On",
+          "parameterList": [
             {
               "name": "Direction",
               "type": "ENUM",
@@ -622,7 +622,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_Adafruit_MotorShield",
       "Adafruit_MotorShield",

@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "ANALOG": [
       {
         "name": "",
@@ -63,7 +63,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Sound",
       "conditionList": [
@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_MAX4466"
     ]

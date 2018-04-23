@@ -25,7 +25,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "PWM": [
       {
         "name": "",
@@ -77,18 +77,40 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "DC Motor",
       "actionList": [
         {
-          "action": "Off",
-          "params": []
+          "name": "On",
+          "parameterList": [
+            {
+              "name": "Direction",
+              "type": "ENUM",
+              "possibleEnumValues": [
+                "Forward",
+                "Backward"
+              ],
+              "defaultEnumValue": "Forward"
+            },
+            {
+              "name": "Speed",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 100.0,
+              "defaultNumberValue": 80.0,
+              "numberUnit": "PERCENT"
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "parameterList": []
         }
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_Arduinoall_Fan"
     ]

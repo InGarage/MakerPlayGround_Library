@@ -24,7 +24,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "PWM": [
       {
         "name": "",
@@ -85,8 +85,8 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [],
-  "platformLibraries": {
+  "genericDeviceCompatibleList": [],
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_PAM8302"
     ]

@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GPIO": [
       {
         "name": "",
@@ -108,13 +108,43 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "7 Segment",
       "actionList": [
         {
-          "action": "Set Brightness",
-          "params": [
+          "name": "Show Value",
+          "parameterList": [
+            {
+              "name": "Speed",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 100.0,
+              "defaultNumberValue": 80.0,
+              "numberUnit": "PERCENT"
+            }
+          ]
+        },
+        {
+          "name": "Show Data",
+          "parameterList": [
+            {
+              "name": "Data",
+              "type": "DOUBLE",
+              "minNumberValue": -999.0,
+              "maxNumberValue": 9999.0,
+              "defaultNumberValue": 1000.0,
+              "numberUnit": "NUMBER"
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "parameterList": []
+        },
+        {
+          "name": "Set Brightness",
+          "parameterList": [
             {
               "name": "Brightness",
               "type": "DOUBLE",
@@ -128,7 +158,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_7segI2C",
       "TM1637Display"

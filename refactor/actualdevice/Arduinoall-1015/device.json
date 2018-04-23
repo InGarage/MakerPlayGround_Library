@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GPIO": [
       {
         "name": "",
@@ -79,13 +79,34 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Piezo",
       "actionList": [
         {
-          "action": "Beep",
-          "params": [
+          "name": "Play",
+          "parameterList": [
+            {
+              "name": "Tone Frequency",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 10000.0,
+              "defaultNumberValue": 2000.0,
+              "numberUnit": "HERTZ"
+            },
+            {
+              "name": "Duration",
+              "type": "DOUBLE",
+              "minNumberValue": 0.0,
+              "maxNumberValue": 1000.0,
+              "defaultNumberValue": 1.0,
+              "numberUnit": "SECOND"
+            }
+          ]
+        },
+        {
+          "name": "Beep",
+          "parameterList": [
             {
               "name": "Tone Frequency",
               "type": "DOUBLE",
@@ -99,7 +120,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_Piezo"
     ]

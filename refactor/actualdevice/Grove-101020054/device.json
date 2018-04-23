@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GROVE_I2C": [
       {
         "name": "",
@@ -59,7 +59,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Accelerometer",
       "conditionList": [
@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_GROVE_ADXL345",
       "Adafruit_ADXL345_U",

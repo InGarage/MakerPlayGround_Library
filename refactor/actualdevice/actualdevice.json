@@ -25,7 +25,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -100,8 +100,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -131,7 +131,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "ANALOG": [
         {
           "name": "",
@@ -170,7 +170,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Sound",
         "conditionList": [
@@ -190,7 +190,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_MAX4466"
       ]
@@ -222,7 +222,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "PWM": [
         {
           "name": "",
@@ -283,8 +283,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_PAM8302"
       ]
@@ -340,7 +340,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -370,7 +370,7 @@
           "pinList": [
             {
               "name": "3Vo",
-              "function": "VCC_3V3",
+              "function": "VCC_3V",
               "x": 21.6,
               "y": 93.599,
               "adapt_pin": "USE"
@@ -444,7 +444,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -518,7 +518,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_BME280",
         "Adafruit_BME280",
@@ -552,7 +552,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -613,7 +613,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -651,7 +651,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "Adafruit_Si7021",
         "MP_Si7021"
@@ -684,7 +684,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "I2C": [
         {
           "name": "",
@@ -736,7 +736,7 @@
           "pinList": [
             {
               "name": "3Vo",
-              "function": "VCC_3V3",
+              "function": "VCC_3V",
               "x": 129.8,
               "y": 99.0,
               "adapt_pin": "NO_OP"
@@ -797,7 +797,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Gyroscope",
         "conditionList": [
@@ -817,7 +817,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_L3GD20",
         "Adafruit_Sensor",
@@ -859,7 +859,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER": [
         {
           "name": "",
@@ -946,7 +946,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -966,7 +966,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "Adafruit_TMP007",
         "MP_TMP007"
@@ -983,7 +983,7 @@
     "width": 531.0,
     "height": 410.0,
     "hostConnectionsList": [],
-    "portInstances": {
+    "portInstancesMap": {
       "UART": [
         {
           "name": "",
@@ -1415,7 +1415,7 @@
           "pinList": [
             {
               "name": "3.3V",
-              "function": "VCC3V3",
+              "function": "VCC_3V",
               "x": 281.492,
               "y": 387.372,
               "adapt_pin": "CREATE"
@@ -1533,8 +1533,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -1564,7 +1564,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -1603,7 +1603,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Presence",
         "conditionList": [
@@ -1618,7 +1618,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_HC_SR501"
       ]
@@ -1689,7 +1689,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MOTOR": [
         {
           "name": "",
@@ -2219,13 +2219,13 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "DC Motor",
         "actionList": [
           {
-            "action": "On",
-            "params": [
+            "name": "On",
+            "parameterList": [
               {
                 "name": "Direction",
                 "type": "ENUM",
@@ -2248,7 +2248,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Adafruit_MotorShield",
         "Adafruit_MotorShield",
@@ -2290,7 +2290,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -2351,7 +2351,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Button",
         "conditionList": [
@@ -2366,7 +2366,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GenericButton"
       ]
@@ -2406,7 +2406,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -2444,7 +2444,7 @@
           "pinList": [
             {
               "name": "V+",
-              "function": "INOUT",
+              "function": "PWM",
               "x": 109.966,
               "y": 107.0,
               "adapt_pin": "USE_BLOCK"
@@ -2453,18 +2453,31 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "LED",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": [
+              {
+                "name": "Brightness",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 100.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_LED"
       ]
@@ -2504,7 +2517,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -2608,7 +2621,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Color",
         "conditionList": [
@@ -2633,7 +2646,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "Adafruit_TCS34725",
         "MP_TCS34725"
@@ -2676,7 +2689,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -2711,8 +2724,8 @@
           "wiring": "WIRE",
           "pinList": [
             {
-              "name": "VCC_5V",
-              "function": "VCC",
+              "name": "VCC",
+              "function": "VCC_5V",
               "x": 321.0,
               "y": 82.3,
               "adapt_pin": "USE"
@@ -2733,8 +2746,8 @@
           "wiring": "WIRE",
           "pinList": [
             {
-              "name": "VCC_3V",
-              "function": "VCC",
+              "name": "VCC",
+              "function": "VCC_3V",
               "x": 321.0,
               "y": 82.3,
               "adapt_pin": "USE"
@@ -2750,13 +2763,43 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "7 Segment",
         "actionList": [
           {
-            "action": "Set Brightness",
-            "params": [
+            "name": "Show Value",
+            "parameterList": [
+              {
+                "name": "Brightness",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 100.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Show Data",
+            "parameterList": [
+              {
+                "name": "Data",
+                "type": "INTEGER",
+                "minNumberValue": -999,
+                "maxNumberValue": 9999,
+                "defaultNumberValue": 1000,
+                "numberUnit": "NUMBER"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
+          },
+          {
+            "name": "Set Brightness",
+            "parameterList": [
               {
                 "name": "Brightness",
                 "type": "INTEGER",
@@ -2770,7 +2813,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_7segI2C_Colon",
         "TM1637Display"
@@ -2811,7 +2854,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -2858,13 +2901,34 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Piezo",
         "actionList": [
           {
-            "action": "Beep",
-            "params": [
+            "name": "Play",
+            "parameterList": [
+              {
+                "name": "Tone Frequency",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 10000.0,
+                "defaultNumberValue": 2000.0,
+                "numberUnit": "HERTZ"
+              },
+              {
+                "name": "Duration",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 1000.0,
+                "defaultNumberValue": 1.0,
+                "numberUnit": "SECOND"
+              }
+            ]
+          },
+          {
+            "name": "Beep",
+            "parameterList": [
               {
                 "name": "Tone Frequency",
                 "type": "DOUBLE",
@@ -2878,7 +2942,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Piezo"
       ]
@@ -2912,7 +2976,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -2920,7 +2984,7 @@
           "pinList": [
             {
               "name": "R",
-              "function": "INOUT",
+              "function": "GPIO",
               "x": 20.743,
               "y": 90.968,
               "adapt_pin": "USE_BLOCK"
@@ -2933,7 +2997,7 @@
           "pinList": [
             {
               "name": "G",
-              "function": "INOUT",
+              "function": "GPIO",
               "x": 35.144,
               "y": 90.968,
               "adapt_pin": "USE_BLOCK"
@@ -2946,7 +3010,7 @@
           "pinList": [
             {
               "name": "B",
-              "function": "INOUT",
+              "function": "GPIO",
               "x": 49.544,
               "y": 90.968,
               "adapt_pin": "USE_BLOCK"
@@ -2970,13 +3034,13 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "RGB LED",
         "actionList": [
           {
-            "action": "On",
-            "params": [
+            "name": "On",
+            "parameterList": [
               {
                 "name": "Color",
                 "type": "ENUM",
@@ -2996,7 +3060,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_RGB_LED_CC"
       ]
@@ -3012,7 +3076,7 @@
     "width": 425.0,
     "height": 303.0,
     "hostConnectionsList": [],
-    "portInstances": {
+    "portInstancesMap": {
       "UART": [
         {
           "name": "",
@@ -3444,7 +3508,7 @@
           "pinList": [
             {
               "name": "3.3V",
-              "function": "VCC3V3",
+              "function": "VCC_3V",
               "x": 281.492,
               "y": 387.372,
               "adapt_pin": "CREATE"
@@ -3562,8 +3626,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -3603,7 +3667,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -3677,7 +3741,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Distance",
         "conditionList": [
@@ -3697,7 +3761,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_HC_SR04P"
       ]
@@ -3747,7 +3811,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -3873,7 +3937,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Color",
         "conditionList": [
@@ -3898,7 +3962,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_TCS3200"
       ]
@@ -3932,7 +3996,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -3990,18 +4054,37 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "RGB LED",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": [
+              {
+                "name": "Color",
+                "type": "ENUM",
+                "possibleEnumValues": [
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Cyan",
+                  "Magenta",
+                  "Yellow",
+                  "White"
+                ],
+                "defaultEnumValue": "Red"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_RGB_LED_CA"
       ]
@@ -4033,7 +4116,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -4072,7 +4155,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Light",
         "conditionList": [
@@ -4092,7 +4175,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_OneAnalogReadToPercent"
       ]
@@ -4125,7 +4208,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "PWM": [
         {
           "name": "",
@@ -4177,18 +4260,40 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "DC Motor",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": [
+              {
+                "name": "Direction",
+                "type": "ENUM",
+                "possibleEnumValues": [
+                  "Forward",
+                  "Backward"
+                ],
+                "defaultEnumValue": "Forward"
+              },
+              {
+                "name": "Speed",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 80.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Arduinoall_Fan"
       ]
@@ -4228,7 +4333,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -4304,7 +4409,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Humidity",
         "conditionList": [
@@ -4324,7 +4429,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Soil"
       ]
@@ -4353,7 +4458,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -4414,7 +4519,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Presence",
         "conditionList": [
@@ -4429,7 +4534,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Infrared_Barrier"
       ]
@@ -4471,7 +4576,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GPIO": [
         {
           "name": "",
@@ -4545,13 +4650,43 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "7 Segment",
         "actionList": [
           {
-            "action": "Set Brightness",
-            "params": [
+            "name": "Show Value",
+            "parameterList": [
+              {
+                "name": "Speed",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 80.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Show Data",
+            "parameterList": [
+              {
+                "name": "Data",
+                "type": "DOUBLE",
+                "minNumberValue": -999.0,
+                "maxNumberValue": 9999.0,
+                "defaultNumberValue": 1000.0,
+                "numberUnit": "NUMBER"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
+          },
+          {
+            "name": "Set Brightness",
+            "parameterList": [
               {
                 "name": "Brightness",
                 "type": "DOUBLE",
@@ -4565,7 +4700,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_7segI2C",
         "TM1637Display"
@@ -4606,7 +4741,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -4667,7 +4802,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -4705,7 +4840,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_DHT11",
         "DHT"
@@ -4746,7 +4881,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -4868,7 +5003,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Accelerometer",
         "conditionList": [
@@ -4906,7 +5041,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "Adafruit_Sensor",
         "MPU6050",
@@ -4941,7 +5076,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -4995,7 +5130,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "LPG",
         "conditionList": [
@@ -5015,7 +5150,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_OneAnalogReadToPercent"
       ]
@@ -5047,7 +5182,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -5101,7 +5236,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Alcohol",
         "conditionList": [
@@ -5121,7 +5256,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_OneAnalogReadToPercent"
       ]
@@ -5150,7 +5285,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -5211,7 +5346,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Water",
         "conditionList": [
@@ -5226,7 +5361,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Waterlvl"
       ]
@@ -5266,7 +5401,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "POWER5V": [
         {
           "name": "",
@@ -5334,7 +5469,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -5372,7 +5507,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_DHT12",
         "dht_dplasa"
@@ -5402,7 +5537,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_PWM": [
         {
           "name": "",
@@ -5433,18 +5568,31 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "LED",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": [
+              {
+                "name": "Brightness",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 100.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_LED"
       ]
@@ -5473,7 +5621,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_GPIO": [
         {
           "name": "",
@@ -5511,13 +5659,43 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "7 Segment",
         "actionList": [
           {
-            "action": "Set Brightness",
-            "params": [
+            "name": "Show Value",
+            "parameterList": [
+              {
+                "name": "Brightness",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 100.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Show Data",
+            "parameterList": [
+              {
+                "name": "Data",
+                "type": "DOUBLE",
+                "minNumberValue": -999.0,
+                "maxNumberValue": 9999.0,
+                "defaultNumberValue": 1000.0,
+                "numberUnit": "NUMBER"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
+          },
+          {
+            "name": "Set Brightness",
+            "parameterList": [
               {
                 "name": "Brightness",
                 "type": "DOUBLE",
@@ -5531,7 +5709,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_7segI2C_Colon",
         "TM1637Display"
@@ -5561,7 +5739,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -5592,7 +5770,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "POT",
         "conditionList": [
@@ -5612,7 +5790,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_OneAnalogReadToPercent"
       ]
@@ -5641,7 +5819,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -5672,7 +5850,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -5692,7 +5870,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_Temperature"
       ]
@@ -5721,7 +5899,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -5752,7 +5930,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Light",
         "conditionList": [
@@ -5772,7 +5950,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_OneAnalogReadToPercent"
       ]
@@ -5801,7 +5979,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -5832,7 +6010,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Sound",
         "conditionList": [
@@ -5852,7 +6030,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_Sound"
       ]
@@ -5881,7 +6059,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_GPIO": [
         {
           "name": "",
@@ -5912,18 +6090,18 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Buzzer",
         "actionList": [
           {
-            "action": "Beep",
-            "params": []
+            "name": "Beep",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_Buzzer"
       ]
@@ -5952,7 +6130,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_GPIO": [
         {
           "name": "",
@@ -5983,7 +6161,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Button",
         "conditionList": [
@@ -5998,7 +6176,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_Button"
       ]
@@ -6027,7 +6205,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_GPIO": [
         {
           "name": "",
@@ -6058,18 +6236,22 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Relay Module",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": []
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_Relay_Module"
       ]
@@ -6098,7 +6280,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_GPIO": [
         {
           "name": "",
@@ -6129,7 +6311,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Presence",
         "conditionList": [
@@ -6144,7 +6326,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_PIR"
       ]
@@ -6173,7 +6355,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_I2C": [
         {
           "name": "",
@@ -6211,7 +6393,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Accelerometer",
         "conditionList": [
@@ -6231,7 +6413,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_ADXL345",
         "Adafruit_ADXL345_U",
@@ -6262,7 +6444,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -6293,7 +6475,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -6331,7 +6513,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_DHT11",
         "DHT"
@@ -6361,7 +6543,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "GROVE_ANALOG": [
         {
           "name": "",
@@ -6392,7 +6574,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Distance",
         "conditionList": [
@@ -6412,7 +6594,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": [
         "MP_GROVE_Ultrasonic_Ranger"
       ]
@@ -6493,7 +6675,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "UART": [
         {
           "name": "",
@@ -6925,7 +7107,7 @@
           "pinList": [
             {
               "name": "3.3V",
-              "function": "VCC3V3",
+              "function": "VCC_3V",
               "x": 0.0,
               "y": 0.0,
               "adapt_pin": "USE"
@@ -7525,8 +7707,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -7540,7 +7722,7 @@
     "width": 0.0,
     "height": 0.0,
     "hostConnectionsList": [],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_GPIO": [
         {
           "name": "D1",
@@ -8128,8 +8310,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8156,7 +8338,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_PWM": [
         {
           "name": "",
@@ -8187,18 +8369,31 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "LED",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": [
+              {
+                "name": "Brightness",
+                "type": "DOUBLE",
+                "minNumberValue": 0.0,
+                "maxNumberValue": 100.0,
+                "defaultNumberValue": 100.0,
+                "numberUnit": "PERCENT"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8225,7 +8420,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_I2C": [
         {
           "name": "",
@@ -8263,13 +8458,13 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "RGB LED",
         "actionList": [
           {
-            "action": "On",
-            "params": [
+            "name": "On",
+            "parameterList": [
               {
                 "name": "Color",
                 "type": "ENUM",
@@ -8289,7 +8484,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8316,7 +8511,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_PWM": [
         {
           "name": "",
@@ -8347,18 +8542,18 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Buzzer",
         "actionList": [
           {
-            "action": "Beep",
-            "params": []
+            "name": "Beep",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8397,7 +8592,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_GPIO": [
         {
           "name": "",
@@ -8472,8 +8667,8 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [],
-    "platformLibraries": {
+    "genericDeviceCompatibleList": [],
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8500,7 +8695,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_ANALOG": [
         {
           "name": "",
@@ -8531,7 +8726,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Light",
         "conditionList": [
@@ -8551,7 +8746,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8578,7 +8773,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_GPIO": [
         {
           "name": "",
@@ -8609,7 +8804,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Button",
         "conditionList": [
@@ -8624,7 +8819,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8651,7 +8846,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_ANALOG": [
         {
           "name": "",
@@ -8682,7 +8877,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "POT",
         "conditionList": [
@@ -8702,7 +8897,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8729,7 +8924,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_I2C": [
         {
           "name": "",
@@ -8767,7 +8962,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Accelerometer",
         "conditionList": [
@@ -8805,7 +9000,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8832,7 +9027,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_I2C": [
         {
           "name": "",
@@ -8870,7 +9065,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Temperature",
         "conditionList": [
@@ -8908,7 +9103,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -8935,7 +9130,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_ANALOG": [
         {
           "name": "",
@@ -8966,7 +9161,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Distance",
         "conditionList": [
@@ -9011,7 +9206,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -9038,7 +9233,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_ANALOG": [
         {
           "name": "",
@@ -9069,7 +9264,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Sound",
         "conditionList": [
@@ -9089,7 +9284,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -9116,7 +9311,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_GPIO": [
         {
           "name": "",
@@ -9154,13 +9349,49 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "7 Segment",
         "actionList": [
           {
-            "action": "Set Brightness",
-            "params": [
+            "name": "Show Value",
+            "parameterList": [
+              {
+                "name": "Color",
+                "type": "ENUM",
+                "possibleEnumValues": [
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Cyan",
+                  "Magenta",
+                  "Yellow",
+                  "White"
+                ],
+                "defaultEnumValue": "Red"
+              }
+            ]
+          },
+          {
+            "name": "Show Data",
+            "parameterList": [
+              {
+                "name": "Data",
+                "type": "DOUBLE",
+                "minNumberValue": -999.0,
+                "maxNumberValue": 9999.0,
+                "defaultNumberValue": 1000.0,
+                "numberUnit": "NUMBER"
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameterList": []
+          },
+          {
+            "name": "Set Brightness",
+            "parameterList": [
               {
                 "name": "Brightness",
                 "type": "DOUBLE",
@@ -9174,7 +9405,7 @@
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -9201,7 +9432,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_GPIO": [
         {
           "name": "",
@@ -9232,18 +9463,22 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Relay Module",
         "actionList": [
           {
-            "action": "Off",
-            "params": []
+            "name": "On",
+            "parameterList": []
+          },
+          {
+            "name": "Off",
+            "parameterList": []
           }
         ]
       }
     ],
-    "platformLibraries": {
+    "platformLibrariesMap": {
       "ARDUINO": []
     }
   },
@@ -9270,7 +9505,7 @@
         ]
       }
     ],
-    "portInstances": {
+    "portInstancesMap": {
       "MP_ANALOG": [
         {
           "name": "",
@@ -9301,7 +9536,7 @@
         }
       ]
     },
-    "listGenericDeviceCompatible": [
+    "genericDeviceCompatibleList": [
       {
         "generic_device": "Moisture",
         "conditionList": [
@@ -9320,6 +9555,6 @@
         ]
       }
     ],
-    "platformLibraries": {}
+    "platformLibrariesMap": {}
   }
 ]

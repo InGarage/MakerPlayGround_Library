@@ -26,7 +26,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GPIO": [
       {
         "name": "",
@@ -84,18 +84,37 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "RGB LED",
       "actionList": [
         {
-          "action": "Off",
-          "params": []
+          "name": "On",
+          "parameterList": [
+            {
+              "name": "Color",
+              "type": "ENUM",
+              "possibleEnumValues": [
+                "Red",
+                "Green",
+                "Blue",
+                "Cyan",
+                "Magenta",
+                "Yellow",
+                "White"
+              ],
+              "defaultEnumValue": "Red"
+            }
+          ]
+        },
+        {
+          "name": "Off",
+          "parameterList": []
         }
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_RGB_LED_CA"
     ]

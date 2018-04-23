@@ -26,7 +26,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "GPIO": [
       {
         "name": "",
@@ -34,7 +34,7 @@
         "pinList": [
           {
             "name": "R",
-            "function": "INOUT",
+            "function": "GPIO",
             "x": 20.743,
             "y": 90.968,
             "adapt_pin": "USE_BLOCK"
@@ -47,7 +47,7 @@
         "pinList": [
           {
             "name": "G",
-            "function": "INOUT",
+            "function": "GPIO",
             "x": 35.144,
             "y": 90.968,
             "adapt_pin": "USE_BLOCK"
@@ -60,7 +60,7 @@
         "pinList": [
           {
             "name": "B",
-            "function": "INOUT",
+            "function": "GPIO",
             "x": 49.544,
             "y": 90.968,
             "adapt_pin": "USE_BLOCK"
@@ -84,13 +84,13 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "RGB LED",
       "actionList": [
         {
-          "action": "On",
-          "params": [
+          "name": "On",
+          "parameterList": [
             {
               "name": "Color",
               "type": "ENUM",
@@ -110,7 +110,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_RGB_LED_CC"
     ]

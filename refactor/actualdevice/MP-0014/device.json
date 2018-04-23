@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "MP_ANALOG": [
       {
         "name": "",
@@ -52,7 +52,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Moisture",
       "conditionList": [
@@ -71,5 +71,5 @@
       ]
     }
   ],
-  "platformLibraries": {}
+  "platformLibrariesMap": {}
 }

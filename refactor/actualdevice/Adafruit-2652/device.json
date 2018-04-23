@@ -48,7 +48,7 @@
       ]
     }
   ],
-  "portInstances": {
+  "portInstancesMap": {
     "POWER5V": [
       {
         "name": "",
@@ -78,7 +78,7 @@
         "pinList": [
           {
             "name": "3Vo",
-            "function": "VCC_3V3",
+            "function": "VCC_3V",
             "x": 21.6,
             "y": 93.599,
             "adapt_pin": "USE"
@@ -152,7 +152,7 @@
       }
     ]
   },
-  "listGenericDeviceCompatible": [
+  "genericDeviceCompatibleList": [
     {
       "generic_device": "Temperature",
       "conditionList": [
@@ -226,7 +226,7 @@
       ]
     }
   ],
-  "platformLibraries": {
+  "platformLibrariesMap": {
     "ARDUINO": [
       "MP_BME280",
       "Adafruit_BME280",
