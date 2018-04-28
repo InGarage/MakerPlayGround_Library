@@ -5906,5 +5906,1458 @@
         "count": ""
       }
     ]
+  },
+  {
+    "id": "MP-0001",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - LED",
+    "url": "http://www.makerplayground.io/library/MP-0001",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0001"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "LED",
+        "action": [
+          {
+            "name": "On",
+            "parameter": [
+              {
+                "name": "Brightness",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 100.0,
+                  "unit": "PERCENT"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0002",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - RGB LED",
+    "url": "http://www.makerplayground.io/library/MP-0002",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0002"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG1",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "SIG2",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_2",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1",
+      "GPIO_2"
+    ],
+    "compatibility": [
+      {
+        "name": "RGB LED",
+        "action": [
+          {
+            "name": "On",
+            "parameter": [
+              {
+                "name": "Color",
+                "constraint": [
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Cyan",
+                  "Magenta",
+                  "Yellow",
+                  "White"
+                ]
+              }
+            ]
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0003",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Buzzer",
+    "url": "http://www.makerplayground.io/library/MP-0003",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0003"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Piezo",
+        "action": [
+          {
+            "name": "Play",
+            "parameter": [
+              {
+                "name": "Tone Frequency",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 10000.0,
+                  "unit": "HERTZ"
+                }
+              },
+              {
+                "name": "Duration",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 1000.0,
+                  "unit": "SECOND"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Beep",
+            "parameter": [
+              {
+                "name": "Tone Frequency",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 10000.0,
+                  "unit": "HERTZ"
+                }
+              }
+            ]
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0004",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Load Driver",
+    "url": "http://www.makerplayground.io/library/MP-0004",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0004"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Load Driver",
+        "action": [
+          {
+            "name": "On",
+            "parameter": []
+          },
+          {
+            "name": "Off",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0005",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Light Sensor",
+    "url": "http://www.makerplayground.io/library/MP-0005",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0005"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Light",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Percent",
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "PERCENT"
+            }
+          }
+        ],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0006",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Button",
+    "url": "http://www.makerplayground.io/library/MP-0006",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0006"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Button",
+        "action": [
+          {
+            "name": "Wait For Press",
+            "parameter": []
+          },
+          {
+            "name": "Wait For Release",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0007",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Trimpot",
+    "url": "http://www.makerplayground.io/library/MP-0007",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0007"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "ANALOG_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "ANALOG_1"
+    ],
+    "compatibility": [
+      {
+        "name": "POT",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Percent",
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "PERCENT"
+            }
+          }
+        ],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0008",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Accelerometer/Gyroscope",
+    "url": "http://www.makerplayground.io/library/MP-0008",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0008"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG1",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "SIG2",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_2",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1",
+      "GPIO_2"
+    ],
+    "compatibility": [
+      {
+        "name": "Accelerometer",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Accel_X",
+            "constraint": {
+              "min": -100.0,
+              "max": 100.0,
+              "unit": "METERPERSECSQUARE"
+            }
+          },
+          {
+            "name": "Accel_Y",
+            "constraint": {
+              "min": -100.0,
+              "max": 100.0,
+              "unit": "METERPERSECSQUARE"
+            }
+          },
+          {
+            "name": "Accel_Z",
+            "constraint": {
+              "min": -100.0,
+              "max": 100.0,
+              "unit": "METERPERSECSQUARE"
+            }
+          },
+          {
+            "name": "Accel_Magnitude",
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "METERPERSECSQUARE"
+            }
+          }
+        ],
+        "count": ""
+      },
+      {
+        "name": "Gyroscope",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Gyro_X",
+            "constraint": {
+              "min": -200.0,
+              "max": 200.0,
+              "unit": "RADIUSPERSEC"
+            }
+          },
+          {
+            "name": "Gyro_Y",
+            "constraint": {
+              "min": -200.0,
+              "max": 200.0,
+              "unit": "RADIUSPERSEC"
+            }
+          },
+          {
+            "name": "Gyro_Z",
+            "constraint": {
+              "min": -200.0,
+              "max": 200.0,
+              "unit": "RADIUSPERSEC"
+            }
+          }
+        ],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0009",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Temperature/Humidity",
+    "url": "http://www.makerplayground.io/library/MP-0009",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGROUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0009"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SDA",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "I2C_1",
+            "pintype": "I2C_SDA"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "SCL",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "I2C_1",
+            "pintype": "I2C_SCL"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "I2C_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Temperature",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Temperature",
+            "constraint": {
+              "min": -500.0,
+              "max": 500.0,
+              "unit": "CELSIUS"
+            }
+          }
+        ],
+        "count": ""
+      },
+      {
+        "name": "Humidity",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "Humidity",
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "PERCENT"
+            }
+          }
+        ],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0010",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Distance/Gesture",
+    "url": "http://www.makerplayground.io/library/MP-0010",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGOUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0010"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SDA",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "I2C_1",
+            "pintype": "I2C_SDA"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "SCL",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "I2C_1",
+            "pintype": "I2C_SCL"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "I2C_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Distance",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      },
+      {
+        "name": "Gesture",
+        "action": [
+          {
+            "name": "Detect Swipe",
+            "parameter": [
+              {
+                "name": "Gesture",
+                "constraint": [
+                  "Left",
+                  "Right",
+                  "Up",
+                  "Down"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "No Hand",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0011",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Microphone",
+    "url": "http://www.makerplayground.io/library/MP-0011",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGOUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0011"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "ANALOG_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "ANALOG_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Sound",
+        "action": [
+          {
+            "name": "Compare",
+            "parameter": []
+          }
+        ],
+        "value": [
+          {
+            "name": "SoundLevel",
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "PERCENT"
+            }
+          }
+        ],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0012",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - 7 Segment",
+    "url": "http://www.makerplayground.io/library/MP-0012",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGOUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0012"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "7 Segment",
+        "action": [
+          {
+            "name": "Show Value",
+            "parameter": [
+              {
+                "name": "Value",
+                "constraint": []
+              }
+            ]
+          },
+          {
+            "name": "Show Data",
+            "parameter": [
+              {
+                "name": "Data",
+                "constraint": {
+                  "min": -999.0,
+                  "max": 9999.0,
+                  "unit": "NUMBER"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Off",
+            "parameter": []
+          },
+          {
+            "name": "Set Brightness",
+            "parameter": [
+              {
+                "name": "Brightness",
+                "constraint": {
+                  "min": 0.0,
+                  "max": 100.0,
+                  "unit": "PERCENT"
+                }
+              }
+            ]
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0013",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Relay",
+    "url": "http://www.makerplayground.io/library/MP-0013",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGOUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0013"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "GPIO_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "GPIO_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Relay Module",
+        "action": [
+          {
+            "name": "On",
+            "parameter": []
+          },
+          {
+            "name": "Off",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
+  },
+  {
+    "id": "MP-0014",
+    "brand": "MakerPlayground",
+    "model": "Maker Playground - Soil-Moisture Sensor",
+    "url": "http://www.makerplayground.io/library/MP-0014",
+    "type": "PERIPHERAL",
+    "formfactor": "MAKER_PLAYGOUND",
+    "platform": [
+      "ARDUINO"
+    ],
+    "library": [
+      "MP_0014"
+    ],
+    "width": 0.0,
+    "height": 0.0,
+    "v": "",
+    "i": "",
+    "w": "",
+    "dependency": "",
+    "category": "",
+    "port": [
+      {
+        "name": "SIG",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "ANALOG_1",
+            "pintype": "INOUT"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "GND",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "GND"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "name": "VCC",
+        "type": "GROVE",
+        "function": [
+          {
+            "type": "POWER",
+            "pintype": "VCC"
+          }
+        ],
+        "v_min": 3.3,
+        "v_max": 5.0,
+        "x": 0.0,
+        "y": 0.0
+      }
+    ],
+    "connectivity": [
+      "ANALOG_1"
+    ],
+    "compatibility": [
+      {
+        "name": "Moisture",
+        "action": [
+          {
+            "name": "In dry soil",
+            "parameter": []
+          },
+          {
+            "name": "In humid soil",
+            "parameter": []
+          },
+          {
+            "name": "In water",
+            "parameter": []
+          }
+        ],
+        "value": [],
+        "count": ""
+      }
+    ]
   }
 ]
