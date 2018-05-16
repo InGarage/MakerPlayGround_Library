@@ -122,13 +122,13 @@ if __name__ == '__main__':
                     valueconstraint.append(row['valueconstraint'])
 
                 # Raise error if no valid information is found in any column
-                if ((len(row['id']) == 0) and (len(row['platform']) == 0)
-                    and (len(row['portname']) == 0) and (len(row['functiontype']) == 0)
-                    and (len(row['connectivity']) == 0) and (len(row['compatibility']) == 0)
-                    and (len(row['action']) == 0) and (len(row['param']) == 0)
-                    and (len(row['constraint']) == 0) and (len(row['value']) == 0)
-                    and (len(row['valueconstraint']) == 0) and (len(row['dependency']) == 0)):
-                    raise csv.Error('No valid data is detected at this line!!!')
+                # if ((len(row['id']) == 0) and (len(row['platform']) == 0)
+                #     and (len(row['portname']) == 0) and (len(row['functiontype']) == 0)
+                #     and (len(row['connectivity']) == 0) and (len(row['compatibility']) == 0)
+                #     and (len(row['action']) == 0) and (len(row['param']) == 0)
+                #     and (len(row['constraint']) == 0) and (len(row['value']) == 0)
+                #     and (len(row['valueconstraint']) == 0) and (len(row['dependency']) == 0)):
+                #     raise csv.Error('No valid data is detected at this line!!!')
         except csv.Error as e:
             # Exit and display error massage if the input CSV file is invalid
             print(e)

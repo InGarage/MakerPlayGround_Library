@@ -144,29 +144,6 @@
         "funcname": "off",
         "type": "Inactive",
         "parameter": []
-      },
-      {
-        "name": "Set Brightness",
-        "funcname": "setBrightness",
-        "type": "Inactive",
-        "parameter": [
-          {
-            "name": "Brightness",
-            "value": "7",
-            "constraint": [
-              "0",
-              "1",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7"
-            ],
-            "datatype": "ENUM",
-            "controltype": "DROPDOWN"
-          }
-        ]
       }
     ],
     "condition": [],
@@ -217,6 +194,33 @@
     "property": []
   },
   {
+    "name": "Servo",
+    "description": "A motor that can control direction",
+    "action": [
+      {
+        "name": "Move To",
+        "funcname": "moveto",
+        "type": "Active",
+        "parameter": [
+          {
+            "name": "Degree",
+            "value": 90.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 180.0,
+              "unit": "DEGREE"
+            },
+            "datatype": "INTEGER",
+            "controltype": "SPINBOX"
+          }
+        ]
+      }
+    ],
+    "condition": [],
+    "value": [],
+    "property": []
+  },
+  {
     "name": "RGB LED",
     "description": "This is a color LED",
     "action": [
@@ -226,19 +230,48 @@
         "type": "Active",
         "parameter": [
           {
-            "name": "Color",
-            "value": "Red",
-            "constraint": [
-              "Red",
-              "Green",
-              "Blue",
-              "Cyan",
-              "Magenta",
-              "Yellow",
-              "White"
-            ],
-            "datatype": "ENUM",
-            "controltype": "DROPDOWN"
+            "name": "Red",
+            "value": 255.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 255.0,
+              "unit": "NOT_SPECIFIED"
+            },
+            "datatype": "DOUBLE",
+            "controltype": "SLIDER"
+          },
+          {
+            "name": "Green",
+            "value": 255.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 255.0,
+              "unit": "NOT_SPECIFIED"
+            },
+            "datatype": "DOUBLE",
+            "controltype": "SLIDER"
+          },
+          {
+            "name": "Blue",
+            "value": 255.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 255.0,
+              "unit": "NOT_SPECIFIED"
+            },
+            "datatype": "DOUBLE",
+            "controltype": "SLIDER"
+          },
+          {
+            "name": "Brightness",
+            "value": 100.0,
+            "constraint": {
+              "min": 0.0,
+              "max": 100.0,
+              "unit": "NOT_SPECIFIED"
+            },
+            "datatype": "DOUBLE",
+            "controltype": "SLIDER"
           }
         ]
       },
