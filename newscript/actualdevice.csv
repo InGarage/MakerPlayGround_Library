@@ -360,4 +360,4 @@ MP-0012,MakerPlayground,7-Segment Display,http://www.makerplayground.io/library/
 ,,,,,,,,,,,,,,,,,,,,,,,,,Off,,,,,,,,,,,
 MP-0013,MakerPlayground,Relay,http://www.makerplayground.io/library/MP-0013,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_GenericSinglePinDigitalDevice,0,0,,,,,,Port,MP,MP_GPIO_SINGLE_1,INOUT,5,5,0,0,MP_GPIO_SINGLE_1,Relay Module,On,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,Off,,,,,,,,,,,
-MP-0014,MakerPlayground,Soil-Moisture Sensor,http://www.makerplayground.io/library/MP-0014,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_SoilWithEnable,0,0,,,,,,Port,MP,MP_ANALOG_SINGLE_1,INOUT,5,5,0,0,MP_ANALOG_SINGLE_1,Soil Moisture,Compare,,,,,,Percent,0,100,PERCENT,,
+MP-0014,MakerPlayground,Soil-Moisture Sensor,http://www.makerplayground.io/library/MP-0014,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_SoilWithEnable,0,0,,,,,,Port,MP,MP_ANALOG_DUAL_1,INOUT,5,5,0,0,MP_ANALOG_DUAL_1,Soil Moisture,Compare,,,,,,Percent,0,100,PERCENT,,
