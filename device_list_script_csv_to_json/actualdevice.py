@@ -2,7 +2,7 @@ import csv
 import json
 import collections
 import sys
-
+import os
 
 def isfloat(tempfloat):
     try:
@@ -14,11 +14,12 @@ def isfloat(tempfloat):
 
 if __name__ == '__main__':
     input_filename = '../device_list_csv/actualdevice.csv'
-    output_filename = '../device_list_generated_json/actualdevice.json'
+    output_directory = '../device_list_generated_json/actualDevice'
+    output_filename = 'actualdevice.json'
 
     # Temporary variable to store data to be written to the json file
     data = []
-    with open(input_filename, newline='') as csvfile:
+    with open(input_filename) as csvfile:
         reader = csv.DictReader(csvfile)
         ports = []
         compatibilities = []
@@ -134,6 +135,14 @@ if __name__ == '__main__':
             print(e)
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
 
-    with open(output_filename, 'w') as csvfile:
-        print('success')
+    with open(output_directory + '/' + output_filename, 'w') as csvfile:
+        print(output_directory + '/' + output_filename)
         json.dump(data, csvfile, indent=2)
+
+    for device in data:
+        dirname = output_directory + '/' + device['id']
+        if not os.path.exists(dirname):
+            os.makedirs(dirname)
+        with open(dirname + '/device.json','w') as deviceFile:
+            print(dirname + '/device.json')
+            json.dump(device, deviceFile, indent=2)
