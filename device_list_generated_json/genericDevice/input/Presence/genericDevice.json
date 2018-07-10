@@ -1,0 +1,21 @@
+{
+  "name": "Presence", 
+  "description": "A sensor that measure movement. \\nRelated project:\\n\\tHuman detector", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Detect Human", 
+      "funcname": "isDetected", 
+      "type": "Active", 
+      "parameter": []
+    }, 
+    {
+      "name": "No Human", 
+      "funcname": "isNotDetected", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [], 
+  "property": []
+}

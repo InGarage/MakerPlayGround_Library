@@ -1,0 +1,90 @@
+{
+  "id": "MP-0002", 
+  "brand": "MakerPlayground", 
+  "model": "RGB LED", 
+  "url": "http://www.makerplayground.io/library/MP-0002", 
+  "type": "PERIPHERAL", 
+  "formfactor": "MP_DEVICE", 
+  "platform": [
+    "MP_ARDUINO"
+  ], 
+  "library": [
+    "MP_SK9822"
+  ], 
+  "width": 0.0, 
+  "height": 0.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "Port", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_GPIO_DUAL_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }
+  ], 
+  "connectivity": [
+    "MP_GPIO_DUAL_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "RGB LED", 
+      "action": [
+        {
+          "name": "On", 
+          "parameter": [
+            {
+              "name": "Red", 
+              "constraint": {
+                "min": 0.0, 
+                "max": 255.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }, 
+            {
+              "name": "Green", 
+              "constraint": {
+                "min": 0.0, 
+                "max": 255.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }, 
+            {
+              "name": "Blue", 
+              "constraint": {
+                "min": 0.0, 
+                "max": 255.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }, 
+            {
+              "name": "Brightness", 
+              "constraint": {
+                "min": 0.0, 
+                "max": 100.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }
+          ]
+        }, 
+        {
+          "name": "Off", 
+          "parameter": []
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "Grove-101020020", 
+  "brand": "SeeedStudio", 
+  "model": "Grove - PIR Motion Sensor", 
+  "url": "https://www.seeedstudio.com/Grove-PIR-Motion-Sensor%EF%BC%88BISS0001%EF%BC%89-p-802.html", 
+  "type": "PERIPHERAL", 
+  "formfactor": "GROVE", 
+  "platform": [
+    "GROVE_ARDUINO"
+  ], 
+  "library": [
+    "MP_GROVE_PIR"
+  ], 
+  "width": 128.0, 
+  "height": 148.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "SIG", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 31.785, 
+      "y": 42.489
+    }, 
+    {
+      "name": "GND", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 2.984, 
+      "y": 0.002
+    }, 
+    {
+      "name": "VCC", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 117.42, 
+      "y": 60.299
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Presence", 
+      "action": [
+        {
+          "name": "Detect Human", 
+          "parameter": [
+            {
+              "name": "isDetected", 
+              "constraint": []
+            }
+          ]
+        }, 
+        {
+          "name": "No Human", 
+          "parameter": [
+            {
+              "name": "isNotDetected", 
+              "constraint": []
+            }
+          ]
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

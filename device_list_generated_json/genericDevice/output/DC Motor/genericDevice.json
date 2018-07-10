@@ -1,0 +1,43 @@
+{
+  "name": "DC Motor", 
+  "description": "A motor. It can drive a wheel.", 
+  "action": [
+    {
+      "name": "On", 
+      "funcname": "on", 
+      "type": "Active", 
+      "parameter": [
+        {
+          "name": "Direction", 
+          "value": "Forward", 
+          "constraint": [
+            "Forward", 
+            "Backward"
+          ], 
+          "datatype": "ENUM", 
+          "controltype": "DROPDOWN"
+        }, 
+        {
+          "name": "Speed", 
+          "value": 100.0, 
+          "constraint": {
+            "min": 0.0, 
+            "max": 100.0, 
+            "unit": "PERCENT"
+          }, 
+          "datatype": "DOUBLE", 
+          "controltype": "SLIDER"
+        }
+      ]
+    }, 
+    {
+      "name": "Off", 
+      "funcname": "off", 
+      "type": "Inactive", 
+      "parameter": []
+    }
+  ], 
+  "condition": [], 
+  "value": [], 
+  "property": []
+}

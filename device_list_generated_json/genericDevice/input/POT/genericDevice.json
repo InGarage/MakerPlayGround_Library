@@ -1,0 +1,25 @@
+{
+  "name": "POT", 
+  "description": "This is potentiometer. You can turn to adjust and make some action.\\nRelated project:\\n\\tHelp many projects in selecting action and/or adjusting the sensor value", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Compare", 
+      "funcname": "", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [
+    {
+      "name": "Percent", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": 0.0, 
+        "max": 100.0, 
+        "unit": "PERCENT"
+      }
+    }
+  ], 
+  "property": []
+}

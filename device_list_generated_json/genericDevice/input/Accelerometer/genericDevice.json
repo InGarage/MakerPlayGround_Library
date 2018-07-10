@@ -1,0 +1,64 @@
+{
+  "name": "Accelerometer", 
+  "description": "Accelerometer is a sensor to measure acceleration.\\nYou can use it to detect free fall, acceleration on x,y,z axis. \\nRelated project:\\n\\tFalling object detector", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Compare", 
+      "funcname": "", 
+      "type": "Active", 
+      "parameter": []
+    }, 
+    {
+      "name": "Tap", 
+      "funcname": "isTapped", 
+      "type": "Active", 
+      "parameter": []
+    }, 
+    {
+      "name": "Free Fall", 
+      "funcname": "isFallen", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [
+    {
+      "name": "Accel_X", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": -100.0, 
+        "max": 100.0, 
+        "unit": "METERPERSECSQUARE"
+      }
+    }, 
+    {
+      "name": "Accel_Y", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": -100.0, 
+        "max": 100.0, 
+        "unit": "METERPERSECSQUARE"
+      }
+    }, 
+    {
+      "name": "Accel_Z", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": -100.0, 
+        "max": 100.0, 
+        "unit": "METERPERSECSQUARE"
+      }
+    }, 
+    {
+      "name": "Accel_Magnitude", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": 0.0, 
+        "max": 100.0, 
+        "unit": "METERPERSECSQUARE"
+      }
+    }
+  ], 
+  "property": []
+}

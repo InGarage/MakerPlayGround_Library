@@ -1,0 +1,95 @@
+{
+  "id": "Grove-101020003", 
+  "brand": "SeeedStudio", 
+  "model": "Grove - Button", 
+  "url": "https://www.seeedstudio.com/Grove-Button-p-766.html", 
+  "type": "PERIPHERAL", 
+  "formfactor": "GROVE", 
+  "platform": [
+    "GROVE_ARDUINO"
+  ], 
+  "library": [
+    "MP_GROVE_Button"
+  ], 
+  "width": 128.0, 
+  "height": 148.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "SIG", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 31.785, 
+      "y": 42.489
+    }, 
+    {
+      "name": "GND", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 2.984, 
+      "y": 0.002
+    }, 
+    {
+      "name": "VCC", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 117.42, 
+      "y": 60.299
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Button", 
+      "action": [
+        {
+          "name": "Wait For Press", 
+          "parameter": [
+            {
+              "name": "isPressed", 
+              "constraint": []
+            }
+          ]
+        }, 
+        {
+          "name": "Wait For Release", 
+          "parameter": [
+            {
+              "name": "isReleased", 
+              "constraint": []
+            }
+          ]
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

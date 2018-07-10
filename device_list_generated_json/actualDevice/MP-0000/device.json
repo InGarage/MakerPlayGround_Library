@@ -1,0 +1,271 @@
+{
+  "id": "MP-0000", 
+  "brand": "MakerPlayground", 
+  "model": "BaseBoard", 
+  "url": "http://www.makerplayground.io/library/MP-0000", 
+  "type": "CONTROLLER", 
+  "formfactor": "MP_CONTROLLER", 
+  "platform": [
+    "MP_ARDUINO"
+  ], 
+  "library": [], 
+  "width": 425.0, 
+  "height": 303.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "Internal", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_INT_UART_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D1", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_PWM_SINGLE_1", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_PWM_DUAL_1", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_SINGLE_1", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D2", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_PWM_SINGLE_2", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_PWM_DUAL_2", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_SINGLE_2", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_2", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D3", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_PWM_SINGLE_3", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_PWM_DUAL_3", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_SINGLE_3", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_3", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D4", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_PWM_SINGLE_4", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_PWM_DUAL_4", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_SINGLE_4", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_4", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D5/A1", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_GPIO_SINGLE_5", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_5", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_ANALOG_SINGLE_1", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_ANALOG_DUAL_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "D6/A2", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_GPIO_SINGLE_6", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_GPIO_DUAL_6", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_ANALOG_SINGLE_2", 
+          "pintype": "INOUT"
+        }, 
+        {
+          "type": "MP_ANALOG_DUAL_2", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "I2C1", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_I2C_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "I2C2", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_I2C_2", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "I2C3", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_I2C_3", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }, 
+    {
+      "name": "I2C4", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_I2C_4", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }
+  ], 
+  "connectivity": [
+    "MP_INT_UART_1", 
+    "MP_PWM_SINGLE_1", 
+    "MP_PWM_SINGLE_2", 
+    "MP_PWM_SINGLE_3", 
+    "MP_PWM_SINGLE_4", 
+    "MP_PWM_DUAL_1", 
+    "MP_PWM_DUAL_2", 
+    "MP_PWM_DUAL_3", 
+    "MP_PWM_DUAL_4", 
+    "MP_GPIO_SINGLE_5", 
+    "MP_GPIO_SINGLE_6", 
+    "MP_GPIO_DUAL_5", 
+    "MP_GPIO_DUAL_6", 
+    "MP_ANALOG_SINGLE_1", 
+    "MP_ANALOG_SINGLE_2", 
+    "MP_ANALOG_DUAL_1", 
+    "MP_ANALOG_DUAL_2", 
+    "MP_I2C_1", 
+    "MP_I2C_2", 
+    "MP_I2C_3", 
+    "MP_I2C_4"
+  ], 
+  "compatibility": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "Adafruit-1119", 
+  "brand": "Adafruit", 
+  "model": "Tactile Switch Button", 
+  "url": "https://www.adafruit.com/product/1119", 
+  "type": "PERIPHERAL", 
+  "formfactor": "BREAKOUT_BOARD_TWOSIDE", 
+  "platform": [
+    "ARDUINO"
+  ], 
+  "library": [
+    "MP_GenericButton"
+  ], 
+  "width": 119.0, 
+  "height": 82.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "S1A", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": "", 
+      "v_max": "", 
+      "x": 31.785, 
+      "y": 42.489
+    }, 
+    {
+      "name": "S1B", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 2.984, 
+      "y": 0.002
+    }, 
+    {
+      "name": "VCC", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 117.42, 
+      "y": 60.299
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Button", 
+      "action": [
+        {
+          "name": "Wait For Press", 
+          "parameter": [
+            {
+              "name": "isPressed", 
+              "constraint": []
+            }
+          ]
+        }, 
+        {
+          "name": "Wait For Release", 
+          "parameter": [
+            {
+              "name": "isReleased", 
+              "constraint": []
+            }
+          ]
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

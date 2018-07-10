@@ -1,0 +1,25 @@
+{
+  "name": "Humidity", 
+  "description": "A sensor that measure humidity. \\nRelated project:\\n\\tAutomatic water plant", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Compare", 
+      "funcname": "", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [
+    {
+      "name": "Humidity", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": 0.0, 
+        "max": 100.0, 
+        "unit": "PERCENT"
+      }
+    }
+  ], 
+  "property": []
+}

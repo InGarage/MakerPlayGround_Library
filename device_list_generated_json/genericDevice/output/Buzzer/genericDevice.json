@@ -1,0 +1,44 @@
+{
+  "name": "Buzzer", 
+  "description": "A kind of speaker that can control frequency of sound", 
+  "action": [
+    {
+      "name": "Beep", 
+      "funcname": "beep", 
+      "type": "Active", 
+      "parameter": []
+    }, 
+    {
+      "name": "Play Tone", 
+      "funcname": "play", 
+      "type": "Active", 
+      "parameter": [
+        {
+          "name": "Tone Frequency", 
+          "value": 2000.0, 
+          "constraint": {
+            "min": 0.0, 
+            "max": 20000.0, 
+            "unit": "HERTZ"
+          }, 
+          "datatype": "INTEGER", 
+          "controltype": "SPINBOX"
+        }, 
+        {
+          "name": "Duration", 
+          "value": 2.0, 
+          "constraint": {
+            "min": 0.0, 
+            "max": 1000.0, 
+            "unit": "SECOND"
+          }, 
+          "datatype": "INTEGER", 
+          "controltype": "SPINBOX"
+        }
+      ]
+    }
+  ], 
+  "condition": [], 
+  "value": [], 
+  "property": []
+}

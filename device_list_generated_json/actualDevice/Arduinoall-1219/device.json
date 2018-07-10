@@ -1,0 +1,137 @@
+{
+  "id": "Arduinoall-1219", 
+  "brand": "Arduinoall", 
+  "model": "4 digit display LED module with dots for Arduino 0.36\"", 
+  "url": "https://www.arduinoall.com/product/1219/%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%A5%E0%B8%82-4-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81-%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-0-36-%E0%B8%AA%E0%B8%B5%E0%B9%81%E0%B8%94%E0%B8%87-tm1637-driver", 
+  "type": "PERIPHERAL", 
+  "formfactor": "STANDALONE", 
+  "platform": [
+    "ARDUINO"
+  ], 
+  "library": [
+    "MP_7segI2C", 
+    "TM1637Display"
+  ], 
+  "width": 372.0, 
+  "height": 153.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "CLK", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 20.5, 
+      "y": 52.5
+    }, 
+    {
+      "name": "DIO", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "GPIO_2", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 20.5, 
+      "y": 66.5
+    }, 
+    {
+      "name": "VCC", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 20.5, 
+      "y": 82.5
+    }, 
+    {
+      "name": "GND", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 20.5, 
+      "y": 95.5
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1", 
+    "GPIO_2"
+  ], 
+  "compatibility": [
+    {
+      "name": "7 Segment", 
+      "action": [
+        {
+          "name": "Show Value", 
+          "parameter": [
+            {
+              "name": "Value", 
+              "constraint": []
+            }
+          ]
+        }, 
+        {
+          "name": "Show Number", 
+          "parameter": [
+            {
+              "name": "Number", 
+              "constraint": {
+                "min": -999.0, 
+                "max": 9999.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }
+          ]
+        }, 
+        {
+          "name": "Off", 
+          "parameter": []
+        }, 
+        {
+          "name": "Set Brightness", 
+          "parameter": [
+            {
+              "name": "Brightness", 
+              "constraint": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7"
+              ]
+            }
+          ]
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

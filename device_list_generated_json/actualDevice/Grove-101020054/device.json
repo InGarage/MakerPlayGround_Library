@@ -1,0 +1,130 @@
+{
+  "id": "Grove-101020054", 
+  "brand": "SeeedStudio", 
+  "model": "Grove - 3-Axis Digital Accelerometer(+-16g)", 
+  "url": "http://wiki.seeed.cc/Grove-3-Axis_Digital_Accelerometer-16g/", 
+  "type": "PERIPHERAL", 
+  "formfactor": "GROVE", 
+  "platform": [
+    "GROVE_ARDUINO"
+  ], 
+  "library": [
+    "MP_GROVE_ADXL345", 
+    "Adafruit_ADXL345_U", 
+    "Adafruit_Sensor"
+  ], 
+  "width": 128.0, 
+  "height": 148.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "SDA", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "I2C_1", 
+          "pintype": "I2C_SDA"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 53.3
+    }, 
+    {
+      "name": "SCL", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "I2C_1", 
+          "pintype": "I2C_SCL"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 67.8
+    }, 
+    {
+      "name": "VCC", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 82.3
+    }, 
+    {
+      "name": "GND", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 96.8
+    }
+  ], 
+  "connectivity": [
+    "I2C_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Accelerometer", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "X", 
+          "constraint": {
+            "min": -16.0, 
+            "max": 16.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Y", 
+          "constraint": {
+            "min": -16.0, 
+            "max": 16.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Z", 
+          "constraint": {
+            "min": -16.0, 
+            "max": 16.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Magnitude", 
+          "constraint": {
+            "min": 0.0, 
+            "max": 60.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }
+      ], 
+      "count": ""
+    }
+  ]
+}

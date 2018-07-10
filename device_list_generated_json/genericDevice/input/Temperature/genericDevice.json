@@ -1,0 +1,25 @@
+{
+  "name": "Temperature", 
+  "description": "A thermometer. \\nRelated project:\\n\\tSmart fan\\n\\tHeat detector", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Compare", 
+      "funcname": "", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [
+    {
+      "name": "Temperature", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": -500.0, 
+        "max": 500.0, 
+        "unit": "CELSIUS"
+      }
+    }
+  ], 
+  "property": []
+}

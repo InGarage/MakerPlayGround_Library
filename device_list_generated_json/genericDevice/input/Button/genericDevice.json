@@ -1,0 +1,21 @@
+{
+  "name": "Button", 
+  "description": "This is buttons. You can press or release the button to do some action. \\nRelated project:\\n\\tPiano\\n\\tSwitch to control devices", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Wait For Press", 
+      "funcname": "isPressed", 
+      "type": "Active", 
+      "parameter": []
+    }, 
+    {
+      "name": "Wait For Release", 
+      "funcname": "isReleased", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [], 
+  "property": []
+}

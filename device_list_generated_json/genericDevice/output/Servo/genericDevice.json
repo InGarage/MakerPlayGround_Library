@@ -1,0 +1,27 @@
+{
+  "name": "Servo", 
+  "description": "A motor that can control direction", 
+  "action": [
+    {
+      "name": "Move To", 
+      "funcname": "moveto", 
+      "type": "Active", 
+      "parameter": [
+        {
+          "name": "Degree", 
+          "value": 90.0, 
+          "constraint": {
+            "min": 0.0, 
+            "max": 180.0, 
+            "unit": "DEGREE"
+          }, 
+          "datatype": "INTEGER", 
+          "controltype": "SPINBOX"
+        }
+      ]
+    }
+  ], 
+  "condition": [], 
+  "value": [], 
+  "property": []
+}

@@ -1,0 +1,47 @@
+{
+  "name": "7 Segment", 
+  "description": "A screen that can display number and some alphabet", 
+  "action": [
+    {
+      "name": "Show Value", 
+      "funcname": "showValue", 
+      "type": "Active", 
+      "parameter": [
+        {
+          "name": "Value", 
+          "value": "", 
+          "constraint": [], 
+          "datatype": "VALUE", 
+          "controltype": "DROPDOWN"
+        }
+      ]
+    }, 
+    {
+      "name": "Show Number", 
+      "funcname": "showData", 
+      "type": "Inactive", 
+      "parameter": [
+        {
+          "name": "Number", 
+          "value": 1000.0, 
+          "constraint": {
+            "min": -999.0, 
+            "max": 9999.0, 
+            "unit": "NOT_SPECIFIED"
+          }, 
+          "datatype": "INTEGER", 
+          "controltype": "SPINBOX"
+        }
+      ]
+    }, 
+    {
+      "name": "Off", 
+      "funcname": "off", 
+      "type": "Inactive", 
+      "parameter": []
+    }
+  ], 
+  "condition": [], 
+  "value": [], 
+  "property": []
+}

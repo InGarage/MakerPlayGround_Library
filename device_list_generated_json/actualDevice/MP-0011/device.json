@@ -1,0 +1,62 @@
+{
+  "id": "MP-0011", 
+  "brand": "MakerPlayground", 
+  "model": "Microphone", 
+  "url": "http://www.makerplayground.io/library/MP-0011", 
+  "type": "PERIPHERAL", 
+  "formfactor": "MP_DEVICE", 
+  "platform": [
+    "MP_ARDUINO"
+  ], 
+  "library": [
+    "MP_OneAnalogReadToSoundLevel"
+  ], 
+  "width": 0.0, 
+  "height": 0.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "Port", 
+      "type": "MP", 
+      "function": [
+        {
+          "type": "MP_ANALOG_SINGLE_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 0.0, 
+      "y": 0.0
+    }
+  ], 
+  "connectivity": [
+    "MP_ANALOG_SINGLE_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Sound", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "SoundLevel", 
+          "constraint": {
+            "min": 0.0, 
+            "max": 100.0, 
+            "unit": "PERCENT"
+          }
+        }
+      ], 
+      "count": ""
+    }
+  ]
+}

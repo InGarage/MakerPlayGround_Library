@@ -1,0 +1,25 @@
+{
+  "name": "Altimeter", 
+  "description": "Altimeter is a sensor to measure height. \\nRelated project:\\n\\tHeight detector", 
+  "action": [], 
+  "condition": [
+    {
+      "name": "Compare", 
+      "funcname": "", 
+      "type": "Active", 
+      "parameter": []
+    }
+  ], 
+  "value": [
+    {
+      "name": "Altitude", 
+      "dataType": "DOUBLE", 
+      "constraint": {
+        "min": -3000.0, 
+        "max": 3000.0, 
+        "unit": "METER"
+      }
+    }
+  ], 
+  "property": []
+}

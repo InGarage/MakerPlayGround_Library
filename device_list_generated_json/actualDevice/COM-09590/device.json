@@ -1,0 +1,80 @@
+{
+  "id": "COM-09590", 
+  "brand": "Sparkfun", 
+  "model": "LED - Basic Red 5mm", 
+  "url": "https://www.sparkfun.com/products/9590", 
+  "type": "PERIPHERAL", 
+  "formfactor": "BREAKOUT_BOARD_ONESIDE", 
+  "platform": [
+    "ARDUINO"
+  ], 
+  "library": [
+    "MP_LED"
+  ], 
+  "width": 111.0, 
+  "height": 129.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "GND", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 5.0, 
+      "v_max": 5.0, 
+      "x": 9.054, 
+      "y": 107.646
+    }, 
+    {
+      "name": "V+", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "PWM_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 1.8, 
+      "v_max": 5.0, 
+      "x": 109.966, 
+      "y": 107.0
+    }
+  ], 
+  "connectivity": [
+    "PWM_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "LED", 
+      "action": [
+        {
+          "name": "On", 
+          "parameter": [
+            {
+              "name": "Brightness", 
+              "constraint": {
+                "min": 0.0, 
+                "max": 100.0, 
+                "unit": "PERCENT"
+              }
+            }
+          ]
+        }, 
+        {
+          "name": "Off", 
+          "parameter": []
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

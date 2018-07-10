@@ -1,0 +1,137 @@
+{
+  "id": "Grove-104030003", 
+  "brand": "SeeedStudio", 
+  "model": "Grove - 4-Digit Display", 
+  "url": "https://www.seeedstudio.com/Grove-4-Digit-Display-p-1198.html", 
+  "type": "PERIPHERAL", 
+  "formfactor": "GROVE", 
+  "platform": [
+    "GROVE_ARDUINO"
+  ], 
+  "library": [
+    "MP_7segI2C_Colon", 
+    "TM1637Display"
+  ], 
+  "width": 266.0, 
+  "height": 148.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "CLK", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 53.3
+    }, 
+    {
+      "name": "DIO", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "GPIO_2", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 67.8
+    }, 
+    {
+      "name": "VCC", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 82.3
+    }, 
+    {
+      "name": "GND", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 321.0, 
+      "y": 96.8
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1", 
+    "GPIO_2"
+  ], 
+  "compatibility": [
+    {
+      "name": "7 Segment", 
+      "action": [
+        {
+          "name": "Show Value", 
+          "parameter": [
+            {
+              "name": "Value", 
+              "constraint": []
+            }
+          ]
+        }, 
+        {
+          "name": "Show Number", 
+          "parameter": [
+            {
+              "name": "Number", 
+              "constraint": {
+                "min": -999.0, 
+                "max": 9999.0, 
+                "unit": "NOT_SPECIFIED"
+              }
+            }
+          ]
+        }, 
+        {
+          "name": "Off", 
+          "parameter": []
+        }, 
+        {
+          "name": "Set Brightness", 
+          "parameter": [
+            {
+              "name": "Brightness", 
+              "constraint": [
+                "0", 
+                "1", 
+                "2", 
+                "3", 
+                "4", 
+                "5", 
+                "6", 
+                "7"
+              ]
+            }
+          ]
+        }
+      ], 
+      "value": [], 
+      "count": ""
+    }
+  ]
+}

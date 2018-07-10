@@ -1,0 +1,203 @@
+{
+  "id": "Arduinoall-34", 
+  "brand": "Arduinoall", 
+  "model": "GY-521 IMU 3-axis Accelerometer/Gyro Module (MPU6050)", 
+  "url": "https://www.arduinoall.com/product/34/gy-521-imu-3-axis-accelerometer-gyro-module-mpu6050", 
+  "type": "PERIPHERAL", 
+  "formfactor": "BREAKOUT_BOARD_ONESIDE", 
+  "platform": [
+    "ARDUINO"
+  ], 
+  "library": [
+    "Adafruit_Sensor", 
+    "MPU6050", 
+    "MP_MPU6050", 
+    "I2Cdev"
+  ], 
+  "width": 141.733, 
+  "height": 113.387, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "VCC", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 21.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "GND", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 36.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "SCL", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "I2C_1", 
+          "pintype": "I2C_SCL"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 50.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "SDA", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "I2C_1", 
+          "pintype": "I2C_SDA"
+        }
+      ], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 64.891, 
+      "y": 105.526
+    }, 
+    {
+      "name": "XDA", 
+      "type": "WIRE", 
+      "function": [], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 79.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "XCL", 
+      "type": "WIRE", 
+      "function": [], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 94.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "ADO", 
+      "type": "WIRE", 
+      "function": [], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 108.866, 
+      "y": 105.526
+    }, 
+    {
+      "name": "INT", 
+      "type": "WIRE", 
+      "function": [], 
+      "v_min": 3.0, 
+      "v_max": 5.0, 
+      "x": 123.866, 
+      "y": 105.526
+    }
+  ], 
+  "connectivity": [
+    "I2C_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Accelerometer", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "X", 
+          "constraint": {
+            "min": -35.0, 
+            "max": 35.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Y", 
+          "constraint": {
+            "min": -35.0, 
+            "max": 35.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Z", 
+          "constraint": {
+            "min": -35.0, 
+            "max": 35.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }, 
+        {
+          "name": "Magnitude", 
+          "constraint": {
+            "min": 0.0, 
+            "max": 60.0, 
+            "unit": "METERPERSECSQUARE"
+          }
+        }
+      ], 
+      "count": ""
+    }, 
+    {
+      "name": "Gyroscope", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "X", 
+          "constraint": {
+            "min": -2000.0, 
+            "max": 2000.0, 
+            "unit": "DEGREEPERSEC"
+          }
+        }, 
+        {
+          "name": "Y", 
+          "constraint": {
+            "min": -2000.0, 
+            "max": 2000.0, 
+            "unit": "DEGREEPERSEC"
+          }
+        }, 
+        {
+          "name": "Z", 
+          "constraint": {
+            "min": -2000.0, 
+            "max": 2000.0, 
+            "unit": "DEGREEPERSEC"
+          }
+        }
+      ], 
+      "count": ""
+    }
+  ]
+}

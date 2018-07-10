@@ -1,0 +1,90 @@
+{
+  "id": "Grove-101020015", 
+  "brand": "SeeedStudio", 
+  "model": "Grove - Temperature Sensor", 
+  "url": "https://www.seeedstudio.com/Grove-Temperature-Sensor-p-774.html", 
+  "type": "PERIPHERAL", 
+  "formfactor": "GROVE", 
+  "platform": [
+    "GROVE_ARDUINO"
+  ], 
+  "library": [
+    "MP_GROVE_Temperature"
+  ], 
+  "width": 128.0, 
+  "height": 148.0, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "VCC", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 1.531, 
+      "y": 19.764
+    }, 
+    {
+      "name": "SIG", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "ANALOG_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 45.2, 
+      "y": 31.9095
+    }, 
+    {
+      "name": "GND", 
+      "type": "GROVE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 132.212, 
+      "y": 22.0465
+    }
+  ], 
+  "connectivity": [
+    "ANALOG_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Temperature", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "Temperature", 
+          "constraint": {
+            "min": -40.0, 
+            "max": 125.0, 
+            "unit": "CELSIUS"
+          }
+        }
+      ], 
+      "count": ""
+    }
+  ]
+}

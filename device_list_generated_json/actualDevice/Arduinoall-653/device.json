@@ -1,0 +1,111 @@
+{
+  "id": "Arduinoall-653", 
+  "brand": "Arduinoall", 
+  "model": "DHT11 Digital Temperature and Humidity Sensor DHT11", 
+  "url": "https://www.arduinoall.com/product/653/dht11-digital-temperature-and-humidity-sensor-dht11-%E0%B9%81%E0%B8%9A%E0%B8%9A-pcb-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B9%84%E0%B8%9F", 
+  "type": "PERIPHERAL", 
+  "formfactor": "BREAKOUT_BOARD_ONESIDE", 
+  "platform": [
+    "ARDUINO"
+  ], 
+  "library": [
+    "MP_DHT11", 
+    "DHT"
+  ], 
+  "width": 93.542, 
+  "height": 140.332, 
+  "v": "", 
+  "i": "", 
+  "w": "", 
+  "dependency": "", 
+  "category": "", 
+  "port": [
+    {
+      "name": "VIN", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "VCC"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 32.403, 
+      "y": 140.332
+    }, 
+    {
+      "name": "OUT", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "GPIO_1", 
+          "pintype": "INOUT"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 46.869, 
+      "y": 140.332
+    }, 
+    {
+      "name": "GND", 
+      "type": "WIRE", 
+      "function": [
+        {
+          "type": "POWER", 
+          "pintype": "GND"
+        }
+      ], 
+      "v_min": 3.3, 
+      "v_max": 5.0, 
+      "x": 61.268, 
+      "y": 140.332
+    }
+  ], 
+  "connectivity": [
+    "GPIO_1"
+  ], 
+  "compatibility": [
+    {
+      "name": "Temperature", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "Temperature", 
+          "constraint": {
+            "min": 0.0, 
+            "max": 50.0, 
+            "unit": "CELSIUS"
+          }
+        }
+      ], 
+      "count": ""
+    }, 
+    {
+      "name": "Humidity", 
+      "action": [
+        {
+          "name": "Compare", 
+          "parameter": []
+        }
+      ], 
+      "value": [
+        {
+          "name": "Humidity", 
+          "constraint": {
+            "min": 20.0, 
+            "max": 80.0, 
+            "unit": "PERCENT"
+          }
+        }
+      ], 
+      "count": ""
+    }
+  ]
+}
