@@ -2,15 +2,16 @@ import csv
 import json
 import collections
 import sys
-
+import os
 
 if __name__ == '__main__':
     input_filename = '../device_list_csv/genericoutputdevice.csv'
-    output_filename = '../device_list_generated_json/genericoutputdevice.json'
+    output_directory = '../device_list_generated_json/genericDevice/output'
+    output_filename = 'genericoutputdevice.json'
 
     # Temporary variable to store data to be written to the json file
     data = []
-    with open(input_filename, newline='') as csvfile:
+    with open(input_filename) as csvfile:
         reader = csv.DictReader(csvfile)
         outputs = []
         constraints = []
@@ -69,6 +70,14 @@ if __name__ == '__main__':
             print(e)
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
 
-    with open(output_filename, 'w') as csvfile:
-        print('success')
+    with open(output_directory + '/' + output_filename, 'w') as csvfile:
+        print(output_directory + '/' + output_filename)
         json.dump(data, csvfile, indent=2)
+
+    for device in data:
+        dirname = output_directory + '/' + device['name']
+        if not os.path.exists(dirname):
+            os.makedirs(dirname)
+        with open(dirname + '/genericDevice.json','w') as deviceFile:
+            print(dirname + '/genericDevice.json')
+            json.dump(device, deviceFile, indent=2)
