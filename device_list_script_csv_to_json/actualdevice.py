@@ -13,8 +13,8 @@ def isfloat(tempfloat):
 
 
 if __name__ == '__main__':
-    input_filename = 'actualdevice.csv'
-    output_filename = 'actualdevice.json'
+    input_filename = '../device_list_csv/actualdevice.csv'
+    output_filename = '../device_list_generated_json/actualdevice.json'
 
     # Temporary variable to store data to be written to the json file
     data = []

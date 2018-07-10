@@ -5,8 +5,8 @@ import sys
 
 
 if __name__ == '__main__':
-    input_filename = 'genericoutputdevice.csv'
-    output_filename = 'genericoutputdevice.json'
+    input_filename = '../device_list_csv/genericoutputdevice.csv'
+    output_filename = '../device_list_generated_json/genericoutputdevice.json'
 
     # Temporary variable to store data to be written to the json file
     data = []

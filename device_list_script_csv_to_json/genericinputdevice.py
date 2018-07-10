@@ -4,8 +4,8 @@ import collections
 import sys
 
 if __name__ == '__main__':
-    input_filename = 'genericinputdevice.csv'
-    output_filename = 'genericinputdevice.json'
+    input_filename = '../device_list_csv/genericinputdevice.csv'
+    output_filename = '../device_list_generated_json/genericinputdevice.json'
 
     # Temporary variable to store data to be written to the json file
     data = []
