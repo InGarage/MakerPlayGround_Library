@@ -10,7 +10,7 @@
   ],
   "library": [
     "MP_FlowSensor",
-    "EnableInterrupt"
+    "PinChangeInterrupt"
   ],
   "width": 0.0,
   "height": 0.0,
