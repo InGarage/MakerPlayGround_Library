@@ -1,123 +1,123 @@
 {
-  "id": "MP-0008", 
-  "brand": "MakerPlayground", 
-  "model": "Accelerometer/Gyroscope", 
-  "url": "http://www.makerplayground.io/library/MP-0008", 
-  "type": "PERIPHERAL", 
-  "formfactor": "MP_DEVICE", 
+  "id": "MP-0008",
+  "brand": "MakerPlayground",
+  "model": "Accelerometer/Gyroscope",
+  "url": "http://www.makerplayground.io/library/MP-0008",
+  "type": "PERIPHERAL",
+  "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
-  ], 
+  ],
   "library": [
-    "MP_LSM6DS3", 
-    "SparkFunLSM6DS3", 
+    "MP_LSM6DS3",
+    "SparkFunLSM6DS3",
     "Wire"
-  ], 
-  "width": 0.0, 
-  "height": 0.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 0.0,
+  "height": 0.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "Port", 
-      "type": "MP", 
+      "name": "Port",
+      "type": "MP",
       "function": [
         {
-          "type": "MP_I2C_1", 
+          "type": "MP_I2C_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 0.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 0.0,
       "y": 0.0
     }
-  ], 
+  ],
   "connectivity": [
     "MP_I2C_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "Accelerometer", 
+      "name": "Accelerometer",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Accel_X", 
+          "name": "Accel_X",
           "constraint": {
-            "min": -100.0, 
-            "max": 100.0, 
+            "min": -100.0,
+            "max": 100.0,
             "unit": "METERPERSECSQUARE"
           }
-        }, 
+        },
         {
-          "name": "Accel_Y", 
+          "name": "Accel_Y",
           "constraint": {
-            "min": -100.0, 
-            "max": 100.0, 
+            "min": -100.0,
+            "max": 100.0,
             "unit": "METERPERSECSQUARE"
           }
-        }, 
+        },
         {
-          "name": "Accel_Z", 
+          "name": "Accel_Z",
           "constraint": {
-            "min": -100.0, 
-            "max": 100.0, 
+            "min": -100.0,
+            "max": 100.0,
             "unit": "METERPERSECSQUARE"
           }
-        }, 
+        },
         {
-          "name": "Accel_Magnitude", 
+          "name": "Accel_Magnitude",
           "constraint": {
-            "min": 0.0, 
-            "max": 100.0, 
+            "min": 0.0,
+            "max": 100.0,
             "unit": "METERPERSECSQUARE"
           }
         }
-      ], 
+      ],
       "count": ""
-    }, 
+    },
     {
-      "name": "Gyroscope", 
+      "name": "Gyroscope",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Gyro_X", 
+          "name": "Gyro_X",
           "constraint": {
-            "min": -200.0, 
-            "max": 200.0, 
+            "min": -200.0,
+            "max": 200.0,
             "unit": "RADIUSPERSEC"
           }
-        }, 
+        },
         {
-          "name": "Gyro_Y", 
+          "name": "Gyro_Y",
           "constraint": {
-            "min": -200.0, 
-            "max": 200.0, 
+            "min": -200.0,
+            "max": 200.0,
             "unit": "RADIUSPERSEC"
           }
-        }, 
+        },
         {
-          "name": "Gyro_Z", 
+          "name": "Gyro_Z",
           "constraint": {
-            "min": -200.0, 
-            "max": 200.0, 
+            "min": -200.0,
+            "max": 200.0,
             "unit": "RADIUSPERSEC"
           }
         }
-      ], 
+      ],
       "count": ""
     }
   ]

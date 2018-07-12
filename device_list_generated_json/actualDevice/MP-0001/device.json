@@ -1,65 +1,65 @@
 {
-  "id": "MP-0001", 
-  "brand": "MakerPlayground", 
-  "model": "LED", 
-  "url": "http://www.makerplayground.io/library/MP-0001", 
-  "type": "PERIPHERAL", 
-  "formfactor": "MP_DEVICE", 
+  "id": "MP-0001",
+  "brand": "MakerPlayground",
+  "model": "LED",
+  "url": "http://www.makerplayground.io/library/MP-0001",
+  "type": "PERIPHERAL",
+  "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_LED"
-  ], 
-  "width": 0.0, 
-  "height": 0.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 0.0,
+  "height": 0.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "Port", 
-      "type": "MP", 
+      "name": "Port",
+      "type": "MP",
       "function": [
         {
-          "type": "MP_PWM_SINGLE_1", 
+          "type": "MP_PWM_SINGLE_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 0.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 0.0,
       "y": 0.0
     }
-  ], 
+  ],
   "connectivity": [
     "MP_PWM_SINGLE_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "LED", 
+      "name": "LED",
       "action": [
         {
-          "name": "On", 
+          "name": "On",
           "parameter": [
             {
-              "name": "Brightness", 
+              "name": "Brightness",
               "constraint": {
-                "min": 0.0, 
-                "max": 100.0, 
+                "min": 0.0,
+                "max": 100.0,
                 "unit": "PERCENT"
               }
             }
           ]
-        }, 
+        },
         {
-          "name": "Off", 
+          "name": "Off",
           "parameter": []
         }
-      ], 
-      "value": [], 
+      ],
+      "value": [],
       "count": ""
     }
   ]

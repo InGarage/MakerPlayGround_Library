@@ -1,25 +1,25 @@
 {
-  "name": "Soil Moisture", 
-  "description": "This is Moisture Sensor. It can detect the moisture of soil or decide whether there is water around the sensor", 
-  "action": [], 
+  "name": "Soil Moisture",
+  "description": "This is Moisture Sensor. It can detect the moisture of soil or decide whether there is water around the sensor",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Percent", 
-      "dataType": "DOUBLE", 
+      "name": "Percent",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": 0.0, 
-        "max": 100.0, 
+        "min": 0.0,
+        "max": 100.0,
         "unit": "PERCENT"
       }
     }
-  ], 
+  ],
   "property": []
 }

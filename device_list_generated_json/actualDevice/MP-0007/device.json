@@ -1,61 +1,61 @@
 {
-  "id": "MP-0007", 
-  "brand": "MakerPlayground", 
-  "model": "Trimpot", 
-  "url": "http://www.makerplayground.io/library/MP-0007", 
-  "type": "PERIPHERAL", 
-  "formfactor": "MP_DEVICE", 
+  "id": "MP-0007",
+  "brand": "MakerPlayground",
+  "model": "Trimpot",
+  "url": "http://www.makerplayground.io/library/MP-0007",
+  "type": "PERIPHERAL",
+  "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_OneAnalogReadToPercent"
-  ], 
-  "width": 0.0, 
-  "height": 0.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 0.0,
+  "height": 0.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "Port", 
-      "type": "MP", 
+      "name": "Port",
+      "type": "MP",
       "function": [
         {
-          "type": "MP_ANALOG_SINGLE_1", 
+          "type": "MP_ANALOG_SINGLE_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 0.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 0.0,
       "y": 0.0
     }
-  ], 
+  ],
   "connectivity": [
     "MP_ANALOG_SINGLE_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "POT", 
+      "name": "POT",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Percent", 
+          "name": "Percent",
           "constraint": {
-            "min": 0.0, 
-            "max": 100.0, 
+            "min": 0.0,
+            "max": 100.0,
             "unit": "PERCENT"
           }
         }
-      ], 
+      ],
       "count": ""
     }
   ]

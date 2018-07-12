@@ -1,25 +1,25 @@
 {
-  "name": "Distance", 
-  "description": "A sensor that measure distance. \\nRelated project:\\n\\tWall detector\\n\\tObject detector", 
-  "action": [], 
+  "name": "Distance",
+  "description": "A sensor that measure distance. \\nRelated project:\\n\\tWall detector\\n\\tObject detector",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Distance", 
-      "dataType": "DOUBLE", 
+      "name": "Distance",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": 0.0, 
-        "max": 200.0, 
+        "min": 0.0,
+        "max": 200.0,
         "unit": "CENTIMETER"
       }
     }
-  ], 
+  ],
   "property": []
 }

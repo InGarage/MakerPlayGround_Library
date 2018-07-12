@@ -1,31 +1,31 @@
 {
-  "name": "Color", 
-  "description": "A sensor that detect color. \\nRelated project:\\n\\tColor detector", 
-  "action": [], 
+  "name": "Color",
+  "description": "A sensor that detect color. \\nRelated project:\\n\\tColor detector",
+  "action": [],
   "condition": [
     {
-      "name": "Detect Color", 
-      "funcname": "isColor", 
-      "type": "Active", 
+      "name": "Detect Color",
+      "funcname": "isColor",
+      "type": "Active",
       "parameter": [
         {
-          "name": "Color", 
-          "value": "Red", 
+          "name": "Color",
+          "value": "Red",
           "constraint": [
-            "Red", 
-            "Green", 
-            "Blue", 
-            "Cyan", 
-            "Magenta", 
-            "Yellow", 
+            "Red",
+            "Green",
+            "Blue",
+            "Cyan",
+            "Magenta",
+            "Yellow",
             "White"
-          ], 
-          "datatype": "ENUM", 
+          ],
+          "datatype": "ENUM",
           "controltype": "DROPDOWN"
         }
       ]
     }
-  ], 
-  "value": [], 
+  ],
+  "value": [],
   "property": []
 }

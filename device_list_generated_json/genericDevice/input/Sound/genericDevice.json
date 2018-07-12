@@ -1,25 +1,25 @@
 {
-  "name": "Sound", 
-  "description": "A sensor that measure level of sound. \\nRelated project:\\n\\tSound detector", 
-  "action": [], 
+  "name": "Sound",
+  "description": "A sensor that measure level of sound. \\nRelated project:\\n\\tSound detector",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "SoundLevel", 
-      "dataType": "DOUBLE", 
+      "name": "SoundLevel",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": 0.0, 
-        "max": 100.0, 
+        "min": 0.0,
+        "max": 100.0,
         "unit": "PERCENT"
       }
     }
-  ], 
+  ],
   "property": []
 }

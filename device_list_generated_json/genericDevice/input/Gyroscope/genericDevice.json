@@ -1,43 +1,43 @@
 {
-  "name": "Gyroscope", 
-  "description": "A sensor that measure rotation on x,y,z axis. \\nRelated project:\\n\\t Flip detector", 
-  "action": [], 
+  "name": "Gyroscope",
+  "description": "A sensor that measure rotation on x,y,z axis. \\nRelated project:\\n\\t Flip detector",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Gyro_X", 
-      "dataType": "DOUBLE", 
+      "name": "Gyro_X",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "RADIUSPERSEC"
       }
-    }, 
+    },
     {
-      "name": "Gyro_Y", 
-      "dataType": "DOUBLE", 
+      "name": "Gyro_Y",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "RADIUSPERSEC"
       }
-    }, 
+    },
     {
-      "name": "Gyro_Z", 
-      "dataType": "DOUBLE", 
+      "name": "Gyro_Z",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "RADIUSPERSEC"
       }
     }
-  ], 
+  ],
   "property": []
 }

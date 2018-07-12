@@ -1,133 +1,133 @@
 {
-  "id": "Arduinoall-967", 
-  "brand": "Arduinoall", 
-  "model": "RGB LED Module Common Anode", 
-  "url": "https://www.arduinoall.com/product/967/rgb-led-10mm-module-%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5-led-rgb-3-%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-10mm", 
-  "type": "PERIPHERAL", 
-  "formfactor": "BREAKOUT_BOARD_ONESIDE", 
+  "id": "Arduinoall-967",
+  "brand": "Arduinoall",
+  "model": "RGB LED Module Common Anode",
+  "url": "https://www.arduinoall.com/product/967/rgb-led-10mm-module-%E0%B9%82%E0%B8%A1%E0%B8%94%E0%B8%B9%E0%B8%A5-led-rgb-3-%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%94-10mm",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
   "platform": [
     "ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_RGB_LED_CA"
-  ], 
-  "width": 86.0, 
-  "height": 107.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 86.0,
+  "height": 107.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "R", 
-      "type": "WIRE", 
+      "name": "R",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_3", 
+          "type": "PWM_3",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 35.144, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 35.144,
       "y": 90.968
-    }, 
+    },
     {
-      "name": "G", 
-      "type": "WIRE", 
+      "name": "G",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_1", 
+          "type": "PWM_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 63.944, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 63.944,
       "y": 90.968
-    }, 
+    },
     {
-      "name": "B", 
-      "type": "WIRE", 
+      "name": "B",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_2", 
+          "type": "PWM_2",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 49.544, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 49.544,
       "y": 90.968
-    }, 
+    },
     {
-      "name": "V", 
-      "type": "WIRE", 
+      "name": "V",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 20.743, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 20.743,
       "y": 90.968
     }
-  ], 
+  ],
   "connectivity": [
-    "PWM_3", 
-    "PWM_1", 
+    "PWM_3",
+    "PWM_1",
     "PWM_2"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "RGB LED", 
+      "name": "RGB LED",
       "action": [
         {
-          "name": "On", 
+          "name": "On",
           "parameter": [
             {
-              "name": "Red", 
+              "name": "Red",
               "constraint": {
-                "min": 0.0, 
-                "max": 255.0, 
+                "min": 0.0,
+                "max": 255.0,
                 "unit": "NOT_SPECIFIED"
               }
-            }, 
+            },
             {
-              "name": "Green", 
+              "name": "Green",
               "constraint": {
-                "min": 0.0, 
-                "max": 255.0, 
+                "min": 0.0,
+                "max": 255.0,
                 "unit": "NOT_SPECIFIED"
               }
-            }, 
+            },
             {
-              "name": "Blue", 
+              "name": "Blue",
               "constraint": {
-                "min": 0.0, 
-                "max": 255.0, 
+                "min": 0.0,
+                "max": 255.0,
                 "unit": "NOT_SPECIFIED"
               }
-            }, 
+            },
             {
-              "name": "Brightness", 
+              "name": "Brightness",
               "constraint": {
-                "min": 0.0, 
-                "max": 100.0, 
+                "min": 0.0,
+                "max": 100.0,
                 "unit": "NOT_SPECIFIED"
               }
             }
           ]
-        }, 
+        },
         {
-          "name": "Off", 
+          "name": "Off",
           "parameter": []
         }
-      ], 
-      "value": [], 
+      ],
+      "value": [],
       "count": ""
     }
   ]

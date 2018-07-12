@@ -1,25 +1,25 @@
 {
-  "name": "Light", 
-  "description": "A sensor that detect light. \\nRelated project:\\n\\tAutomatic light", 
-  "action": [], 
+  "name": "Light",
+  "description": "A sensor that detect light. \\nRelated project:\\n\\tAutomatic light",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Percent", 
-      "dataType": "DOUBLE", 
+      "name": "Percent",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": 0.0, 
-        "max": 100.0, 
+        "min": 0.0,
+        "max": 100.0,
         "unit": "PERCENT"
       }
     }
-  ], 
+  ],
   "property": []
 }

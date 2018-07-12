@@ -1,83 +1,83 @@
 {
-  "id": "MP-0009", 
-  "brand": "MakerPlayground", 
-  "model": "Temperature/Humidity", 
-  "url": "http://www.makerplayground.io/library/MP-0009", 
-  "type": "PERIPHERAL", 
-  "formfactor": "MP_DEVICE", 
+  "id": "MP-0009",
+  "brand": "MakerPlayground",
+  "model": "Temperature/Humidity",
+  "url": "http://www.makerplayground.io/library/MP-0009",
+  "type": "PERIPHERAL",
+  "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
-  ], 
+  ],
   "library": [
-    "MP_SHT", 
-    "SHTSensor", 
+    "MP_SHT",
+    "SHTSensor",
     "Wire"
-  ], 
-  "width": 0.0, 
-  "height": 0.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 0.0,
+  "height": 0.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "Port", 
-      "type": "MP", 
+      "name": "Port",
+      "type": "MP",
       "function": [
         {
-          "type": "MP_I2C_1", 
+          "type": "MP_I2C_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 0.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 0.0,
       "y": 0.0
     }
-  ], 
+  ],
   "connectivity": [
     "MP_I2C_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "Temperature", 
+      "name": "Temperature",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Temperature", 
+          "name": "Temperature",
           "constraint": {
-            "min": -500.0, 
-            "max": 500.0, 
+            "min": -500.0,
+            "max": 500.0,
             "unit": "CELSIUS"
           }
         }
-      ], 
+      ],
       "count": ""
-    }, 
+    },
     {
-      "name": "Humidity", 
+      "name": "Humidity",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Humidity", 
+          "name": "Humidity",
           "constraint": {
-            "min": 0.0, 
-            "max": 100.0, 
+            "min": 0.0,
+            "max": 100.0,
             "unit": "PERCENT"
           }
         }
-      ], 
+      ],
       "count": ""
     }
   ]

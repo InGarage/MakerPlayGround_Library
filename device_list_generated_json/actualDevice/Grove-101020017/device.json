@@ -1,89 +1,89 @@
 {
-  "id": "Grove-101020017", 
-  "brand": "SeeedStudio", 
-  "model": "Grove - Rotary Angle Sensor", 
-  "url": "https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html", 
-  "type": "PERIPHERAL", 
-  "formfactor": "GROVE", 
+  "id": "Grove-101020017",
+  "brand": "SeeedStudio",
+  "model": "Grove - Rotary Angle Sensor",
+  "url": "https://www.seeedstudio.com/Grove-Rotary-Angle-Sensor-p-770.html",
+  "type": "PERIPHERAL",
+  "formfactor": "GROVE",
   "platform": [
     "GROVE_ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_OneAnalogReadToPercent"
-  ], 
-  "width": 128.0, 
-  "height": 148.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 128.0,
+  "height": 148.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "VCC", 
-      "type": "GROVE", 
+      "name": "VCC",
+      "type": "GROVE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 1.531, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 1.531,
       "y": 19.764
-    }, 
+    },
     {
-      "name": "SIG", 
-      "type": "GROVE", 
+      "name": "SIG",
+      "type": "GROVE",
       "function": [
         {
-          "type": "ANALOG_1", 
+          "type": "ANALOG_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 45.2, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 45.2,
       "y": 31.9095
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "GROVE", 
+      "name": "GND",
+      "type": "GROVE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 132.212, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 132.212,
       "y": 22.0465
     }
-  ], 
+  ],
   "connectivity": [
     "ANALOG_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "POT", 
+      "name": "POT",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Percent", 
+          "name": "Percent",
           "constraint": {
-            "min": 0.0, 
-            "max": 100.0, 
+            "min": 0.0,
+            "max": 100.0,
             "unit": "PERCENT"
           }
         }
-      ], 
+      ],
       "count": ""
     }
   ]

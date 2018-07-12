@@ -1,106 +1,106 @@
 {
-  "id": "Arduinoall-737", 
-  "brand": "Arduinoall", 
-  "model": "Fan DC Motor Module L9110 Fan Module for Arduino", 
-  "url": "https://www.arduinoall.com/product/737/fan-dc-motor-module-l9110-fan-module-for-arduino", 
-  "type": "PERIPHERAL", 
-  "formfactor": "STANDALONE", 
+  "id": "Arduinoall-737",
+  "brand": "Arduinoall",
+  "model": "Fan DC Motor Module L9110 Fan Module for Arduino",
+  "url": "https://www.arduinoall.com/product/737/fan-dc-motor-module-l9110-fan-module-for-arduino",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
   "platform": [
     "ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_Arduinoall_Fan"
-  ], 
-  "width": 235.329, 
-  "height": 241.152, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 235.329,
+  "height": 241.152,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "INA", 
-      "type": "WIRE", 
+      "name": "INA",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_1", 
+          "type": "PWM_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 75.983, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 75.983,
       "y": 128.556
-    }, 
+    },
     {
-      "name": "INB", 
-      "type": "WIRE", 
+      "name": "INB",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_2", 
+          "type": "PWM_2",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 61.67, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 61.67,
       "y": 128.556
-    }, 
+    },
     {
-      "name": "VCC", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 90.296, 
+      "name": "VCC",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 90.296,
       "y": 128.556
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 104.609, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 104.609,
       "y": 128.556
     }
-  ], 
+  ],
   "connectivity": [
-    "PWM_1", 
+    "PWM_1",
     "PWM_2"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "DC Motor", 
+      "name": "DC Motor",
       "action": [
         {
-          "name": "On", 
+          "name": "On",
           "parameter": [
             {
-              "name": "Direction", 
+              "name": "Direction",
               "constraint": [
-                "Forward", 
+                "Forward",
                 "Backward"
               ]
-            }, 
+            },
             {
-              "name": "Speed", 
+              "name": "Speed",
               "constraint": {
-                "min": 0.0, 
-                "max": 100.0, 
+                "min": 0.0,
+                "max": 100.0,
                 "unit": "PERCENT"
               }
             }
           ]
         }
-      ], 
-      "value": [], 
+      ],
+      "value": [],
       "count": ""
     }
   ]

@@ -1,66 +1,66 @@
 {
-  "name": "Magnetometer", 
-  "description": "A sensor that measure magnetic. \\nRelated project:\\n\\tMagnet detector\\n\\tCompass", 
-  "action": [], 
+  "name": "Magnetometer",
+  "description": "A sensor that measure magnetic. \\nRelated project:\\n\\tMagnet detector\\n\\tCompass",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
-    }, 
+    },
     {
-      "name": "Direction", 
-      "funcname": "checkDirection", 
-      "type": "Active", 
+      "name": "Direction",
+      "funcname": "checkDirection",
+      "type": "Active",
       "parameter": [
         {
-          "name": "Direction", 
-          "value": "North", 
+          "name": "Direction",
+          "value": "North",
           "constraint": [
-            "North", 
-            "South", 
-            "East", 
-            "West", 
-            "NorthEast", 
-            "NorthWest", 
-            "SouthEast", 
+            "North",
+            "South",
+            "East",
+            "West",
+            "NorthEast",
+            "NorthWest",
+            "SouthEast",
             "SouthWest"
-          ], 
-          "datatype": "ENUM", 
+          ],
+          "datatype": "ENUM",
           "controltype": "DROPDOWN"
         }
       ]
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Mag_X", 
-      "dataType": "DOUBLE", 
+      "name": "Mag_X",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "MICROTESLA"
       }
-    }, 
+    },
     {
-      "name": "Mag_Y", 
-      "dataType": "DOUBLE", 
+      "name": "Mag_Y",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "MICROTESLA"
       }
-    }, 
+    },
     {
-      "name": "Mag_Z", 
-      "dataType": "DOUBLE", 
+      "name": "Mag_Z",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -200.0, 
-        "max": 200.0, 
+        "min": -200.0,
+        "max": 200.0,
         "unit": "MICROTESLA"
       }
     }
-  ], 
+  ],
   "property": []
 }

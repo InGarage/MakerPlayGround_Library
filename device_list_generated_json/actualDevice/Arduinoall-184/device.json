@@ -1,98 +1,98 @@
 {
-  "id": "Arduinoall-184", 
-  "brand": "Arduinoall", 
-  "model": "Soil Moisture Sensor Module", 
-  "url": "https://www.arduinoall.com/product/184/soil-moisture-sensor-module", 
-  "type": "PERIPHERAL", 
-  "formfactor": "STANDALONE", 
+  "id": "Arduinoall-184",
+  "brand": "Arduinoall",
+  "model": "Soil Moisture Sensor Module",
+  "url": "https://www.arduinoall.com/product/184/soil-moisture-sensor-module",
+  "type": "PERIPHERAL",
+  "formfactor": "STANDALONE",
   "platform": [
     "ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_Soil"
-  ], 
-  "width": 210.63, 
-  "height": 388.242, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 210.63,
+  "height": 388.242,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "VCC", 
-      "type": "WIRE", 
+      "name": "VCC",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 192.908, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 192.908,
       "y": 215.451
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 178.51, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 178.51,
       "y": 215.451
-    }, 
+    },
     {
-      "name": "D0", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 164.109, 
+      "name": "D0",
+      "type": "WIRE",
+      "function": [],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 164.109,
       "y": 215.451
-    }, 
+    },
     {
-      "name": "A0", 
-      "type": "WIRE", 
+      "name": "A0",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_1", 
+          "type": "ANALOG_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 149.707, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 149.707,
       "y": 215.451
     }
-  ], 
+  ],
   "connectivity": [
     "ANALOG_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "Humidity", 
+      "name": "Humidity",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
+      ],
       "value": [
         {
-          "name": "Humidity", 
+          "name": "Humidity",
           "constraint": {
-            "min": 0.0, 
-            "max": 100.0, 
+            "min": 0.0,
+            "max": 100.0,
             "unit": "PERCENT"
           }
         }
-      ], 
+      ],
       "count": ""
     }
   ]

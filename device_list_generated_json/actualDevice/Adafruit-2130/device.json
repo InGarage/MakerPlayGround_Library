@@ -1,185 +1,185 @@
 {
-  "id": "Adafruit-2130", 
-  "brand": "Adafruit", 
-  "model": "Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302", 
-  "url": "https://www.adafruit.com/products/2130", 
-  "type": "PERIPHERAL", 
-  "formfactor": "BREAKOUT_BOARD_ONESIDE", 
+  "id": "Adafruit-2130",
+  "brand": "Adafruit",
+  "model": "Adafruit Mono 2.5W Class D Audio Amplifier - PAM8302",
+  "url": "https://www.adafruit.com/products/2130",
+  "type": "PERIPHERAL",
+  "formfactor": "BREAKOUT_BOARD_ONESIDE",
   "platform": [
     "ARDUINO"
-  ], 
+  ],
   "library": [
     "MP_PAM8302"
-  ], 
-  "width": 86.4, 
-  "height": 136.8, 
-  "v": 0.0, 
-  "i": 0.0, 
-  "w": 2.5, 
-  "dependency": "", 
-  "category": "AMPLIFIER", 
+  ],
+  "width": 86.4,
+  "height": 136.8,
+  "v": 0.0,
+  "i": 0.0,
+  "w": 2.5,
+  "dependency": "",
+  "category": "AMPLIFIER",
   "port": [
     {
-      "name": "A+", 
-      "type": "WIRE", 
+      "name": "A+",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_1", 
+          "type": "PWM_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 80.793, 
+      ],
+      "v_min": "",
+      "v_max": "",
+      "x": 80.793,
       "y": 119.519
-    }, 
+    },
     {
-      "name": "A-", 
-      "type": "WIRE", 
+      "name": "A-",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 95.193, 
+      ],
+      "v_min": "",
+      "v_max": "",
+      "x": 95.193,
       "y": 119.519
-    }, 
+    },
     {
-      "name": "SD", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 109.593, 
+      "name": "SD",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 109.593,
       "y": 119.519
-    }, 
+    },
     {
-      "name": "VIN", 
-      "type": "WIRE", 
+      "name": "VIN",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 2.5, 
-      "v_max": 5.0, 
-      "x": 123.993, 
+      ],
+      "v_min": 2.5,
+      "v_max": 5.0,
+      "x": 123.993,
       "y": 119.519
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 138.393, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 138.393,
       "y": 119.519
-    }, 
+    },
     {
-      "name": "VCC", 
-      "type": "WIRE", 
+      "name": "VCC",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 4.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 4.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "CS", 
-      "type": "WIRE", 
+      "name": "CS",
+      "type": "WIRE",
       "function": [
         {
-          "type": "SPI_1", 
+          "type": "SPI_1",
           "pintype": "SPI_SS"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 13.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 13.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "DI", 
-      "type": "WIRE", 
+      "name": "DI",
+      "type": "WIRE",
       "function": [
         {
-          "type": "SPI_1", 
+          "type": "SPI_1",
           "pintype": "SPI_MOSI"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 22.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 22.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "SCK", 
-      "type": "WIRE", 
+      "name": "SCK",
+      "type": "WIRE",
       "function": [
         {
-          "type": "SPI_1", 
+          "type": "SPI_1",
           "pintype": "SPI_SCK"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 31.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 31.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "DO", 
-      "type": "WIRE", 
+      "name": "DO",
+      "type": "WIRE",
       "function": [
         {
-          "type": "SPI_1", 
+          "type": "SPI_1",
           "pintype": "SPI_MISO"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 40.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 40.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "CD", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 49.602, 
+      "name": "CD",
+      "type": "WIRE",
+      "function": [],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 49.602,
       "y": 119.594
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 3.3, 
-      "v_max": 5.0, 
-      "x": 58.602, 
+      ],
+      "v_min": 3.3,
+      "v_max": 5.0,
+      "x": 58.602,
       "y": 119.594
     }
-  ], 
+  ],
   "connectivity": [
     "PWM_1"
-  ], 
+  ],
   "compatibility": []
 }

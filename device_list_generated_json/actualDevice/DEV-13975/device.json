@@ -1,453 +1,453 @@
 {
-  "id": "DEV-13975", 
-  "brand": "Sparkfun", 
-  "model": "SparkFun RedBoard", 
-  "url": "https://www.sparkfun.com/products/13975", 
-  "type": "CONTROLLER", 
-  "formfactor": "STANDALONE", 
+  "id": "DEV-13975",
+  "brand": "Sparkfun",
+  "model": "SparkFun RedBoard",
+  "url": "https://www.sparkfun.com/products/13975",
+  "type": "CONTROLLER",
+  "formfactor": "STANDALONE",
   "platform": [
     "ARDUINO"
-  ], 
-  "library": [], 
-  "width": 531.0, 
-  "height": 410.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "library": [],
+  "width": 531.0,
+  "height": 410.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "0", 
-      "type": "WIRE", 
+      "name": "0",
+      "type": "WIRE",
       "function": [
         {
-          "type": "UART_1", 
+          "type": "UART_1",
           "pintype": "UART_RX"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 493.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 493.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "1", 
-      "type": "WIRE", 
+      "name": "1",
+      "type": "WIRE",
       "function": [
         {
-          "type": "UART_1", 
+          "type": "UART_1",
           "pintype": "UART_TX"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 474.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 474.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "2", 
-      "type": "WIRE", 
+      "name": "2",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_1", 
+          "type": "GPIO_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 455.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 455.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "3", 
-      "type": "WIRE", 
+      "name": "3",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_1", 
+          "type": "PWM_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 435.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 435.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "4", 
-      "type": "WIRE", 
+      "name": "4",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_2", 
+          "type": "GPIO_2",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 416.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 416.0,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "5", 
-      "type": "WIRE", 
+      "name": "5",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_2", 
+          "type": "PWM_2",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 397.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 397.0,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "6", 
-      "type": "WIRE", 
+      "name": "6",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_3", 
+          "type": "PWM_3",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 378.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 378.0,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "7", 
-      "type": "WIRE", 
+      "name": "7",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_3", 
+          "type": "GPIO_3",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 359.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 359.0,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "8", 
-      "type": "WIRE", 
+      "name": "8",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_4", 
+          "type": "GPIO_4",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 327.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 327.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "9", 
-      "type": "WIRE", 
+      "name": "9",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_4", 
+          "type": "PWM_4",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 308.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 308.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "10", 
-      "type": "WIRE", 
+      "name": "10",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_5", 
+          "type": "PWM_5",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 288.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 288.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "11", 
-      "type": "WIRE", 
+      "name": "11",
+      "type": "WIRE",
       "function": [
         {
-          "type": "PWM_6", 
+          "type": "PWM_6",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 269.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 269.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "12", 
-      "type": "WIRE", 
+      "name": "12",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_5", 
+          "type": "GPIO_5",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 250.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 250.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "13", 
-      "type": "WIRE", 
+      "name": "13",
+      "type": "WIRE",
       "function": [
         {
-          "type": "GPIO_6", 
+          "type": "GPIO_6",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 231.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 231.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 212.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 212.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "AREF", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 193.5, 
+      "name": "AREF",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 193.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "SDA", 
-      "type": "WIRE", 
+      "name": "SDA",
+      "type": "WIRE",
       "function": [
         {
-          "type": "I2C_1", 
+          "type": "I2C_1",
           "pintype": "I2C_SDA"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 174.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 174.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "SCL", 
-      "type": "WIRE", 
+      "name": "SCL",
+      "type": "WIRE",
       "function": [
         {
-          "type": "I2C_1", 
+          "type": "I2C_1",
           "pintype": "I2C_SCL"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 154.5, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 154.5,
       "y": 21.907
-    }, 
+    },
     {
-      "name": "A5", 
-      "type": "WIRE", 
+      "name": "A5",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_5", 
+          "type": "ANALOG_5",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 492.542, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 492.542,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "A4", 
-      "type": "WIRE", 
+      "name": "A4",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_4", 
+          "type": "ANALOG_4",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 473.475, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 473.475,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "A3", 
-      "type": "WIRE", 
+      "name": "A3",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_3", 
+          "type": "ANALOG_3",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 454.408, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 454.408,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "A2", 
-      "type": "WIRE", 
+      "name": "A2",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_2", 
+          "type": "ANALOG_2",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 435.341, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 435.341,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "A1", 
-      "type": "WIRE", 
+      "name": "A1",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_1", 
+          "type": "ANALOG_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 416.274, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 416.274,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "A0", 
-      "type": "WIRE", 
+      "name": "A0",
+      "type": "WIRE",
       "function": [
         {
-          "type": "ANALOG_0", 
+          "type": "ANALOG_0",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 397.207, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 397.207,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "VIN", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 357.76, 
+      "name": "VIN",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 357.76,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 338.693, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 338.693,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "GND", 
-      "type": "WIRE", 
+      "name": "GND",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "GND"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 319.626, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 319.626,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "5V", 
-      "type": "WIRE", 
+      "name": "5V",
+      "type": "WIRE",
       "function": [
         {
-          "type": "POWER", 
+          "type": "POWER",
           "pintype": "VCC"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 300.559, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 300.559,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "3.3V", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 281.492, 
+      "name": "3.3V",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 281.492,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "RESET", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 262.425, 
+      "name": "RESET",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 262.425,
       "y": 387.372
-    }, 
+    },
     {
-      "name": "IOREF", 
-      "type": "WIRE", 
-      "function": [], 
-      "v_min": "", 
-      "v_max": "", 
-      "x": 243.358, 
+      "name": "IOREF",
+      "type": "WIRE",
+      "function": [],
+      "v_min": "",
+      "v_max": "",
+      "x": 243.358,
       "y": 387.372
     }
-  ], 
+  ],
   "connectivity": [
-    "GPIO_1", 
-    "GPIO_2", 
-    "GPIO_3", 
-    "GPIO_4", 
-    "GPIO_5", 
-    "GPIO_6", 
-    "UART_1", 
-    "I2C_1", 
-    "PWM_1", 
-    "PWM_2", 
-    "PWM_3", 
-    "PWM_4", 
-    "PWM_5", 
-    "PWM_6", 
-    "ANALOG_0", 
-    "ANALOG_1", 
-    "ANALOG_2", 
-    "ANALOG_3", 
-    "ANALOG_4", 
+    "GPIO_1",
+    "GPIO_2",
+    "GPIO_3",
+    "GPIO_4",
+    "GPIO_5",
+    "GPIO_6",
+    "UART_1",
+    "I2C_1",
+    "PWM_1",
+    "PWM_2",
+    "PWM_3",
+    "PWM_4",
+    "PWM_5",
+    "PWM_6",
+    "ANALOG_0",
+    "ANALOG_1",
+    "ANALOG_2",
+    "ANALOG_3",
+    "ANALOG_4",
     "ANALOG_5"
-  ], 
+  ],
   "compatibility": []
 }

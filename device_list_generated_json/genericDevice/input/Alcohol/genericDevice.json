@@ -1,25 +1,25 @@
 {
-  "name": "Alcohol", 
-  "description": "A sensor that detect alcohol. \\nRelated project:\\n\\tAlcohol meter", 
-  "action": [], 
+  "name": "Alcohol",
+  "description": "A sensor that detect alcohol. \\nRelated project:\\n\\tAlcohol meter",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Percent", 
-      "dataType": "DOUBLE", 
+      "name": "Percent",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": 0.0, 
-        "max": 100.0, 
+        "min": 0.0,
+        "max": 100.0,
         "unit": "PERCENT"
       }
     }
-  ], 
+  ],
   "property": []
 }

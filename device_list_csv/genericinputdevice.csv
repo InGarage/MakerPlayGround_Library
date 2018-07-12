@@ -43,3 +43,5 @@ Alcohol,A sensor that detect alcohol. \nRelated project:\n\tAlcohol meter,Compar
 LPG,A sensor that detect gas LPG. \nRelated project:\n\tGas dectetor,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,,,
 POT,This is potentiometer. You can turn to adjust and make some action.\nRelated project:\n\tHelp many projects in selecting action and/or adjusting the sensor value,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,,,
 Soil Moisture,This is Moisture Sensor. It can detect the moisture of soil or decide whether there is water around the sensor,Compare,,Active,,,,,,,,,,Percent,DOUBLE,PERCENT,0,100,,,
+Flow Sensor,A sensor that detects the water flow,Detect Water Flow,isWaterFlow,Active,,,,,,,,,,Total Water Amount,DOUBLE,MILLILITER,0,1000000,,,
+,,,,,,,,,,,,,,Flow Rate,DOUBLE,MILLILITERPERSECOND,0,100,,,

@@ -1,54 +1,54 @@
 {
-  "id": "MP-0010", 
-  "brand": "MakerPlayground", 
-  "model": "Distance/Gesture", 
-  "url": "http://www.makerplayground.io/library/MP-0010", 
-  "type": "PERIPHERAL", 
-  "formfactor": "MP_DEVICE", 
+  "id": "MP-0010",
+  "brand": "MakerPlayground",
+  "model": "Distance/Gesture",
+  "url": "http://www.makerplayground.io/library/MP-0010",
+  "type": "PERIPHERAL",
+  "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
-  ], 
+  ],
   "library": [
-    "MP_APDS9960", 
-    "SparkFun_APDS9960", 
+    "MP_APDS9960",
+    "SparkFun_APDS9960",
     "Wire"
-  ], 
-  "width": 0.0, 
-  "height": 0.0, 
-  "v": "", 
-  "i": "", 
-  "w": "", 
-  "dependency": "", 
-  "category": "", 
+  ],
+  "width": 0.0,
+  "height": 0.0,
+  "v": "",
+  "i": "",
+  "w": "",
+  "dependency": "",
+  "category": "",
   "port": [
     {
-      "name": "Port", 
-      "type": "MP", 
+      "name": "Port",
+      "type": "MP",
       "function": [
         {
-          "type": "MP_I2C_1", 
+          "type": "MP_I2C_1",
           "pintype": "INOUT"
         }
-      ], 
-      "v_min": 5.0, 
-      "v_max": 5.0, 
-      "x": 0.0, 
+      ],
+      "v_min": 5.0,
+      "v_max": 5.0,
+      "x": 0.0,
       "y": 0.0
     }
-  ], 
+  ],
   "connectivity": [
     "MP_I2C_1"
-  ], 
+  ],
   "compatibility": [
     {
-      "name": "Distance", 
+      "name": "Distance",
       "action": [
         {
-          "name": "Compare", 
+          "name": "Compare",
           "parameter": []
         }
-      ], 
-      "value": [], 
+      ],
+      "value": [],
       "count": ""
     }
   ]

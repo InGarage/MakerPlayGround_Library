@@ -1,25 +1,25 @@
 {
-  "name": "Pressuremeter", 
-  "description": "Pressuremeter is a sensor to measure pressure. \\nRelated project:\\n\\tAtmosphere detector", 
-  "action": [], 
+  "name": "Pressuremeter",
+  "description": "Pressuremeter is a sensor to measure pressure. \\nRelated project:\\n\\tAtmosphere detector",
+  "action": [],
   "condition": [
     {
-      "name": "Compare", 
-      "funcname": "", 
-      "type": "Active", 
+      "name": "Compare",
+      "funcname": "",
+      "type": "Active",
       "parameter": []
     }
-  ], 
+  ],
   "value": [
     {
-      "name": "Pressure", 
-      "dataType": "DOUBLE", 
+      "name": "Pressure",
+      "dataType": "DOUBLE",
       "constraint": {
-        "min": -3000.0, 
-        "max": 3000.0, 
+        "min": -3000.0,
+        "max": 3000.0,
         "unit": "HECTOPASCAL"
       }
     }
-  ], 
+  ],
   "property": []
 }

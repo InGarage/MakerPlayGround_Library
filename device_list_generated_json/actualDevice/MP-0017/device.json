@@ -1,15 +1,16 @@
 {
-  "id": "MP-0013",
+  "id": "MP-0017",
   "brand": "MakerPlayground",
-  "model": "Relay",
-  "url": "http://www.makerplayground.io/library/MP-0013",
+  "model": "Water Flow Sensor",
+  "url": "http://www.makerplayground.io/library/MP-0017",
   "type": "PERIPHERAL",
   "formfactor": "MP_DEVICE",
   "platform": [
     "MP_ARDUINO"
   ],
   "library": [
-    "MP_GenericSinglePinDigitalDevice"
+    "MP_FlowSensor",
+    "EnableInterrupt"
   ],
   "width": 0.0,
   "height": 0.0,
@@ -39,18 +40,31 @@
   ],
   "compatibility": [
     {
-      "name": "Relay Module",
+      "name": "Flow Sensor",
       "action": [
         {
-          "name": "On",
-          "parameter": []
-        },
-        {
-          "name": "Off",
+          "name": "Detect Water Flow",
           "parameter": []
         }
       ],
-      "value": [],
+      "value": [
+        {
+          "name": "Total Water Amount",
+          "constraint": {
+            "min": 0.0,
+            "max": 1000000.0,
+            "unit": "MILLILITER"
+          }
+        },
+        {
+          "name": "Flow Rate",
+          "constraint": {
+            "min": 0.0,
+            "max": 100.0,
+            "unit": "MILLILITERPERSECOND"
+          }
+        }
+      ],
       "count": ""
     }
   ]
