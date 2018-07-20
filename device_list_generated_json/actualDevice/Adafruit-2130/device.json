@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_PAM8302"
   ],
+  "library_dependency": [],
   "width": 86.4,
   "height": 136.8,
   "v": 0.0,

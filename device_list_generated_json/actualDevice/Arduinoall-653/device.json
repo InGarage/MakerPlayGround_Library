@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_DHT11",
+  "include": [
+    "MP_DHT11"
+  ],
+  "library_dependency": [
     "DHT"
   ],
   "width": 93.542,

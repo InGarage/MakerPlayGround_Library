@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_Soil"
   ],
+  "library_dependency": [],
   "width": 210.63,
   "height": 388.242,
   "v": "",

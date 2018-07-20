@@ -8,9 +8,10 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_GROVE_Ultrasonic_Ranger"
   ],
+  "library_dependency": [],
   "width": 128.0,
   "height": 148.0,
   "v": "",

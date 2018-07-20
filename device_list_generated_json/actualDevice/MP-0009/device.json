@@ -8,8 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
-    "MP_SHT",
+  "include": [
+    "MP_SHT"
+  ],
+  "library_dependency": [
     "SHTSensor",
     "Wire"
   ],

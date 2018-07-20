@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_Adafruit_MotorShield",
+  "include": [
+    "MP_Adafruit_MotorShield"
+  ],
+  "library_dependency": [
     "Adafruit_MotorShield",
     "Adafruit_MS_PWMServoDriver"
   ],

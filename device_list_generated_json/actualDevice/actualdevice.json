@@ -9,7 +9,8 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [],
+    "include": [],
+    "library_dependency": [],
     "width": 128.0,
     "height": 173.0,
     "v": "",
@@ -127,9 +128,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_MAX4466"
     ],
+    "library_dependency": [],
     "width": 79.2,
     "height": 122.4,
     "v": "",
@@ -217,9 +219,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_PAM8302"
     ],
+    "library_dependency": [],
     "width": 86.4,
     "height": 136.8,
     "v": 0.0,
@@ -402,8 +405,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_BME280",
+    "include": [
+      "MP_BME280"
+    ],
+    "library_dependency": [
       "Adafruit_BME280",
       "Adafruit_Sensor"
     ],
@@ -595,9 +600,11 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "Adafruit_Si7021",
+    "include": [
       "MP_Si7021"
+    ],
+    "library_dependency": [
+      "Adafruit_Si7021"
     ],
     "width": 86.4,
     "height": 100.8,
@@ -729,8 +736,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_L3GD20",
+    "include": [
+      "MP_L3GD20"
+    ],
+    "library_dependency": [
       "Adafruit_Sensor",
       "Adafruit_L3GD20_U"
     ],
@@ -896,9 +905,11 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "Adafruit_TMP007",
+    "include": [
       "MP_TMP007"
+    ],
+    "library_dependency": [
+      "Adafruit_TMP007"
     ],
     "width": 116.0,
     "height": 116.0,
@@ -1028,7 +1039,8 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [],
+    "include": [],
+    "library_dependency": [],
     "width": 531.0,
     "height": 410.0,
     "v": "",
@@ -1481,9 +1493,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_HC_SR501"
     ],
+    "library_dependency": [],
     "width": 235.0,
     "height": 230.0,
     "v": "",
@@ -1576,8 +1589,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_Adafruit_MotorShield",
+    "include": [
+      "MP_Adafruit_MotorShield"
+    ],
+    "library_dependency": [
       "Adafruit_MotorShield",
       "Adafruit_MS_PWMServoDriver"
     ],
@@ -1851,9 +1866,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GenericButton"
     ],
+    "library_dependency": [],
     "width": 119.0,
     "height": 82.0,
     "v": "",
@@ -1946,9 +1962,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_LED"
     ],
+    "library_dependency": [],
     "width": 111.0,
     "height": 129.0,
     "v": "",
@@ -2026,9 +2043,11 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "Adafruit_TCS34725",
+    "include": [
       "MP_TCS34725"
+    ],
+    "library_dependency": [
+      "Adafruit_TCS34725"
     ],
     "width": 116.0,
     "height": 117.0,
@@ -2166,8 +2185,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_7segI2C_Colon",
+    "include": [
+      "MP_7segI2C_Colon"
+    ],
+    "library_dependency": [
       "TM1637Display"
     ],
     "width": 372.0,
@@ -2303,9 +2324,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Piezo"
     ],
+    "library_dependency": [],
     "width": 158.0,
     "height": 155.0,
     "v": "",
@@ -2391,9 +2413,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_RGB_LED_CC"
     ],
+    "library_dependency": [],
     "width": 86.0,
     "height": 107.0,
     "v": "",
@@ -2525,7 +2548,8 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [],
+    "include": [],
+    "library_dependency": [],
     "width": 425.0,
     "height": 303.0,
     "v": "",
@@ -3013,9 +3037,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_HC_SR04P"
     ],
+    "library_dependency": [],
     "width": 228.0,
     "height": 129.811,
     "v": "",
@@ -3118,9 +3143,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_TCS3200"
     ],
+    "library_dependency": [],
     "width": 198.0,
     "height": 198.0,
     "v": "",
@@ -3286,9 +3312,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_RGB_LED_CA"
     ],
+    "library_dependency": [],
     "width": 86.0,
     "height": 107.0,
     "v": "",
@@ -3420,9 +3447,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 132.212,
     "height": 40.201,
     "v": "",
@@ -3510,9 +3538,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Arduinoall_Fan"
     ],
+    "library_dependency": [],
     "width": 235.329,
     "height": 241.152,
     "v": "",
@@ -3617,9 +3646,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Soil"
     ],
+    "library_dependency": [],
     "width": 210.63,
     "height": 388.242,
     "v": "",
@@ -3716,9 +3746,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Infrared_Barrier"
     ],
+    "library_dependency": [],
     "width": 205.0,
     "height": 80.0,
     "v": "",
@@ -3811,8 +3842,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_7segI2C",
+    "include": [
+      "MP_7segI2C"
+    ],
+    "library_dependency": [
       "TM1637Display"
     ],
     "width": 372.0,
@@ -3948,8 +3981,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_DHT11",
+    "include": [
+      "MP_DHT11"
+    ],
+    "library_dependency": [
       "DHT"
     ],
     "width": 93.542,
@@ -4059,10 +4094,12 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
+      "MP_MPU6050"
+    ],
+    "library_dependency": [
       "Adafruit_Sensor",
       "MPU6050",
-      "MP_MPU6050",
       "I2Cdev"
     ],
     "width": 141.733,
@@ -4262,9 +4299,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 130.194,
     "height": 203.991,
     "v": "",
@@ -4361,9 +4399,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 130.194,
     "height": 203.991,
     "v": "",
@@ -4460,9 +4499,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Waterlvl"
     ],
+    "library_dependency": [],
     "width": 113.378,
     "height": 351.498,
     "v": "",
@@ -4545,8 +4585,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_DHT12",
+    "include": [
+      "MP_DHT12"
+    ],
+    "library_dependency": [
       "dht_dplasa"
     ],
     "width": 72.0,
@@ -4670,9 +4712,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_LED"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -4764,8 +4807,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
-      "MP_7segI2C_Colon",
+    "include": [
+      "MP_7segI2C_Colon"
+    ],
+    "library_dependency": [
       "TM1637Display"
     ],
     "width": 266.0,
@@ -4901,9 +4946,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -4991,9 +5037,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_Temperature"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5081,9 +5128,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5171,9 +5219,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_Sound"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5261,9 +5310,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_Buzzer"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5342,9 +5392,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_Button"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5437,9 +5488,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Relay_Module"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5522,9 +5574,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_PIR"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5617,8 +5670,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
-      "MP_GROVE_ADXL345",
+    "include": [
+      "MP_GROVE_ADXL345"
+    ],
+    "library_dependency": [
       "Adafruit_ADXL345_U",
       "Adafruit_Sensor"
     ],
@@ -5747,8 +5802,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
-      "MP_DHT11",
+    "include": [
+      "MP_DHT11"
+    ],
+    "library_dependency": [
       "DHT"
     ],
     "width": 128.0,
@@ -5858,9 +5915,10 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GROVE_Ultrasonic_Ranger"
     ],
+    "library_dependency": [],
     "width": 128.0,
     "height": 148.0,
     "v": "",
@@ -5948,7 +6006,8 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [],
+    "include": [],
+    "library_dependency": [],
     "width": 425.0,
     "height": 303.0,
     "v": "",
@@ -6219,9 +6278,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_LED"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6285,9 +6345,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_SK9822"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6375,9 +6436,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Piezo"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6449,9 +6511,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GenericSinglePinDigitalDevice"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6506,9 +6569,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6568,9 +6632,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GenericButton"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6625,9 +6690,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToPercent"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -6687,8 +6753,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_LSM6DS3",
+    "include": [
+      "MP_LSM6DS3"
+    ],
+    "library_dependency": [
       "SparkFunLSM6DS3",
       "Wire"
     ],
@@ -6811,8 +6879,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_SHT",
+    "include": [
+      "MP_SHT"
+    ],
+    "library_dependency": [
       "SHTSensor",
       "Wire"
     ],
@@ -6895,8 +6965,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_APDS9960",
+    "include": [
+      "MP_APDS9960"
+    ],
+    "library_dependency": [
       "SparkFun_APDS9960",
       "Wire"
     ],
@@ -6950,9 +7022,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_OneAnalogReadToSoundLevel"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -7012,8 +7085,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_MakerPlayground7Seg",
+    "include": [
+      "MP_MakerPlayground7Seg"
+    ],
+    "library_dependency": [
       "SendOnlySoftwareSerial"
     ],
     "width": 0.0,
@@ -7088,9 +7163,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_GenericSinglePinDigitalDevice"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -7145,9 +7221,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_SoilWithEnable"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -7207,9 +7284,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
+    "include": [
       "MP_Servo"
     ],
+    "library_dependency": [],
     "width": 0.0,
     "height": 0.0,
     "v": "",
@@ -7269,8 +7347,10 @@
     "platform": [
       "ARDUINO"
     ],
-    "library": [
-      "MP_Blynk_ESP8266",
+    "include": [
+      "MP_Blynk_ESP8266"
+    ],
+    "library_dependency": [
       "Blynk",
       "BlynkESP8266_Lib"
     ],
@@ -7506,8 +7586,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_Blynk_ESP8266_Serial1",
+    "include": [
+      "MP_Blynk_ESP8266_Serial1"
+    ],
+    "library_dependency": [
       "Blynk",
       "BlynkESP8266_Lib"
     ],
@@ -7700,8 +7782,10 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "library": [
-      "MP_FlowSensor",
+    "include": [
+      "MP_FlowSensor"
+    ],
+    "library_dependency": [
       "PinChangeInterrupt"
     ],
     "width": 0.0,

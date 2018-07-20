@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_GenericButton"
   ],
+  "library_dependency": [],
   "width": 119.0,
   "height": 82.0,
   "v": "",

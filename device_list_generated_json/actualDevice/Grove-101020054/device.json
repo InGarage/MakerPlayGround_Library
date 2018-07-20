@@ -8,8 +8,10 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "library": [
-    "MP_GROVE_ADXL345",
+  "include": [
+    "MP_GROVE_ADXL345"
+  ],
+  "library_dependency": [
     "Adafruit_ADXL345_U",
     "Adafruit_Sensor"
   ],

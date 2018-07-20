@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_MAX4466"
   ],
+  "library_dependency": [],
   "width": 79.2,
   "height": 122.4,
   "v": "",

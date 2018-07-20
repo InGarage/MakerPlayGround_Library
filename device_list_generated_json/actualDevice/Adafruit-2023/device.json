@@ -8,9 +8,11 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "Adafruit_TMP007",
+  "include": [
     "MP_TMP007"
+  ],
+  "library_dependency": [
+    "Adafruit_TMP007"
   ],
   "width": 116.0,
   "height": 116.0,

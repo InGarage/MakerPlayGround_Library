@@ -42,7 +42,8 @@ if __name__ == '__main__':
                                                             ('type', row['type']),
                                                             ('formfactor', row['formfactor']),
                                                             ('platform', []),
-                                                            ('library', []),
+                                                            ('include', []),
+                                                            ('library_dependency', []),
                                                             ('width', isfloat(row['width'])),
                                                             ('height', isfloat(row['height'])),
                                                             ('v', isfloat(row['v'])),
@@ -59,8 +60,11 @@ if __name__ == '__main__':
                 if len(row['platform']) != 0:
                     actualdevice['platform'].append(row['platform'])
 
-                if len(row['library']) != 0:
-                    actualdevice['library'].append(row['library'])
+                if len(row['include']) != 0:
+                	actualdevice['include'].append(row['include'])
+
+                if len(row['library_dependency']) != 0:
+                	actualdevice['library_dependency'].append(row['library_dependency'])
 
                 if len(row['portname']) != 0:
                     functions = []

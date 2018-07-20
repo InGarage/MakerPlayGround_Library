@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_7segI2C_Colon",
+  "include": [
+    "MP_7segI2C_Colon"
+  ],
+  "library_dependency": [
     "TM1637Display"
   ],
   "width": 372.0,

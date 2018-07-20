@@ -8,9 +8,11 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "Adafruit_TCS34725",
+  "include": [
     "MP_TCS34725"
+  ],
+  "library_dependency": [
+    "Adafruit_TCS34725"
   ],
   "width": 116.0,
   "height": 117.0,

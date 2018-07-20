@@ -8,8 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
-    "MP_FlowSensor",
+  "include": [
+    "MP_FlowSensor"
+  ],
+  "library_dependency": [
     "PinChangeInterrupt"
   ],
   "width": 0.0,

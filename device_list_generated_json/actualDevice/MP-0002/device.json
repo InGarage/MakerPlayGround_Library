@@ -8,9 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_SK9822"
   ],
+  "library_dependency": [],
   "width": 0.0,
   "height": 0.0,
   "v": "",

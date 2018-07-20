@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_Arduinoall_Fan"
   ],
+  "library_dependency": [],
   "width": 235.329,
   "height": 241.152,
   "v": "",

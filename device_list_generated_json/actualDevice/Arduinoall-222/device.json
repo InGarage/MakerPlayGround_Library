@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_OneAnalogReadToPercent"
   ],
+  "library_dependency": [],
   "width": 130.194,
   "height": 203.991,
   "v": "",

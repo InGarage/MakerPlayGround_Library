@@ -8,10 +8,12 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
+    "MP_MPU6050"
+  ],
+  "library_dependency": [
     "Adafruit_Sensor",
     "MPU6050",
-    "MP_MPU6050",
     "I2Cdev"
   ],
   "width": 141.733,

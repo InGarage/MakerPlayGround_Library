@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_LED"
   ],
+  "library_dependency": [],
   "width": 111.0,
   "height": 129.0,
   "v": "",

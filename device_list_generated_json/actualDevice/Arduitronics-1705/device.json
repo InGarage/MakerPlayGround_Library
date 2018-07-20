@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_DHT12",
+  "include": [
+    "MP_DHT12"
+  ],
+  "library_dependency": [
     "dht_dplasa"
   ],
   "width": 72.0,

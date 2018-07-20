@@ -8,8 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
-    "MP_LSM6DS3",
+  "include": [
+    "MP_LSM6DS3"
+  ],
+  "library_dependency": [
     "SparkFunLSM6DS3",
     "Wire"
   ],

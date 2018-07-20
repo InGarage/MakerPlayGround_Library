@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_Piezo"
   ],
+  "library_dependency": [],
   "width": 158.0,
   "height": 155.0,
   "v": "",

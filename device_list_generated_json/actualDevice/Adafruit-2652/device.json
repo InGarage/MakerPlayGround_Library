@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_BME280",
+  "include": [
+    "MP_BME280"
+  ],
+  "library_dependency": [
     "Adafruit_BME280",
     "Adafruit_Sensor"
   ],

@@ -8,8 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
-    "MP_L3GD20",
+  "include": [
+    "MP_L3GD20"
+  ],
+  "library_dependency": [
     "Adafruit_Sensor",
     "Adafruit_L3GD20_U"
   ],

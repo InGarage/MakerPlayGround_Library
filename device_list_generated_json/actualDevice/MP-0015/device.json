@@ -8,8 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
-    "MP_Blynk_ESP8266_Serial1",
+  "include": [
+    "MP_Blynk_ESP8266_Serial1"
+  ],
+  "library_dependency": [
     "Blynk",
     "BlynkESP8266_Lib"
   ],

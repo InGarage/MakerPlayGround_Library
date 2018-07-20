@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_Waterlvl"
   ],
+  "library_dependency": [],
   "width": 113.378,
   "height": 351.498,
   "v": "",

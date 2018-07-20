@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_HC_SR501"
   ],
+  "library_dependency": [],
   "width": 235.0,
   "height": 230.0,
   "v": "",

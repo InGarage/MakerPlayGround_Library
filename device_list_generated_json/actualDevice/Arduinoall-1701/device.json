@@ -8,9 +8,10 @@
   "platform": [
     "ARDUINO"
   ],
-  "library": [
+  "include": [
     "MP_Infrared_Barrier"
   ],
+  "library_dependency": [],
   "width": 205.0,
   "height": 80.0,
   "v": "",

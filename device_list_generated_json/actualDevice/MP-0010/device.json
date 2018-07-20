@@ -8,8 +8,10 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "library": [
-    "MP_APDS9960",
+  "include": [
+    "MP_APDS9960"
+  ],
+  "library_dependency": [
     "SparkFun_APDS9960",
     "Wire"
   ],
