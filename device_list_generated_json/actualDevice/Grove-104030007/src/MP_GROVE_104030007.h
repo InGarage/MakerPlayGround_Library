@@ -1,12 +1,12 @@
-#ifndef MP_GROVE_10403007_H
-#define MP_GROVE_10403007_H
+#ifndef MP_GROVE_104030007_H
+#define MP_GROVE_104030007_H
 
 #include <Arduino.h>
 #include "MP_Log.h"
-class MP_GROVE_10403007
+class MP_GROVE_104030007
 {
   public:
-    MP_GROVE_10403007(uint8_t pin,const String &tag);
+    MP_GROVE_104030007(uint8_t pin,const String &tag);
 
     void init();
     void on(int brightness);

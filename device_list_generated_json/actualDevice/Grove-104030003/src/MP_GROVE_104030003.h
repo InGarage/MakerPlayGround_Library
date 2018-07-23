@@ -1,15 +1,15 @@
-#ifndef MP_GROVE_10403003_H
-#define MP_GROVE_10403003_H
+#ifndef MP_GROVE_104030003_H
+#define MP_GROVE_104030003_H
 
 #include <Arduino.h>
 #include "TM1637Display.h"
 #include "MP_Log.h"
 
-class MP_GROVE_10403003
+class MP_GROVE_104030003
 {
   public:
-	MP_GROVE_10403003(uint8_t clk, uint8_t dio,const String &tag);
-	~MP_GROVE_10403003(){};
+	MP_GROVE_104030003(uint8_t clk, uint8_t dio,const String &tag);
+	~MP_GROVE_104030003(){};
 
 	void init();
 	void showValue(double value);
