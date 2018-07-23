@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_GenericButton"
+    "MP_ADAFRUIT_1119.h"
   ],
   "library_dependency": [],
   "width": 119.0,

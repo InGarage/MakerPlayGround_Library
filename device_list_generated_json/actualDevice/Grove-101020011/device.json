@@ -9,10 +9,10 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_DHT11"
+    "MP_GROVE_101020011.h"
   ],
   "library_dependency": [
-    "DHT"
+    "adafruit/DHT-sensor-library"
   ],
   "width": 128.0,
   "height": 148.0,

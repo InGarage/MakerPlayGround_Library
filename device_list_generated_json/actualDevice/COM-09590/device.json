@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_LED"
+    "MP_COM_09590.h"
   ],
   "library_dependency": [],
   "width": 111.0,

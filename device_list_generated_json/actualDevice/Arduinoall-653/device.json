@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_DHT11"
+    "MP_ARDUINOALL_653.h"
   ],
   "library_dependency": [
-    "DHT"
+    "adafruit/DHT-sensor-library"
   ],
   "width": 93.542,
   "height": 140.332,

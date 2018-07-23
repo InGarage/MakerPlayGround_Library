@@ -9,11 +9,11 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_BME280"
+    "MP_ADAFRUIT_2652.h"
   ],
   "library_dependency": [
-    "Adafruit_BME280",
-    "Adafruit_Sensor"
+    "adafruit/Adafruit_BME280_Library",
+    "adafruit/Adafruit_Sensor"
   ],
   "width": 100.8,
   "height": 108.0,

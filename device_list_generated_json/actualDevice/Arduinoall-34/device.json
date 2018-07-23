@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_MPU6050"
+    "MP_ARDUINOALL_34.h"
   ],
   "library_dependency": [
-    "Adafruit_Sensor",
+    "adafruit/Adafruit_Sensor",
     "MPU6050",
     "I2Cdev"
   ],

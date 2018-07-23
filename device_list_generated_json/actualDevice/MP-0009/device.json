@@ -9,10 +9,10 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_SHT"
+    "MP_MP_0009.h"
   ],
   "library_dependency": [
-    "SHTSensor",
+    "Sensirion/arduino-sht",
     "Wire"
   ],
   "width": 0.0,

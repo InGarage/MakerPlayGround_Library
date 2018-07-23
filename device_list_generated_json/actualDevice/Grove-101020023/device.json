@@ -9,7 +9,7 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_GROVE_Sound"
+    "MP_GROVE_101020023.h"
   ],
   "library_dependency": [],
   "width": 128.0,

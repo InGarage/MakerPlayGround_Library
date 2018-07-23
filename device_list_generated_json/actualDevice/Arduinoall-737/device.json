@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Arduinoall_Fan"
+    "MP_ARDUINOALL_737.h"
   ],
   "library_dependency": [],
   "width": 235.329,

@@ -9,11 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Adafruit_MotorShield"
+    "MP_ADAFRUIT_1438.h"
   ],
   "library_dependency": [
-    "Adafruit_MotorShield",
-    "Adafruit_MS_PWMServoDriver"
+    "adafruit/Adafruit_MotorShield_V2_Library"
   ],
   "width": 454.0,
   "height": 204.0,

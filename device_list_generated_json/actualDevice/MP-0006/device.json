@@ -9,7 +9,7 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_GenericButton"
+    "MP_MP_0006.h"
   ],
   "library_dependency": [],
   "width": 0.0,

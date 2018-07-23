@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Si7021"
+    "MP_ADAFRUIT_3251.h"
   ],
   "library_dependency": [
-    "Adafruit_Si7021"
+    "adafruit/Adafruit_Si7021"
   ],
   "width": 86.4,
   "height": 100.8,

@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_DHT12"
+    "MP_ARDUITRONICS_1705.h"
   ],
   "library_dependency": [
     "dht_dplasa"

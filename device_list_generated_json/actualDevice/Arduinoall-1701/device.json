@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Infrared_Barrier"
+    "MP_ARDUINOALL_1701.h"
   ],
   "library_dependency": [],
   "width": 205.0,

@@ -9,7 +9,7 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_GROVE_Buzzer"
+    "MP_GROVE_107020000.h"
   ],
   "library_dependency": [],
   "width": 128.0,

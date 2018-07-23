@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_OneAnalogReadToPercent"
+    "MP_ARDUINOALL_98.h"
   ],
   "library_dependency": [],
   "width": 132.212,

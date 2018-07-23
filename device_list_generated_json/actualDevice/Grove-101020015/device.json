@@ -9,7 +9,7 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_GROVE_Temperature"
+    "MP_GROVE_101020015.h"
   ],
   "library_dependency": [],
   "width": 128.0,

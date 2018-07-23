@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_PAM8302"
+    "MP_ADAFRUIT_2130.h"
   ],
   "library_dependency": [],
   "width": 86.4,

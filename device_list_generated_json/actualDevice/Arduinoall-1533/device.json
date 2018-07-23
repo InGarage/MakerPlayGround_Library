@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_HC_SR04P"
+    "MP_ARDUINOALL_1533.h"
   ],
   "library_dependency": [],
   "width": 228.0,

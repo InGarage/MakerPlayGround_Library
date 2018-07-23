@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_TCS34725"
+    "MP_ADAFRUIT_1334.h"
   ],
   "library_dependency": [
-    "Adafruit_TCS34725"
+    "adafruit/Adafruit_TCS34725"
   ],
   "width": 116.0,
   "height": 117.0,

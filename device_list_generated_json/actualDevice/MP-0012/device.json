@@ -9,10 +9,10 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_MakerPlayground7Seg"
+    "MP_MP_0012.h"
   ],
   "library_dependency": [
-    "SendOnlySoftwareSerial"
+    "nickgammon/SendOnlySoftwareSerial"
   ],
   "width": 0.0,
   "height": 0.0,

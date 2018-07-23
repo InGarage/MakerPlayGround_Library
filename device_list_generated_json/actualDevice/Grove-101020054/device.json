@@ -9,11 +9,11 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_GROVE_ADXL345"
+    "MP_GROVE_101020054.h"
   ],
   "library_dependency": [
-    "Adafruit_ADXL345_U",
-    "Adafruit_Sensor"
+    "adafruit/Adafruit_ADXL345",
+    "adafruit/Adafruit_Sensor"
   ],
   "width": 128.0,
   "height": 148.0,

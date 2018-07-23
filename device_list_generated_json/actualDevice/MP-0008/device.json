@@ -9,10 +9,10 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_LSM6DS3"
+    "MP_MP_0008.h"
   ],
   "library_dependency": [
-    "SparkFunLSM6DS3",
+    "SparkFun/SparkFun_LSM6DS3_Arduino_Library",
     "Wire"
   ],
   "width": 0.0,

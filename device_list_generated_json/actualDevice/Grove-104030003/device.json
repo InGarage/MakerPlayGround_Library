@@ -9,10 +9,10 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_7segI2C_Colon"
+    "MP_GROVE_104030003.h"
   ],
   "library_dependency": [
-    "TM1637Display"
+    "avishorp/TM1637"
   ],
   "width": 266.0,
   "height": 148.0,

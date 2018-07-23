@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_MAX4466"
+    "MP_ADAFRUIT_1032.h"
   ],
   "library_dependency": [],
   "width": 79.2,

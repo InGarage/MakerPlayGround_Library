@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_TMP007"
+    "MP_ADAFRUIT_2023.h"
   ],
   "library_dependency": [
-    "Adafruit_TMP007"
+    "adafruit/Adafruit_TMP007_Library"
   ],
   "width": 116.0,
   "height": 116.0,

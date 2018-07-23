@@ -9,10 +9,10 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_APDS9960"
+    "MP_MP_0010.h"
   ],
   "library_dependency": [
-    "SparkFun_APDS9960",
+    "SparkFun/SparkFun_APDS-9960_Sensor_Arduino_Library",
     "Wire"
   ],
   "width": 0.0,

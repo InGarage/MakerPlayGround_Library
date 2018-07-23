@@ -9,7 +9,7 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_LED"
+    "MP_GROVE_104030007.h"
   ],
   "library_dependency": [],
   "width": 128.0,

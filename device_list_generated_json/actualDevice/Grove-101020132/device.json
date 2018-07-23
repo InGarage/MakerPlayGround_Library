@@ -9,7 +9,7 @@
     "GROVE_ARDUINO"
   ],
   "include": [
-    "MP_OneAnalogReadToPercent"
+    "MP_GROVE_101020132.h"
   ],
   "library_dependency": [],
   "width": 128.0,

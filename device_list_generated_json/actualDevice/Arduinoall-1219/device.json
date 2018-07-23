@@ -9,10 +9,10 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_7segI2C"
+    "MP_ARDUINOALL_1219.h"
   ],
   "library_dependency": [
-    "TM1637Display"
+    "avishorp/TM1637"
   ],
   "width": 372.0,
   "height": 153.0,

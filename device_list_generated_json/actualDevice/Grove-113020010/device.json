@@ -9,11 +9,11 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Blynk_ESP8266"
+    "MP_GROVE_113020010.h"
   ],
   "library_dependency": [
-    "Blynk",
-    "BlynkESP8266_Lib"
+    "blynkk/blynk-library",
+    "itead/ITEADLIB_Arduino_WeeESP8266"
   ],
   "width": 128.0,
   "height": 148.0,

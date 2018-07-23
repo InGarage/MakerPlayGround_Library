@@ -129,7 +129,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_MAX4466"
+      "MP_ADAFRUIT_1032.h"
     ],
     "library_dependency": [],
     "width": 79.2,
@@ -220,7 +220,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_PAM8302"
+      "MP_ADAFRUIT_2130.h"
     ],
     "library_dependency": [],
     "width": 86.4,
@@ -406,11 +406,11 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_BME280"
+      "MP_ADAFRUIT_2652.h"
     ],
     "library_dependency": [
-      "Adafruit_BME280",
-      "Adafruit_Sensor"
+      "adafruit/Adafruit_BME280_Library",
+      "adafruit/Adafruit_Sensor"
     ],
     "width": 100.8,
     "height": 108.0,
@@ -601,10 +601,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Si7021"
+      "MP_ADAFRUIT_3251.h"
     ],
     "library_dependency": [
-      "Adafruit_Si7021"
+      "adafruit/Adafruit_Si7021"
     ],
     "width": 86.4,
     "height": 100.8,
@@ -737,11 +737,11 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_L3GD20"
+      "MP_ADAFRUIT_1032.h"
     ],
     "library_dependency": [
-      "Adafruit_Sensor",
-      "Adafruit_L3GD20_U"
+      "adafruit/Adafruit_Sensor",
+      "adafruit/Adafruit_L3GD20_U"
     ],
     "width": 173.0,
     "height": 108.0,
@@ -906,10 +906,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_TMP007"
+      "MP_ADAFRUIT_2023.h"
     ],
     "library_dependency": [
-      "Adafruit_TMP007"
+      "adafruit/Adafruit_TMP007_Library"
     ],
     "width": 116.0,
     "height": 116.0,
@@ -1494,7 +1494,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_HC_SR501"
+      "MP_ARDUINOALL_29.h"
     ],
     "library_dependency": [],
     "width": 235.0,
@@ -1590,11 +1590,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Adafruit_MotorShield"
+      "MP_ADAFRUIT_1438.h"
     ],
     "library_dependency": [
-      "Adafruit_MotorShield",
-      "Adafruit_MS_PWMServoDriver"
+      "adafruit/Adafruit_MotorShield_V2_Library"
     ],
     "width": 454.0,
     "height": 204.0,
@@ -1867,7 +1866,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_GenericButton"
+      "MP_ADAFRUIT_1119.h"
     ],
     "library_dependency": [],
     "width": 119.0,
@@ -1963,7 +1962,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_LED"
+      "MP_COM_09590.h"
     ],
     "library_dependency": [],
     "width": 111.0,
@@ -2044,10 +2043,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_TCS34725"
+      "MP_ADAFRUIT_1334.h"
     ],
     "library_dependency": [
-      "Adafruit_TCS34725"
+      "adafruit/Adafruit_TCS34725"
     ],
     "width": 116.0,
     "height": 117.0,
@@ -2186,10 +2185,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_7segI2C_Colon"
+      "MP_ARDUITRONICS_220.h"
     ],
     "library_dependency": [
-      "TM1637Display"
+      "avishorp/TM1637"
     ],
     "width": 372.0,
     "height": 153.0,
@@ -2325,7 +2324,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Piezo"
+      "MP_ARDUINOALL_1015.h"
     ],
     "library_dependency": [],
     "width": 158.0,
@@ -2414,7 +2413,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_RGB_LED_CC"
+      "MP_ARDUINOALL_332.h"
     ],
     "library_dependency": [],
     "width": 86.0,
@@ -3038,7 +3037,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_HC_SR04P"
+      "MP_ARDUINOALL_1533.h"
     ],
     "library_dependency": [],
     "width": 228.0,
@@ -3144,7 +3143,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_TCS3200"
+      "MP_ARDUINOALL_115.h"
     ],
     "library_dependency": [],
     "width": 198.0,
@@ -3313,7 +3312,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_RGB_LED_CA"
+      "MP_ARDUINOALL_967.h"
     ],
     "library_dependency": [],
     "width": 86.0,
@@ -3448,7 +3447,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_ARDUINOALL_98.h"
     ],
     "library_dependency": [],
     "width": 132.212,
@@ -3539,7 +3538,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Arduinoall_Fan"
+      "MP_ARDUINOALL_737.h"
     ],
     "library_dependency": [],
     "width": 235.329,
@@ -3647,7 +3646,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Soil"
+      "MP_ARDUINOALL_184.h"
     ],
     "library_dependency": [],
     "width": 210.63,
@@ -3747,7 +3746,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Infrared_Barrier"
+      "MP_ARDUINOALL_1701.h"
     ],
     "library_dependency": [],
     "width": 205.0,
@@ -3843,10 +3842,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_7segI2C"
+      "MP_ARDUINOALL_1219.h"
     ],
     "library_dependency": [
-      "TM1637Display"
+      "avishorp/TM1637"
     ],
     "width": 372.0,
     "height": 153.0,
@@ -3982,10 +3981,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_DHT11"
+      "MP_ARDUINOALL_653.h"
     ],
     "library_dependency": [
-      "DHT"
+      "adafruit/DHT-sensor-library"
     ],
     "width": 93.542,
     "height": 140.332,
@@ -4095,10 +4094,10 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_MPU6050"
+      "MP_ARDUINOALL_34.h"
     ],
     "library_dependency": [
-      "Adafruit_Sensor",
+      "adafruit/Adafruit_Sensor",
       "MPU6050",
       "I2Cdev"
     ],
@@ -4300,7 +4299,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_ARDUINOALL_222.h"
     ],
     "library_dependency": [],
     "width": 130.194,
@@ -4400,7 +4399,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_ARDUINOALL_261.h"
     ],
     "library_dependency": [],
     "width": 130.194,
@@ -4500,7 +4499,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Waterlvl"
+      "MP_ARDUINOALL_377.h"
     ],
     "library_dependency": [],
     "width": 113.378,
@@ -4586,7 +4585,7 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_DHT12"
+      "MP_ARDUITRONICS_1705.h"
     ],
     "library_dependency": [
       "dht_dplasa"
@@ -4713,7 +4712,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_LED"
+      "MP_GROVE_104030007.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -4808,10 +4807,10 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_7segI2C_Colon"
+      "MP_GROVE_104030003.h"
     ],
     "library_dependency": [
-      "TM1637Display"
+      "avishorp/TM1637"
     ],
     "width": 266.0,
     "height": 148.0,
@@ -4947,7 +4946,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_GROVE_101020017.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5038,7 +5037,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_Temperature"
+      "MP_GROVE_101020015.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5129,7 +5128,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_GROVE_101020132.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5220,7 +5219,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_Sound"
+      "MP_GROVE_101020023.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5311,7 +5310,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_Buzzer"
+      "MP_GROVE_107020000.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5393,7 +5392,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_Button"
+      "MP_GROVE_101020003.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5489,7 +5488,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_Relay_Module"
+      "MP_GROVE_103020005.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5575,7 +5574,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_PIR"
+      "MP_GROVE_101020020.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -5671,11 +5670,11 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_ADXL345"
+      "MP_GROVE_101020054.h"
     ],
     "library_dependency": [
-      "Adafruit_ADXL345_U",
-      "Adafruit_Sensor"
+      "adafruit/Adafruit_ADXL345",
+      "adafruit/Adafruit_Sensor"
     ],
     "width": 128.0,
     "height": 148.0,
@@ -5803,10 +5802,10 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_DHT11"
+      "MP_GROVE_101020011.h"
     ],
     "library_dependency": [
-      "DHT"
+      "adafruit/DHT-sensor-library"
     ],
     "width": 128.0,
     "height": 148.0,
@@ -5916,7 +5915,7 @@
       "GROVE_ARDUINO"
     ],
     "include": [
-      "MP_GROVE_Ultrasonic_Ranger"
+      "MP_GROVE_101020010.h"
     ],
     "library_dependency": [],
     "width": 128.0,
@@ -6279,7 +6278,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_LED"
+      "MP_MP_0001.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6346,7 +6345,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_SK9822"
+      "MP_MP_0002.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6437,7 +6436,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_Piezo"
+      "MP_MP_0003.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6512,7 +6511,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_GenericSinglePinDigitalDevice"
+      "MP_MP_0004.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6570,7 +6569,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_MP_0005.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6633,7 +6632,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_GenericButton"
+      "MP_MP_0006.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6691,7 +6690,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToPercent"
+      "MP_MP_0007.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -6754,10 +6753,10 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_LSM6DS3"
+      "MP_MP_0008.h"
     ],
     "library_dependency": [
-      "SparkFunLSM6DS3",
+      "SparkFun/SparkFun_LSM6DS3_Arduino_Library",
       "Wire"
     ],
     "width": 0.0,
@@ -6880,10 +6879,10 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_SHT"
+      "MP_MP_0009.h"
     ],
     "library_dependency": [
-      "SHTSensor",
+      "Sensirion/arduino-sht",
       "Wire"
     ],
     "width": 0.0,
@@ -6966,10 +6965,10 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_APDS9960"
+      "MP_MP_0010.h"
     ],
     "library_dependency": [
-      "SparkFun_APDS9960",
+      "SparkFun/SparkFun_APDS-9960_Sensor_Arduino_Library",
       "Wire"
     ],
     "width": 0.0,
@@ -7023,7 +7022,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_OneAnalogReadToSoundLevel"
+      "MP_MP_0011.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -7086,10 +7085,10 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_MakerPlayground7Seg"
+      "MP_MP_0012.h"
     ],
     "library_dependency": [
-      "SendOnlySoftwareSerial"
+      "nickgammon/SendOnlySoftwareSerial"
     ],
     "width": 0.0,
     "height": 0.0,
@@ -7164,7 +7163,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_GenericSinglePinDigitalDevice"
+      "MP_MP_0013.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -7222,7 +7221,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_SoilWithEnable"
+      "MP_MP_0014.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -7285,7 +7284,7 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_Servo"
+      "MP_MP_0016.h"
     ],
     "library_dependency": [],
     "width": 0.0,
@@ -7348,11 +7347,11 @@
       "ARDUINO"
     ],
     "include": [
-      "MP_Blynk_ESP8266"
+      "MP_GROVE_113020010.h"
     ],
     "library_dependency": [
-      "Blynk",
-      "BlynkESP8266_Lib"
+      "blynkk/blynk-library",
+      "itead/ITEADLIB_Arduino_WeeESP8266"
     ],
     "width": 128.0,
     "height": 148.0,
@@ -7587,11 +7586,11 @@
       "MP_ARDUINO"
     ],
     "include": [
-      "MP_Blynk_ESP8266_Serial1"
+      "MP_MP_0015.h"
     ],
     "library_dependency": [
-      "Blynk",
-      "BlynkESP8266_Lib"
+      "blynkk/blynk-library",
+      "itead/ITEADLIB_Arduino_WeeESP8266"
     ],
     "width": 128.0,
     "height": 148.0,

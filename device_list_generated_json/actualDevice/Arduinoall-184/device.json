@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_Soil"
+    "MP_ARDUINOALL_184.h"
   ],
   "library_dependency": [],
   "width": 210.63,

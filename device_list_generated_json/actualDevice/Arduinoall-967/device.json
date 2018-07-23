@@ -9,7 +9,7 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_RGB_LED_CA"
+    "MP_ARDUINOALL_967.h"
   ],
   "library_dependency": [],
   "width": 86.0,

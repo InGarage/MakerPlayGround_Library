@@ -9,11 +9,11 @@
     "ARDUINO"
   ],
   "include": [
-    "MP_L3GD20"
+    "MP_ADAFRUIT_1032.h"
   ],
   "library_dependency": [
-    "Adafruit_Sensor",
-    "Adafruit_L3GD20_U"
+    "adafruit/Adafruit_Sensor",
+    "adafruit/Adafruit_L3GD20_U"
   ],
   "width": 173.0,
   "height": 108.0,
