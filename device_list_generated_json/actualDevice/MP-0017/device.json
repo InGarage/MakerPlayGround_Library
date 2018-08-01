@@ -9,11 +9,11 @@
     "MP_ARDUINO"
   ],
   "include": [
-    "MP_FlowSensor"
+    "MP_MP_0017.h"
   ],
-  "classname": "",
+  "classname": "MP_MP_0017",
   "library_dependency": [
-    "PinChangeInterrupt"
+    "NicoHood/PinChangeInterrupt"
   ],
   "width": 0.0,
   "height": 0.0,
