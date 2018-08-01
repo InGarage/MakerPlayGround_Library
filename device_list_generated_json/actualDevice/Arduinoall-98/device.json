@@ -11,6 +11,7 @@
   "include": [
     "MP_ARDUINOALL_98.h"
   ],
+  "classname": "MP_ARDUINOALL_98",
   "library_dependency": [],
   "width": 132.212,
   "height": 40.201,

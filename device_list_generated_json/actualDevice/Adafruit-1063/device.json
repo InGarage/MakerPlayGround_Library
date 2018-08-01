@@ -11,6 +11,7 @@
   "include": [
     "MP_ADAFRUIT_1032.h"
   ],
+  "classname": "MP_ADAFRUIT_1032",
   "library_dependency": [],
   "width": 79.2,
   "height": 122.4,

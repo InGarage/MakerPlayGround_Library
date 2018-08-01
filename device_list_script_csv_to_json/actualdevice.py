@@ -43,6 +43,7 @@ if __name__ == '__main__':
                                                             ('formfactor', row['formfactor']),
                                                             ('platform', []),
                                                             ('include', []),
+                                                            ('classname',row['classname']),
                                                             ('library_dependency', []),
                                                             ('width', isfloat(row['width'])),
                                                             ('height', isfloat(row['height'])),

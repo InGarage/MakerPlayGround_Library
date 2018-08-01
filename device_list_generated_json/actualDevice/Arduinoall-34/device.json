@@ -11,6 +11,7 @@
   "include": [
     "MP_ARDUINOALL_34.h"
   ],
+  "classname": "MP_ARDUINOALL_34",
   "library_dependency": [
     "adafruit/Adafruit_Sensor",
     "MPU6050",

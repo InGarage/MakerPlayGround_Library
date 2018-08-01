@@ -11,6 +11,7 @@
   "include": [
     "MP_ADAFRUIT_1032.h"
   ],
+  "classname": "MP_ADAFRUIT_1032",
   "library_dependency": [
     "adafruit/Adafruit_Sensor",
     "adafruit/Adafruit_L3GD20_U"

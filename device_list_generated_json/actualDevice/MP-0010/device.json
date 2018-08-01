@@ -11,6 +11,7 @@
   "include": [
     "MP_MP_0010.h"
   ],
+  "classname": "MP_MP_0010",
   "library_dependency": [
     "SparkFun/SparkFun_APDS-9960_Sensor_Arduino_Library",
     "Wire"

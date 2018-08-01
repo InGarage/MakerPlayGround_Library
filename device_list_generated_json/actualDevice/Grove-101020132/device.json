@@ -11,6 +11,7 @@
   "include": [
     "MP_GROVE_101020132.h"
   ],
+  "classname": "MP_GROVE_101020132",
   "library_dependency": [],
   "width": 128.0,
   "height": 148.0,

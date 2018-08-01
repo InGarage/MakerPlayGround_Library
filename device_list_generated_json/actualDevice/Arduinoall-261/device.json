@@ -11,6 +11,7 @@
   "include": [
     "MP_ARDUINOALL_261.h"
   ],
+  "classname": "MP_ARDUINOALL_261",
   "library_dependency": [],
   "width": 130.194,
   "height": 203.991,
