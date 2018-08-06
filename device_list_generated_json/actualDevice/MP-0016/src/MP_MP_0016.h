@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 #include <Servo.h>
-#include "MP_Log.h"
 class MP_MP_0016
 {
   public:

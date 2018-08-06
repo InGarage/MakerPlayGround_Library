@@ -9,7 +9,6 @@ MP_ADAFRUIT_1119::MP_ADAFRUIT_1119(uint8_t pin,const String &tag)
 void MP_ADAFRUIT_1119::init()
 {
     pinMode(pin, INPUT_PULLUP);
-    MP_Log::i(tag,"Ready");
 }
 
 boolean MP_ADAFRUIT_1119::isReleased()
@@ -19,7 +18,6 @@ boolean MP_ADAFRUIT_1119::isReleased()
         delay(30);
         while (digitalRead(pin) == LOW);
         delay (30);
-        MP_Log::i(tag,"Released");
         return true;
     }
     return false;
@@ -30,7 +28,6 @@ boolean MP_ADAFRUIT_1119::isPressed()
     if (digitalRead(pin) == LOW)
     {
         delay(300);
-        MP_Log::i(tag,"Pressed");
         return true;
     }
     return false;

@@ -2,7 +2,6 @@
 #define MP_MP_0014_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 class MP_MP_0014
 {
   public:

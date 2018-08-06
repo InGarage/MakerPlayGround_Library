@@ -4,7 +4,6 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include "SHTSensor.h"
-#include "MP_Log.h"
 
 class MP_MP_0009
 {

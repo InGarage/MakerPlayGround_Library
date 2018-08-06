@@ -4,7 +4,6 @@
 #include <Wire.h>
 #include "Adafruit_TMP007.h"
 #include <Arduino.h>
-#include "MP_Log.h"
 
 
 class MP_ADAFRUIT_2023

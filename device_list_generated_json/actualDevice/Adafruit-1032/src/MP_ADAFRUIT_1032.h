@@ -5,7 +5,6 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_L3GD20_U.h>
-#include "MP_Log.h"
 
 class MP_ADAFRUIT_1032
 {

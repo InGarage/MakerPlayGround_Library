@@ -9,7 +9,6 @@ void MP_ARDUINOALL_1533::init()
 {	
 	pinMode(this->trig,OUTPUT);
 	pinMode(this->echo,INPUT);
-	MP_Log::i(tag,"Ready");
 
 }
 
@@ -25,7 +24,6 @@ double MP_ARDUINOALL_1533::getDistance() {
 	      digitalWrite(trig, LOW);
 	      cm = pulseIn(echo, HIGH) / 29.0 /2.0 ;
   		}while(cm>3000);
-  	   MP_Log::i(tag,cm);
       return cm;
 
 }

@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 #include <ESP8266_Lib.h>
-#include "MP_Log.h"
 
 class MP_MP_0015 
 {

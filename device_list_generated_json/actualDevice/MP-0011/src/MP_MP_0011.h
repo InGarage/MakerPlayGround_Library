@@ -2,7 +2,6 @@
 #define MP_MP_0011_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 #define MP_MP_0011_MAX_ARRAY 20
 
 class MP_MP_0011

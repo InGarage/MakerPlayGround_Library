@@ -2,7 +2,6 @@
 #define MP_COM_09590_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 class MP_COM_09590
 {
   public:

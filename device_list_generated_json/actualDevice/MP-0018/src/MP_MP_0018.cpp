@@ -11,7 +11,6 @@ void MP_MP_0018::init()
 {	
 	pinMode(this->trig,OUTPUT);
 	pinMode(this->echo,INPUT);
-	MP_Log::i(tag,"Ready");
 }
 
 double MP_MP_0018::getDistance() {	
@@ -26,7 +25,6 @@ double MP_MP_0018::getDistance() {
         digitalWrite(trig, LOW);
         cm = pulseIn(echo, HIGH) / 29.0 / 2.0 ;
   	} while(cm>3000);
-  	MP_Log::i(tag,cm);
     return cm;
 
 }

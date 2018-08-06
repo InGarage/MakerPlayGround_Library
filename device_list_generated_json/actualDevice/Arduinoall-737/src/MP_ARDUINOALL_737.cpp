@@ -11,12 +11,10 @@ void MP_ARDUINOALL_737::init()
     pinMode(inB, OUTPUT);
     digitalWrite(inA, LOW);
     digitalWrite(inB, LOW);
-    MP_Log::i(tag,"Ready");
 }
 
 void MP_ARDUINOALL_737::on(char dir[], int speed)
 {
-    MP_Log::i(tag,"On");
     speed = map(speed, 0, 100, 0, 255);
     if (strcmp(dir, "Forward") == 0)
     {
@@ -34,5 +32,4 @@ void MP_ARDUINOALL_737::off()
 {
     digitalWrite(inA, LOW);
     digitalWrite(inB, LOW);
-    MP_Log::i(tag,"Off");
 }

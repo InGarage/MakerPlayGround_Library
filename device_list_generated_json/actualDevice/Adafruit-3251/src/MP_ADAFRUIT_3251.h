@@ -3,7 +3,6 @@
 
 #include "Adafruit_Si7021.h"
 #include <Arduino.h>
-#include "MP_Log.h"
 
 class MP_ADAFRUIT_3251
 {

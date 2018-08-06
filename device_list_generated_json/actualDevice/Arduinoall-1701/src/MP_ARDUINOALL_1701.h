@@ -2,7 +2,6 @@
 #define MP_ARDUINOALL_1701_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 
 class MP_ARDUINOALL_1701
 {

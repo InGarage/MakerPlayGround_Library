@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#include "MP_Log.h"
 class MP_ARDUINOALL_115
 {
   public:

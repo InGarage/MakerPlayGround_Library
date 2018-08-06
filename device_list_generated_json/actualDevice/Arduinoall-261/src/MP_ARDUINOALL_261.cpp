@@ -9,12 +9,10 @@ MP_ARDUINOALL_261::MP_ARDUINOALL_261(uint8_t pin,const String &tag)
 void MP_ARDUINOALL_261::init() 
 {
 	pinMode(this->pin,INPUT);
-	MP_Log::i(tag,"Ready");
 }
 
 
 double MP_ARDUINOALL_261::getPercent()
 {
-    MP_Log::i(tag,(analogRead(pin)/1023.0)*100);
 	return (analogRead(pin)/1023.0)*100;
 }

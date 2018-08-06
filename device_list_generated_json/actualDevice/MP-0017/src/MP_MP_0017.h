@@ -2,7 +2,6 @@
 #define MP_MP_0017_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 #include "PinChangeInterrupt.h"
 
 class MP_MP_0017

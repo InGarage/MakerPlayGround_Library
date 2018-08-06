@@ -2,7 +2,6 @@
 #define MP_GROVE_101020132_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 class MP_GROVE_101020132
 {
   public:

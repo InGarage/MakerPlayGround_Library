@@ -5,7 +5,6 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include "Adafruit_TCS34725.h"
-#include "MP_Log.h"
 
 class MP_ADAFRUIT_1334
 {

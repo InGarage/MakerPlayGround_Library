@@ -10,12 +10,10 @@ void MP_ARDUINOALL_332::init()
     pinMode(r, OUTPUT);
     pinMode(g, OUTPUT);
     pinMode(b, OUTPUT);
-    MP_Log::i(tag,"Ready");
 }
 
 void MP_ARDUINOALL_332::on(int red, int green, int blue, int brightness)
 {
-    MP_Log::i(tag,"On");
     red = 255 - (red*brightness)/100.0;
     green = 255 - (red*brightness)/100.0;
     blue = 255 - (red*brightness)/100.0;
@@ -29,5 +27,4 @@ void MP_ARDUINOALL_332::off()
     digitalWrite(r, LOW);
     digitalWrite(g, LOW);
     digitalWrite(b, LOW);
-    MP_Log::i(tag,"Off");
 }

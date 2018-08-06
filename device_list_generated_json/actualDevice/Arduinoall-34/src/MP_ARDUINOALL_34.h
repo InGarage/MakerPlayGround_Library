@@ -5,7 +5,6 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <MPU6050.h>
-#include "MP_Log.h"
 
 class MP_ARDUINOALL_34
 {

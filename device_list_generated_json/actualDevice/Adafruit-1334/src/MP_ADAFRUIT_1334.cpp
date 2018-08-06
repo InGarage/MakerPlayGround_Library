@@ -9,17 +9,13 @@ MP_ADAFRUIT_1334::MP_ADAFRUIT_1334(const String &tag)
 void MP_ADAFRUIT_1334::init() 
 {
   Serial.println("Color View Test!");
-  MP_Log::v(tag,"Color View Test!");
   if (tcs.begin()) {
     Serial.println("Found sensor");
-    MP_Log::v(tag,"Found sensor");
   } else {
     Serial.println("No TCS34725 found ... check your connections");
-    MP_Log::e(tag,"No TCS34725 found ... check your connections");
 
     while (1); // halt!
   }
-  MP_Log::i(tag,"Ready");
 }
 
 float MAX (float r, float g, float b)

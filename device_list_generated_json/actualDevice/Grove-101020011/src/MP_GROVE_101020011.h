@@ -4,7 +4,6 @@
 #include "DHT.h"
 
 #include <Arduino.h>
-#include "MP_Log.h"
 
 class MP_GROVE_101020011
 {

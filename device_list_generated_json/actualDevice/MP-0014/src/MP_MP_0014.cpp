@@ -11,7 +11,6 @@ void MP_MP_0014::init()
 {
 	pinMode(data, INPUT);
     pinMode(en, OUTPUT);
-    MP_Log::i(tag,"Ready");
 }
 
 double MP_MP_0014::getPercent()
@@ -20,6 +19,5 @@ double MP_MP_0014::getPercent()
     delay(5);
 	double value = (analogRead(data) / 1023.0) * 100.0;
 	digitalWrite(en, LOW);
-	MP_Log::i(tag,value);
     return value;
 }

@@ -6,7 +6,6 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
-#include "MP_Log.h"
 #define SEALEVELPRESSURE_HPA (1013.25)
 
 class MP_ADAFRUIT_2652

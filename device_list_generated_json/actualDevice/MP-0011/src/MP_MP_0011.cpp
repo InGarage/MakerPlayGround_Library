@@ -12,7 +12,6 @@ void MP_MP_0011::init()
 	for (int i=1; i<MP_MP_0011_MAX_ARRAY; i++) {
         normal = 0.8 * normal + 0.2 * (analogRead(pin) - normal);
 	}
-	MP_Log::i(tag,"Ready");
 }
 
 double MP_MP_0011::getSoundLevel()
@@ -28,6 +27,5 @@ double MP_MP_0011::getSoundLevel()
 	double val = (fabs(max - min) - 100.0) / 300.0 * 100.0;
 	if (val > 100) val = 100;
 	else if (val < 0) val = 0;
-	MP_Log::i(tag,val);
 	return val;
 }

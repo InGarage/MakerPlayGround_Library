@@ -5,7 +5,6 @@
 #include <Adafruit_MotorShield.h>
 #include "utility/Adafruit_MS_PWMServoDriver.h"
 #include <Arduino.h>
-#include "MP_Log.h"
 
 class MP_ADAFRUIT_1438
 {

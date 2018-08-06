@@ -5,7 +5,6 @@
 
 #include <Arduino.h>
 #include <Wire.h>
-#include "MP_Log.h"
 
 class MP_ARDUITRONICS_1705
 {

@@ -10,7 +10,6 @@ MP_MP_0012::MP_MP_0012(uint8_t tx, uint8_t rx,const String &tag)
 void MP_MP_0012::init()
 {
     serial.begin(9600);
-    MP_Log::i(tag,"Ready");
 }
 
 void MP_MP_0012::sendData(int num, uint8_t dot, bool negative)
@@ -93,13 +92,11 @@ void MP_MP_0012::showFloat(double num)
 void MP_MP_0012::showValue(double value)
 {
     showFloat(value);
-    MP_Log::i(tag,String("Show Value: ") + value);
 }
 
 void MP_MP_0012::showData(double value)
 {
     showFloat(value);
-    MP_Log::i(tag,String("Show Data: ") + value);
 }
 
 void MP_MP_0012::off()
@@ -113,5 +110,4 @@ void MP_MP_0012::off()
     serial.write((byte)0b00000000);
     serial.write((byte)'\r');
     serial.write((byte)'\n');
-    MP_Log::i(tag,"Off");
 }

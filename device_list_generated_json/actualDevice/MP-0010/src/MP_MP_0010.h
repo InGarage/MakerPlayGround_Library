@@ -4,7 +4,6 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include "SparkFun_APDS9960.h"
-#include "MP_Log.h"
 
 class MP_MP_0010
 {

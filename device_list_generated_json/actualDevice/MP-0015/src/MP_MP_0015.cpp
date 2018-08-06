@@ -78,7 +78,6 @@ void MP_MP_0015::init()
 void MP_MP_0015::wifiInit()
 {
     // initial wifi
-    MP_Log::i(tag,"Connecting to WiFi");
     ledOff();
     Blynk.config(this->wifi, this->auth, BLYNK_DEFAULT_DOMAIN, BLYNK_DEFAULT_PORT);
     while (!Blynk.connectWiFi(this->ssid, this->pass)) {
@@ -86,31 +85,24 @@ void MP_MP_0015::wifiInit()
     }
 
     // connected
-    MP_Log::i(tag,"Connected to WiFi successfully");
     ledOn();
 
     // test for Blynk connection
     while(Blynk.connect() != true) {
-        MP_Log::i(tag,"Can't connect to Blynk server");
         if (!testConnection()) {
             // no internet
-            MP_Log::i(tag,"No Internet Access");
             ledOff();
-            MP_Log::i(tag,"Reconnecting to Wifi");
             while (!Blynk.connectWiFi(this->ssid, this->pass)) {
                 delay(1);
             }
             ledOn();
-            MP_Log::i(tag,"Reconnected to WiFi successfully");
             // reconnected success
         }
         else {
             // having internet but can't connect to blink server
-            MP_Log::w(tag,"Can't connect to Blynk server, Please check your Blynk token");
         }
         delay(PING_GAP);
     }
-    MP_Log::i(tag,"Connected to Blynk Server successfully");
 }
 
 bool MP_MP_0015::testConnection()
@@ -154,14 +146,12 @@ int MP_MP_0015::readVirtualPin(uint8_t pin)
 
 void MP_MP_0015::writeVirtualPin(char pin[], double value)
 {
-    MP_Log::i(tag,String("Send: ") + MP_MP_0015::value[pin[0] - '0']);
     MP_MP_0015::value[pin[0] - '0'] = value;
     MP_MP_0015::valueChanged |= (1 << (pin[0] - '0'));
 }
 
 bool MP_MP_0015::checkVirtualPinValue(char pin[], int value)
 {
-    MP_Log::i(tag,String("Receive: ") + MP_MP_0015::value[pin[0] - '0']);
     return MP_MP_0015::value[pin[0] - '0'] == value;
 }
 

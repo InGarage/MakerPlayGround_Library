@@ -3,7 +3,6 @@
 
 #include <Arduino.h>
 #include "TM1637Display.h"
-#include "MP_Log.h"
 
 class MP_GROVE_104030003
 {

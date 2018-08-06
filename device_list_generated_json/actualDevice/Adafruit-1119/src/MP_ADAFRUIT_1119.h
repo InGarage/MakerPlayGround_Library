@@ -2,7 +2,6 @@
 #define MP_ADAFRUIT_1119_H
 
 #include <Arduino.h>
-#include "MP_Log.h"
 
 class MP_ADAFRUIT_1119
 {
