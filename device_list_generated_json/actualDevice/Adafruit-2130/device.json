@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_2130.h"
-  ],
   "classname": "MP_ADAFRUIT_2130",
   "library_dependency": [],
   "width": 86.4,

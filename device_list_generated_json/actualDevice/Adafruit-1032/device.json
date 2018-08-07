@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_1032.h"
-  ],
   "classname": "MP_ADAFRUIT_1032",
   "library_dependency": [
     "adafruit/Adafruit_Sensor",

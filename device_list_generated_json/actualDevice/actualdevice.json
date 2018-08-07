@@ -9,7 +9,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [],
     "classname": "",
     "library_dependency": [],
     "width": 128.0,
@@ -129,9 +128,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ADAFRUIT_1032.h"
-    ],
     "classname": "MP_ADAFRUIT_1032",
     "library_dependency": [],
     "width": 79.2,
@@ -220,9 +216,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ADAFRUIT_2130.h"
     ],
     "classname": "MP_ADAFRUIT_2130",
     "library_dependency": [],
@@ -407,9 +400,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ADAFRUIT_2652.h"
     ],
     "classname": "MP_ADAFRUIT_2652",
     "library_dependency": [
@@ -604,9 +594,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ADAFRUIT_3251.h"
-    ],
     "classname": "MP_ADAFRUIT_3251",
     "library_dependency": [
       "adafruit/Adafruit_Si7021"
@@ -740,9 +727,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ADAFRUIT_1032.h"
     ],
     "classname": "MP_ADAFRUIT_1032",
     "library_dependency": [
@@ -911,9 +895,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ADAFRUIT_2023.h"
-    ],
     "classname": "MP_ADAFRUIT_2023",
     "library_dependency": [
       "adafruit/Adafruit_TMP007_Library"
@@ -1046,7 +1027,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [],
     "classname": "",
     "library_dependency": [],
     "width": 531.0,
@@ -1501,9 +1481,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_29.h"
-    ],
     "classname": "MP_ARDUINOALL_29",
     "library_dependency": [],
     "width": 235.0,
@@ -1597,9 +1574,6 @@
     "formfactor": "SHIELD",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ADAFRUIT_1438.h"
     ],
     "classname": "MP_ADAFRUIT_1438",
     "library_dependency": [
@@ -1875,9 +1849,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ADAFRUIT_1119.h"
-    ],
     "classname": "MP_ADAFRUIT_1119",
     "library_dependency": [],
     "width": 119.0,
@@ -1972,9 +1943,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_COM_09590.h"
-    ],
     "classname": "MP_COM_09590",
     "library_dependency": [],
     "width": 111.0,
@@ -2053,9 +2021,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ADAFRUIT_1334.h"
     ],
     "classname": "MP_ADAFRUIT_1334",
     "library_dependency": [
@@ -2197,9 +2162,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUITRONICS_220.h"
-    ],
     "classname": "MP_ADRUITRONICS_220",
     "library_dependency": [
       "avishorp/TM1637"
@@ -2337,9 +2299,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_1015.h"
-    ],
     "classname": "MP_ARDUINOALL_1015",
     "library_dependency": [],
     "width": 158.0,
@@ -2426,9 +2385,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_332.h"
     ],
     "classname": "MP_ARDUINOALL_332",
     "library_dependency": [],
@@ -2563,7 +2519,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [],
     "classname": "",
     "library_dependency": [],
     "width": 425.0,
@@ -3053,9 +3008,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_1533.h"
-    ],
     "classname": "MP_ARDUINOALL_1533",
     "library_dependency": [],
     "width": 228.0,
@@ -3159,9 +3111,6 @@
     "formfactor": "STANDALONE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_115.h"
     ],
     "classname": "MP_ARDUINOALL_115",
     "library_dependency": [],
@@ -3330,9 +3279,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_967.h"
-    ],
     "classname": "MP_ARDUINOALL_967",
     "library_dependency": [],
     "width": 86.0,
@@ -3466,9 +3412,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_98.h"
-    ],
     "classname": "MP_ARDUINOALL_98",
     "library_dependency": [],
     "width": 132.212,
@@ -3557,9 +3500,6 @@
     "formfactor": "STANDALONE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_737.h"
     ],
     "classname": "MP_ARDUINOALL_737",
     "library_dependency": [],
@@ -3667,9 +3607,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_184.h"
-    ],
     "classname": "MP_ARDUINOALL_184",
     "library_dependency": [],
     "width": 210.63,
@@ -3768,9 +3705,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_1701.h"
-    ],
     "classname": "MP_ARDUINOALL_1701",
     "library_dependency": [],
     "width": 205.0,
@@ -3864,9 +3798,6 @@
     "formfactor": "STANDALONE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_1219.h"
     ],
     "classname": "MP_ARDUINOALL_1219",
     "library_dependency": [
@@ -4005,9 +3936,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_653.h"
-    ],
     "classname": "MP_ARDUINOALL_653",
     "library_dependency": [
       "adafruit/DHT-sensor-library"
@@ -4118,9 +4046,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_34.h"
     ],
     "classname": "MP_ARDUINOALL_34",
     "library_dependency": [
@@ -4325,9 +4250,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_222.h"
-    ],
     "classname": "MP_ARDUINOALL_222",
     "library_dependency": [],
     "width": 130.194,
@@ -4425,9 +4347,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUINOALL_261.h"
     ],
     "classname": "MP_ARDUINOALL_261",
     "library_dependency": [],
@@ -4527,9 +4446,6 @@
     "platform": [
       "ARDUINO"
     ],
-    "include": [
-      "MP_ARDUINOALL_377.h"
-    ],
     "classname": "MP_ARDUINOALL_377",
     "library_dependency": [],
     "width": 113.378,
@@ -4613,9 +4529,6 @@
     "formfactor": "BREAKOUT_BOARD_ONESIDE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_ARDUITRONICS_1705.h"
     ],
     "classname": "MP_ARDUITRONICS_1705",
     "library_dependency": [
@@ -4742,9 +4655,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_104030007.h"
-    ],
     "classname": "MP_GROVE_104030007",
     "library_dependency": [],
     "width": 128.0,
@@ -4837,9 +4747,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_104030003.h"
     ],
     "classname": "MP_GROVE_104030003",
     "library_dependency": [
@@ -4978,9 +4885,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_101020017.h"
-    ],
     "classname": "MP_GROVE_101020017",
     "library_dependency": [],
     "width": 128.0,
@@ -5069,9 +4973,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_101020015.h"
     ],
     "classname": "MP_GROVE_101020015",
     "library_dependency": [],
@@ -5162,9 +5063,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_101020132.h"
-    ],
     "classname": "MP_GROVE_101020132",
     "library_dependency": [],
     "width": 128.0,
@@ -5253,9 +5151,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_101020023.h"
     ],
     "classname": "MP_GROVE-101020023",
     "library_dependency": [],
@@ -5346,9 +5241,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_107020000.h"
-    ],
     "classname": "MP_GROVE_107020000",
     "library_dependency": [],
     "width": 128.0,
@@ -5428,9 +5320,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_101020003.h"
     ],
     "classname": "MP_GROVE_101020003",
     "library_dependency": [],
@@ -5526,9 +5415,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_103020005.h"
-    ],
     "classname": "MP_GROVE_103020005",
     "library_dependency": [],
     "width": 128.0,
@@ -5612,9 +5498,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_101020020.h"
     ],
     "classname": "MP_GROVE_101020020",
     "library_dependency": [],
@@ -5709,9 +5592,6 @@
     "formfactor": "GROVE",
     "platform": [
       "GROVE_ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_101020054.h"
     ],
     "classname": "MP_GROVE_101020054",
     "library_dependency": [
@@ -5843,9 +5723,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_101020011.h"
-    ],
     "classname": "MP_GROVE_101020011",
     "library_dependency": [
       "adafruit/DHT-sensor-library"
@@ -5957,9 +5834,6 @@
     "platform": [
       "GROVE_ARDUINO"
     ],
-    "include": [
-      "MP_GROVE_101020010.h"
-    ],
     "classname": "MP_GROVE_101020010",
     "library_dependency": [],
     "width": 128.0,
@@ -6049,7 +5923,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [],
     "classname": "",
     "library_dependency": [],
     "width": 425.0,
@@ -6322,9 +6195,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0001.h"
-    ],
     "classname": "MP_MP_0001",
     "library_dependency": [],
     "width": 0.0,
@@ -6389,9 +6259,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0002.h"
     ],
     "classname": "MP_MP_0002",
     "library_dependency": [],
@@ -6482,9 +6349,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0003.h"
-    ],
     "classname": "MP_MP_0003",
     "library_dependency": [],
     "width": 0.0,
@@ -6558,9 +6422,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0004.h"
-    ],
     "classname": "MP_MP_0004",
     "library_dependency": [],
     "width": 0.0,
@@ -6616,9 +6477,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0005.h"
     ],
     "classname": "MP_MP_0005",
     "library_dependency": [],
@@ -6681,9 +6539,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0006.h"
-    ],
     "classname": "MP_MP_0006",
     "library_dependency": [],
     "width": 0.0,
@@ -6739,9 +6594,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0007.h"
     ],
     "classname": "MP_MP_0007",
     "library_dependency": [],
@@ -6803,9 +6655,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0008.h"
     ],
     "classname": "MP_MP_0008",
     "library_dependency": [
@@ -6931,9 +6780,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0009.h"
-    ],
     "classname": "MP_MP_0009",
     "library_dependency": [
       "Sensirion/arduino-sht",
@@ -7018,9 +6864,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0010.h"
-    ],
     "classname": "MP_MP_0010",
     "library_dependency": [
       "SparkFun/SparkFun_APDS-9960_Sensor_Arduino_Library",
@@ -7075,9 +6918,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0011.h"
     ],
     "classname": "MP_MP_0011",
     "library_dependency": [],
@@ -7139,9 +6979,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0012.h"
     ],
     "classname": "MP_MP_0012",
     "library_dependency": [
@@ -7219,9 +7056,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0013.h"
-    ],
     "classname": "MP_MP_0013",
     "library_dependency": [],
     "width": 0.0,
@@ -7277,9 +7111,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0014.h"
     ],
     "classname": "MP_MP_0014",
     "library_dependency": [],
@@ -7342,9 +7173,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0016.h"
-    ],
     "classname": "MP_MP_0016",
     "library_dependency": [],
     "width": 0.0,
@@ -7405,9 +7233,6 @@
     "formfactor": "GROVE",
     "platform": [
       "ARDUINO"
-    ],
-    "include": [
-      "MP_GROVE_113020010.h"
     ],
     "classname": "MP_GROVE_113020010",
     "library_dependency": [
@@ -7646,9 +7471,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0015.h"
-    ],
     "classname": "MP_MP_0015",
     "library_dependency": [
       "blynkk/blynk-library",
@@ -7843,9 +7665,6 @@
     "platform": [
       "MP_ARDUINO"
     ],
-    "include": [
-      "MP_MP_0017.h"
-    ],
     "classname": "MP_MP_0017",
     "library_dependency": [
       "NicoHood/PinChangeInterrupt"
@@ -7916,9 +7735,6 @@
     "formfactor": "MP_DEVICE",
     "platform": [
       "MP_ARDUINO"
-    ],
-    "include": [
-      "MP_MP_0018.h"
     ],
     "classname": "MP_MP_0018",
     "library_dependency": [],

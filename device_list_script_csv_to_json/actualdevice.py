@@ -42,7 +42,6 @@ if __name__ == '__main__':
                                                             ('type', row['type']),
                                                             ('formfactor', row['formfactor']),
                                                             ('platform', []),
-                                                            ('include', []),
                                                             ('classname',row['classname']),
                                                             ('library_dependency', []),
                                                             ('width', isfloat(row['width'])),
@@ -60,9 +59,6 @@ if __name__ == '__main__':
 
                 if len(row['platform']) != 0:
                     actualdevice['platform'].append(row['platform'])
-
-                if len(row['include']) != 0:
-                	actualdevice['include'].append(row['include'])
 
                 if len(row['library_dependency']) != 0:
                 	actualdevice['library_dependency'].append(row['library_dependency'])

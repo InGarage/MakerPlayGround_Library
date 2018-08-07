@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_1334.h"
-  ],
   "classname": "MP_ADAFRUIT_1334",
   "library_dependency": [
     "adafruit/Adafruit_TCS34725"

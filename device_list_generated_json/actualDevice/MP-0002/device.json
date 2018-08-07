@@ -8,9 +8,6 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "include": [
-    "MP_MP_0002.h"
-  ],
   "classname": "MP_MP_0002",
   "library_dependency": [],
   "width": 0.0,

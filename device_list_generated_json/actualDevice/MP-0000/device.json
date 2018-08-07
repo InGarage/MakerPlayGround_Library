@@ -8,7 +8,6 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "include": [],
   "classname": "",
   "library_dependency": [],
   "width": 425.0,

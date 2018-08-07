@@ -8,9 +8,6 @@
   "platform": [
     "MP_ARDUINO"
   ],
-  "include": [
-    "MP_MP_0017.h"
-  ],
   "classname": "MP_MP_0017",
   "library_dependency": [
     "NicoHood/PinChangeInterrupt"

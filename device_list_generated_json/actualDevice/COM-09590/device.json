@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_COM_09590.h"
-  ],
   "classname": "MP_COM_09590",
   "library_dependency": [],
   "width": 111.0,

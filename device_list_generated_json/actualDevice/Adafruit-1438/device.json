@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_1438.h"
-  ],
   "classname": "MP_ADAFRUIT_1438",
   "library_dependency": [
     "adafruit/Adafruit_MotorShield_V2_Library"

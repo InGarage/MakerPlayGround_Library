@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ARDUITRONICS_1705.h"
-  ],
   "classname": "MP_ARDUITRONICS_1705",
   "library_dependency": [
     "dht_dplasa"

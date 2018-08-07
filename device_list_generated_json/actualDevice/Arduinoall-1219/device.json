@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ARDUINOALL_1219.h"
-  ],
   "classname": "MP_ARDUINOALL_1219",
   "library_dependency": [
     "avishorp/TM1637"

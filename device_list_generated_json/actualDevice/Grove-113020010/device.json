@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_GROVE_113020010.h"
-  ],
   "classname": "MP_GROVE_113020010",
   "library_dependency": [
     "blynkk/blynk-library",

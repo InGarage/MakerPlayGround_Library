@@ -8,9 +8,6 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "include": [
-    "MP_GROVE_104030003.h"
-  ],
   "classname": "MP_GROVE_104030003",
   "library_dependency": [
     "avishorp/TM1637"

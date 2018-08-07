@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ARDUITRONICS_220.h"
-  ],
   "classname": "MP_ADRUITRONICS_220",
   "library_dependency": [
     "avishorp/TM1637"

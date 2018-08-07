@@ -8,9 +8,6 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "include": [
-    "MP_GROVE_101020011.h"
-  ],
   "classname": "MP_GROVE_101020011",
   "library_dependency": [
     "adafruit/DHT-sensor-library"

@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_2023.h"
-  ],
   "classname": "MP_ADAFRUIT_2023",
   "library_dependency": [
     "adafruit/Adafruit_TMP007_Library"

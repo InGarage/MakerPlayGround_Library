@@ -8,9 +8,6 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "include": [
-    "MP_GROVE_103020005.h"
-  ],
   "classname": "MP_GROVE_103020005",
   "library_dependency": [],
   "width": 128.0,

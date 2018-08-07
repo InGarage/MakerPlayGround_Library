@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_2652.h"
-  ],
   "classname": "MP_ADAFRUIT_2652",
   "library_dependency": [
     "adafruit/Adafruit_BME280_Library",

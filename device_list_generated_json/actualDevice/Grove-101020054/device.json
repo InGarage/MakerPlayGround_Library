@@ -8,9 +8,6 @@
   "platform": [
     "GROVE_ARDUINO"
   ],
-  "include": [
-    "MP_GROVE_101020054.h"
-  ],
   "classname": "MP_GROVE_101020054",
   "library_dependency": [
     "adafruit/Adafruit_ADXL345",

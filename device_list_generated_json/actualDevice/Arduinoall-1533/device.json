@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ARDUINOALL_1533.h"
-  ],
   "classname": "MP_ARDUINOALL_1533",
   "library_dependency": [],
   "width": 228.0,

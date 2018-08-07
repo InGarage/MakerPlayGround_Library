@@ -8,9 +8,6 @@
   "platform": [
     "ARDUINO"
   ],
-  "include": [
-    "MP_ADAFRUIT_3251.h"
-  ],
   "classname": "MP_ADAFRUIT_3251",
   "library_dependency": [
     "adafruit/Adafruit_Si7021"
