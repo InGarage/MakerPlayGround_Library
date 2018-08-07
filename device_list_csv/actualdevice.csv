@@ -429,6 +429,4 @@ MP-0015,MakerPlayground,Maker Playground - Wifi Module,http://www.makerplaygroun
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VirtualPin5,-32768,32767,NOT_SPECIFIED,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VirtualPin6,-32768,32767,NOT_SPECIFIED,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,VirtualPin7,-32768,32767,NOT_SPECIFIED,,
-MP-0017,MakerPlayground,Water Flow Sensor,http://www.makerplayground.io/library/MP-0017,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_MP_0017,NicoHood/PinChangeInterrupt,0,0,,,,,,Port,MP,MP_GPIO_SINGLE_1,INOUT,5,5,0,0,MP_GPIO_SINGLE_1,Flow Sensor,Detect Water Flow,,,,,,Total Water Amount,0,1000000,MILLILITER,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Flow Rate,0,100,MILLILITERPERSECOND,,
 MP-0018,MakerPlayground,Ultrasonic Sensor Module HY-SRF05,http://www.makerplayground.io/library/MP-0018,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_MP_0018,,0,0,,,,,,Port,MP,MP_GPIO_DUAL_1,INOUT,5,5,0,0,MP_GPIO_DUAL_1,Distance,Compare,,,,,,Distance,0.02,4.5,METER,,
