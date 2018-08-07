@@ -11,7 +11,8 @@
   "classname": "MP_MP_0008",
   "library_dependency": [
     "SparkFun/SparkFun_LSM6DS3_Arduino_Library",
-    "Wire"
+    "Wire",
+    "SPI"
   ],
   "width": 0.0,
   "height": 0.0,

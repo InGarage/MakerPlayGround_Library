@@ -340,7 +340,7 @@ MP-0006,MakerPlayground,Button,http://www.makerplayground.io/library/MP-0006,PER
 MP-0007,MakerPlayground,Trimpot,http://www.makerplayground.io/library/MP-0007,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_MP_0007,,0,0,,,,,,Port,MP,MP_ANALOG_SINGLE_1,INOUT,5,5,0,0,MP_ANALOG_SINGLE_1,POT,Compare,,,,,,Percent,0,100,PERCENT,,
 MP-0008,MakerPlayground,Accelerometer/Gyroscope,http://www.makerplayground.io/library/MP-0008,PERIPHERAL,MP_DEVICE,MP_ARDUINO,MP_MP_0008,SparkFun/SparkFun_LSM6DS3_Arduino_Library,0,0,,,,,,Port,MP,MP_I2C_1,INOUT,5,5,0,0,MP_I2C_1,Accelerometer,Compare,,,,,,Accel_X,-100,100,METERPERSECSQUARE,,
 ,,,,,,,,Wire,,,,,,,,,,,,,,,,,,,,,,,,Accel_Y,-100,100,METERPERSECSQUARE,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Accel_Z,-100,100,METERPERSECSQUARE,,
+,,,,,,,,SPI,,,,,,,,,,,,,,,,,,,,,,,,Accel_Z,-100,100,METERPERSECSQUARE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Accel_Magnitude,0,100,METERPERSECSQUARE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,Gyroscope,Compare,,,,,,Gyro_X,-200,200,RADIUSPERSEC,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Gyro_Y,-200,200,RADIUSPERSEC,,
