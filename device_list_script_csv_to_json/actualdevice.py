@@ -14,8 +14,7 @@ def isfloat(tempfloat):
 
 if __name__ == '__main__':
     input_filename = '../device_list_csv/actualdevice.csv'
-    output_directory = '../device_list_generated_json/actualDevice'
-    output_filename = 'actualdevice.json'
+    output_directory = '../devices'
 
     # Temporary variable to store data to be written to the json file
     data = []
@@ -135,10 +134,6 @@ if __name__ == '__main__':
             # Exit and display error massage if the input CSV file is invalid
             print(e)
             sys.exit('file {}, line {}: {}'.format(input_filename, reader.line_num, e))
-
-    with open(output_directory + '/' + output_filename, 'w') as csvfile:
-        print(output_directory + '/' + output_filename)
-        json.dump(data, csvfile, indent=2)
 
     for device in data:
         dirname = output_directory + '/' + device['id']
