@@ -1,6 +1,10 @@
 <!--![Atom](https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png)-->
 
-# MakerPlayGround_Library
+# MakerPlayGround_Library has been moved.
+
+Please visit: https://github.com/MakerPlayground/MakerPlayground_Library instead
+
+## Introduction
 
 This repository contains device's libraries and scripts to generate 
 device's catalog files (action.json, trigger.json, ...) used by the 
